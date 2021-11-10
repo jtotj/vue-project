@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+@import url(https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+$default-size : 16; //media query 용
+a{text-decoration: none;color:#333}
+@function toRem($value) {
+    $remValue: ($value / $default-size) + rem; 
+    @return $remValue;
+}
+//use toRem(px)
+
+
+
+:root{font-size: 16px;}
+
+@import './components/sideNav';

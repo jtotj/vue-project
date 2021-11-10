@@ -1,0 +1,551 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+@import url(https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css);
+
+
+
+@font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 100;
+    font-style: normal;
+    src: url("../fonts/NotoSans-Thin.eot?") format("eot"),
+    url("../fonts/NotoSans-Thin.otf") format("opentype"),
+    url("../fonts/NotoSans-Thin.woff") format("woff"),
+    url("../fonts/NotoSans-Thin.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 200;
+    font-style: normal;
+    src: url("../fonts/NotoSans-Light.eot?") format("eot"),
+    url("../fonts/NotoSans-Light.otf") format("opentype"),
+    url("../fonts/NotoSans-Light.woff") format("woff"),
+    url("../fonts/NotoSans-Light.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 300;
+    font-style: normal;
+    src: url("../fonts/NotoSans-DemiLight.eot?") format("eot"),
+    url("../fonts/NotoSans-DemiLight.otf") format("opentype"),
+    url("../fonts/NotoSans-DemiLight.woff") format("woff"),
+    url("../fonts/NotoSans-DemiLight.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/NotoSans-Regular.eot?") format("eot"),
+    url("../fonts/NotoSans-Regular.otf") format("opentype"),
+    url("../fonts/NotoSans-Regular.woff") format("woff"),
+    url("../fonts/NotoSans-Regular.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/NotoSans-Medium.eot?") format("eot"),
+    url("../fonts/NotoSans-Medium.otf") format("opentype"),
+    url("../fonts/NotoSans-Medium.woff") format("woff"),
+    url("../fonts/NotoSans-Medium.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/NotoSans-Black.eot?") format("eot"),
+    url("../fonts/NotoSans-Black.otf") format("opentype"),
+    url("../fonts/NotoSans-Black.woff") format("woff"),
+    url("../fonts/NotoSans-Black.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Noto Sans Korean";
+    font-weight: 900;
+    font-style: normal;
+    src: url("../fonts/NotoSans-Bold.eot?") format("eot"),
+    url("../fonts/NotoSans-Bold.otf") format("opentype"),
+    url("../fonts/NotoSans-Bold.woff") format("woff"),
+    url("../fonts/NotoSans-Bold.woff2") format("woff2");
+  }
+  
+
+
+$default-size : 16; //media query 용
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+@function toRem($value) {
+    $remValue: ($value / $default-size) + rem; 
+    @return $remValue;
+}
+//use toRem(px)
+
+
+// Small devices
+@mixin sm {
+   @media (min-width: #{$screen-sm-min}) {
+       @content;
+   }
+}
+
+//use to @include sm
+
+// Medium devices
+@mixin md {
+   @media (max-width: #{$screen-md-min}) {
+       @content;
+   }
+}
+
+// Large devices
+@mixin lg {
+   @media (max-width: #{$screen-lg-min}) {
+       @content;
+   }
+}
+
+// Extra large devices
+@mixin xl {
+   @media (max-width: #{$screen-xl-min}) {
+       @content;
+   }
+}
+
+@mixin rwd($screen) {
+    @media (max-width: $screen+'px') {
+        @content;
+    }
+ }
+ /*
+ use to @include rwd(1200px){}
+ */
+$bg-color:#ecf4f7;
+$point-color:#29aae1;
+
+
+:root{font-size: 16px;}
+
+.list-area{
+    *{
+        font-family: 'Noto Sans Korean';
+        color:#333;
+        box-sizing: border-box;
+    }
+    background: $bg-color;
+    min-height:100vh;
+    a{text-decoration: none;}
+}
+
+.tab-list{
+    max-width:$screen-xl-min;
+    margin:0 auto 30px auto;
+    .tab-list__wrap{
+        display: inline-flex;
+        box-shadow: 0px 0px 10px 0px rgba(black,.3);
+        border-radius: 5px;
+        overflow: hidden;
+        >li{
+            position: relative;
+            background: white;
+            overflow: hidden;
+            transition: all 0.1s linear;
+            &::before{
+                content:"";
+                position: absolute;
+                width:100%;
+                height:0;
+                left:0;
+                top:0;
+                background: linear-gradient(180deg, rgba($point-color,.3) 0%, rgba(0,212,255,0) 100%);
+                transition: height 0.1s linear;
+            }
+            &:first-child{border-radius: 5px 0 0 5px;}
+            &:last-child{border-radius: 0 5px 5px 0;}
+            &.active{
+                border-top:2px solid $point-color;
+                a{
+                    color:darken($point-color, 10);
+                    font-weight: 500;
+                }
+                &::before{
+                    height:60%;
+                }
+            }
+            a{
+                display: flex;
+                height:toRem(55);
+                justify-content: center;
+                align-items: center;
+                min-width:toRem(160);
+                padding:0;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.card-list{
+    max-width:$screen-xl-min;
+    margin:0 auto;
+    text-align: center;
+}
+.card-list__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    .card-list__item{
+        position: relative;
+        box-sizing: border-box;
+        width:toRem(289);
+        min-height:toRem(220);
+        background: white;
+        border-radius: 5px;
+        overflow: hidden;
+        box-shadow: 0px 10px 13px -7px rgba(black, .5), 5px 5px 15px 5px rgba(black,0);
+        padding:toRem(30);
+        margin:5px;
+
+        &::before{
+            content: "";
+            position: absolute;
+            width:5px;
+            height:100%;
+            left:0;
+            top:0;
+            background: $point-color;
+        }
+        .card-list__name{
+            position: relative;
+            font-size: 24px;
+            font-weight: 300;
+            color:$point-color;
+            padding-bottom: toRem(15);
+            border-bottom: 1px solid #cacaca;
+            text-indent: toRem(10);
+            &::before{
+                content: "";
+                position: absolute;
+                right:toRem(10);
+                top:toRem(1);
+                width: toRem(23);
+                height: toRem(29);
+                background:url(../images/paper.png) no-repeat center;
+                background-size: cover;
+            }
+        }
+        .card-list__amount{
+            display: flex;
+            border-bottom:1px solid #cacaca;
+            justify-content: space-around;
+            padding:toRem(15) 0;
+            dl{
+                dt{
+                    font-size: toRem(14);
+                    font-weight: 300;
+                    color:#333;
+                    margin-bottom: toRem(10);
+                }
+                dd{
+                    font-size: toRem(20);
+                    font-weight: 200;
+                    color: $point-color;
+                }
+            }
+        }
+        .card-list_subscript{
+            position: relative;
+            display: flex;
+            padding-top:toRem(15);
+            &::before{
+                content: "";
+                position: absolute;
+                width:toRem(40);
+                height:toRem(40);
+                left:toRem(5);
+                top:toRem(15);
+                border-radius: 5px;
+                background:#eee url(../images/subscr.png) no-repeat center;
+            }
+            a{
+                margin-left: auto;
+                display: flex;
+                width:toRem(170);
+                height:toRem(40);
+                border-radius: 5px;
+                color:white;
+                font-weight:300;
+                background: #29aae1;
+                justify-content: center;
+                align-items: center;
+                transition: all 0.1s linear;
+                &:hover{
+                    background: darken(#29aae1, 10);
+                }
+            }
+        }
+        //responsive
+        &.mo{
+            display: flex;
+            width:100%;
+            padding:0;
+            min-height:auto;
+            &::before{
+                width:8px;
+                z-index:4;
+            }
+            .card-list__desc{
+                padding:toRem(20) 0;
+                width: calc(100% - 200px);
+            }
+            .card-list__name{
+                padding-left: toRem(40);
+                &::before{
+                    left:15px;
+                    top:0;
+                }
+            }
+            .card-list__amount{
+                border:0;
+                padding:20px 0 0 20px;
+                justify-content: flex-start;
+                margin:0;
+                dl{
+                    display: flex;
+                    align-items: center;
+                    margin-right:15px;
+                    dt{
+                        margin-bottom: 0;
+                        margin-right:10px;
+                    }
+                }
+            }
+            .card-list_subscript{
+                border-left:1px solid #cacaca;
+                width:200px;
+                max-width:200px;
+                justify-content: center;
+                align-items: center;
+                padding:10px 10px 10px 50px;
+                &::before{
+                    transform:translateY(50%);
+                    left:7px;
+                }
+                a{
+                    margin-left:0;
+                    width:120px;
+                    height:100%;
+                    word-break: keep-all;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.table-list{
+    max-width:$screen-xl-min;
+    margin:0 auto;
+    margin-top: 50px;
+    width:100%;
+    overflow-x: auto;
+    box-shadow: 0px 0px 2px 2px rgba(#333, .1);
+    border-radius: 5px;
+    .cp-table{
+        min-width:$screen-md-min;
+        width:100%;
+        th,td{
+            text-align: center;
+            vertical-align: middle;
+            @for $i from 5 through 50 {
+                &.wid#{$i}{width:$i + "%";}
+            }
+        }
+        thead{
+            tr{
+                th{
+                    background: rgba(#08adad, .1);
+                    height:35px;
+                    font-size: 14px;
+                    color:#666;
+                    &:first-child{
+                        border-radius: 5px 0 0 0; //for ie
+                    }
+                    &:last-child{
+                        border-radius:0 5px 0 0;    //for ie
+                    }
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    position: relative;
+                    background: white;
+                    height:40px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color:#333;
+                   
+                    &.inner-table{
+                        height:0;
+                        background: rgba(white, .3);
+                        padding:20px;
+                        box-shadow: -1px 1px 14px 1px rgba(black,.4) inset;
+                        .name{
+                            text-indent: 15px;
+                            color:#555;
+                            font-size: 14px;
+                            font-weight:500;
+                            text-align: left;
+                        }
+                        table{
+                            width:100%;
+                            margin-top: 15px;
+                            background: rgba(white, 1);
+                            thead{
+                                tr th{
+                                    background: transparent;
+                                    color:#666;
+                                    font-weight:300;
+                                    height:30px;
+                                    border:1px solid #ddd;
+                                }
+                            }
+                            tbody tr td{
+                                background: transparent;
+                                &:after{display: none;}
+                                border:1px solid #ddd;
+                            }
+
+                        }
+                    }
+                }
+                &:nth-of-type(even){
+                    td{
+                        //background: rgba(white, .5);
+                        &:first-child{
+                            &::after{
+                                content: "";
+                                position: absolute;
+                                width:3px;
+                                height:100%;
+                                left:0;
+                                top:0;
+                                border-radius: 5px 0 0 5px;
+                                background: $point-color;
+                            }
+                        }
+                        background: rgba(white, .2);
+                    }
+                }
+                &:last-child{
+                    td{
+                        &:first-child{
+                            border-radius: 0 0 0 5px; //for ie
+                        }
+                        &:last-child{
+                            border-radius: 0 0 5px 0; //for ie
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.paging{
+    margin:50px auto;
+    width:600px;
+    text-align: center;
+    padding:0;
+    font-size: 0;
+    line-height: 0;
+    a{
+        display:inline-block;
+        font-size: 18px;
+        line-height: 30px;
+        margin:0;
+        padding:0;
+        vertical-align: middle;
+        margin:0 5px;
+        border-radius: 100%;
+        color:#7f837c;
+        transition:color 0.2s linear, background 0.2s linear;
+        &:not(.icon){
+            width:30px;
+            height:30px;
+        }
+        &:hover:not(.icon), &.active{
+            color:white;
+            background: $point-color;
+        }
+        &.icon{
+            margin:0 15px;
+            svg{
+                position: relative;
+                top: 4px;
+                width:30px;height:30px;
+                path{
+                    transition:all 0.1s linear;
+                }
+            }
+            &:hover{
+                svg{
+                    path {fill:$point-color;}
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+.no-data{
+    display: block;
+    background: #fafafa;
+    padding:toRem(30) 0;
+    text-align: center;
+    font-size: toRem(16);
+    border:1px solid rgba(#333, .2);
+    border-width: 1px 0;
+}
+
+
+.no-data-wrap{
+    position: relative;
+    margin:30px auto;
+    .icon{
+        text-align: center;
+        width:120px;
+        height:120px;
+        margin:0 auto;
+        border-radius: 100%;
+        background: #ddd;
+        svg{
+            position: relative;
+            top:10px;
+            width:100px;
+            height:100px;
+            path {fill:#999;}
+        }
+    }
+    .text{
+        font-size: 20px;
+        color:#333;
+        margin-top: 20px;
+        text-align: center;
+    }
+}

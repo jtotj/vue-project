@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/layout.css">
+</head>
+<body>
+    <aside class="cp-side-nav">
+        <nav class="side-nav__wrap">
+            <ul class="side-nav__one-list">
+                <li class="side-nav__one-depth">
+                    <a href="#">promise</a>
+                    <ul class="side-nav__two-list">
+                        <li class="side-nav__two-depth">
+                            <a href="#">class 명</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">structure</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">setting</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">웹표준</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">웹접근성</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="side-nav__one-depth">
+                    <a href="#">layout</a>
+                    <ul class="side-nav__two-list">
+                        <li class="side-nav__two-depth">
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="side-nav__one-depth">
+                    <a href="#">scss</a>
+                    <ul class="side-nav__two-list">
+                        <li class="side-nav__two-depth">
+                            <a href="#">structure</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">abstract</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">base</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">components</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">pages</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">themes</a>
+                        </li>
+                        <li class="side-nav__two-depth">
+                            <a href="#">vendors</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="side-nav__one-depth">
+                    <a href="#">components</a>
+                    <ul class="side-nav__two-list">
+                        <li class="side-nav__two-depth">
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="side-nav__one-depth">
+                    <a href="#">script</a>
+                    <ul class="side-nav__two-list">
+                        <li class="side-nav__two-depth">
+                            <a href="#"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="side-nav__one-depth">
+                    <a href="#">js-framework</a>
+                    <ul class="side-nav__two-list">
+                        <li class="side-nav__two-depth">
+                            <a href="#">vue</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <script>
+
+        const oneDepth = document.querySelectorAll('.side-nav__one-depth');
+        /*
+            querySelectorAll type은 object 이지만 
+            for of 배열을 써야 한다.
+            ex) for in 은 object 순환 시 사용
+        */
+
+        /*
+        parent() => parentNode
+        sibling
+        */
+        for(const menu of oneDepth){
+            menu.addEventListener('click', (e) => {
+                console.log(this.parentNode.classList.contains('js-open'))
+                return false;
+            })
+        }
+    </script>
+</body>
+</html>
