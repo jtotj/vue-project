@@ -1,0 +1,422 @@
+.tradesTit {
+  float: right;
+  padding-top: 25px;
+  color: #0068c1;
+}
+
+.tradesWrap .tradesBox {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.tradesWrap .tradesBox .tradesLeft {
+  box-sizing: border-box;
+  float: left;
+  width: 32%;
+}
+
+.tradesWrap .tradesBox .tradesLeft .tabs {
+  margin-top: 20px;
+}
+
+.tradesWrap .tradesBox .tradesRight {
+  box-sizing: border-box;
+  float: right;
+  width: 65%;
+  overflow: hidden;
+}
+
+.tradesWrap .tradesBox .searchButtonWrap {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 0;
+  text-align: right;
+}
+
+.tradesWrap .tradesBox .tradesHead {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #333;
+}
+
+.tradesWrap .tradesBox .tradesRight .btnWrap {
+  display: inline-block;
+  float: right;
+  width: auto;
+  padding: 0;
+}
+
+.tradesWrap .tradesBox .tradesRight .btnWrap .accountCreate {
+  padding: 6px 15px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+}
+
+.btnWrap .accountCreate {
+  &:disabled {
+    background-color: #999 !important;
+  }
+}
+
+.assetListWrap {
+  max-height: 490px;
+}
+
+.assetList {
+  height: 450px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.assetList .fixedValue {
+  height: 335px;
+}
+
+.assetList .coinList {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.assetList .coinList.selected {
+  color: #0068c1;
+  background-color: #f4f9ff;
+  border-bottom: 1px solid #0068c1;
+}
+
+.assetList .coinList p {
+  float: left;
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+.assetList .coinList .favorite {
+  float: right;
+  margin: 0;
+}
+
+.accountList .accountSearch {
+  margin-bottom: 20px;
+}
+
+.accountList .mainDeal .tabs .favoriteLength {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  color: white;
+  text-align: center;
+  background-color: #0068c1;
+  border-radius: 40px;
+}
+
+.accountList .dealList {
+  height: 580px;
+  margin-top: 20px;
+}
+
+.accountList .dealList .perfectScrollbar {
+  height: 335px;
+}
+
+.accountList .dealList .noAccount {
+  font-size: 14px;
+}
+
+.accountList .dealList li {
+  padding: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accountList .dealList li.active {
+  color: #0068c1;
+  background-color: #f4f9ff;
+  border-bottom: 1px solid #0068c1;
+}
+
+.accountList .dealList li .accountNumberWrap {
+  float: right;
+}
+
+.accountList .dealList .dealAct {
+  cursor: pointer;
+}
+
+.accountList .dealList .favoriteAsset {
+  overflow: hidden;
+}
+
+.accountList .dealList .favoriteAsset .accountInfo {
+  float: left;
+  width: 58%;
+}
+
+.accountList .dealList .accountInfo::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.accountList .dealList .favoriteAsset .accoutInfo .favorite {
+  float: left;
+}
+
+.accountList .dealList .favoriteAsset .accountNumberWrap .accountText {
+  padding-right: 5px;
+  color: #b9b9b9;
+}
+
+.accountList .dealList .favoriteAsset .accountNumberWrap .onCopy {
+  padding-left: 5px;
+  color: #b5b5b5;
+  cursor: pointer;
+}
+
+.accountList .dealList .favoriteAsset .accountNumberWrap .onCopy:hover {
+  text-decoration: underline;
+}
+
+.accountList .dealList .favoriteAsset .money {
+  float: right;
+  width: 40%;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.accountList .dealList .favoriteAsset .money .bold {
+  float: right;
+}
+
+.accountList .dealList .favorite_accounts,
+.accountList .dealList .accounts {
+  overflow: hidden;
+}
+
+.accountList .dealList .money {
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+.accountList .dealList .money strong {
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.accountList .dealList .accountText {
+  padding-right: 5px;
+  color: #b9b9b9;
+}
+
+.accountList .noSelectAsset {
+  padding: 50px;
+  border: 1px solid #e5e5e5;
+}
+
+.accountList .noSelectAsset .imgWrap {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.accountList .noSelectAsset .imgWrap img {
+  width: 100%;
+}
+
+.accountList .acco_content {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.accountList .acco_content ul li {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.accountList .acco_content ul li:hover {
+  text-decoration: underline;
+}
+
+.accountList .acco_content ul li a {
+  font-weight: normal;
+  color: #333;
+}
+
+.accountList .dealList .links_wrap {
+  margin-bottom: 10px;
+}
+
+.accountList .dealList .deposit_links,
+.accountList .dealList .withdraw_links {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49%;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.accountList .dealList .deposit_links .imgWrap,
+.accountList .dealList .withdraw_links .imgWrap {
+  display: inline-block;
+  width: 16px;
+  height: 18px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.accountList .dealList .deposit_links .imgWrap img,
+.accountList .dealList .withdraw_links .imgWrap img {
+  width: 100%;
+}
+
+.accountList .dealList .deposit_links:hover,
+.accountList .dealList .withdraw_links:hover {
+  padding: 5px;
+  color: white;
+  box-shadow: 5px 5px 5px #e5e5e5;
+  transition: 0.3s;
+}
+
+.accountList .dealList .deposit_links {
+  margin-right: 2%;
+  background-color: #e01f00;
+}
+
+.accountList .dealList .withdraw_links {
+  background-color: #0068c1;
+}
+
+.accountList .dealList .favorite_text {
+  font-size: 16px;
+}
+
+// 조회
+.reference .referenceList {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-right: 2%;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.reference .referenceList .accountContent {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.reference .referenceList .accountContent .accountText {
+  padding-right: 10px;
+  color: #999;
+}
+
+.reference .referenceList .leftInfo .accountInfo .accountText {
+  padding-right: 10px;
+  color: #999;
+}
+
+.reference .referenceList .rightInfo {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.reference .referenceList .rightInfo .transferAmount {
+  float: left;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+.reference .referenceList .rightInfo .linkWrap {
+  float: right;
+}
+
+.reference .referenceList .rightInfo .linkWrap .lookupLink {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  background-color: #0068c1;
+  border: none;
+  border-radius: 5px;
+}
+
+.noDealList {
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+}
+
+.noDealList .imgWrap {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.noDealList .imgWrap img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .tradesWrap .tradesBox .tradesLeft {
+    margin-bottom: 20px;
+  }
+
+  .tradesWrap .tradesBox .tradesRight,
+  .tradesWrap .tradesBox .tradesLeft {
+    float: none;
+    width: 100%;
+  }
+
+  .accountList .dealList .favoriteAsset .accountInfo {
+    width: 100%;
+  }
+
+  .accountList .dealList .favoriteAsset .money {
+    width: 100%;
+    padding: 5px 0;
+    margin: 0;
+  }
+
+  .accountList .dealList li .accountNumberWrap {
+    float: none;
+  }
+
+  .accountList .mainDeal .tabs .linksWrap .accountContent ul li {
+    width: 100%;
+    border: none;
+  }
+
+  .reference .referenceList {
+    width: 100%;
+  }
+
+  .reference .referenceList:nth-child(2n) {
+    margin: 0 0 20px 0;
+  }
+}

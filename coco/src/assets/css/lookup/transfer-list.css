@@ -1,0 +1,15 @@
+.transfer-list .asset-list {
+  float: left;
+  width: 40%;
+  margin-right: 4%;
+}
+
+@media (max-width: 768px) {
+  .transfer-list .asset-list {
+    margin-bottom: 40px;
+  }
+  .transfer-list .asset-list,
+  .transfer-list .exchange-list {
+    width: 100%;
+  }
+}

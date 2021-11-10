@@ -1,0 +1,151 @@
+.dashboard {
+  overflow: hidden;
+
+  .assetWrap {
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+
+  .recentActivityWrap {
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: white;
+
+    .recentActivityList {
+      padding: 10px 0;
+      font-size: 14px;
+      line-height: 22px;
+      color: #666;
+      border-bottom: 1px solid #e5e5e5;
+    }
+  }
+}
+
+.subtTitleWrap {
+  overflow: hidden;
+
+  .subTitle {
+    float: left;
+    padding: 0;
+  }
+}
+
+.assetWrap {
+  overflow: hidden;
+
+  .fundsWrap {
+    overflow: hidden;
+  }
+
+  .perfectScrollbar {
+    max-height: 225px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+
+    ul {
+      overflow: hidden;
+    }
+  }
+}
+
+.assetList {
+  box-sizing: border-box;
+  float: left;
+  width: 32%;
+  padding: 20px;
+  margin-right: 2%;
+  margin-bottom: 18px;
+  overflow: hidden;
+  background-color: #f3faff;
+
+  &:nth-child(3n) {
+    margin: 0;
+  }
+
+  span {
+    float: left;
+  }
+
+  .assetInfo {
+    .title {
+      float: left;
+    }
+
+    .money {
+      float: right;
+      letter-spacing: 0;
+
+      .assetAmount {
+        color: black;
+      }
+
+      .assetCode {
+        float: right;
+        padding-left: 5px;
+        color: #999;
+      }
+    }
+  }
+}
+
+.moreView {
+  float: right;
+
+  a {
+    float: left;
+    color: #bbb;
+  }
+
+  .imgWrap {
+    float: right;
+    width: 6px;
+    margin-left: 5px;
+  }
+}
+
+.ccf {
+  width: 100%;
+  text-align: right;
+
+  .explanation {
+    float: left;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    color: #0068c1;
+  }
+}
+
+@media (max-width: 768px) {
+  .assetList {
+    width: 100%;
+    margin-bottom: 10px;
+
+    &:nth-child(3n) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .perfectScrollbar {
+    max-height: 290px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .assetList {
+    .money {
+      float: right;
+      width: 100%;
+      text-align: right;
+
+      .assetAmount,
+      .assetCode {
+        float: none !important;
+      }
+    }
+  }
+}

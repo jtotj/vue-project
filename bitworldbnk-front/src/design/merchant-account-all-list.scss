@@ -1,0 +1,170 @@
+.merchantAccountAllList {
+  .merchantScroll {
+    max-height: 800px;
+  }
+
+  .merchantAccountList {
+    position: relative;
+    padding: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+
+    .leftBox {
+      display: inline-block;
+      width: 100%;
+
+      .box {
+        display: inline-block;
+        float: left;
+
+        p {
+          display: inline-block;
+          padding-right: 20px;
+
+          span {
+            padding-right: 5px;
+            color: #bbb;
+          }
+        }
+      }
+
+      .btnWrap {
+        float: right;
+      }
+    }
+
+    .merchantAccountInfo {
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      letter-spacing: 0;
+
+      .merchantAccountScroll {
+        max-height: 250px;
+      }
+
+      ul {
+        li {
+          box-sizing: border-box;
+          display: inline-block;
+          width: 100%;
+          padding: 15px;
+          margin-bottom: 10px;
+          background-color: #f4f4f4;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          .coinWrap {
+            float: left;
+            padding-right: 20px;
+
+            .assetTitle {
+              float: right;
+            }
+          }
+
+          .info {
+            float: left;
+
+            span {
+              padding-right: 20px;
+            }
+          }
+        }
+      }
+
+      .btnWrap {
+        float: right;
+
+        .deleteBtn {
+          padding: 4px 12px;
+          color: #222;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+.option {
+  span {
+    margin-right: 10px;
+  }
+}
+
+.createAccountModal {
+  .btnWrap {
+    padding-top: 10px;
+    text-align: right;
+
+    .btn {
+      color: white;
+      background-color: #0068c1;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .merchantAccountInfo {
+    width: 100% !important;
+
+    .merchantAccountScroll {
+      .deleteBtn {
+        padding: 0 !important;
+      }
+    }
+
+    ul {
+      li {
+        width: 100% !important;
+
+        .coinWrap {
+          float: left !important;
+          width: 100%;
+          padding: 0 !important;
+
+          span {
+            float: left;
+          }
+
+          .assetTitle {
+            float: left !important;
+          }
+        }
+
+        .info {
+          width: 100%;
+          padding: 10px 0;
+        }
+
+        .btnWrap {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .btnWrap {
+    width: 100%;
+
+    .createMerchantBtn {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 100%;
+      padding-top: 10px;
+    }
+  }
+
+  .createAccountModal {
+    .btnWrap {
+      width: 100%;
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+}

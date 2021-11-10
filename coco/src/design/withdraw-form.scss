@@ -1,0 +1,102 @@
+// 출금 모달창
+.withdrawForm .withdrawInfoWrap {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+}
+
+.withdrawForm .withdrawInfoWrap .infoTitleWrap .infoTitle {
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #0068c1;
+}
+
+.withdrawForm .withdrawInfoWrap .infoTitleWrap {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.withdrawForm .withdrawInfoWrap .infoTitleWrap .bgGrey {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 26px;
+  color: #999;
+}
+
+.withdrawForm .formGroup {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.withdrawForm .formGroup label {
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999;
+}
+
+.withdrawForm .formGroup .inputGroup {
+  display: inline-block;
+  width: 100%;
+}
+.withdrawForm .formGroup .inputGroup .payFeeGroup,
+.withdrawForm .formGroup .inputGroup .payAccountGroup {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+.withdrawForm .formGroup .inputGroup .payFeeGroup {
+  margin-right: 2%;
+}
+.withdrawForm .formGroup .inputGroup .formControl {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.withdrawForm .formGroup .inputGroup .totalWithdrawalAmount {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.withdrawForm .btnWrap {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.withdrawForm .btnWrap .cancelBtn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  color: #999;
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.withdrawForm .btnWrap .applyBtn {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+}
+
+@media (max-width: 786px) {
+  .withdrawForm .formGroup .inputGroup .payFeeGroup,
+  .withdrawForm .formGroup .inputGroup .payAccountGroup {
+    width: 100%;
+  }
+  .withdrawForm .formGroup .inputGroup .payFeeGroup {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,29 @@
+# You can specify a custom docker image from Docker Hub as your build environment.
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: node:8.14.0
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+        deployment: test
+        script: # Modify the commands below to build your repository.
+          - npm i yarn -g
+          - yarn && yarn lint
+    - step:
+        caches:
+          - node
+        deployment: production
+        trigger: manual
+        script: # Modify the commands below to build your repository.
+          - yarn
+          - yarn run build
+          - cd dist
+          - tar cfzp ../dist.tgz .
+          - echo "put ../dist.tgz $FTP_TEMP_DIR/dist.tgz" | sftp $SSH_USER@$SSH_HOST
+          - ssh $SSH_USER@$SSH_HOST "cd $FTP_TEMP_DIR && rm -rf _dist && mkdir -p _dist && tar xfzp dist.tgz -C _dist && cd .. && rm -rf $DEPLOY_DIR && mv $FTP_TEMP_DIR/_dist $DEPLOY_DIR"

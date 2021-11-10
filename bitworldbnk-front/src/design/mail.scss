@@ -1,0 +1,44 @@
+.emailInfoWrap {
+  line-height: 2;
+
+  .emailInfo {
+    letter-spacing: 0;
+  }
+}
+
+.requiredImg {
+  float: left;
+  margin-right: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: red;
+}
+
+.explanationWrap {
+  line-height: 40px;
+
+  .explanation {
+    font-size: 14px;
+    font-style: normal;
+    color: #0068c1;
+  }
+}
+
+@media (max-width: 768px) {
+  .emailInfoWrap {
+    .emailInfo {
+      width: 100%;
+      margin: 0;
+    }
+
+    .tokenBtnWrap {
+      float: right;
+      width: 100%;
+      margin-top: 10px;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

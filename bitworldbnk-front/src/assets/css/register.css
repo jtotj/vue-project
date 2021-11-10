@@ -1,0 +1,307 @@
+.register-wrap .lang-dropbox {
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 46px;
+}
+
+.terms-wrap {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+.terms-wrap .img-wrap {
+  width: 5px;
+  float: right;
+}
+
+.register .btn-wrap .btn-grey {
+  margin-bottom: 10px;
+}
+
+.register .btn-wrap .btn,
+.register .btn-wrap .btn-grey {
+  width: 100%;
+}
+
+.brief .profileListWrap {
+  border-top: 1px solid #e5e5e5;
+}
+
+.brief .profileListWrap .profileList {
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.brief .profileListWrap .profileList .listLeft {
+  float: left;
+  width: 30%;
+  color: #999;
+  text-align: center;
+  background-color: #eef3f7;
+}
+
+.brief .profileListWrap .profileList .listRight {
+  float: right;
+  width: 70%;
+}
+
+.brief .profileListWrap .profileList .listRight strong {
+  line-height: 1;
+}
+
+.brief .profileListWrap .profileList .listLeft,
+.brief .profileListWrap .profileList .listRight {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.brief .profileListWrap .password .listLeft {
+  height: 92px;
+  padding: 35px 20px;
+}
+
+.register-wrap .el-checkbox__input.is-checked .el-checkbox__inner,
+.register-wrap .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background-color: #0068c1;
+  border-color: #0068c1;
+}
+
+.register-wrap .el-checkbox__inner:hover,
+.register-wrap .el-checkbox__input.is-focus .el-checkbox__inner {
+  border-color: #0068c1;
+}
+
+.register-wrap .el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #0068c1;
+}
+
+.email-input {
+  float: left;
+  width: 45%;
+}
+
+.email {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+}
+
+.email-sample {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.text-label {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  line-height: 2;
+  border: 1px solid #e5e5e5;
+}
+
+.membership-explanation .go-back {
+  overflow: hidden;
+}
+
+.membership-explanation .logo-wrap {
+  display: block;
+  width: 180px;
+  padding-bottom: 30px;
+  margin: 0;
+  text-align: center;
+  float: left;
+}
+
+.membership-explanation .arrow-wrap {
+  width: 20px;
+  float: left;
+  padding-right: 20px;
+}
+
+.membership-explanation p {
+  color: #999;
+  padding: 5px 0;
+}
+
+.agree-wrap .all_agree {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.agree-wrap ul li {
+  padding: 10px 0;
+}
+
+.agree-wrap span,
+.agree-wrap ul li span {
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.agree-wrap p,
+.agree-wrap ul li p,
+.check-text p {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #999;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+}
+
+.btn-wrap .confirm {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+}
+
+.btn-wrap .confirm:hover {
+  background-color: #007ae2;
+}
+
+.agree-wrap ul li .f-right {
+  float: right;
+}
+
+.input-form .brief {
+  padding: 0;
+}
+
+#email {
+  float: left;
+  width: 100%;
+}
+
+.email-wrap {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+#email-sample {
+  float: right;
+  width: 88%;
+}
+
+.email-wrap .whelk {
+  position: relative;
+  margin-right: 8px;
+  line-height: 55px;
+  color: #999;
+  text-align: center;
+}
+
+.terms-wrap .el-checkbox__label {
+  float: right;
+  width: 90%;
+  padding: 0;
+}
+
+.terms-wrap .el-checkbox {
+  display: inline-block;
+  width: 90%;
+  white-space: normal !important;
+}
+
+.terms-wrap .el-checkbox .el-checkbox__input {
+  float: left;
+  padding: 3px 0;
+}
+
+.el-checkbox-group .f-right {
+  display: inline-block;
+  float: right;
+  width: 10px;
+  text-align: right;
+}
+
+.add-explanation {
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.btn-normal.disabled {
+  color: #666;
+  background-color: #eee !important;
+}
+
+.term-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.term-sub-title {
+  font-weight: bold;
+}
+
+.gps-table thead td {
+  text-align: center;
+}
+
+.gps-table td {
+  padding: 5px;
+}
+
+.profile-table {
+  width: 100%;
+}
+
+.profile-table td {
+  padding: 5px;
+}
+
+.localeSelectWrap {
+  padding: 20px 0;
+}
+
+.localeSelectWrap p {
+  color: #145fae;
+}
+
+.localeSelectWrap .localeSelect {
+  position: relative;
+  float: none;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.localeSelectWrap .localeSelect .drop-box {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .infutForm {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .email-wrap .whelk {
+    position: relative;
+    line-height: 55px;
+    color: #999;
+    text-align: center;
+  }
+
+  #email-sample {
+    float: right;
+    width: 90%;
+  }
+}

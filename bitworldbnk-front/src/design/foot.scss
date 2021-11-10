@@ -1,0 +1,22 @@
+@import 'variable';
+@import 'languagebugfix';
+
+#footer {
+  background: #0d0049;
+  .btn-footer-open {
+    background: transparent;
+  }
+  .text-area {
+    text-align: center;
+  }
+  .footer-pc-wrap.pc {
+    border-bottom: 1px solid #fff;
+  }
+}
+
+@media (max-width: 1200px) {
+  #footer .sitemap-wrap .el-submenu .el-menu-item {
+    padding: 0 20px !important;
+    background: #001762;
+  }
+}

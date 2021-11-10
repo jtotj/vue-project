@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap');
+
+#quick-trade {
+  background-color: #2e3d54;
+}
+
+#quick-service {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.trading-service {
+  background-image: url(../img/about-bg.jpg);
+  background-size: cover;
+  width: 100% !important;
+  display: inline-block;
+}
+
+.trading-service .trade-pane {
+  overflow: hidden;
+  padding: 50px;
+}
+
+.trading-service .container {
+  display: block;
+}
+
+.trading-service .btn-wrap a {
+  border: 1px solid white;
+  cursor: pointer;
+  color: white !important;
+  background-color: transparent !important;
+  padding: 8px 30px;
+  line-height: 10px;
+  line-height: 22px !important;
+}
+
+.trade-box {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.trade-box .offer-msg {
+  margin: 16px 0;
+  color: #49474a;
+  font-size: 16px;
+  line-height: 110px;
+}
+
+.trade-box .create-offer a {
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+}
+
+.trade-box .change-type {
+  text-align: left;
+}
+
+.trade-box .change-type a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+#induce-payment {
+  background-color: #dfeaf5;
+}
+
+#induce-payment .box-wrap {
+  overflow: hidden;
+  width: 100%;
+}
+
+#induce-payment .box-wrap .box-list {
+  float: left;
+  border-radius: 5px;
+  width: 23.5%;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: white;
+  height: 420px;
+  margin-right: 2%;
+}
+
+#induce-payment .box-wrap .box-list .line {
+  margin: 10px 0 20px;
+}
+
+#induce-payment .box-wrap .box-list:last-child {
+  margin: 0;
+}
+
+#why-pick-bank .box-list {
+  width: 30%;
+  border-radius: 5px;
+  float: left;
+  border: 1px solid #e5e5e5;
+  padding: 40px;
+  height: 415px;
+  box-sizing: border-box;
+  margin-right: 5%;
+}
+
+#why-pick-bank .box-list:last-child {
+  margin: 0;
+}
+
+#why-pick-bank .box-list .img-wrap {
+  width: 100px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+#ccf-intro {
+  overflow: hidden;
+  background-image: url(../img/banner-ccf.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ccf-intro .main-title h2,
+#ccf-intro .main-title p {
+  color: white;
+  text-align: center;
+}
+
+#ccf-intro .btn-wrap {
+  overflow: hidden;
+  text-align: center;
+}
+
+#ccf-intro .btn-wrap .img-wrap {
+  width: 15px;
+  float: right;
+  margin-left: 10px;
+}
+
+#ccf-intro .right-info {
+  float: right;
+}
+
+/*
+#signup-area {
+  background-color: #299d82;
+  color: white;
+}
+
+#signup-area .main-title {
+  float: left;
+  padding: 0;
+}
+
+#signup-area .btn-wrap {
+  float: right;
+}
+
+#signup-area .btn-wrap .img-wrap {
+  width: 15px;
+  float: right;
+  padding-left: 10px;
+}
+
+#signup-area .btn-wrap .btn-white:hover {
+  border: 1px solid black;
+  transition: 0.3s;
+} */
+
+#notice .notice-area {
+  float: left;
+  width: 46%;
+}
+
+#notice .notice-area .main-title {
+  overflow: hidden;
+}
+
+#notice .notice-area .main-title h2 {
+  float: left;
+}
+
+#notice .notice-area .more-view {
+  float: right;
+  padding: 12px 0;
+}
+
+#notice .notice-area .more-view .img-wrap {
+  width: 7px;
+  float: right;
+  padding-left: 5px;
+}
+
+#notice .notice-list ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+
+#notice .notice-list ul li span {
+  float: right;
+  color: #999;
+}
+
+#notice .customer-service {
+  width: 46%;
+  float: right;
+}
+
+#notice .customer-service .counsel-area {
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+}
+
+#notice .customer-service .counsel-area .icon {
+  float: left;
+  margin-right: 5px;
+}
+
+#notice .customer-service .korea-counsel-area {
+  margin-bottom: 20px;
+}
+
+#sitemap {
+  border-top: 1px solid #e5e5e5;
+}
+
+@media (max-width: 1030px) {
+  #induce-payment .box-wrap .box-list {
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  #why-pick-bank .box-list {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .quick-trade {
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #signup-area .btn-wrap {
+    width: 100%;
+  }
+
+  #signup-area .btn-wrap a {
+    display: block;
+  }
+
+  #notice .notice-area {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #notice .customer-service {
+    width: 100%;
+  }
+}

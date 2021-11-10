@@ -1,0 +1,40 @@
+.pageNavigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+
+  div {
+    display: flex;
+    justify-content: center;
+    width: 96px;
+    height: 106px;
+    background-image: linear-gradient(to bottom, #5fcbf2, #1bacec);
+    border-radius: 8px;
+  }
+
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 74%;
+
+    li {
+      span {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: normal;
+        color: #29304d;
+        text-align: center;
+        letter-spacing: normal;
+        opacity: 0.7;
+      }
+
+      &.active {
+        span {
+          color: #0068c1;
+        }
+      }
+    }
+  }
+}

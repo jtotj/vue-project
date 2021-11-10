@@ -1,0 +1,106 @@
+.searchWrap {
+  .enterSearchTerm {
+    width: 100%;
+  }
+
+  .searchBtn {
+    width: 10%;
+    color: white;
+    background-color: #0068c1;
+  }
+}
+
+.noInquiryWrap {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+
+  .noInquiry {
+    .imgWrap {
+      width: 70px;
+      padding-bottom: 20px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.tableWrap {
+  thead {
+    tr {
+      border-bottom: 1px solid black;
+
+      td {
+        padding: 10px;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid #e5e5e5;
+
+      td {
+        width: auto;
+        padding: 10px;
+
+        a {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.noticeWrap {
+  padding: 40px 0;
+  text-align: center;
+
+  .imgWrap {
+    width: 70px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+}
+
+.loginWrap {
+  overflow: hidden;
+
+  h4 {
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .membersLogin {
+    box-sizing: border-box;
+    float: left;
+    width: 48%;
+    height: 335px;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+  }
+
+  .nonMembersLogin {
+    box-sizing: border-box;
+    float: right;
+    width: 48%;
+    height: 335px;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+  }
+}
+
+@media (max-width: 768px) {
+  .loginWrap {
+    .membersLogin {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .nonMembersLogin {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,330 @@
+.money {
+  .searchWrap {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .moneyListWrap {
+    margin-bottom: 40px;
+
+    .perfectScrollbar {
+      max-height: 400px;
+    }
+
+    .moneyList {
+      box-sizing: border-box;
+      float: left;
+      width: 32%;
+      padding: 20px;
+      margin-right: 2%;
+      margin-bottom: 20px;
+      text-align: center;
+      border: 1px solid #e5e5e5;
+      border-radius: 5px;
+
+      .textWrap {
+        .coinItem span {
+          margin: 0;
+        }
+
+        .balance {
+          width: 100%;
+          padding: 10px 0;
+
+          p {
+            font-size: 20px;
+            letter-spacing: 0;
+          }
+        }
+      }
+
+      .btnWrap {
+        padding: 5px 0;
+
+        a {
+          padding: 8px 15px;
+        }
+
+        .accountCreateBtn {
+          margin-right: 10px;
+          color: white;
+          background-color: #0068c1;
+        }
+
+        .exchangeBtn {
+          color: #333;
+          background-color: #eee;
+        }
+      }
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+
+    .noSearchAsset {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 100%;
+      padding: 40px;
+      text-align: center;
+      background-color: #f9f9f9;
+
+      .imgWrap {
+        width: 30px;
+        margin: 10px auto;
+      }
+    }
+  }
+
+  .accountListWrap {
+    overflow: hidden;
+
+    .perfectScrollbar {
+      max-height: 400px;
+    }
+
+    .accountList {
+      box-sizing: border-box;
+      float: left;
+      width: 32%;
+      padding: 10px;
+      margin-right: 2%;
+      margin-bottom: 20px;
+      text-align: center;
+      cursor: pointer;
+      background: linear-gradient(60deg, #f1faff, #b8d0e4);
+      border-radius: 5px;
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+    }
+
+    .noSearchAccount {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 100%;
+      padding: 40px;
+      text-align: center;
+      background-color: #f9f9f9;
+
+      .imgWrap {
+        width: 30px;
+        margin: 10px auto;
+      }
+    }
+  }
+}
+
+// 계좌등록 & 계좌수정 모달창
+.accountModal {
+  .elRow {
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+
+    .tableHead {
+      box-sizing: border-box;
+      float: left;
+      width: 30%;
+      padding: 20px;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+
+    .tableBody {
+      box-sizing: border-box;
+      float: right;
+      width: 70%;
+      padding: 20px;
+      text-align: center;
+    }
+  }
+
+  .inputRow {
+    overflow: hidden;
+    border-bottom: 1px solid #e5e5e5;
+
+    .tableHead {
+      box-sizing: border-box;
+      float: left;
+      width: 30%;
+      height: 88px;
+      padding: 20px;
+      text-align: center;
+      background-color: #f9f9f9;
+
+      p {
+        padding: 15px 0;
+      }
+    }
+
+    .tableBody {
+      box-sizing: border-box;
+      float: right;
+      width: 70%;
+      padding: 20px;
+      text-align: center;
+    }
+  }
+
+  .btnWrap {
+    margin-top: 20px;
+    text-align: right;
+  }
+}
+
+// 환전 모달창
+.exchangeModal {
+  .exchangeList {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e5e5e5;
+
+    .infoWrap {
+      display: inline-block;
+      width: 100%;
+
+      .coinItem {
+        float: left;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .exchangeRate {
+      padding: 10px;
+      margin: 10px 0;
+      background-color: #f4f4f4;
+    }
+
+    .exchangeBox {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 0;
+
+      .amountWrap {
+        float: left;
+
+        strong {
+          font-size: 20px;
+          color: #333;
+        }
+      }
+
+      .btnWrap {
+        float: right;
+
+        a {
+          padding: 8px 15px;
+          color: white;
+        }
+
+        .buyBtn {
+          background-color: #e01f00;
+        }
+
+        .sellBtn {
+          margin-left: 10px;
+          background-color: #0068c1;
+        }
+      }
+    }
+  }
+}
+
+.accountDetailModal {
+  .accountDetail {
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+
+    .coinItemWrap {
+      float: left;
+      margin-right: 10px;
+
+      .imgWrap {
+        float: left;
+      }
+    }
+
+    .accountNumberWrap {
+      float: right;
+
+      .accountNumber {
+        letter-spacing: 0;
+      }
+    }
+  }
+
+  .box {
+    padding: 20px;
+    background-color: #f9f9f9;
+
+    li {
+      overflow: hidden;
+
+      .text {
+        float: left;
+        color: #999;
+      }
+
+      span {
+        float: right;
+        letter-spacing: 0;
+      }
+    }
+  }
+
+  .btnWrap {
+    padding: 20px 0;
+    overflow: hidden;
+
+    .depositWithdrawLinks {
+      float: left;
+
+      button {
+        float: left;
+
+        .imgWrap {
+          float: left;
+          width: 15px;
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+
+      .depositLink {
+        background-color: #e01f00;
+
+        span {
+          float: right;
+        }
+      }
+
+      .withdrawLink {
+        margin-left: 10px;
+        background-color: #0068c1;
+
+        span {
+          float: right;
+        }
+      }
+    }
+
+    .modifyLinkWrap {
+      float: right;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .moneyList,
+  .accountList {
+    width: 100% !important;
+  }
+}

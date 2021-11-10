@@ -1,0 +1,29 @@
+.product-search-wrap .el-tabs__item {
+  font-size: 20px;
+  font-wiehgt: 500;
+}
+.product-search-wrap .el-tabs__header {
+  margin: 0 0 24px;
+}
+.product-search-wrap .el-radio__label {
+  font-size: 12px;
+  padding-left: 4px;
+}
+.product-search-wrap .el-radio {
+  margin-right: 20px;
+}
+.product-search-wrap .el-radio__input.is-checked .el-radio__inner {
+  border-color: #0068c1;
+  background: #0068c1;
+}
+.product-search-wrap .el-radio__input.is-checked + .el-radio__label {
+  color: #0068c1;
+}
+.product-search-wrap .el-checkbox__label {
+  padding-left: 4px;
+  font-size: 12px;
+}
+.product-search-wrap .product-list .el-checkbox,
+.product-search-wrap .product-list-all .el-checkbox {
+  padding: 0 10px;
+}

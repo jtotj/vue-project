@@ -1,0 +1,1010 @@
+@charset "utf-8";
+
+/* NHN (developers@xpressengine.com) */
+
+.open {
+  display: block !important;
+}
+h1.xeAdmin {
+  float: left;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+caption {
+  text-align: left;
+}
+button {
+  cursor: pointer;
+}
+hr {
+  display: none;
+}
+fieldset {
+  border: 0;
+}
+fieldset legend {
+  position: absolute;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.section {
+  margin-bottom: 20px;
+}
+.buttonArea {
+  padding: 15px 0;
+  text-align: center;
+}
+button.text {
+  color: #00e;
+  background: none;
+  border: 0;
+}
+img.graphHr {
+  height: 5px;
+  vertical-align: middle;
+}
+.ac {
+  text-align: center;
+}
+.al {
+  text-align: left;
+}
+.ar {
+  text-align: right;
+}
+
+.crossTable {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 20px 0;
+  border: 0;
+}
+.crossTable th div {
+  white-space: nowrap;
+}
+.crossTable th,
+.crossTable td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border: 0;
+}
+.crossTable th {
+  background: #f4f4f4;
+}
+.crossTable thead th {
+  background-image: url(@assets/images/lineVrText.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-top: 2px solid #cfcfcf;
+  border-bottom: 1px solid #e5e5e5;
+}
+.crossTable thead th:first-child {
+  background-image: none;
+}
+.crossTable tbody th {
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+}
+.crossTable td {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.colTable {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 20px 0;
+  border: 0;
+}
+.colTable th div {
+  white-space: nowrap;
+}
+.colTable tr.bg0 {
+  background: #fff;
+}
+.colTable tr.bg1 {
+  background: #f8f8f8;
+}
+.colTable th,
+.colTable td {
+  padding: 5px 10px;
+  vertical-align: top;
+  border: 0;
+}
+.colTable th {
+  background: #f4f4f4;
+  background-image: url(@assets/images/lineVrText.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-top: 2px solid #cfcfcf;
+  border-bottom: 1px solid #e5e5e5;
+}
+.colTable th:first-child {
+  background-image: none;
+}
+.colTable td {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.rowTable {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 20px 0;
+  border: 0;
+  border-top: 2px solid #cfcfcf;
+}
+.rowTable th div {
+  white-space: nowrap;
+}
+.rowTable tr.bg0 {
+  background: #fff;
+}
+.rowTable tr.bg1 {
+  background: #f8f8f8;
+}
+.rowTable th,
+.rowTable td {
+  padding: 5px 10px;
+  text-align: left;
+  vertical-align: top;
+  border: 0;
+}
+.rowTable th {
+  background: #f4f4f4;
+}
+.rowTable tbody th {
+  border-bottom: 1px solid #e5e5e5;
+}
+.rowTable td {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.rowTable th.button,
+.colTable th.button,
+.crossTable th.button {
+  text-align: right;
+}
+.rowTable td.alert,
+.colTable td.alert,
+.crossTable td.alert {
+  color: red !important;
+}
+.rowTable td.alert a,
+.colTable td.alert a,
+.crossTable td.alert a {
+  color: red !important;
+  text-decoration: none;
+}
+
+.colTable td.wide,
+.rowTable td.wide,
+.crossTable td.wide {
+  width: 100%;
+}
+
+.e1 .navigation {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  *zoom: 1;
+  border-bottom: 1px solid #c2c2c2;
+}
+.e1 .navigation ul {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  *zoom: 1;
+}
+.e1 .navigation li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  *zoom: 1;
+  background-color: #f7f7f7;
+}
+.e1 .navigation li a.parent {
+  display: block;
+  padding: 10px 20px 10px 35px;
+  font-weight: bold;
+  color: #888;
+  text-decoration: none;
+  background-image: url(@assets/images/iconNavigation.gif);
+  background-repeat: no-repeat;
+  background-position: 160px -35px;
+  border-top: 1px solid #c2c2c2;
+}
+.e1 .navigation li.close a.parent {
+  background-position: 160px 13px;
+  border-bottom: none;
+}
+
+#module_service {
+  background-image: url(@assets/images/mIcon.gif);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+}
+#module_member {
+  background-image: url(@assets/images/mIcon.gif);
+  background-repeat: no-repeat;
+  background-position: 10px -40px;
+}
+#module_content {
+  background-image: url(@assets/images/mIcon.gif);
+  background-repeat: no-repeat;
+  background-position: 10px -90px;
+}
+#module_construction {
+  background-image: url(@assets/images/mIcon.gif);
+  background-repeat: no-repeat;
+  background-position: 10px -140px;
+}
+#module_utility {
+  background-image: url(@assets/images/mIcon.gif);
+  background-repeat: no-repeat;
+  background-position: 10px -190px;
+}
+#module_accessory {
+  background-image: url(@assets/images/mIcon.gif);
+  background-repeat: no-repeat;
+  background-position: 10px -240px;
+}
+#module_system {
+  background-image: url(@assets/images/mIcon.gif);
+  background-repeat: no-repeat;
+  background-position: 10px -290px;
+}
+
+.e1 .navigation li ul {
+  padding: 5px 0;
+  margin: 0;
+  background-color: #fff;
+  border-top: 1px solid #d2d2d2;
+}
+.e1 .navigation li ul li {
+  padding: 0 10px 0 35px;
+  margin: 5px 0;
+  background-color: #fff;
+}
+.e1 .navigation li.close ul {
+  display: none;
+}
+.e1 .navigation li ul li a {
+  text-decoration: none;
+}
+.e1 .navigation li ul li a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -1px;
+}
+.e1 .navigation li ul li a.active {
+  color: #ea3f22;
+  letter-spacing: -1px;
+}
+
+.e2 .section {
+  margin-left: 20px;
+}
+.e2 .section h4.xeAdmin {
+  padding: 0 0 0 25px;
+  margin: 10px 0 0 0;
+}
+.e2 .section .date {
+  padding-left: 5px;
+  font-size: 9px;
+  background: url(@assets/images/lineVrText.gif) no-repeat left center;
+}
+.e2 .section .contentBox {
+  padding: 10px 0;
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.e2 table tbody td {
+  text-align: left;
+  -ms-word-break: break-all;
+  word-break: break-all;
+}
+
+.localNavigation {
+  position: relative;
+  padding: 0;
+  margin: 0 0 40px 0;
+  font-size: 12px;
+  *zoom: 1;
+  border-bottom: 1px solid #ccc;
+}
+.localNavigation::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.localNavigation ul {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  display: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  list-style: none;
+}
+.localNavigation li {
+  float: left;
+  padding: 0;
+  margin: 0 -1px 0 0;
+  list-style: none;
+  background: #fff;
+}
+.localNavigation li a {
+  float: left;
+  height: 18px;
+  padding: 7px 15px 0 15px;
+  color: #666;
+  text-decoration: none !important;
+  background: url(@assets/images/bgTab.gif) repeat-x;
+  border: 1px solid #ddd;
+  border-bottom: none;
+}
+.localNavigation li.on {
+  margin-bottom: -1px;
+}
+.localNavigation li.on ul {
+  display: block;
+}
+.localNavigation li.on a {
+  height: 19px;
+  font-weight: bold;
+  background: none;
+}
+.localNavigation li li {
+  position: relative;
+  left: -1px;
+  display: inline;
+  float: none;
+  padding: 0 6px 0 10px;
+  margin: 0;
+  border-left: 1px solid #ddd;
+}
+.localNavigation li li a {
+  float: none;
+  height: auto;
+  padding: 0;
+  font-weight: normal !important;
+  background: none;
+  border: 0;
+}
+.localNavigation li li.on a {
+  font-weight: bold !important;
+}
+
+h3.xeAdmin {
+  padding: 5px 0 5px 25px;
+  margin: 0 0 10px 0;
+  background: url(@assets/images/iconH2.gif) no-repeat left center;
+  border-bottom: 2px solid #ccc;
+}
+h4.xeAdmin {
+  padding: 5px 0 5px 20px;
+  background: url(@assets/images/iconH3.gif) no-repeat left center;
+}
+h4.xeAdmin span.vr {
+  font-size: 11px;
+  color: #aaa;
+}
+h4.xeAdmin a.view {
+  font-family: vertical;
+  font-size: 11px;
+  color: #777e86;
+}
+p.summary,
+div.infoText {
+  margin: 0 0 15px 0;
+  line-height: 1.6;
+}
+
+.layer {
+  position: absolute;
+  display: none;
+  margin: 0;
+  font-size: 12px;
+  background: #fff;
+  border: 2px solid #777;
+}
+.layer * {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+.layer h4.xeAdmin {
+  padding: 8px 30px 8px 15px !important;
+  font-family: Dotum;
+  font-size: 14px !important;
+  letter-spacing: -1px !important;
+  background: #f4f4f4 !important;
+}
+.layer .xButton {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  width: 15px;
+  height: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  background: url(@assets/images/buttonClose.gif) no-repeat;
+  background-color: transparent;
+  border: 0;
+}
+.layer .xButton span {
+  position: relative;
+  z-index: -1;
+  visibility: hidden;
+}
+.layer .layerBody {
+  margin: 15px;
+}
+
+.boxModelControler select {
+  margin-bottom: 3px;
+}
+.boxModelControler .inputText {
+  padding: 2px 3px;
+  *margin-top: -1px;
+  margin-bottom: 3px;
+  vertical-align: top;
+  border: 1px solid #ccc;
+}
+.boxModelControler .inputCheck {
+  width: 13px;
+  height: 13px;
+  vertical-align: middle;
+}
+.boxModelControler .layerBody {
+  margin: 15px;
+}
+.boxModelControler .preview {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.boxModelControler .dragAble {
+  position: relative;
+  padding: 15px 0 0 15px;
+  cursor: move;
+  *zoom: 1;
+  background: url(@assets/images/bgRuler.gif) no-repeat;
+}
+.boxModelControler .dragAble .prevGrid {
+  position: relative;
+  margin: -1px;
+  *zoom: 1;
+  background: url(@assets/images/bgGrid.gif) 0 0;
+  border: 1px solid #000;
+}
+.boxModelControler .dragAble .prevBox {
+  position: relative;
+}
+.boxModelControler .dragAble .prevBox .prevContent {
+  position: relative;
+}
+.boxModelControler .boxModelTable {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+.boxModelControler .boxModelTable th,
+.boxModelControler .boxModelTable td {
+  padding: 5px 10px;
+  text-align: left;
+  vertical-align: top;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+.boxModelControler .boxModelTable th {
+  height: 50px;
+  *height: 40px;
+  padding-left: 70px;
+  background: #f1f1f1;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+}
+.boxModelControler .boxModelTable th.width {
+  background-image: url(@assets/images/exWidth.gif);
+}
+.boxModelControler .boxModelTable th.margin {
+  background-image: url(@assets/images/exMargin.gif);
+}
+.boxModelControler .boxModelTable th.padding {
+  background-image: url(@assets/images/exPadding.gif);
+}
+.boxModelControler .boxModelTable th.border {
+  background-image: url(@assets/images/exBorder.gif);
+}
+.boxModelControler .boxModelTable th.bgColor {
+  background-image: url(@assets/images/exBgColor.gif);
+}
+.boxModelControler .boxModelTable th.bgImage {
+  background-image: url(@assets/images/exBgImage.gif);
+}
+.boxModelControler .boxModelTable th sup {
+  font-family: Dotum;
+  font-size: 11px;
+  font-weight: normal;
+  color: #999;
+}
+.boxModelControler .boxModelTable td dl.iList dt {
+  position: relative;
+  top: 3px;
+  display: inline;
+}
+.boxModelControler .boxModelTable td dl.iList dd {
+  display: inline;
+}
+.boxModelControler .boxModelTable td dl.dList dt {
+  float: left;
+  padding-top: 3px;
+  margin-right: 5px;
+  clear: left;
+}
+.boxModelControler .boxModelTable td dl.dList dd {
+  clear: right;
+}
+.boxModelControler .colorPicker {
+  position: relative;
+  display: inline;
+  vertical-align: top;
+}
+.boxModelControler .colorPicker .picker {
+  position: relative;
+  top: 2px;
+  left: -22px;
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  cursor: pointer;
+  background-color: transparent;
+  background-position: right top;
+  border: 1px solid #ccc;
+}
+.boxModelControler .colorPicker .picker span {
+  z-index: -1;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.boxModelControler .colorPicker .palette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 272px;
+  height: 64px;
+  padding: 1px 0 0 1px;
+  margin: 0;
+  overflow: hidden;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+.boxModelControler .colorPicker .palette.open {
+  display: block;
+}
+.boxModelControler .colorPicker .palette li {
+  float: left;
+  margin: 0 1px 1px 0;
+  font-size: 0;
+  line-height: 0;
+}
+.boxModelControler .colorPicker .palette li button {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: 0;
+}
+.boxModelControler .colorPicker .palette li button span {
+  position: relative;
+  z-index: -1;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.boxModelControler .colorPicker .palette li button.transparent {
+  background: url(@assets/images/bgNone.gif) no-repeat right top;
+  border: 1px solid #ddd;
+}
+.boxModelControler .borderDetach {
+  display: none;
+}
+.boxModelControler .borderDetach.open {
+  display: block;
+}
+.boxModelControler .buttonArea {
+  padding: 15px 0 0 0;
+  text-align: center;
+}
+
+#popup_content {
+  position: relative;
+  margin: 0;
+  font-size: 12px;
+  background: #fff;
+  border: 2px solid #777;
+}
+#popup_content .xButton {
+  position: absolute;
+  top: 9px;
+  right: 18px;
+  width: 15px;
+  height: 14px;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  background: url(@assets/images/buttonClose.gif) no-repeat;
+  background-color: transparent;
+  border: 0;
+}
+#popup_content .xButton span {
+  position: relative;
+  z-index: -1;
+  visibility: hidden;
+}
+#popup_content * {
+  font-size: 12px;
+}
+#popHeadder h4.xeAdmin,
+#popHeadder h1.xeAdmin,
+#popHeadder h3.xeAdmin {
+  padding: 8px 30px 8px 15px !important;
+  margin: 0 !important;
+  font-family: Dotum !important;
+  font-size: 14px !important;
+  letter-spacing: -1px !important;
+  background: #f4f4f4 !important;
+  border: none !important;
+}
+#popHeader h4.xeAdmin,
+#popHeader h1.xeAdmin,
+#popHeader h3.xeAdmin {
+  padding: 8px 30px 8px 15px !important;
+  margin: 0 !important;
+  font-family: Dotum !important;
+  font-size: 14px !important;
+  letter-spacing: -1px !important;
+  background: #f4f4f4 !important;
+  border: none !important;
+}
+#popHeader,
+#popBody,
+#popFooter {
+  position: relative;
+  overflow: hidden;
+  *zoom: 1;
+}
+#popBody,
+#popHistoryBody {
+  margin: 15px !important;
+}
+#popFooter {
+  height: 28px;
+  padding: 10px 0 0 0;
+  text-align: center;
+  background: #f4f4f4;
+}
+#popHeader.wide {
+  width: 600px;
+}
+
+.adminTable {
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+  border-right: none;
+  border-bottom: none;
+}
+.adminTable caption {
+  padding: 8px 0 5px 30px;
+  font-size: 12px !important;
+  font-weight: bold !important;
+  color: #fff !important;
+  text-align: left;
+  background: url('@assets/images/n_caption_head.gif') no-repeat left top;
+  background-color: #888 !important;
+  border-bottom: 1px solid #fff;
+}
+.adminTable thead tr th div {
+  text-align: center;
+}
+.adminTable thead tr th {
+  width: 10px;
+  color: #fff !important;
+  background-color: #aaa;
+}
+.adminTable tr th {
+  padding: 6px;
+  font-weight: bold;
+  color: #666;
+  text-align: left;
+  background-color: #fff;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.adminTable tr.row2 th {
+  background-color: #f3f3f3;
+}
+.adminTable tr th div {
+  margin: 0 5px;
+  white-space: nowrap;
+}
+.adminTable tr th select {
+  height: 20px;
+}
+.adminTable tr th.wide {
+  width: 100%;
+}
+.adminTable tr th.half_wide {
+  width: 50%;
+}
+.adminTable tr th.quarter_wide {
+  width: 25%;
+}
+.adminTable tr td.wide {
+  width: 100%;
+}
+.adminTable tr td {
+  padding: 4px 6px 4px 6px;
+  font-weight: normal;
+  color: #222;
+  text-align: left;
+  white-space: normal;
+  background-color: #fff;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.adminTable tr.row2 td {
+  background-color: #f3f3f3;
+}
+.adminTable tr a {
+  color: #222;
+  text-decoration: none;
+}
+.adminTable tr a:hover {
+  color: #3d83b8;
+}
+.adminTable tr td.nowrap {
+  white-space: nowrap !important;
+}
+.adminTable tr td.alert,
+.adminTable tr td.alert a {
+  color: red;
+}
+.adminTable tr td.number {
+  font-family: tahoma;
+  font-size: 8pt;
+  color: #27536c;
+}
+.adminTable tr td.date,
+.adminTable tr td span.date {
+  font-family: tahoma;
+  font-size: 8pt;
+  color: #666;
+}
+.adminTable tr td.center {
+  text-align: center;
+}
+.adminTable tr td.right {
+  text-align: right;
+}
+.adminTable tr td.paper {
+  padding-left: 20px;
+  background: transparent url('@assets/images/n_paper_bullet.gif') no-repeat 6px
+    8px;
+}
+.adminTable tr.row2 td.paper {
+  padding-left: 20px;
+  background: #f3f3f3 url('@assets/images/n_paper_bullet.gif') no-repeat 6px 8px;
+}
+.adminTable tr td.circle {
+  padding-left: 20px;
+  background: #fff url('@assets/images/n_circle_bullet.gif') no-repeat 6px 8px;
+}
+.adminTable tr.row2 td.circle {
+  padding-left: 20px;
+  background: #f3f3f3 url('@assets/images/n_circle_bullet.gif') no-repeat 6px
+    8px;
+}
+.adminTable tr td strong.alert {
+  color: red;
+}
+.adminTable tr td p {
+  padding: 0;
+  margin: 5px 0 0 5px;
+  color: #777;
+}
+.adminTable tr td p a {
+  font-weight: bold;
+  color: #9f875f;
+  text-decoration: underline;
+}
+.adminTable tr td.modify a,
+.adminTable tr td.delete a,
+.adminTable tr td.copy a,
+.adminTable tr td.setup a,
+.adminTable tr td.activated a,
+.adminTable tr td.deactivated a,
+.adminTable tr td.moveupdown a,
+.adminTable tr td.selectAll a,
+.adminTable tr td.deSelectAll a,
+.adminTable tr td.view a {
+  margin: 0 auto;
+}
+.adminTable tr td.modify a {
+  display: block;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_icon_modify.gif') no-repeat left top;
+}
+.adminTable tr td.delete a {
+  display: block;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_icon_delete.gif') no-repeat left top;
+}
+.adminTable tr td.copy a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_icon_copy.gif') no-repeat left top;
+}
+.adminTable tr td.view a {
+  display: block;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_icon_view.gif') no-repeat left top;
+}
+.adminTable tr td.setup a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_setup.gif') no-repeat left top;
+}
+.adminTable tr td.activated a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_light_on.gif') no-repeat left top;
+}
+.adminTable tr td.deactivated a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_light_off.gif') no-repeat left top;
+}
+.adminTable tr td.selectAll a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_icon_select_all.gif') no-repeat left top;
+}
+.adminTable tr td.deSelectAll a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_icon_remove.gif') no-repeat left top;
+}
+.adminTable tr td.moveupdown a.up {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_button_up.gif') no-repeat left top;
+}
+.adminTable tr td.moveupdown a.down {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  font-size: 1px;
+  line-height: 100px;
+  background: url('@assets/images/n_button_down.gif') no-repeat left top;
+}
+.adminTable tr td.blue,
+.adminTable tr td.blue a {
+  color: blue;
+}
+.adminTable tr td.red,
+.adminTable tr td.red a {
+  color: red;
+}
+
+.fullWidth {
+  width: 80%;
+}
+
+.adminLeftContent {
+  float: left;
+  width: 60%;
+  margin-right: 2%;
+  _margin-right: 1.9%;
+}
+.adminRightExtra {
+  float: left;
+  width: 38%;
+}
+
+.searchNav {
+  padding: 3px;
+  margin: 0;
+  border: 3px solid #ccc;
+}
+.searchNav input {
+  width: 140px;
+  height: 17px;
+  padding: 3px 0 0 4px;
+  vertical-align: middle;
+  border: 0;
+}
+.searchNav button {
+  width: 17px;
+  height: 17px;
+  padding: 0;
+  vertical-align: middle;
+  background: transparent url(@assets/images/buttonSearch.gif) no-repeat center;
+  border: 0;
+}
+.searchNav button.close {
+  background: transparent url(@assets/images/buttonClose.gif) no-repeat center;
+}
+.e1 .section ._result {
+  padding: 0;
+  margin: 10px 0 0 0;
+  list-style: none;
+}
+.e1 .section ._result li {
+  margin: 0;
+}
+.e1 .section ._result a {
+  display: block;
+  padding: 4px 5px 4px 10px;
+  color: #767676;
+}
+.e1 .section ._result a:hover,
+.e1 .section ._result a:active,
+.e1 .section ._result a:focus {
+  background: #f8f8f8;
+}

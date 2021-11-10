@@ -1,0 +1,34 @@
+.el-dialog__header {
+  padding: 15px;
+  background-color: #0068c1;
+}
+
+.el-dialog__title {
+  color: white;
+  text-align: center;
+}
+
+.el-dialog__body .notice-wrap {
+  font-size: 18px;
+  word-break: keep-all;
+  line-height: 26px;
+  padding-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+.el-dialog__body .content-wrap .notice-content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  color: #333;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.el-dialog__footer .notice-footer label {
+  padding-right: 20px;
+}
+
+.el-dialog__footer .notice-footer .el-checkbox__label {
+  color: #999;
+}

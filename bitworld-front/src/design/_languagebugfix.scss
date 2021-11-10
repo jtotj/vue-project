@@ -1,0 +1,135 @@
+.de-DE {
+  #nav:not(.mo) {
+    .nav__inner-wrap {
+      .menu-wrap {
+        .one-depth {
+          > li {
+            > a {
+              font-size: 13px;
+              line-height: 1.3;
+            }
+            .two-depth {
+              li {
+                a {
+                  line-height: 1.2;
+                }
+              }
+            }
+          }
+        }
+      }
+      .utill-wrap {
+        .menu-item {
+          a {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+    .lang {
+      span {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.vi-VN {
+  #nav:not(.mo) {
+    .nav__inner-wrap {
+      .menu-wrap {
+        .one-depth {
+          > li {
+            > a {
+              font-size: 13px;
+              line-height: 1.3;
+            }
+            .two-depth {
+              li {
+                a {
+                  line-height: 1.2;
+                }
+              }
+            }
+          }
+        }
+      }
+      .utill-wrap {
+        .menu-item {
+          a {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .lang {
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.en-US {
+  #nav:not(.mo) {
+    .nav__inner-wrap {
+      .menu-wrap {
+        .one-depth {
+          > li {
+            > a {
+              font-size: 13px;
+              line-height: 1.3;
+              word-break: keep-all;
+            }
+            &:last-child {
+              > a {
+                word-break: break-all;
+              }
+            }
+            .two-depth {
+              li {
+                a {
+                  line-height: 1.2;
+                }
+              }
+            }
+          }
+        }
+      }
+      .utill-wrap {
+        .menu-item {
+          a {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+    .lang {
+      span {
+        font-size: 13px;
+      }
+    }
+  }
+}
+.fr-FR,
+.es-ES,
+.pt-PT {
+  #nav:not(.mo) {
+    .nav__inner-wrap {
+      .utill-wrap {
+        .menu-item {
+          a {
+            padding: 5px;
+            font-size: 13px;
+            line-height: 1.2;
+          }
+        }
+      }
+    }
+    .lang {
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+}

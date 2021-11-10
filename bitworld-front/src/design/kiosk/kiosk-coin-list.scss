@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+// kioskCoinList
+
+.kioskC2c,
+.kioskCoinList {
+  .container {
+    padding: 0 60px;
+
+    /* 다이렉트 환전 */
+    .transferTxt {
+      padding-top: 10px;
+
+      span {
+        display: inline;
+        font-size: 30px;
+        color: #68696a;
+      }
+
+      strong {
+        display: inline;
+        font-size: 30px;
+        color: #0068c1;
+      }
+    }
+  }
+}
+
+/* 구매/판매 코인 선택 박스 */
+.buySellCoin {
+  position: relative;
+  padding-top: 60px;
+  &::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+
+  div {
+    width: 465px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 120px;
+      background-color: #3f72a9;
+      border-radius: 30px 30px 0 0;
+
+      h2 {
+        padding: 0;
+        padding-left: 80px;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: normal;
+        color: #fff;
+        letter-spacing: normal;
+      }
+
+      p {
+        padding-left: 80px;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: normal;
+        color: #fff;
+        letter-spacing: normal;
+      }
+    }
+
+    .buyCoinTit {
+      display: flex;
+      justify-content: flex-start;
+      height: 180px;
+      background-image: linear-gradient(to bottom, #2b74b9 4%, #478ecc 100%);
+      border-radius: 0 0 30px 30px;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+
+      span {
+        font-size: 70px;
+        font-weight: bold;
+        color: #fff;
+        letter-spacing: normal;
+      }
+
+      .down {
+        width: 32px;
+      }
+
+      .coinCancel {
+        display: none;
+      }
+    }
+
+    .sellCoinTit {
+      display: flex;
+      justify-content: flex-start;
+      height: 180px;
+      background-image: linear-gradient(to bottom, #2b74b9 4%, #478ecc 100%);
+      border-radius: 0 0 30px 30px;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+
+      span {
+        font-size: 70px;
+        font-weight: bold;
+        line-height: 1;
+        color: #fff;
+        letter-spacing: normal;
+      }
+
+      .down {
+        width: 32px;
+      }
+
+      .coinCancel {
+        display: none;
+        width: 32px;
+      }
+    }
+  }
+
+  .buyCoin {
+    float: left;
+  }
+
+  .sellCoin {
+    float: right;
+  }
+
+  .iconExchange {
+    position: absolute;
+    top: 230px;
+    left: 45.2%;
+  }
+}
+
+/* 코인 리스트 */
+.coinBoxWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  justify-items: center;
+  padding-top: 50px;
+
+  li {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 30px 30px 0 0;
+    cursor: pointer;
+    background-image: linear-gradient(225deg, #478ecc, #2b74b9 0%);
+    border-radius: 30px;
+
+    .coinTit {
+      margin-top: 20px;
+      font-size: 60px;
+      font-weight: 900;
+      line-height: normal;
+      color: #fff;
+      text-align: center;
+      letter-spacing: normal;
+    }
+
+    &:nth-of-type(3n) {
+      margin-right: 0;
+    }
+  }
+}
+
+.pageNavigation {
+  margin-top: 80px;
+
+  .pageBackBtn,
+  .pageNextBtn {
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    width: 96px;
+    height: 106px;
+    background-image: linear-gradient(to bottom, #5fcbf2, #1bacec);
+    border-radius: 8px;
+  }
+  .pageBackBtn {
+    left: 0;
+    &::after {
+      display: none;
+    }
+  }
+  .pageNextBtn {
+    right: 0;
+    &::after {
+      display: none;
+    }
+  }
+
+  .page {
+    li {
+      span {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: normal;
+        color: #29304d;
+        text-align: center;
+        letter-spacing: normal;
+        opacity: 0.7;
+      }
+
+      &.active {
+        span {
+          color: #0068c1;
+        }
+      }
+    }
+  }
+}

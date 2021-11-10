@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+.kioskWithdrawal {
+  .container {
+    width: 100%;
+    max-height: 1600px;
+    padding: 0 60px;
+    margin: 0 auto;
+    overflow-y: auto;
+
+    .scrollWrap {
+      padding-bottom: 540px;
+    }
+
+    div {
+      h2 {
+        font-size: 40px;
+        font-weight: 900;
+        line-height: normal;
+        color: #29304d;
+        letter-spacing: normal;
+      }
+    }
+
+    .withdrawalAccount {
+      margin-top: 30px;
+
+      &:first-child {
+        margin-top: 50px;
+      }
+
+      .accountTitleWrap {
+        position: relative;
+
+        .accountSelectArea {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 100px;
+          height: 100%;
+          border-radius: 5px;
+        }
+      }
+
+      ul {
+        margin-top: 20px;
+
+        li {
+          display: flex;
+          justify-content: space-between;
+
+          &:nth-of-type(2) {
+            ul {
+              li {
+                color: #0068c1;
+              }
+            }
+          }
+
+          span {
+            font-size: 34px;
+            line-height: normal;
+            color: #29304d;
+            letter-spacing: normal;
+          }
+
+          ul {
+            display: flex;
+            margin-top: 9px;
+
+            li {
+              margin-left: 40px;
+              font-size: 40px;
+              font-weight: bold;
+              line-height: normal;
+              color: #29304d;
+              letter-spacing: normal;
+            }
+          }
+        }
+      }
+    }
+
+    .transferAccount {
+      ul {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 10px;
+
+        li {
+          font-size: 30px;
+          line-height: normal;
+          color: #29304d;
+          letter-spacing: normal;
+
+          &:last-of-type {
+            margin-left: 10px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    .accountInfo {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0;
+    }
+
+    .certifiedNum {
+      > div {
+        &:first-child {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          p {
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            font-stretch: normal;
+            line-height: normal;
+            color: #29304d;
+            letter-spacing: normal;
+
+            strong {
+              font-size: 30px;
+              font-style: normal;
+              font-weight: bold;
+              font-stretch: normal;
+              line-height: normal;
+              color: #29304d;
+              letter-spacing: normal;
+            }
+          }
+        }
+      }
+    }
+
+    .userInfo {
+      margin-top: 30px;
+    }
+
+    .transferQuantity {
+      margin-top: 30px;
+      margin-bottom: 50px;
+
+      .requiredImg {
+        padding: 20px 0;
+        margin-right: 5px;
+        font-size: 40px;
+        line-height: 1.5;
+      }
+
+      h2 {
+        float: left;
+        width: 80%;
+      }
+      .explanation {
+        font-size: 35px;
+        font-style: normal;
+        line-height: normal;
+        color: #0068c1;
+      }
+    }
+
+    .memo {
+      margin: 0 0 42px;
+    }
+
+    .info {
+      margin-bottom: 110px;
+    }
+
+    .accountCheck {
+      height: 1264px;
+      padding: 0 30px;
+      margin-top: 100px;
+      background: #fff;
+      border-radius: 30px;
+
+      h2 {
+        padding: 70px 0;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: normal;
+        color: #29304d;
+        text-align: center;
+        letter-spacing: normal;
+        border-color: rgba(41, 48, 77, 0.2);
+        border-width: 900px;
+        border-bottom: 1px solid;
+      }
+
+      h3 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: normal;
+        color: rgba(41, 48, 77, 0.5);
+        letter-spacing: -2px;
+      }
+
+      span {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: normal;
+        color: #29304d;
+        letter-spacing: normal;
+      }
+
+      .check {
+        display: flex;
+        justify-content: space-between;
+        padding: 28px 0;
+
+        &:last-child {
+          border-color: rgba(41, 48, 77, 0.2);
+          border-bottom: 1px solid;
+        }
+      }
+    }
+  }
+
+  .withdrawalSuccess {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 319px 0;
+
+    img {
+      margin-bottom: 100px;
+    }
+
+    p {
+      margin-bottom: 150px;
+      font-size: 60px;
+      font-weight: 900;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+    }
+  }
+
+  .withdrawalFail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 319px 0;
+
+    img {
+      margin-bottom: 100px;
+    }
+
+    p {
+      font-size: 60px;
+      font-weight: 900;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+
+      &:last-of-type {
+        margin-bottom: 100px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: normal;
+        color: #7c7c7c;
+        letter-spacing: normal;
+      }
+    }
+  }
+}
+
+.kioskTransfer {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1680px;
+    padding: 0 60px 0;
+
+    .withdrawalAccount {
+      margin-top: 80px !important;
+    }
+
+    .transferAccount,
+    .transferQuantity {
+      margin-top: 60px;
+    }
+
+    .info {
+      margin-bottom: 0;
+    }
+  }
+}

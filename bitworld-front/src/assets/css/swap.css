@@ -1,0 +1,340 @@
+.landing {
+  margin: 0 0 30px 0;
+}
+
+.landing-inner {
+  display: flex;
+}
+
+.landing .left {
+  width: 16.66667%;
+}
+
+.landing .left .form-control {
+  width: 176px;
+  height: 56px;
+  padding: 0 16px;
+  border: 1px solid #e5e5e5;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-image: url(../img/tri.png);
+  background-size: 33px auto;
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.landing .right {
+  display: flex;
+  justify-content: space-around;
+  width: 83.33333%;
+  height: 56px;
+  border: 1px solid #ebecf0;
+  padding: 8px;
+  font-size: 16px;
+  align-items: center;
+  margin-left: 60px;
+  box-sizing: border-box;
+}
+
+.landing .right .won {
+  color: #49474a;
+  font-weight: bold;
+}
+
+.landing .right .panel-item .bar {
+  color: #655d6a;
+  font-size: 19px;
+  font-weight: 400;
+  padding-right: 25%;
+  opacity: 0.8;
+}
+
+.landing .right .panel-item {
+  width: 30%;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.landing .right .panel-item .last-price {
+  font-weight: 700;
+}
+
+.right .panel-item .coin-change {
+  position: relative;
+  padding-right: 20px;
+}
+
+/* chart */
+.chart {
+  width: 1056px;
+  height: 515px;
+  margin: 0 auto;
+  background: pink;
+}
+
+/* XRP */
+.xrp {
+  margin: 30px 0;
+}
+
+.xrp .trade-xrp {
+  width: 50%;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  text-align: center;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.xrp .trade-margin {
+  margin-right: 3%;
+}
+
+.xrp .xrp-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.xrp .xrp-tit {
+  background: #2f2f2f;
+  line-height: 40px;
+  position: relative;
+  border: 1px solid #3f3f3f;
+  font-size: 16px;
+}
+
+.xrp .trade-xrp-inner {
+  padding: 20px;
+}
+
+.xrp .trade-xrp-inner .xrp-box-1 {
+  margin-top: 25px;
+}
+
+.xrp .trade-xrp-inner label {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #2f2f2f;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.xrp .trade-xrp-inner input {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #e5e5e5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 0 16px;
+  color: #4d4d4d;
+  box-sizing: border-box;
+}
+
+.trade-xrp .xrp-msg {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.trade-xrp .percent-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trade-xrp-inner .price-msg {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* yours order  */
+.xrp .xrp-order {
+  display: block;
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  text-align: center;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.xrp-order .noorder-msg {
+  font-size: 16px;
+}
+
+/* ladder-price */
+.trade-xrp-inner .xrp-head {
+  border-bottom: 2px solid #ddd;
+}
+
+.trade-xrp-inner ul {
+  display: flex;
+}
+
+.trade-xrp-inner ul li {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.trade-xrp-inner ul li:nth-child(1) {
+  width: 30%;
+  text-align: left;
+}
+
+.trade-xrp-inner ul li:nth-child(2) {
+  width: 30%;
+  text-align: right;
+}
+
+.trade-xrp-inner ul li:nth-child(3) {
+  width: 40%;
+  text-align: right;
+}
+
+.trade-xrp-inner .xrp-body li {
+  padding: 18px 16px;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.trade-xrp-inner .xrp-body:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.trade-xrp .xrp-left .xrp-body li {
+  color: #e65656;
+}
+
+.trade-xrp .xrp-right .xrp-body li {
+  color: #299d82;
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .landing-inner {
+    display: block;
+  }
+
+  .landing .left {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .landing .left .form-control {
+    width: 100%;
+  }
+
+  .landing .right {
+    width: 100%;
+    display: block;
+    margin: 0;
+    height: auto;
+  }
+
+  .landing .right .panel-item {
+    width: 100%;
+    line-height: 35px;
+  }
+
+  .landing .right .panel-item .bar {
+    display: none;
+  }
+
+  .panel-item .tit {
+    color: #655d6a;
+  }
+
+  .panel-item .coin-change {
+    opacity: 0.72;
+  }
+
+  .panel-item .volume {
+    font-weight: bold;
+    color: #49474a;
+  }
+
+  /* xrp */
+  .xrp .xrp-wrap {
+    display: block;
+  }
+
+  .xrp .trade-margin {
+    margin-bottom: 25px;
+  }
+
+  .xrp .trade-xrp {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .landing-inner {
+    display: block;
+  }
+
+  .landing .left {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .landing .left .form-control {
+    width: 100%;
+  }
+
+  .landing .right {
+    width: 100%;
+    display: block;
+    margin: 0;
+    height: auto;
+  }
+
+  .landing .right .panel-item {
+    width: 100%;
+    line-height: 35px;
+  }
+
+  .landing .right .panel-item .bar {
+    display: none;
+  }
+
+  .panel-item .tit {
+    color: #655d6a;
+  }
+
+  .panel-item .coin-change {
+    opacity: 0.72;
+  }
+
+  .panel-item .volume {
+    font-weight: bold;
+    color: #49474a;
+  }
+
+  /* xrp */
+  .xrp .xrp-wrap {
+    display: block;
+  }
+
+  .xrp .trade-margin {
+    margin-bottom: 25px;
+  }
+
+  .xrp .trade-xrp {
+    width: 100%;
+  }
+}

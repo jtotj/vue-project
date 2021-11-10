@@ -1,0 +1,105 @@
+.mainDeal {
+  .dealList {
+    > li {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color: white;
+      border: 1px solid #e5e5e5;
+
+      .numberBadge {
+        float: left;
+        padding: 0 8px;
+        margin-right: 10px;
+        color: #0068c1;
+        background-color: #d3e5ff;
+      }
+    }
+  }
+}
+
+.infoWrap {
+  padding-bottom: 10px;
+
+  .infoTitle {
+    font-weight: bold;
+    cursor: auto;
+  }
+
+  .multiple {
+    float: right;
+
+    .moneyWrap {
+      float: left;
+
+      .money {
+        font-size: 20px;
+        font-weight: bold;
+        cursor: auto;
+      }
+    }
+
+    .btnWrap {
+      float: right;
+      padding-left: 10px;
+
+      .lookupLinks,
+      .cancelLinks {
+        padding: 10px 20px;
+        color: white;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .lookupLinks {
+        background-color: #52b370;
+      }
+
+      .cancelLinks {
+        margin-left: 5px;
+        background-color: #d32f2f;
+      }
+    }
+  }
+}
+
+.shortList {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+
+  li {
+    display: inline-block;
+    width: 100%;
+
+    span {
+      float: left;
+
+      &.text {
+        float: left;
+      }
+
+      &.content {
+        float: right;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .multiple {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .moneyWrap {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}

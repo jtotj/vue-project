@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.kioskCertifiedRestriction {
+  height: 100%;
+
+  .container {
+    height: 100%;
+    padding: 0 60px;
+
+    .kioskSecurityLevel {
+      .conditionWrap {
+        display: inline-block;
+        margin-left: 20px;
+      }
+      > div {
+        background: #fff;
+        border-radius: 30px;
+      }
+
+      .kioskSecurityTit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 206px;
+        padding: 0 50px;
+        margin: 105px 0 70px;
+
+        p {
+          margin: 0;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: normal;
+          line-height: normal;
+          color: #768098;
+          letter-spacing: normal;
+        }
+
+        strong {
+          font-size: 38px;
+          font-style: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          line-height: normal;
+          color: #0068c1;
+          letter-spacing: normal;
+        }
+      }
+
+      .kioskSecurityContent {
+        .perfectScrollbar {
+          max-height: 1200px;
+        }
+
+        p {
+          margin: 70px 50px;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 500;
+          color: #768098;
+          letter-spacing: normal;
+        }
+      }
+    }
+  }
+}

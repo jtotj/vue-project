@@ -1,0 +1,736 @@
+/* 슬라이드 */
+.swiper-wrapper {
+  /* display: inline-block !important; */
+}
+
+#b2c-m-coin-header_mobile_2EIQG
+  .b2c-m-coin-header_mobileSlide_2QP2G
+  .b2c-m-menu
+  .swiper-wrapper
+  .swiper-slide
+  a.router-link-active {
+  position: relative;
+  font-weight: bold;
+  color: #0068c1;
+}
+
+#b2c-m-coin-header_mobile_2EIQG
+  .b2c-m-coin-header_mobileSlide_2QP2G
+  .b2c-m-menu
+  .swiper-wrapper
+  .swiper-slide
+  a.router-link-active:after {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  content: '';
+  background-color: #0068c1;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.mbileExchangeOrder .orderArea .el-tabs .el-tabs__nav {
+  width: 100%;
+  border: 0;
+}
+
+.mbileExchangeOrder .orderArea .el-tabs .el-tabs__nav-wrap::after {
+  height: 100%;
+  background-color: #f4f4f4;
+}
+
+.mbileExchangeOrder .orderArea .el-tabs--card > .el-tabs__header {
+  border-bottom: 0;
+}
+
+.mbileExchangeOrder .orderArea .el-tabs .el-tabs__nav .el-tabs__item {
+  width: 50%;
+  text-align: center;
+  border: 0;
+  height: 40px !important;
+  line-height: 40px;
+  margin: 0 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.56px;
+}
+
+.mbileExchangeOrder .orderArea .el-tabs .el-tabs__nav #tab-BUY.el-tabs__item {
+  color: #52b370 !important;
+}
+
+.mbileExchangeOrder .orderArea .el-tabs .el-tabs__nav #tab-SELL.el-tabs__item {
+  color: #d32f2f !important;
+}
+
+.mbileExchangeOrder .orderArea .el-tabs__item.is-active {
+  background: #fff;
+}
+
+.mbileExchangeOrder
+  .orderArea
+  .buying
+  .b2c-m-order_heldAssetsArea_ja3_e
+  .el-input
+  .el-input__inner {
+  border: 1px solid #0068c1 !important;
+}
+
+.mbileExchangeOrder .orderArea .buying .el-input .el-input__inner {
+  height: 34px !important;
+  line-height: 34px !important;
+  border-radius: 2px !important;
+  padding: 8px 8px 8px 10px !important;
+  text-align: left;
+  box-sizing: border-box;
+  font-size: 11px !important;
+  font-weight: 300 !important;
+  color: #666 !important;
+}
+
+.mbileExchangeOrder
+  .orderArea
+  .buying
+  .b2c-m-order_priceArea_2qePm
+  .el-input
+  .el-input__inner {
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+.mbileExchangeOrder
+  .orderArea
+  .buying
+  .b2c-m-order_heldAssetsArea_ja3_e
+  .el-select
+  .el-input
+  .el-select__caret {
+  color: #0068c1;
+  font-size: 11px;
+}
+
+.mbileExchangeOrder
+  .orderArea
+  .buying
+  ul
+  li:first-child
+  .el-input
+  .el-input__inner {
+  height: 27px !important;
+  line-height: 27px !important;
+  padding: 0 !important;
+}
+
+.mbileExchangeOrder
+  .orderArea
+  .buying
+  ul
+  li
+  .select-box
+  .el-input
+  .el-input__inner {
+  height: 34px !important;
+  line-height: 34px !important;
+  padding: 0 !important;
+}
+
+.mbileExchangeOrder
+  .orderArea
+  .buying
+  ul
+  li
+  .select-box
+  .el-input
+  .el-input__inner::placeholder {
+  color: #222;
+}
+
+.mbileExchangeOrder
+  .orderArea
+  .buying
+  ul
+  li
+  .select-box
+  .el-input
+  .el-input__suffix-inner {
+  line-height: 34px;
+}
+
+.mbileExchangeOrder
+  .orderArea
+  .buying
+  ul
+  li:first-child
+  .el-select
+  .el-input
+  .el-select__caret {
+  position: relative;
+  height: 27px !important;
+  font-size: 0 !important;
+  line-height: 27px !important;
+}
+
+.mbileExchangeOrder
+  .orderArea
+  .buying
+  ul
+  li:first-child
+  .el-select
+  .el-input
+  .el-select__caret::after {
+  position: absolute;
+  content: '';
+  display: block;
+  left: 8.5px;
+  top: 7px;
+  width: 0;
+  height: 0;
+  border: 4px solid #222;
+  border-color: transparent transparent #222 transparent;
+}
+
+.mobileChart .market-price-select {
+  width: 65px;
+}
+
+.el-select-dropdown {
+  margin-top: -1px !important;
+  border-color: #0068c1 !important;
+}
+
+.el-popper .el-scrollbar .el-scrollbar__wrap ul.el-select-dropdown__list {
+  padding: 0;
+}
+
+.b2cSizeNav .el-drawer .el-drawer__body .countryArea .lang .title-img {
+  height: 18px;
+}
+
+.el-popper
+  .el-scrollbar
+  .el-scrollbar__wrap
+  ul.el-select-dropdown__list
+  li.el-select-dropdown__item {
+  height: 34px;
+  padding: 0 10px;
+  font-size: 11px;
+  line-height: 34px;
+}
+
+.mbileExchangeOrder .orderArea .buying .orderQuantity .el-input__inner {
+  padding: 8px 8px 8px 60px !important;
+}
+
+.mbileExchangeOrder .orderArea .buying .orderQuantity input {
+  letter-spacing: 0.1px;
+}
+
+.priceInput {
+  margin-top: 0 !important;
+}
+
+.priceInput .el-select-dropdown__list {
+  padding: 0 !important;
+  border: 1px solid #0068c1;
+  border-radius: 2px;
+}
+
+.el-select-dropdown .el-select-dropdown__item:first-child {
+  color: #222 !important;
+}
+
+.priceInput .el-select-dropdown__item {
+  padding: 0 25px 0 5px;
+  height: 27px;
+  line-height: 27px;
+  font-size: 11px;
+  font-weight: 300 !important;
+  color: #222 !important;
+}
+
+.mbileExchangeOrder .orderArea .el-input__icon {
+  line-height: 34px;
+  right: 0;
+}
+
+.mbileExchangeOrder .buying .orderPrice input {
+  border: 0 !important;
+  width: 100% !important;
+  text-align: right !important;
+  letter-spacing: 0.1px;
+}
+
+.mbileExchangeOrder .orderArea .buying .orderPrice .el-input .el-input__inner {
+  padding: 0 47px 0 0 !important;
+  color: #222 !important;
+  font-weight: normal !important;
+}
+
+.mbileExchangeOrder .buying .el-input-number {
+  line-height: 32px;
+  width: 100%;
+}
+
+.mbileExchangeOrder .buying .el-input__suffix {
+  right: 0;
+  height: initial !important;
+}
+
+.mbileExchangeOrder
+  .buying
+  .el-input-number.is-controls-right
+  .el-input-number__decrease,
+.mbileExchangeOrder
+  .buying
+  .el-input-number.is-controls-right
+  .el-input-number__increase {
+  width: 20px;
+  border: 0 !important;
+  background: initial !important;
+  font-size: 0;
+  line-height: 30px !important;
+}
+
+.mbileExchangeOrder
+  .buying
+  .el-input-number.is-controls-right
+  .el-input-number__decrease {
+  top: 0;
+  right: 22px;
+}
+
+.mbileExchangeOrder
+  .buying
+  .el-input-number.is-controls-right
+  .el-input-number__decrease::after {
+  content: '—';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: #222;
+  font-size: 8px;
+}
+
+.mbileExchangeOrder
+  .buying
+  .el-input-number.is-controls-right
+  .el-input-number__increase::after {
+  content: '+';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: #222;
+  font-size: 16px;
+}
+
+/* exchange-order drop-box */
+
+.elLogin {
+  padding: 0 !important;
+}
+
+.elLoginLi.el-popper[x-placement^='bottom'] {
+  margin: 0;
+}
+
+.elLogin .el-select-dropdown .elLogin:first-child {
+  color: #222222 !important;
+}
+
+.elLoginLi ul {
+  border: 1px solid #0068c1;
+  font-size: 10px;
+  font-weight: 300 !important;
+  color: #222222 !important;
+  padding: 0 10px !important;
+}
+
+.elLoginLi ul li {
+  line-height: 34px !important;
+  height: 34px !important;
+  padding: 0;
+}
+
+.elLogin .el-select-dropdown .elLogin .el-select-dropdown__item:hover {
+  background-color: #e8f4fe;
+}
+
+/* 팝업 */
+
+/* 팝업 - thead 컨텐츠 헤더 */
+
+.mbileExchangeOrder .el-dialog {
+  margin-top: 10vh !important;
+  height: 544px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.4);
+  border: solid 1px #222222;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.mobileSearchPopUp .el-dialog {
+  position: relative;
+  width: calc(100% - 2px) !important;
+  margin-top: 104px !important;
+  margin-bottom: 0 !important;
+  border: 1px solid #222;
+}
+
+.mobileSearchPopUp .el-dialog::after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 12px;
+  height: 21px;
+  top: -12px;
+  right: 24px;
+  transform: skewY(30deg) rotate(29deg);
+  border: 1px solid #222;
+  border-color: #222 transparent transparent #222;
+  background-color: #fff;
+}
+
+.mobileSearchPopUp .el-dialog__header {
+  padding: 15px 15px 10px !important;
+  height: 65px;
+  background: none !important;
+  border-bottom: solid 1px #eeeeee;
+}
+
+.mobileSearchPopUp form {
+  position: absolute;
+  width: 70%;
+  left: 15px;
+  top: 15px;
+}
+
+.mobileSearchPopUp form input {
+  font-size: 12px;
+  line-height: 1;
+  border: 1px solid #0068c1;
+  border-radius: 2px;
+  color: #222;
+  font-weight: normal;
+  letter-spacing: -0.48px;
+  padding: 10px;
+}
+
+.mobileSearchPopUp form img {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.mobileSearchPopUp .el-tabs__nav-wrap::after {
+  background: none;
+}
+
+.mobileSearchPopUp .el-dialog__headerbtn .el-dialog__close {
+  color: #999 !important;
+}
+
+.mobileSearchPopUp .popBody {
+  height: calc(100vh - 240px);
+  padding: 0 !important;
+}
+.mobileSearchPopUp .el-tabs__content {
+  height: calc(100vh - 228px);
+}
+
+.mobileSearchPopUp .el-dialog__body {
+  height: calc(100vh - 172px);
+  overflow: hidden;
+  padding: 0 !important;
+}
+
+.mobileSearchPopUp .el-dialog__body .el-tabs .el-tabs__nav .el-tabs__item {
+  position: relative;
+}
+
+.mobileSearchPopUp
+  .el-dialog__body
+  .el-tabs
+  .el-tabs__nav
+  .el-tabs__item.is-active {
+  border: none;
+  color: #0068c1 !important;
+}
+
+.mobileSearchPopUp
+  .el-dialog__body
+  .el-tabs
+  .el-tabs__nav
+  .el-tabs__item.is-active::after {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  content: '';
+  background-color: #0068c1;
+  border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.mobileSearchPopUp .popBody table thead tr {
+  height: 27px;
+  background: #f2f2f8;
+}
+
+.mobileSearchPopUp .popBody table thead tr th:first-child {
+  padding-left: 32px;
+  text-align: left;
+}
+
+.mobileSearchPopUp .popBody table thead tr th:last-child {
+  padding-right: 10px;
+}
+
+.mobileSearchPopUp .popBody table thead tr p {
+  width: initial !important;
+  padding-right: 5px;
+  font-size: 11px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: -0.44px;
+  text-align: left;
+  color: #999999;
+  display: inline;
+}
+
+.mobileSearchPopUp .popBody table thead tr th .thContent {
+  display: inline-block;
+}
+
+.mobileSearchPopUp .popBody table thead tr th ul {
+  margin-top: 4px;
+}
+
+.mobileSearchPopUp .popBody table thead tr th ul li {
+  float: initial;
+  height: 6px;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+
+.mobileSearchPopUp .popBody table thead tr th div img {
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  cursor: pointer;
+  line-height: 24px;
+  vertical-align: baseline;
+}
+.mobileSearchPopUp .popBody table thead tr th div img:first-child {
+  margin: 4px 0 2px;
+}
+.mobileSearchPopUp .el-dialog__body .el-tabs .el-tabs__nav .el-tabs__item {
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 40px !important;
+  color: #222222 !important;
+  margin: 0 15px !important;
+}
+
+/* 팝업 - tbody 컨텐츠 */
+
+.mobileSearchPopUp .popBody table tbody tr {
+  height: 53px;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td {
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td strong {
+  font-size: 12px;
+  font-weight: 500;
+  color: #222222;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td h5 {
+  display: block !important;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td p {
+  display: block !important;
+  font-size: 11px;
+  line-height: 1;
+  font-weight: normal;
+  color: #222222;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.mobileSearchPopUp table {
+}
+
+.mobileSearchPopUp .popBody table tbody tr td:first-child {
+  padding-left: 16px;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td:last-child {
+  padding-right: 14px;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td em {
+  font-size: 11px;
+  padding-left: 5px;
+  font-weight: 300;
+  color: #999999;
+  line-height: 14px;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td div {
+  float: left;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td .left {
+  position: absolute;
+  left: 14px;
+  top: 48%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td .left img {
+  width: 12px;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td .right {
+  margin-left: 18px;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td .right em {
+  padding-left: 0;
+}
+
+.mobileSearchPopUp .popBody table tbody tr td .right img {
+  width: 16px;
+  margin-right: 3px;
+  vertical-align: sub;
+}
+
+/* 팝업 - 검색된 마켓이 없습니다. */
+
+.mobileSearchPopUp .noMarketArea {
+  position: relative;
+  height: 460px;
+}
+
+.mobileSearchPopUp .noMarketArea .noMarket {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mobileSearchPopUp .noMarketArea .noMarket p {
+  width: 100% !important;
+}
+
+.b2cHeader #nav .b2c-hambuger {
+  padding: 12px 20px !important;
+}
+
+@media (max-width: 370px) {
+  /*===========================================================================
+    b2c-m-order  주문 페이지
+  ============================================================================*/
+  /* .mbileExchangeOrder .buying .orderPrice input {
+    margin-left: 53px !important;
+  } */
+  /* .mbileExchangeOrder .orderArea .buying .el-input .el-input__inner {
+    padding: 8px 8px 8px 8px !important;
+    height: 34px !important;
+    line-height: 34px !important;
+  } */
+  /* .mbileExchangeOrder
+    .buying
+    .el-input-number.is-controls-right
+    .el-input-number__decrease,
+  .mbileExchangeOrder
+    .buying
+    .el-input-number.is-controls-right
+    .el-input-number__increase {
+    width: 15px;
+  }
+  .mbileExchangeOrder
+    .buying
+    .el-input-number.is-controls-right
+    .el-input-number__decrease {
+    right: 15px;
+  } */
+  .elLoginLi ul li {
+    height: 30px !important;
+    line-height: 30px !important;
+  }
+
+  /* 주문페이지 코인 검색창 */
+  .mbileExchangeOrder .el-dialog {
+    height: 508px;
+  }
+
+  .mobileSearchPopUp form {
+    top: 10px;
+    left: 12px;
+  }
+
+  .mobileSearchPopUp form input {
+    padding: 8px !important;
+  }
+
+  .mobileSearchPopUp .el-dialog__header {
+    padding: 8px 8px 6px !important;
+    height: 52px;
+  }
+
+  .mobileSearchPopUp .popBody table tbody tr td:first-child {
+    padding-left: 10px;
+  }
+
+  .mobileSearchPopUp .popBody table thead tr th:first-child {
+    padding-left: 18px;
+  }
+
+  .mobileSearchPopUp .popBody table tbody tr td:last-child {
+    padding-right: 8px;
+  }
+
+  .mobileSearchPopUp .popBody table thead tr th:last-child {
+    padding-right: 8px;
+  }
+
+  .mobileSearchPopUp .popBody table tbody tr td .left {
+    left: 4px;
+  }
+
+  .mobileSearchPopUp .popBody table tbody tr td .right {
+    margin-left: 8px;
+  }
+
+  .mbileExchangeOrder .orderArea .buying .orderQuantity .el-input__inner {
+    padding: 8px 8px 8px 56px !important;
+  }
+}

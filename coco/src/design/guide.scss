@@ -1,0 +1,61 @@
+.cocobnkGuide {
+  .guideTitleBox {
+    margin-bottom: 70px;
+    text-align: center;
+    h2 {
+      display: block;
+      padding: 0;
+      margin-bottom: 20px;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .guideStraplineBox {
+      margin-bottom: 20px;
+      h3 {
+        padding: 0;
+      }
+      h4 {
+        color: #46464a;
+      }
+    }
+
+    table {
+      border-collapse: collapse;
+      border: 1px solid #46464a;
+      th,
+      td {
+        border: 1px solid #444;
+        h4 {
+          padding: 0;
+          color: #46464a;
+        }
+        h3 {
+          padding: 0;
+        }
+      }
+      th.tableColorLeft,
+      td.tableColorLeft {
+        width: 50%;
+        background-color: #f4cccc;
+      }
+      th.tableColorRight,
+      td.tableColorRight {
+        width: 50%;
+        background-color: #c9daf8;
+      }
+    }
+  }
+
+  .guideTitleBoxAlign {
+    h2 {
+      margin-bottom: 20px;
+    }
+    .guideStraplineBox {
+      margin-bottom: 50px;
+
+      h4 {
+        color: #46464a;
+      }
+    }
+  }
+}

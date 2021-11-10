@@ -1,0 +1,11 @@
+.notice {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.notice .el-collapse-item__content {
+  padding-bottom: 20px !important;
+}
+
+.notice .el-collapse-item__content div {
+  padding-left: 0;
+}

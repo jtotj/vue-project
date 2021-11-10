@@ -1,0 +1,126 @@
+.walletsWrap .walletBox {
+  width: 100%;
+  overflow: hidden;
+}
+
+.walletsWrap .walletBox .walletHead {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #333;
+}
+
+.walletsWrap .walletBox .walletRight .btnWrap {
+  display: inline-block;
+  float: right;
+  width: auto;
+  padding: 0;
+}
+
+.walletsWrap .walletBox .walletRight .btnWrap .accountCreate {
+  padding: 6px 15px;
+  font-size: 14px;
+  line-height: 22px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+}
+
+.btnWrap .accountCreate {
+  &:disabled {
+    background-color: #999 !important;
+  }
+}
+
+// 계좌생성 모달창
+.elRow {
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.elRow .tableHead {
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+  padding: 15px;
+  color: #999;
+  background-color: #f9f9f9;
+}
+
+.elRow .tableBody {
+  box-sizing: border-box;
+  float: right;
+  width: 70%;
+  padding: 15px;
+}
+
+.inputRow {
+  height: 74px;
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.inputRow .tableHead {
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+  height: 74px;
+  padding: 28px 15px;
+  color: #999;
+  background-color: #f9f9f9;
+}
+
+.inputRow .tableBody {
+  box-sizing: border-box;
+  float: right;
+  width: 70%;
+  padding: 15px;
+}
+
+.btnWrap {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.btnWrap .createBtn,
+.btnWrap .modifyBtn {
+  float: right;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .elRow .tableHead,
+  .inputRow .tableHead {
+    width: 40%;
+  }
+
+  .inputRow .tableBody,
+  .elRow .tableBody {
+    width: 60%;
+  }
+
+  .elRow .walletLeft,
+  .elRow .walletRight {
+    width: 100%;
+  }
+
+  .elRow .walletLeft {
+    margin-bottom: 40px;
+  }
+
+  .walletsWrap .walletBox .walletLeft {
+    margin-bottom: 20px;
+  }
+
+  .walletsWrap .walletBox .walletLeft,
+  .walletsWrap .walletBox .walletRight {
+    width: 100%;
+  }
+}

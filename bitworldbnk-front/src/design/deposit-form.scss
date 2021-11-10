@@ -1,0 +1,242 @@
+// 입금 모달창
+.depositForm .formGroup .inputGroup {
+  width: 100%;
+}
+.depositForm .formGroup .networkSelect {
+  margin-bottom: 10px;
+}
+.depositForm .formGroup .inputGroup label {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.depositForm .formGroup .inputGroup label,
+.depositForm .formGroup .inputGroup .formControl {
+  display: inline-block;
+  width: 100%;
+}
+
+.depositForm .formGroup .inputGroup .formControl {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  border: 1px solid #e5e5e5;
+}
+
+.depositForm .btnWrap {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.depositForm .btnWrap .applyBtn {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+}
+
+.depositForm .qrcode {
+  background-color: #f4f4f4;
+}
+
+.depositForm .accountAddressWrap {
+  padding: 20px;
+}
+
+.depositForm .accountAddressWrap .accountAddress label {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999;
+}
+
+.depositForm .accountAddressWrap .accountAddress .inputGroup {
+  box-sizing: border-box;
+  padding: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.depositForm .accountAddressWrap .accountAddress .inputGroup .address {
+  padding: 5px 0;
+}
+
+.depositForm .accountAddressWrap .accountAddress .address {
+  float: left;
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.depositForm .accountAddressWrap .accountAddress .addressCopyBtn {
+  float: right;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+  border: none;
+}
+
+.depositForm .accountAddressWrap .qrcodeWrap {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.depositForm .eosWrap .infoWrap {
+  margin-bottom: 20px;
+}
+
+.depositForm .eosWrap .infoWrap .infoTitle {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #333;
+}
+
+.depositForm .eosWrap .infoWrap .infoBox .infoText {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999;
+}
+
+.depositForm .eosWrap .stepWrap {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.depositForm .eosWrap .stepWrap .stepTitle {
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .qrCodeBox {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .stepTextBox {
+  margin-bottom: 10px;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .walletAddressWrap .walletAddress {
+  margin-bottom: 10px;
+}
+
+.depositForm
+  .eosWrap
+  .stepWrap
+  .stepBox
+  .walletAddressWrap
+  .walletAddress
+  .walletAddressTitle {
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #333;
+}
+
+.depositForm
+  .eosWrap
+  .stepWrap
+  .stepBox
+  .walletAddressWrap
+  .walletAddress
+  .walletAddressText {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: white;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .idCopyBox .copyBtnWrap .copyBtn {
+  padding: 6px 15px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .stepTextBox .stepText {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #999;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .stepTextBox .addressWrap {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: white;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .idCopyMsg .caution {
+  font-size: 12px;
+  line-height: 20px;
+  color: red;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .idCopyMsg .checkBox {
+  padding: 10px 0;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .idCopyMsg .checkBox .showText {
+  color: #0068c1;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .copyBtnWrap .onCopy {
+  padding: 6px 15px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+}
+
+.depositForm .eosWrap .stepWrap .stepBox .depositNotice {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #000;
+}
+
+.depositForm .eosWrap .noticeWrap {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.depositForm .eosWrap .noticeWrap .noticeTitle {
+  padding-bottom: 5px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+
+.depositForm .eosWrap .noticeWrap .noticeList {
+  padding-left: 20px;
+}
+
+.depositForm .eosWrap .noticeWrap .noticeList li {
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
+  list-style: circle;
+}

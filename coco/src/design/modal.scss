@@ -1,0 +1,605 @@
+.el-dialog .container {
+  padding: 0 !important;
+}
+
+.modal .inputGroup {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.modal .btnWrap {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 0;
+  text-align: right;
+}
+
+.modal .btnWrap .cancelBtn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  color: #999;
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.modal .btnWrap .applyBtn,
+.modal .btnWrap .createBtn,
+.modal .btnWrap .modifyBtn {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+}
+
+.modal .inputGroup label {
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #999;
+}
+
+.modal .inputGroup .formControl {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  border: 1px solid #e5e5e5;
+}
+
+.modal .inputGroup .totalWithdrawalAmount {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  border: 1px solid #000;
+}
+
+.modal .inputGroup .favoriteAsset .money {
+  float: right;
+}
+
+.modal .row {
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal .row:last-child {
+  border: none;
+}
+
+.modal .row .tableHead {
+  box-sizing: border-box;
+  float: left;
+  width: 40%;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.modal .row .tableBody {
+  box-sizing: border-box;
+  float: right;
+  width: 60%;
+  padding: 15px;
+}
+
+.modal .tableWrap {
+  border-top: 1px solid black;
+}
+
+.modal .inputRow {
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal .inputRow .tableHead {
+  box-sizing: border-box;
+  float: left;
+  width: 40%;
+  padding: 27px 15px;
+  background-color: #f9f9f9;
+}
+
+.modal .inputRow .tableBody {
+  box-sizing: border-box;
+  float: right;
+  width: 60%;
+  padding: 15px;
+}
+
+.modal .row .buttonWrap .createBtn,
+.modal .row .buttonWrap .modifyBtn {
+  float: right;
+  color: white;
+  background-color: #0068c1;
+}
+
+.modal .row .buttonWrap .modifyBtn:disabled {
+  background-color: #999;
+}
+
+.badge {
+  float: right;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 22px;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.badge.pending {
+  cursor: auto;
+  background-color: yellowgreen;
+}
+
+.badge.rejected {
+  cursor: auto;
+  background-color: red;
+}
+
+.badge.approved {
+  cursor: auto;
+  background-color: green;
+}
+
+.badge.cancel {
+  cursor: auto;
+  background-color: #666;
+}
+
+// 입금 모달창
+.depositModal .formGroup .inputGroup {
+  width: 100%;
+}
+
+.depositModal .formGroup .inputGroup label {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.depositModal .formGroup .inputGroup label,
+.depositModal .formGroup .inputGroup .formControl {
+  display: inline-block;
+  width: 100%;
+}
+
+.depositModal .formGroup .inputGroup .formControl {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  border: 1px solid #e5e5e5;
+}
+
+.depositModal .btnWrap {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.depositModal .btnWrap .applyBtn {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+}
+
+.depositModal .qrcode {
+  background-color: #f4f4f4;
+}
+
+.depositModal .accountAddressWrap {
+  padding: 20px;
+}
+
+.depositModal .accountAddressWrap .accountAddress label {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999;
+}
+
+.depositModal .accountAddressWrap .accountAddress .inputGroup {
+  box-sizing: border-box;
+  padding: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.depositModal .accountAddressWrap .accountAddress .inputGroup .address {
+  padding: 5px 0;
+}
+
+.depositModal .accountAddressWrap .accountAddress .address {
+  float: left;
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.depositModal .accountAddressWrap .accountAddress .addressCopyBtn {
+  float: right;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  color: white;
+  background-color: #0068c1;
+  border: none;
+}
+
+.depositModal .accountAddressWrap .qrcodeWrap {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.depositModal .eosWrap .infoWrap {
+  margin-bottom: 20px;
+}
+
+.depositModal .eosWrap .infoWrap .infoTitle {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #333;
+}
+
+.depositModal .eosWrap .infoWrap .infoBox .infoText {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999;
+}
+
+.depositModal .eosWrap .stepWrap {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.depositModal .eosWrap .stepWrap .stepTitle {
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .qrCodeBox {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .stepTextBox {
+  margin-bottom: 10px;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .walletAddressWrap .walletAddress {
+  margin-bottom: 10px;
+}
+
+.depositModal
+  .eosWrap
+  .stepWrap
+  .stepBox
+  .walletAddressWrap
+  .walletAddress
+  .walletAddressTitle {
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #333;
+}
+
+.depositModal
+  .eosWrap
+  .stepWrap
+  .stepBox
+  .walletAddressWrap
+  .walletAddress
+  .walletAddressText {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: white;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .idCopyBox .copyBtnWrap .copyBtn {
+  padding: 6px 15px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .stepTextBox .stepText {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #999;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .stepTextBox .addressWrap {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: white;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .idCopyMsg .caution {
+  font-size: 12px;
+  line-height: 20px;
+  color: red;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .idCopyMsg .checkBox {
+  padding: 10px 0;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .idCopyMsg .checkBox .showText {
+  color: #0068c1;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .copyBtnWrap .onCopy {
+  padding: 6px 15px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+}
+
+.depositModal .eosWrap .stepWrap .stepBox .depositNotice {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #000;
+}
+
+.depositModal .eosWrap .noticeWrap {
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.depositModal .eosWrap .noticeWrap .noticeTitle {
+  padding-bottom: 5px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+
+.depositModal .eosWrap .noticeWrap .noticeList {
+  padding-left: 20px;
+}
+
+.depositModal .eosWrap .noticeWrap .noticeList li {
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
+  list-style: circle;
+}
+
+// 출금 모달창
+.withdrawModal .withdrawInfoWrap {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.withdrawModal .withdrawInfoWrap .withdrawInfo {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #000;
+}
+
+.withdrawModal .withdrawInfoWrap .withdrawInfo .formTitle {
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #0068c1;
+}
+
+.withdrawModal .withdrawInfoWrap .withdrawInfo .bgGrey {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 26px;
+  color: #999;
+}
+
+.withdrawModal .formGroup {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.withdrawModal .formGroup label {
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999;
+}
+
+.withdrawModal .formGroup .inputGroup {
+  display: inline-block;
+  width: 100%;
+}
+
+.withdrawModal .formGroup .inputGroup .formControl {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.withdrawModal .formGroup .inputGroup .totalWithdrawalAmount {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.withdrawModal .btnWrap {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.withdrawModal .btnWrap .cancelBtn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  color: #999;
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.withdrawModal .btnWrap .applyBtn {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  background-color: #0068c1;
+}
+
+// 입출금 조회 모달창
+.accountDepositList .mainDeal .dealList .dealAct,
+.accountWithdrawList .mainDeal .dealList .dealAct {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 48%;
+  padding: 10px;
+  margin-right: 4%;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct:nth-child(2n),
+.accountWithdrawList .mainDeal .dealList .dealAct:nth-child(2n) {
+  margin-right: 0;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct .leftInfo,
+.accountWithdrawList .mainDeal .dealList .dealAct .leftInfo {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct .leftInfo .tit,
+.accountWithdrawList .mainDeal .dealList .dealAct .leftInfo .tit {
+  display: inline-block;
+  padding-bottom: 10px;
+  color: #333;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct .leftInfo .accountText,
+.accountWithdrawList .mainDeal .dealList .dealAct .leftInfo .accountText {
+  color: #999;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct .leftInfo ul li,
+.accountWithdrawList .mainDeal .dealList .dealAct .leftInfo ul li {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct .rightInfo .requestAmount,
+.accountWithdrawList .mainDeal .dealList .dealAct .rightInfo .requestAmount {
+  float: left;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct .rightInfo,
+.accountWithdrawList .mainDeal .dealList .dealAct .rightInfo {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct .rightInfo .actWrap,
+.accountWithdrawList .mainDeal .dealList .dealAct .rightInfo .actWrap {
+  float: right;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct .rightInfo .actWrap a,
+.accountWithdrawList .mainDeal .dealList .dealAct .rightInfo .actWrap a {
+  display: inline-block;
+  padding: 5px;
+}
+
+.accountDepositList .mainDeal .dealList .dealAct .rightInfo .actWrap .links,
+.accountWithdrawList .mainDeal .dealList .dealAct .rightInfo .actWrap .links {
+  color: #999;
+  cursor: pointer;
+}
+
+.accountDepositList
+  .mainDeal
+  .dealList
+  .dealAct
+  .rightInfo
+  .actWrap
+  .links:hover,
+.accountWithdrawList
+  .mainDeal
+  .dealList
+  .dealAct
+  .rightInfo
+  .actWrap
+  .links:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.accountDepositList .mainDeal .noDealList,
+.accountWithdrawList .mainDeal .noDealList {
+  padding: 40px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.accountDepositList .mainDeal .noDealList .imgWrap,
+.accountWithdrawList .mainDeal .noDealList .imgWrap {
+  width: 60px;
+  margin: 0 auto;
+}
+
+.accountDepositList .mainDeal .noDealList .imgWrap img,
+.accountWithdrawList .mainDeal .noDealList .imgWrap img {
+  width: 100%;
+}
+
+.accountDepositList .mainDeal .noDealList .textWrap,
+.accountWithdrawList .mainDeal .noDealList .textWrap {
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .accountDepositList .mainDeal .dealList .dealAct,
+  .accountWithdrawList .mainDeal .dealList .dealAct {
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .depositModal .formGroup .address {
+    width: 100%;
+  }
+
+  .depositModal .formGroup .addressCopyBtn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.favorite {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-image: url(@assets/img/star.png);
+  background-size: 100%;
+}
+
+.favorite.active {
+  background-image: url(@assets/img/star-active.png);
+}

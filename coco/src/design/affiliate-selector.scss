@@ -1,0 +1,45 @@
+.assetList {
+  height: 380px;
+  padding: 20px;
+  margin: 10px 0 40px 0;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+
+  .assetSearch {
+    margin-bottom: 20px;
+  }
+
+  .tabs {
+    .perfectScrollbar {
+      max-height: 250px;
+    }
+  }
+
+  .fixedValue {
+    height: 250px;
+  }
+
+  .coinList {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #e5e5e5;
+
+    &.selected {
+      color: #0068c1;
+      background-color: #f4f9ff;
+      border-bottom: 1px solid #0068c1;
+    }
+
+    p {
+      float: left;
+      width: 20px;
+      height: 20px;
+      padding-right: 10px;
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+    }
+  }
+}

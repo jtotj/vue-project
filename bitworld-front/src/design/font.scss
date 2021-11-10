@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+/* NHN (developers@xpressengine.com) */
+
+.adminRoot a {
+  text-decoration: none !important;
+}
+.adminRoot a:hover,
+.adminRoot a:active,
+.adminRoot a:focus {
+  text-decoration: underline !important;
+}
+
+.adminRoot h1.xeAdmin a {
+  padding: 0;
+  margin: 0;
+  font-family: Arial;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none !important;
+}
+.adminRoot table th {
+  color: #666;
+}
+.adminRoot table th a {
+  color: #666;
+}
+.adminRoot table td {
+  color: #767676;
+}
+.adminRoot table td a {
+  color: #767676;
+}
+.adminRoot caption {
+  font-family: Tahoma;
+  font-size: 11px;
+  color: #767676;
+}
+.adminRoot div.summary {
+  font-family: Tahoma;
+  font-size: 11px;
+  color: #767676;
+}
+.adminRoot div.summary strong {
+  font-weight: normal;
+}
+.adminRoot button.text {
+  font-size: 12px;
+}
+.adminRoot em,
+.adminRoot address {
+  font-style: normal;
+}
+.adminRoot select {
+  font-size: 12px;
+}
+.adminRoot input {
+  font-size: 12px;
+}
+.adminRoot .buttonTypeGo {
+  padding: 0;
+  cursor: pointer;
+}
+
+.adminRoot .footer address {
+  font: 10px Tahoma;
+}
+.adminRoot .footer address a {
+  color: #777e86;
+}
+.adminRoot .gnb li a {
+  font-family: Tahoma;
+  font-size: 11px;
+  color: #777e86;
+}
+#adminLang li a {
+  font-size: 12px;
+}
+.adminRoot .lnb li,
+.adminRoot .lnb li a {
+  font-family: Dotum, Tahoma;
+  font-size: 14px;
+  color: #fff;
+}
+
+.adminRoot .path {
+  font-size: 11px;
+  color: #ccc;
+}
+.adminRoot .path a {
+  font-family: Dotum, Sans-serif;
+  font-size: 11px;
+  color: #767676;
+}
+
+.e1 .navigation li a {
+  color: #000;
+  text-decoration: none;
+}
+.e1 .navigation li ul li a {
+  color: #767676;
+}
+.e1 .navigation li ul li a.active {
+  font-weight: bold;
+  color: #666;
+}
+
+.e2 .section h2.xeAdmin {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+.e2 .section h2.xeAdmin .date {
+  font: Tahoma;
+  color: #999;
+}
+
+.e2 table tbody th {
+  font-family: Dotum;
+  font-weight: normal;
+}
+
+.e2 .notice li a {
+  color: #666;
+}
+.e2 .notice li .date {
+  font: 10px Tahoma;
+  color: #767676;
+}
+
+.localNavigation li a {
+  color: #666;
+  text-decoration: none !important;
+}
+.localNavigation li a.active {
+  font-weight: bold;
+  color: #1e6aac;
+}
+
+.adminRoot h2.xeAdmin {
+  font-size: 12px;
+}
+.adminRoot h3.xeAdmin {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+.adminRoot p.summary {
+  color: #767676;
+}
+.adminRoot p.summary a {
+  color: #767676;
+  text-decoration: none;
+}
+.adminRoot p.summary.red {
+  color: #a54d4d;
+}
+.adminRoot p.summary.red a {
+  color: #a54d4d;
+  text-decoration: none;
+}
+.adminRoot div.infoText {
+  color: #767676;
+}
+.adminRoot div.infoText p.warning {
+  padding: 0 0 0 25px;
+  margin: 0 0 10px 0;
+  background: url(@assets/images/iconWarning.gif) no-repeat left top;
+}
+.adminRoot div.infoText p.update {
+  padding: 0 0 0 25px;
+  margin: 0 0 10px 0;
+  background: url(@assets/images/iconRefresh.gif) no-repeat left top;
+}

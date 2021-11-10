@@ -1,0 +1,646 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', 'Noto Sans KR', sans-serif;
+  &:focus {
+    outline: none;
+  }
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+a {
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+em {
+  font-style: initial;
+  vertical-align: middle;
+}
+
+blockquote {
+  &::before,
+  &::after {
+    content: '';
+    content: none;
+  }
+}
+
+q {
+  &::before,
+  &::after {
+    content: '';
+    content: none;
+  }
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+img {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+span {
+  font-weight: normal;
+}
+
+p {
+  font-size: 14px;
+}
+
+div,
+button {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.hide {
+  height: 1px;
+  opacity: 0;
+}
+
+.pc {
+  display: block;
+}
+
+.mobile,
+.side_rgba {
+  display: none;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.clear::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+strong {
+  color: #222;
+}
+
+section {
+  padding-top: 80px;
+}
+
+.sales {
+  .pc {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
+.floatL {
+  float: left !important;
+}
+
+.floatR {
+  float: right !important;
+}
+
+.textL {
+  text-align: left !important;
+}
+
+.textC {
+  text-align: center !important;
+}
+
+.textR {
+  text-align: right !important;
+}
+
+.width100 {
+  width: 100% !important;
+}
+
+.width40 {
+  width: 40% !important;
+}
+.width50 {
+  width: 50% !important;
+}
+.width60 {
+  width: 60% !important;
+}
+
+/* 영어, 숫자 자간 0 */
+
+.noSpace {
+  letter-spacing: 0;
+}
+
+/* color */
+
+.up {
+  color: #d32f2f !important;
+}
+.resetBackground {
+  background: #999 !important;
+}
+
+.upBackground {
+  background: #d32f2f !important;
+}
+
+.downBackground {
+  background: #52b370 !important;
+}
+
+.down {
+  color: #52b370 !important;
+}
+.green {
+  color: #52b370 !important;
+}
+.red {
+  color: #d32f2f !important;
+}
+.chartUp {
+  background-color: rgba(82, 179, 112, 0.2) !important;
+}
+.chartDown {
+  background-color: rgba(211, 47, 47, 0.2) !important;
+}
+.mobileSeactionBGColor {
+  background: #f2f2f8 !important;
+}
+.color999 {
+  color: #999 !important;
+}
+
+/* 헤더 */
+
+header {
+  z-index: 100;
+  height: 80px;
+  background: #222;
+  .logo {
+    float: left;
+    padding: 18px 0;
+  }
+}
+
+header .nav {
+  float: left;
+  margin-left: 46px;
+}
+
+header .nav li .menuItem {
+  display: block;
+  font-size: 18px;
+  line-height: 80px;
+  color: #bbb !important;
+  letter-spacing: -1px;
+  transition: 0.3s;
+}
+
+header .nav li {
+  &:hover .menuItem {
+    color: #fff !important;
+  }
+  .menuItem::after {
+    position: absolute !important;
+    bottom: 26px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    font-weight: bold;
+    color: #fff !important;
+    content: '';
+    background: #fff;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+  }
+  &:active .menuItem::after {
+    color: #fff;
+    opacity: 1;
+  }
+  &:first-child .menuItem.active {
+    &::after {
+      color: #fff !important;
+      opacity: 1;
+    }
+
+    color: #fff !important;
+  }
+}
+
+header .loginBox {
+  display: flex;
+  float: right;
+  line-height: 74px;
+}
+
+header .loginBox li a {
+  color: #fff;
+  img {
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  &.loginButton {
+    padding: 6px 15px;
+    margin-left: 30px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+    &:hover {
+      box-shadow: 0 5px 5px 0 rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background: #222;
+  .logoWhite {
+    display: block;
+  }
+  .logoBlue {
+    display: none;
+  }
+  .loginBox li a.loginButton.login {
+    margin-left: 15px;
+    color: #222 !important;
+    background: #fff;
+  }
+  &.changeColor {
+    background-color: #0068c1;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    .logoBlue {
+      display: block;
+    }
+    .logoWhite {
+      display: none;
+    }
+    .loginBox li a.loginButton {
+      border: 1px solid #fff !important;
+      transition: 0.2s;
+      &:hover {
+        box-shadow: 0 5px 5px 0 rgba(255, 255, 255, 0.3);
+      }
+      &.logOut {
+        color: #fff !important;
+        background: #0068c1;
+      }
+    }
+    .nav li:first-child a.active {
+      color: #fff !important;
+    }
+    .nav li {
+      .menuItem {
+        // color: #8bb0d2 !important;
+      }
+      &:hover .menuItem {
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+header.changeColor {
+  .nav li:hover a::after {
+    background: #fff !important;
+  }
+}
+
+.valueText {
+  position: relative;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px;
+  color: #000;
+  transition: 0.2s;
+  &:hover::after {
+    position: absolute !important;
+    bottom: -3px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background: #000;
+  }
+}
+
+.labelImg {
+  width: initial;
+  margin-right: 4px;
+  line-height: 22px;
+  vertical-align: middle;
+}
+
+/* 푸터 */
+
+.footerMenu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  > li {
+    &:hover > a {
+      color: #0068c1;
+    }
+    > a {
+      display: block;
+      font-size: 16px;
+      line-height: 43px;
+      color: #000;
+      letter-spacing: 0;
+    }
+    &:last-child {
+      text-align: right;
+    }
+  }
+}
+
+footer {
+  /* COCOFX에서 이용하세요. */
+  .coinUseArea {
+    width: 100%;
+    height: 154px;
+    padding-top: 35px;
+    background: url('@assets/img/b2c/waveBackground.png') no-repeat 50%, 50%;
+    background-size: cover;
+    strong {
+      margin-bottom: 0;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 36px;
+      color: #fff;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px;
+      color: #bbebf9;
+    }
+    .tipArea {
+      margin-top: 8px;
+      .tip {
+        display: inline-block;
+        width: 36px;
+        height: 18px;
+        margin-right: 8px;
+        text-align: center;
+        background: #fff;
+        border-radius: 50px;
+        span {
+          display: inline-block;
+          margin: 0 0 3px 3px;
+          font-size: 12px;
+          font-weight: normal;
+          color: #8bb0d2;
+        }
+      }
+      > span {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: normal;
+        line-height: 1.75;
+        color: #e8f4fe;
+        text-align: left;
+        letter-spacing: -0.48px;
+      }
+    }
+  }
+  .textBox {
+    position: relative;
+    padding: 26px 0;
+    p {
+      width: 80%;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 20px;
+      color: #999;
+      letter-spacing: 0;
+    }
+    .footerLogo {
+      position: absolute;
+      top: 26px;
+      right: 26px;
+      cursor: pointer;
+    }
+  }
+  .copy {
+    border-top: 1px solid #e5e5e5;
+    p {
+      padding-top: 6px;
+      margin: 6px 0 12px;
+      font-size: 12px;
+      font-weight: 300;
+      color: #999;
+      text-align: center;
+      letter-spacing: 0;
+    }
+  }
+  strong {
+    display: block;
+    margin-top: 0 !important;
+    margin-bottom: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    text-decoration: none;
+  }
+}
+
+.danger {
+  color: #d32f2f;
+}
+
+/* 업버튼 */
+
+.upButton {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 500;
+  width: 64px;
+  cursor: pointer;
+}
+
+@media (max-width: 1330px) {
+  .container {
+    width: 1080px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .container {
+    width: 100% !important;
+    padding: 0 20px;
+  }
+  header {
+    .nav {
+      margin-left: 25px !important;
+      li {
+        .menuItem {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  footer {
+    width: 100%;
+    margin-top: 0;
+    background: #fff;
+    .coinUseArea {
+      text-align: center;
+    }
+    .footerMenu > li > a {
+      font-size: 14px;
+    }
+
+    .textBox {
+      p {
+        width: 100%;
+      }
+      .footerLogo {
+        position: initial;
+        margin: 20px 0;
+        text-align: center;
+        img {
+          width: 80px;
+        }
+      }
+    }
+  }
+}
+
+// /* 반응형 */
+
+@media (max-width: 768px) {
+  header.mobile {
+    height: auto;
+    background: #0068c1;
+  }
+  header {
+    height: 50px;
+    .logo {
+      float: left;
+      padding: 10px 16px;
+      a {
+        display: inline-block;
+        width: 76px;
+        height: 30px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .menuButton {
+      button {
+        background: initial;
+        border: initial !important;
+        &:hover {
+          color: #fff;
+          background: initial;
+        }
+        img {
+          width: 20px;
+          height: 16px;
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+
+  /* 헤더 모바일 */
+  .pc {
+    display: none;
+  }
+  .mobile,
+  .side_rgba {
+    display: block;
+  }
+  section.advantage {
+    padding-top: 0;
+  }
+  footer {
+    .coinUseArea {
+      padding: 37px 0;
+      strong {
+        font-size: 20px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+    strong {
+      display: block;
+      font-weight: 500;
+      line-height: 50px;
+      text-decoration: none;
+      cursor: default;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    .coinUseArea {
+      strong {
+        font-size: 15px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+}

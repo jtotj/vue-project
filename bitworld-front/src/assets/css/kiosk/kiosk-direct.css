@@ -1,0 +1,280 @@
+/* 다이렉트 환전 */
+.buy-menu {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+/* 탭메뉴 헤더 */
+.buy-menu > .el-tabs__header {
+  width: 100%;
+  height: 120px;
+  border-radius: 30px 30px 0 0;
+  background-color: #888;
+}
+
+.buy-menu .el-tabs__nav {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px 30px 0 0 !important;
+  background-color: #70b2e2;
+}
+
+.buy-menu .balance {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+}
+
+.buy-menu .el-tabs__header .el-tabs__item {
+  opacity: 0.8;
+  width: 50%;
+  height: 100% !important;
+  padding: 26px 114px 20px !important;
+  margin: 0 !important;
+  font-size: 50px !important;
+  font-weight: bold !important;
+  line-height: normal;
+  letter-spacing: normal;
+  border-radius: 30px 30px 0 0;
+  color: #ffffff !important;
+  background-color: #70b2e2 !important;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+.buy-menu > .el-tabs__header .el-tabs__item.is-active {
+  opacity: 1;
+  background-color: #2b74b9 !important;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border: none;
+}
+
+/* 탭 컨텐츠 */
+.buy-menu > .el-tabs__content {
+  padding: 0;
+}
+
+.buy-menu .el-tab-pane {
+  padding: 30px 80px 40px;
+  border-radius: 0 0 30px 30px;
+  margin: 0 auto;
+  background-image: linear-gradient(to top, #478ecc, #2b74b9);
+}
+
+.buy-menu .el-tabs__content h3 {
+  margin-top: 50px;
+  padding: 0 0 20px;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.buy-menu .el-tabs__content .kiosk-select-box:nth-child(1) h3 {
+  margin-top: 0;
+}
+
+.buy-menu .direct-btn {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-menu .cancel-btn,
+.buy-menu .buy-btn {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border-radius: 30px !important;
+  border: none !important;
+}
+
+.buy-menu .cancel-btn span,
+.buy-menu .buy-btn span {
+  display: block;
+  font-size: 35px;
+  padding: 31px 160px;
+  color: #ffffff;
+}
+
+.buy-menu .cancel-btn {
+  background-image: linear-gradient(to top, #f16393, #c31f5c);
+}
+
+.buy-menu .buy-btn {
+  background-image: linear-gradient(to top, #add57f, #69a042);
+}
+
+/* 팝업 */
+.popoverActive .coin-select {
+  z-index: 3000;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.popoverActive .coin-select > div {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.popoverActive .coin-select .popoverActive .coin-select .kiosk-page-nav {
+  margin-top: 60px;
+}
+
+.el-dialog__wrapper:before {
+  display: block;
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.popoverActive .el-dialog__wrapper:before {
+  display: block;
+  z-index: 2003;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.buy-coin,
+.sell-coin {
+  display: inline-block;
+}
+
+.popoverActive .buy-coin,
+.popoverActive .sell-coin {
+  position: absolute;
+  z-index: 2003;
+  border-radius: 30px;
+  border: solid 5px #5dcaf2;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.popoverActive .sell-coin {
+  right: 0;
+}
+
+.popoverActive .el-popover {
+  width: 100%;
+  border-radius: 50px;
+  background-color: #eaf1f5;
+}
+
+.popoverActive .coin-select > div > div > div ul > li {
+  margin: 10px 10px 0 0;
+}
+
+.popoverActive .coin-select > div > div > div:nth-of-type(2) {
+  margin-top: 60px;
+}
+
+/* 코인 재선택 버튼 */
+.coin-popover {
+  width: 100%;
+  height: 100%;
+}
+
+.coin-popover .el-button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  padding: 0 20px 0 40px;
+  border: none !important;
+}
+
+.coin-popover .el-button > span {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  box-sizing: border-box;
+}
+
+.coin-popover .el-button > span > span {
+  justify-items: center;
+  text-align: left;
+  display: block;
+  width: 190px;
+}
+
+.coin-popover .el-button .coin-cancle {
+  display: none;
+}
+
+.popoverActive .coin-popover .el-button .coin-cancel {
+  display: block;
+  width: 40px;
+}
+
+.coin-popover .el-popover .coin-popover .kiosk-page-nav {
+  margin: 0;
+}
+
+.kiosk-page-nav .paging-swiper {
+  height: 120px;
+}
+
+.kiosk-page-nav .paging-slide {
+  background: none;
+}
+
+.popoverActive .el-popper[x-placement^='bottom'] .popper__arrow {
+  display: block;
+  top: -40px !important;
+  border-width: 20px;
+}
+
+/* 환전 수량 버튼 */
+.exchange-quantity > .el-input-number {
+  display: flex;
+  width: 100%;
+  height: 90px;
+}
+
+.exchange-quantity > .el-input-number > span {
+  width: 64px;
+  height: 64px;
+  margin-top: 13px;
+  border-radius: 50%;
+}
+
+.exchange-quantity > .el-input-number > span > i {
+  width: 100%;
+  height: 100%;
+}
+
+.exchange-quantity .el-input-number span:nth-child(1) > i {
+  background: url('../../kiosk-img/plus-btn.svg') no-repeat 50% 50%;
+}
+
+.exchange-quantity .el-input-number span:nth-child(2) > i {
+  background: url('../../kiosk-img/minus-btn.svg') no-repeat 50% 50%;
+}
+
+.exchange-quantity > .el-input-number > span > i::before {
+  content: '';
+}
+
+.exchange-quantity .el-input-number .el-input {
+  width: 100%;
+  height: 100%;
+  padding: 0 15%;
+}
+
+.exchange-quantity .el-input-number .el-input__inner {
+  display: block;
+  width: 100%;
+  height: 100% !important;
+  border-radius: 25px !important;
+}

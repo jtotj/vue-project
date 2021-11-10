@@ -1,0 +1,1748 @@
+.page-direct-market .el-button--primary {
+  background-color: #0068c1 !important;
+  border: 1px solid #0068c1 !important;
+}
+
+.page-direct-market .btnWrap {
+  padding-top: 20px;
+  text-align: right;
+}
+
+.page-direct-market .deal-list .left-info {
+  padding-left: 0;
+}
+
+.page-direct-market .el-input.is-disabled .el-input__inner {
+  color: #606266;
+}
+
+/* overall 페이지*/
+.estimate-wrap {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  padding: 40px 30px;
+  color: #111;
+}
+
+.estimate-wrap .estimate-left {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.estimate-wrap .estimate-left .est-text-1 {
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.estimate-wrap .estimate-left .est-text-2 {
+  font-weight: bold;
+}
+
+.pending-wrap {
+  margin-top: 30px;
+}
+
+.pending-wrap .pending-tit a {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.pending-wrap .pending-tit a:hover {
+  text-decoration: underline;
+}
+
+.pending-wrap .pending-cont {
+  margin: 10px 0;
+}
+
+/* Your Advertisements 탭 내용 */
+
+.ads-wrap .ads-buy,
+.ads-wrap .ads-sell {
+  margin: 50px 0;
+}
+
+.ads-wrap .tit {
+  font-size: 20px;
+  color: #299d82;
+  position: relative;
+  padding-left: 35px;
+}
+
+.ads-wrap .tit:hover {
+  text-decoration: underline;
+}
+
+.ads-wrap .ads-cont {
+  margin: 20px 0;
+  padding-left: 30px;
+}
+
+.trades-cont .btn-wrap {
+  text-align: right;
+}
+
+.act-wrap .links {
+  position: relative;
+  margin-left: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.page-transfer-list .main-deal {
+  margin-top: 10px;
+}
+
+.el-message-box__wrapper .el-message-box {
+  width: 400px;
+  word-break: keep-all;
+}
+
+.el-message-box__wrapper .el-button {
+  background-color: #0068c1 !important;
+  border: 1px solid #0068c1 !important;
+}
+
+.dashboard .trades-wrap .trades-cont {
+  padding: 30px 28px;
+  background: rgb(38, 52, 60);
+  box-sizing: border-box;
+}
+
+.trades-wrap .trades-tit span {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.create-box {
+  text-align: right;
+}
+
+/* deposit-application 페이지 */
+.page-deposit-application .main {
+  height: calc((var(--vh, 1vh) * 100) - -20px);
+}
+
+.page-deposit-application .deposit-wrap .container {
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.page-deposit-application .deposit-wrap .container .el-button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+}
+
+.page-deposit-application .deposit-wrap .container .payment-section h4 {
+  text-align: left;
+  padding: 0 0 20px;
+}
+
+.page-deposit-application .deposit-wrap .container .offer-details {
+  background-color: white;
+  padding: 15px;
+}
+
+.page-deposit-application
+  .deposit-wrap
+  .container
+  .offer-details
+  .form-group
+  label {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 10px !important;
+  display: inline-block;
+}
+
+.page-deposit-application .deposit-wrap .container .text-right {
+  background-color: white;
+  padding: 15px;
+  display: none;
+}
+
+.page-deposit-application
+  .deposit-wrap
+  .container
+  .el-button
+  .offer-details
+  .required-img {
+  float: left;
+}
+
+.page-deposit-application
+  .deposit-wrap
+  .container
+  .el-button
+  .offer-details
+  .form-group
+  label {
+  float: left;
+}
+
+.page-deposit-application
+  .deposit-wrap
+  .container
+  .el-button
+  .offer-details
+  .form-group
+  span {
+  float: right;
+}
+
+.page-deposit-application
+  .deposit-wrap
+  .container
+  .el-button
+  .create-body
+  .form-group {
+  margin: 0;
+}
+
+.page-deposit-application .deposit-wrap .container .form-group .input-group {
+  margin: 0;
+}
+
+.page-deposit-application .deposit-wrap .container .form-group .form-control {
+  width: 100% !important;
+}
+
+.page-deposit-application .deposit-wrap .container .create-body .form-group {
+  margin: 0;
+}
+
+.page-deposit-application .deposit-wrap .coin-list-wrap .coin-list.selected {
+  border: none;
+}
+
+.page-deposit-application
+  .deposit-wrap
+  .container
+  .form-group
+  .input-group
+  .deal-info {
+  font-size: 10px;
+  color: #0068c1;
+  font-weight: 500;
+  text-align: left;
+}
+
+.page-deposit-application .deposit-wrap {
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
+
+.page-deposit-application .deposit-wrap .container {
+  padding: 5%;
+}
+
+.page-deposit-application
+  .deposit-wrap
+  .container
+  .form-group
+  .input-group
+  .form-control {
+  padding: 10px;
+  height: 40px;
+}
+
+.page-deposit-application .social-sharing {
+  padding: 10px 0;
+}
+
+.page-deposit-application .social-sharing label {
+  margin-right: 10px;
+}
+
+.page-deposit-application
+  .deposit-wrap
+  .container
+  .form-group
+  .container
+  button {
+  text-align: center;
+  display: block;
+  background-color: #0068c1;
+  font-size: 14px;
+  padding: 8px 15px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 20px !important;
+}
+
+.page-deposit-application .deposit-wrap .coin-list-wrap {
+  width: 100%;
+  overflow: hidden;
+  height: 120px;
+}
+
+.page-deposit-application .deposit-wrap .coin-list-wrap ul {
+  width: 100%;
+}
+
+.page-deposit-application .deposit-wrap .coin-list-wrap .coin-list {
+  background-color: white;
+  height: 100px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.page-deposit-application .deposit-wrap .coin-list-wrap .coin-list div {
+  height: 75px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
+}
+
+.page-deposit-application .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.page-deposit-application .unselected_info {
+  background-color: white;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* withdraw-application 페이지 */
+.page-withdrawal-application .withdraw-wrap .container {
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box;
+}
+
+.page-withdrawal-application .withdraw-wrap {
+  margin-top: 20px;
+  background-color: #f4f4f4;
+}
+
+.page-withdrawal-application .limitation-section h4 {
+  font-size: 16px;
+}
+
+.page-withdrawal-application .withdraw-wrap .container .el-button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .el-button
+  .offer-details
+  .required-img {
+  float: left;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .offer-details
+  .form-group
+  label {
+  float: left;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .offer-details
+  .offer-extra-fields
+  .form-group
+  label {
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .create-body
+  .form-group {
+  margin: 0;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .create-body
+  .form-group
+  .el-select {
+  margin: 0;
+  border: none;
+  height: 40px;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .form-group
+  .form-control {
+  width: 100% !important;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .form-group
+  .input-group
+  .deal-info {
+  font-size: 10px;
+  color: #0068c1;
+  font-weight: 500;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .form-group
+  .input-group
+  .form-control {
+  padding: 10px;
+  height: 40px;
+}
+
+.page-withdrawal-application .withdraw-wrap .container .form-group {
+  background: white;
+  padding: 15px;
+}
+
+.page-withdrawal-application .withdraw-wrap .container .payment-section {
+  background: white;
+  padding: 10px;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .payment-section
+  .offer-extra-fields
+  .form-group {
+  padding: 5px 0 0;
+}
+
+.page-withdrawal-application .withdraw-wrap .container .payment-section h4 {
+  float: left;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .form-group
+  .el-input__inner {
+  margin: 5px 0;
+  height: 40px !important;
+  font-size: 12px !important;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .form-group
+  .remi-colorized-field
+  .el-select {
+  height: 40px;
+  margin: 0;
+  border: none;
+}
+
+.page-withdrawal-application .social-sharing label {
+  margin-right: 10px;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .container
+  .form-group
+  .container
+  button {
+  text-align: center;
+  display: block;
+  background-color: #0068c1;
+  font-size: 14px;
+  padding: 8px 15px;
+  color: white;
+  margin: 0 auto;
+}
+
+.page-withdrawal-application .withdraw-wrap .coin-list-wrap {
+  width: 100%;
+  overflow: hidden;
+  height: 120px;
+}
+
+.page-withdrawal-application .withdraw-wrap .coin-list-wrap ul {
+  width: 100%;
+}
+
+.page-withdrawal-application .withdraw-wrap .coin-list-wrap .coin-list {
+  background-color: white;
+  height: 100px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.page-withdrawal-application
+  .withdraw-wrap
+  .coin-list-wrap
+  .coin-list.selected {
+  border: none;
+}
+
+.page-withdrawal-application .withdraw-wrap .coin-list-wrap .coin-list div {
+  height: 75px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: 50px;
+}
+
+.page-withdrawal-application .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.el-button,
+.el-radio-button__orig-radio:checked + .el-radio-button__inner,
+.el-input--suffix .el-input__inner,
+.el-radio-button:last-child .el-radio-button__inner,
+.el-input-group__append,
+.el-input-group__prepend {
+  border-radius: 0 !important;
+}
+
+.el-button--primary,
+.el-button--primary:hover {
+  background-color: #e82800 !important;
+  border-color: #e82800 !important;
+}
+
+.page-withdrawal-application .text-right {
+  padding: 0 15px 15px;
+  background: white;
+}
+
+.page-withdrawal-application .unselected_info {
+  background-color: white;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Withdraw-Detail 페이지 */
+.page-Withdraw-Detail .limitation-section h4 {
+  font-size: 16px;
+}
+
+.page-Withdraw-Detail .limitation-section label {
+  font-size: 12px;
+  margin: 2px 0;
+  display: block;
+}
+
+/* 체크박스 */
+.show-wrap {
+  margin: 24px 0;
+}
+
+/* left : swap 버튼의 2depth */
+.wallets-drop {
+  position: absolute;
+  top: 92px;
+  left: 132px;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  padding: 8px 0;
+  z-index: 1;
+}
+
+.wallets-drop li:hover {
+  background-color: #ebecf0;
+}
+
+.wallets-drop li.active {
+  background-color: #ebecf0;
+  border-left: 2px solid #9b59b6;
+}
+
+.wallets-drop li a {
+  display: block;
+  color: #49474a;
+  padding: 9px 16px;
+  line-height: 1.42857;
+  cursor: pointer;
+}
+
+/* right */
+.get-hide {
+  display: none;
+}
+
+.wallet-right .crypto-box {
+  padding: 72px;
+  border: 1px solid #ebecf0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  background: #fff;
+}
+
+.wallet-right .crypto-tit {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.wallet-right .crypto-sub {
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.wallet-right .crypto-sub span {
+  color: #9b59b6;
+}
+
+/* right :Swap BTC */
+.yet-margin {
+  margin-top: 50px;
+}
+
+.wallet-right .swap-box {
+  border: 1px solid #ebecf0;
+  padding: 24px 16px;
+}
+
+.wallet-right .swap-top .coin-item.select {
+  border: 1px solid #299d82;
+}
+
+.wallet-right .swap-top .coin-item {
+  display: inline-block;
+  position: relative;
+  border: 1px solid #d8d9de;
+  padding: 10px 10px 10px 38px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  cursor: pointer;
+  margin: 5px 15px 10px 0;
+}
+
+.wallet-right .swap-top .tit {
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.wallet-right .swap-mid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.wallet-right .swap-mid .mid-left {
+  width: 50%;
+  padding-right: 10px;
+  position: relative;
+}
+
+.wallet-right .swap-mid .mid-tit {
+  margin-bottom: 5px;
+}
+
+.wallet-right .swap-mid .mid-left .amount-input {
+  height: 41px;
+  width: 100%;
+  position: relative;
+  border: 1px solid #ebecf0;
+  background-color: #fbfbfc;
+  padding: 12px 97px 12px 18px;
+  box-sizing: border-box;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.wallet-right .swap-mid .mid-right .amount-input {
+  height: 41px;
+  width: 100%;
+  position: relative;
+  border: 1px solid #ebecf0;
+  background-color: #fbfbfc;
+  padding: 12px 50px 12px 18px;
+  box-sizing: border-box;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.wallet-right .swap-mid .mid-left .input-support {
+  position: absolute;
+  bottom: 5px;
+  right: 16px;
+}
+
+.wallet-right .swap-mid .mid-left .input-support .bit-amount {
+  color: #a29da5;
+  font-weight: 700;
+}
+
+.wallet-right .swap-mid .mid-right {
+  width: 50%;
+  padding-left: 10px;
+  position: relative;
+}
+
+.wallet-right .swap-mid .mid-right .input-support {
+  position: absolute;
+  bottom: 10px;
+  right: 7px;
+}
+
+.wallet-right .swap-mid .mid-right .input-support .bit-amount {
+  color: #a29da5;
+  font-weight: 700;
+}
+
+.wallet-right .swap-bot {
+  position: relative;
+  margin-top: 20px;
+}
+
+.wallet-right .swap-bot .msg-volati {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.16px;
+  font-weight: 400;
+  padding-left: 25px;
+}
+
+.swap-wrap .no-swap {
+  color: #bebebe;
+  text-align: center;
+  position: relative;
+  padding-left: 35px;
+}
+
+/* 모달 history  */
+.modal-hi-bg {
+  opacity: 0.5;
+  position: fixed;
+  overflow: hidden;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+}
+
+.modal-history .modal-content {
+  top: 5%;
+  max-width: 900px;
+  width: 100%;
+  background-color: #fff;
+  outline: 0;
+  color: #000;
+  margin: auto;
+  z-index: 100;
+  -webkit-transition: top 0.5s, box-shadow 0.5s;
+  -moz-transition: top 0.5s, box-shadow 0.5s;
+  transition: top 0.5s, box-shadow 0.5s;
+}
+
+.modal-history .modal-head {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  min-height: 16.42857px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.modal-history .modal-body {
+  margin: 15px 15px 20px 15px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.modal-history .modal-footer {
+  margin: 15px 15px 20px 15px;
+  background-color: #fff;
+  border: 1px solid #ebecf0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.modal-history .modal-footer .msg-no-deposite {
+  text-align: center;
+  padding: 15px;
+}
+
+.modal-history-hide {
+  display: none;
+}
+
+.modal-history-hide .modal-content {
+  top: -200%;
+}
+
+/* investment 페이지 */
+.inve-wrap {
+  margin-top: 50px;
+}
+
+.inve-wrap .inve-width {
+  width: 83.333%;
+  margin: 0 auto;
+}
+
+.inve-wrap .inve-list {
+  background: #fff;
+}
+
+.inve-wrap .inve-tit {
+  padding: 13px 36px;
+  border-bottom: 1px solid rgb(94, 108, 117);
+  border-top: 1px solid rgb(94, 108, 117);
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(38, 52, 60);
+  color: #fff;
+}
+
+.inve-wrap .inve-body {
+  padding: 0 30px;
+  color: rgb(94, 108, 117);
+  background: #f8f8f8;
+}
+
+.container-fluid .card-row {
+  line-height: 40px;
+  border-top: 1px solid #ddd;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.container-fluid .card-row:first-child {
+  border-top: none;
+}
+
+.container-fluid .card-row .action-btn .msg {
+  margin-right: 20px;
+}
+
+.container-fluid .p1-1 {
+  font-size: 16px;
+}
+
+/* referral-program 페이지 */
+.page-referral-program .main {
+  padding-bottom: 100px;
+}
+
+.ref {
+  margin-top: 50px;
+  color: #333;
+}
+
+.ref .ref-width {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.ref .ref-width::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 47%;
+  top: 42px;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: #dcdcdc;
+}
+
+.ref .ref-width h1::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  width: 14px;
+  height: 14px;
+  margin-left: -7px;
+  border-radius: 50%;
+  background: #dcdcdc;
+}
+
+.ref .ref-width h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 54%;
+  bottom: -52%;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: #dcdcdc;
+}
+
+.ref .ref-width h1 {
+  position: relative;
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 900;
+}
+
+.ref-width .ref-text {
+  margin-bottom: 25px;
+}
+
+.ref-width .link-box {
+  text-align: center;
+}
+
+.ref-width .link-box h5 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.ref-width .link-box .ref-link {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.ref-width .link-box p {
+  position: relative;
+}
+
+.ref-width .btn-wrap {
+  text-align: center;
+}
+
+.banner-wrap {
+  text-align: center;
+}
+
+.banner-wrap h5 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.banner-wrap .item {
+  display: flex;
+  border: 1px solid #ddd;
+}
+
+.banner-wrap .item-left {
+  width: 75%;
+  border-right: 1px solid #ddd;
+}
+
+.banner-wrap .item-left .banner-box {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.banner-wrap .item-left .size {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 10px 0 20px 0;
+}
+
+.banner-wrap .item-right {
+  width: 25%;
+  padding: 15px 8px 8px 8px;
+}
+
+.banner-wrap .item-right .code {
+  width: 93%;
+  height: 90%;
+  font-family: courier new;
+  font-size: 12px;
+  background-color: #eee;
+  padding: 12px 24px;
+  cursor: not-allowed;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.banner-wrap .item-right .code:active {
+  box-shadow: 0 0 24px rgba(14, 14, 14, 0.09);
+}
+
+/* ads-detail */
+.detail-wrap {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.account-head {
+  padding: 12px;
+  line-height: 28px;
+  border-bottom: 1px solid rgb(94, 108, 117);
+  color: #333;
+  background: #f8f8f8;
+  font-weight: 700;
+}
+
+.account-head .el-button {
+  background: none;
+  color: #111;
+  border: 1px solid #111;
+}
+
+.account-head .el-button:hover {
+  color: #111;
+  background: none;
+  border-color: rgb(19, 191, 153);
+  box-shadow: 0px 0px 20px rgb(19, 191, 153);
+}
+
+.account-box {
+  padding: 12px;
+  background: #fff;
+  color: #111;
+  border-bottom: 1px solid #ddd;
+  line-height: 28px;
+}
+
+.account-box .el-button {
+  background: none;
+  color: #111;
+  border: 1px solid #111;
+}
+
+.account-box .el-button:hover {
+  color: #111;
+  background: none;
+  border-color: rgb(19, 191, 153);
+  box-shadow: 0px 0px 20px rgb(19, 191, 153);
+}
+
+.offer-details h3 {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: bold;
+  letter-spacing: -0.07em;
+  margin: 20px 0;
+}
+
+.page-kyc .identity .offer-extra-fields {
+  padding-top: 20px;
+}
+
+/* 모달 eos 입금 */
+.eos-wrap p {
+  font-size: 16px;
+}
+
+.eos-wrap .bid-btn {
+  background-color: #0068c1;
+  color: white;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.eos-wrap .info-wrap {
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.eos-wrap .info-wrap h1 {
+  margin-top: 0;
+}
+
+.eos-wrap .step-wrap {
+  margin-bottom: 30px;
+}
+
+.eos-wrap .step-wrap .step-title {
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.eos-wrap .step-wrap .step-box {
+  border: 1px solid #eee;
+}
+
+.eos-wrap .step-wrap .step-box .id-box {
+  padding: 20px;
+}
+
+.eos-wrap .step-wrap .step-box .id-box .qr-code {
+  float: right;
+  margin-top: 0;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.eos-wrap .step-wrap .step-box .id-box .address-wrap {
+  border: 1px solid #eee;
+  width: 60%;
+  float: right;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.eos-wrap .step-wrap .step-box .id-box:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.eos-wrap .step-wrap .wallet-address-wrap {
+  padding: 0 20px;
+}
+
+.eos-wrap .step-wrap .wallet-address-wrap .wallet-address {
+  border-top: 1px solid #eee;
+  padding: 20px 0;
+}
+
+.eos-wrap .step-wrap .wallet-address-wrap .wallet-address:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.eos-wrap .step-wrap .wallet-address-wrap .wallet-address p {
+  width: 50%;
+  float: left;
+}
+
+.eos-wrap .step-wrap .step-box .id-copy-box {
+  padding: 20px;
+  background: #fafafa;
+  border-top: 1px solid #eee;
+}
+
+.eos-wrap .step-wrap .step-box .id-copy-box:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.eos-wrap .step-wrap .step-box .id-copy-box .id-copy-msg {
+  width: 60%;
+  float: left;
+}
+
+.eos-wrap .step-wrap .step-box .id-copy-box .id-copy-msg p {
+  margin-bottom: 10px;
+}
+
+.eos-wrap .step-wrap .step-box .id-copy-box .copy-btn-wrap {
+  width: 40%;
+  float: right;
+  text-align: right;
+}
+
+.eos-wrap .step-wrap .step-box .id-copy-box .copy-btn-wrap .copy-btn {
+  border: 1px solid #ccc;
+  width: 70%;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.eos-wrap .deposit-notice .notice-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.eos-wrap .deposit-notice .notice-list li {
+  list-style: disc;
+  line-height: 1.5;
+}
+
+/* 이체내역 상세 모달창 */
+.transfer-info-modal .el-dialog__body {
+  padding: 20px;
+}
+
+.transfer-info-modal .main {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.transfer-info-modal .main .loading {
+  height: 372px;
+}
+
+.transfer-info-modal .main .el-loading-mask {
+  height: 100%;
+}
+
+.transfer-info-modal .main .form-group {
+  margin-bottom: 0;
+}
+
+.transfer-info-modal .main .container {
+  width: 100%;
+}
+
+.transfer-info-modal .main .offer-extra-fields {
+  border-top: 1px solid black;
+}
+
+.page-account-transfer .big-tit {
+  float: none !important;
+  text-align: center !important;
+}
+
+.page-account-transfer .account-transfer-wrap,
+.pay-bank-account-transfer-list .account-transfer-wrap {
+  background-color: #fff;
+  width: 500px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.page-account-transfer .account-transfer-wrap .transfer-info-check {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  color: #0068c1;
+  font-weight: normal;
+}
+
+.page-account-transfer .account-transfer-wrap .form-group .btn-wrap {
+  padding-top: 10px;
+  text-align: right;
+}
+
+.page-account-transfer
+  .account-transfer-wrap
+  .form-group
+  .btn-wrap
+  .delete_btn {
+  color: #666;
+  border: none;
+  font-weight: normal;
+  background-color: #eee;
+}
+
+.page-account-transfer .account-transfer-wrap .form-group .btn-wrap .all_btn {
+  background-color: #65829a;
+  color: white;
+  border: none;
+}
+
+.page-account-transfer
+  .account-transfer-wrap
+  .form-group
+  .transfer-account-number
+  .el-input {
+  width: 100%;
+}
+
+.page-account-transfer .account-transfer-wrap .form-group label,
+.pay-bank-account-transfer-list .account-transfer-wrap .form-group label {
+  color: #333;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 22px;
+  display: block;
+}
+
+.page-account-transfer .account-transfer-wrap .form-group .btn {
+  background-color: #0068c1;
+  border-color: #0068c1;
+}
+
+.page-account-transfer .account-transfer-wrap .form-group .text-label {
+  border-color: #eee;
+}
+
+.page-account-transfer .account-transfer-wrap .click-img {
+  text-align: center;
+}
+
+.page-account-transfer .account-transfer-wrap .fail-img {
+  width: 70px;
+  margin: 0 auto;
+}
+
+.page-account-transfer .form-group .btn-go-back {
+  background-color: #eee;
+  border: 1px solid #eee;
+  padding: 12px 30px;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+/* 이체내역 상세 */
+.page-account-transfer-detail .offer-details,
+.pay-bank-account-transfer-list .offer-details {
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* 이체내역 상세 */
+
+@media (min-width: 1200px) {
+  .banner-wrap .item-left .banner-img {
+    max-width: 70%;
+  }
+
+  .ref-width .link-box .ref-link {
+    padding-right: 10%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* 모달 */
+  .modal-deposit .body-inner {
+    width: 55%;
+  }
+
+  .banner-wrap .item-left .banner-img {
+    max-width: 60%;
+  }
+
+  .ref-width .link-box .ref-link {
+    padding-right: 15%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .estimate-wrap {
+    display: block;
+    padding: 24px;
+  }
+
+  .estimate-wrap .estimate-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .wallet-box {
+    display: block;
+  }
+
+  .wallet-box .wallet-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .wallet-box .wallet-right {
+    width: 100%;
+  }
+
+  .wallet-right .crypto-box {
+    padding: 24px;
+  }
+
+  /* 모달 */
+  .modal-deposit .body-inner {
+    width: 100%;
+  }
+
+  .ref .ref-width {
+    width: 66.66667%;
+  }
+
+  .banner-wrap .item-left .banner-img {
+    max-width: 80%;
+  }
+
+  .ref-width .link-box .ref-link {
+    padding-right: 22%;
+  }
+
+  .banner-wrap .item-right .code {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-account-transfer .account-transfer-wrap,
+  .pay-bank-account-transfer-list .account-transfer-wrap {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .page-account-transfer .account-transfer-wrap .form-group .btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .page-account-transfer .account-transfer-wrap .form-group .el-input__inner {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .page-account-transfer .account-transfer-wrap .form-group .el-button {
+    width: 100%;
+    margin: 0;
+    display: block;
+  }
+
+  .page-account-transfer
+    .account-transfer-wrap
+    .form-group
+    .el-button
+    + .el-button {
+    margin: 10px 0 0 0;
+  }
+
+  .estimate-wrap {
+    display: block;
+    padding: 24px;
+  }
+
+  .estimate-wrap .estimate-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .trades-wrap .trades-cont {
+    margin-top: -4px;
+  }
+
+  .wallet-box {
+    display: block;
+  }
+
+  .wallet-box .wallet-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .wallet-box .wallet-right {
+    width: 100%;
+  }
+
+  .wallet-right .crypto-box {
+    padding: 24px;
+  }
+
+  .wallets-wrap {
+    margin-top: 20px;
+  }
+
+  .modal-Withdraw .modal-item .input-support {
+    right: 8px;
+  }
+
+  /* 모달 */
+  .modal-deposit .body-inner {
+    width: 100%;
+  }
+
+  .body-inner .top .copy-box .copy-add {
+    font-size: 14px;
+  }
+
+  .modal-Withdraw .body-inner {
+    padding: 10px 10px 10px 5px;
+  }
+
+  .modal-Withdraw .in-help {
+    font-size: 12px;
+    white-space: nowrap;
+    line-height: normal;
+    padding: 3px 5px;
+  }
+
+  .modal-Withdraw .modal-left {
+    max-width: 30%;
+    white-space: nowrap;
+    text-align: left;
+  }
+
+  .modal-Withdraw .modal-right {
+    width: 70%;
+    text-align: left;
+    padding: 0;
+  }
+
+  .wallet-right .swap-mid {
+    display: block;
+  }
+
+  .wallet-right .swap-mid .mid-left {
+    width: 100%;
+    padding: 0;
+  }
+
+  .wallet-right .swap-mid .mid-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .banner-wrap .item-left .banner-img {
+    max-width: 80%;
+  }
+
+  .ref .ref-width {
+    width: 100%;
+  }
+
+  .ref-width .ref-text {
+    text-align: center;
+  }
+
+  .banner-wrap {
+    display: none;
+  }
+
+  .eos-wrap .step-wrap .step-box .id-copy-box .copy-btn-wrap {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .eos-wrap .step-wrap .step-box .id-box .qr-code {
+    padding: 0;
+    border: none;
+  }
+
+  .eos-wrap .step-wrap .wallet-address-wrap {
+    padding: 0 10px;
+  }
+
+  /*이체내역*/
+  .page-account-transfer-list .search-button-wrap .reset-button,
+  .pay-bank-account-transfer-list .search-button-wrap .reset-button {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .page-account-transfer-list .main-deal .deal-list .deal-act {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .page-account-transfer-list .search-button-wrap .look-up-button,
+  .pay-bank-account-transfer-list .search-button-wrap .look-up-button {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .page-account-transfer-list .trades-wrap .img-wrap {
+    width: 100%;
+  }
+
+  .page-account-transfer-list .trades-wrap .container {
+    padding: 0 !important;
+  }
+
+  .page-account-transfer-list .search-wrap {
+    width: 100%;
+    padding: 0;
+  }
+
+  .page-account-transfer-list .search-wrap .search-box {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .page-account-transfer-list .search-wrap .big-arrow-wrap {
+    display: none;
+  }
+
+  .page-account-transfer-list .search-button-wrap {
+    box-sizing: border-box;
+  }
+
+  .page-account-transfer-list .search-button-wrap .reset-button {
+    margin-bottom: 10px;
+  }
+
+  .page-account-transfer-list .account-view-img,
+  .pay-bank-account-transfer-list .account-view-img {
+    width: 100%;
+  }
+
+  .page-account-transfer-list .account-view-img img,
+  .pay-bank-account-transfer-list .account-view-img img {
+    width: 100% !important;
+  }
+
+  .page-account-transfer-list .text-center span,
+  .pay-bank-account-transfer-list .text-center span {
+    word-break: keep-all;
+  }
+
+  .page-account-transfer-list .search-button-wrap .button span,
+  .pay-bank-account-transfer-list .search-button-wrap .button span {
+    text-align: center;
+  }
+
+  .page-account-transfer-list
+    .main-deal
+    .deal-list
+    .right-info
+    .tip-wrap.multiple
+    .help {
+    float: none;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .page-account-transfer-list
+    .main-deal
+    .deal-list
+    .right-info
+    .tip-wrap.multiple
+    .help
+    .act-wrap {
+    float: right;
+  }
+
+  .page-account-transfer-list .main-deal .deal-list .wrap .right-info {
+    float: none;
+  }
+
+  /* 이체내역 상세 */
+  .el-message-box__wrapper .el-message-box {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .page-account-transfer-list .deal-list .left-info ul {
+    width: 100%;
+  }
+
+  .page-account-transfer-list .deal-list .left-info .short-list li {
+    padding: 0 !important;
+    width: 100%;
+    border: none !important;
+    padding-bottom: 5px !important;
+  }
+
+  .page-account-transfer-list .deal-list .right-info {
+    width: 100%;
+  }
+
+  .page-account-transfer-list .deal-list .right-info .help {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .page-account-transfer-list
+    .main-deal
+    .deal-list
+    .right-info
+    .help
+    .act-wrap {
+    float: none !important;
+    text-align: center;
+  }
+
+  .page-account-transfer-list
+    .main-deal
+    .deal-list
+    .right-info
+    .help
+    .act-wrap
+    .links {
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px 20px;
+  }
+
+  .page-account-transfer-list
+    .main-deal
+    .deal-list
+    .right-info
+    .tip-wrap
+    .help
+    .bold {
+    margin: 0;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .page-account-transfer-list
+    .main-deal
+    .deal-list
+    .acco-content
+    .detail-list
+    li {
+    padding: 10px;
+  }
+
+  .page-account-transfer-list
+    .main-deal
+    .deal-list
+    .acco-content
+    .detail-list
+    li
+    > strong {
+    width: 100%;
+    padding: 0;
+    float: none;
+  }
+
+  .transfer-info-modal .main .loading {
+    height: 395px;
+  }
+}

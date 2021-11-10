@@ -1,0 +1,774 @@
+.btn {
+  background-color: white;
+  border: 1px solid #eee;
+  color: #333;
+  letter-spacing: 0.16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 8px 15px;
+  text-align: center;
+}
+
+.btn:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.btn-normal {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #056dae;
+  background: #056dae;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn-normal.submit {
+  line-height: 1;
+}
+
+.btn-normal.cancel {
+  height: auto;
+  line-height: 1;
+  padding: 11px 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.btn-now {
+  display: inline-block;
+  line-height: 16px;
+  padding: 10px;
+}
+
+.btn-now:hover {
+  background: #fff;
+  color: #333;
+}
+
+.btn-invite {
+  padding: 14px 16px;
+}
+
+.btn-ad {
+  padding: 12px 18px;
+  display: inline-block;
+}
+
+.btn-commission {
+  font-size: 13px;
+  color: #fff;
+  padding: 8px 6px;
+  margin-left: 30px;
+}
+
+.btn-xrp {
+  width: 100%;
+  padding: 15px;
+}
+
+.btn-percent:last-child {
+  margin-right: 0;
+}
+
+.btn-get {
+  padding: 16px 24px;
+  display: inline-block;
+}
+
+.btn-percent {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  display: block;
+  border-radius: 0;
+  background-color: #d1d1d1;
+  color: #49474a;
+  cursor: pointer;
+  margin: 5px 5px 0 0;
+}
+
+.btn-percent:hover {
+  background-color: #ebebeb;
+}
+
+.btn-xrp:active,
+.btn-xrp:focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+  font-size: 14px;
+}
+
+.btn-invest {
+  color: #111;
+  border: 1px solid;
+  padding: 7px 22px;
+  border-radius: 0;
+}
+
+.btn-io {
+  padding: 12px 28px;
+  text-align: center;
+}
+
+.btn-create {
+  display: inline-block;
+}
+
+.btn-deposit {
+  padding: 8px 16px;
+  font-size: 14px;
+  letter-spacing: 0.14px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.btn-swap {
+  background: #5e5862;
+  padding: 7px 15px;
+}
+
+.btn-one {
+  background-color: #ebecf0;
+  height: 34px;
+  padding: 7px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.14px;
+  font-weight: 400;
+}
+
+.btn-cryto-buy {
+  padding: 11px 68px;
+  margin-right: 20px;
+}
+
+.btn-cryto-sell {
+  padding: 11px 68px;
+}
+
+.btn-ref {
+  background-color: #1ab394;
+  padding: 15px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.btn-yes {
+  padding: 11px 15px;
+  background: #ebecf0;
+  color: #49474a;
+}
+
+.btn-no {
+  padding: 11px 15px;
+  background-color: #804399;
+}
+
+.btn-enable {
+  background-color: #9b59b6;
+}
+
+.btn-fa {
+  color: #fff;
+  background-color: #3b5998;
+  border: 1px solid #3b5998;
+  transition: all 0.2s ease;
+  padding: 22px 15px;
+}
+
+.btn-tw {
+  color: #fff;
+  background-color: #55acee;
+  border: 1px solid #55acee;
+  transition: all 0.2s ease;
+  border-color: rgba(0, 0, 0, 0.2);
+  padding: 22px 15px;
+}
+
+.btn-update {
+  background-color: #9b59b6;
+  padding: 15px;
+}
+
+.btn-api {
+  background-color: #9b59b6;
+  padding: 15px;
+}
+
+.btn-account {
+  background: #e65656;
+  padding: 15px;
+}
+
+.btn-phone[disabled] {
+  border-color: transparent;
+  background-color: #dcdada;
+  color: #8c8c8c;
+  cursor: not-allowed;
+  padding: 11px 16px;
+}
+
+.btn-phone {
+  background-color: #9b59b6;
+  padding: 11px 16px;
+}
+
+.btn-close {
+  padding: 11px 15px;
+  color: #333;
+  background: #ebecf0;
+}
+
+.btn-cancel {
+  background-color: #9b59b6;
+  padding: 15px;
+}
+
+.btn-x {
+  background-color: #e65656;
+  padding: 15px;
+}
+
+.btn-hide {
+  background: #eada77;
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+.btn-hide span {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-document {
+  color: #fff;
+  background-color: #9b59b6;
+  border: 0.1rem solid #9b59b6;
+  padding: 11px 15px;
+}
+
+.btn-authe {
+  color: #fff;
+  background-color: #9b59b6;
+  border: 0.1rem solid #9b59b6;
+  padding: 15px;
+}
+
+.btn-anfec {
+  background-color: #ebecf0;
+  border-color: #ebecf0;
+  padding: 17px;
+  color: #333;
+  margin-left: 20px;
+}
+
+.btn-back {
+  width: 48%;
+  color: #4d4d4d;
+  border: 1px solid #dfdfe3;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.btn-open {
+  width: 48%;
+  padding: 15px;
+  color: #fff;
+  background-color: rgb(19, 191, 153);
+}
+
+.btn-add {
+  height: 32px;
+  padding: 7px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.14px;
+  font-weight: 400;
+  color: #49474a;
+  background: #ebecf0;
+}
+
+.btn-hi-de,
+.btn-hi-tr,
+.btn-hi-wi {
+  background-color: #ebecf0;
+  color: #49474a;
+  padding: 15px;
+  font-weight: 400;
+}
+
+.btn-hi-de.select,
+.btn-hi-tr.select,
+.btn-hi-wi.select {
+  background: #9b59b6;
+  color: #fff;
+}
+
+.btn-max {
+  background-color: #5e5862;
+  font-size: 14px;
+  padding: 7px;
+  margin-left: 8px;
+}
+
+.btn-submit {
+  padding: 15px;
+  background: #ebecf0;
+  color: #49474a;
+}
+
+.btn-volati {
+  width: 100%;
+  color: #fff;
+  display: block;
+  background-color: #9b59b6;
+  border: 0.1rem solid #9b59b6;
+  padding: 11px 15px;
+  margin-top: 20px;
+}
+
+.btn-ins {
+  display: inline-block;
+  background-color: #9b59b6;
+  padding: 15px;
+}
+
+.btn-par {
+  background-color: #9b59b6;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* 위치 박스 */
+.center-box {
+  text-align: center;
+}
+
+.left-box {
+  text-align: left;
+}
+
+.right-box {
+  text-align: right;
+}
+
+/* disabled */
+.btn-volati:disabled,
+.btn-open:disabled,
+.btn-authe:disabled,
+.btn-document:disabled {
+  border-color: transparent;
+  background-color: #bebebe;
+  color: #8c8c8c;
+  cursor: not-allowed;
+}
+
+/* disabled:hover */
+.btn-volati:disabled:hover,
+.btn-open:disabled:hover,
+.btn-document:disabled:hover {
+  border-color: transparent;
+  background-color: #bebebe;
+  color: #8c8c8c;
+  cursor: not-allowed;
+}
+
+/* 네이비 호버 */
+.btn-fa:hover {
+  color: #fff;
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+/* 하늘색 호버 */
+.btn-tw:hover {
+  color: #fff;
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+/* 보라색 호버 */
+.btn-par:hover,
+.btn-ins:hover,
+.btn-volati:hover,
+.btn-document:hover,
+.btn-cancel:hover,
+.btn-api:hover,
+.btn-enable:hover {
+  color: #fff;
+  background-color: #804399;
+  border-color: #804399;
+}
+
+.btn-update:hover,
+.btn-no:hover,
+.btn-ref:hover,
+.btn-deposit:hover,
+.btn-create:hover,
+.btn-io:hover,
+.btn-get:hover {
+  color: #fff;
+  background-color: #179d82;
+  border-color: #179d82;
+}
+
+/* 초록색 호버 */
+.btn-cryto-buy:enabled:hover {
+  color: #fff;
+  background-color: #26957b;
+  border-color: #26957b;
+}
+
+/* 빨간색 호버 */
+.btn-x:hover,
+.btn-account:hover,
+.btn-block:hover,
+.btn-cryto-sell:enabled:hover {
+  color: #fff;
+  background-color: #da5151;
+  border-color: #da5151;
+}
+
+/* 흰색 호버 */
+.btn-submit:hover,
+.btn-hi-withdrawal,
+.btn-hi-trans,
+.btn-one:hover,
+.btn-add:hover,
+.modal-deposit .body-inner .top .copy-box .copy-svg-box:hover {
+  color: #49474a;
+  background-color: #dfdfe3;
+  border-color: #dfdfe3;
+  animation-timing-function: ease-out;
+}
+
+.btn-invest:hover {
+  box-shadow: 0px 0px 20px #e8e8e8;
+}
+
+.btn-yes:hover {
+  color: #49474a;
+  background-color: #dfdfe3;
+  border-color: #dfdfe3;
+}
+
+.btn-change {
+  cursor: pointer;
+  color: #8f4bab;
+}
+
+.btn-teritary {
+  color: #333;
+}
+
+.btn-text-light {
+  background-color: #fff;
+  transition: all 0.2s ease;
+  color: #655d6a;
+  border: 1px solid #e8e8e8;
+  border-radius: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-text-light:hover {
+  color: #655d6a;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-change:hover {
+  text-decoration: underline;
+}
+
+.btn-default {
+  color: #49474a;
+  background-color: #ebecf0;
+  border: 0.1rem solid #ebecf0;
+}
+
+a.btn-default {
+  display: inline-block;
+  font-weight: normal;
+  margin-right: 5px;
+}
+
+a.disabled {
+  border-color: transparent;
+  background-color: #bebebe;
+  color: #8c8c8c;
+  cursor: not-allowed;
+}
+
+@media (min-width: 1200px) {
+  .btn-create {
+    padding: 15px 16px;
+  }
+
+  .btn-block {
+    padding: 15px 16px;
+  }
+
+  .btn-enable {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btn-create {
+    padding: 11px 16px;
+  }
+
+  .btn-block {
+    padding: 11px 15px;
+  }
+
+  .btn-enable {
+    padding: 11px 15px;
+  }
+
+  .btn-api {
+    padding: 11px 15px;
+  }
+
+  .btn-account {
+    padding: 11px 15px;
+  }
+
+  .btn-cancel {
+    padding: 11px 15px;
+  }
+
+  .btn-x {
+    padding: 11px 15px;
+  }
+
+  .btn-open {
+    padding: 10px 16px;
+  }
+
+  .btn-back {
+    padding: 10px 16px;
+  }
+
+  .btn-cryto-sell,
+  .btn-cryto-buy {
+    padding: 11px 57px;
+  }
+
+  .btn-par {
+    padding: 11px 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .btn-cryto-sell,
+  .btn-cryto-buy {
+    padding: 11px 93px;
+  }
+
+  .learn-box .btn-learn,
+  .login-box .btn-login {
+    padding: 12px 16px;
+  }
+
+  .btn-xrp {
+    padding: 11px;
+  }
+
+  .btn-io {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .btn-create {
+    padding: 11px 16px;
+  }
+
+  .btn-ref {
+    padding: 11px 16px;
+  }
+
+  .btn-block {
+    padding: 15px 16px;
+  }
+
+  .btn-enable {
+    padding: 11px 15px;
+  }
+
+  .btn-api {
+    padding: 11px 15px;
+  }
+
+  .btn-account {
+    padding: 11px 15px;
+  }
+
+  .btn-cancel {
+    padding: 11px 15px;
+  }
+
+  .btn-submit {
+    padding: 11px 15px;
+  }
+
+  .btn-x {
+    padding: 11px 15px;
+  }
+
+  .btn-open {
+    padding: 10px 16px;
+  }
+
+  .btn-back {
+    padding: 10px 16px;
+  }
+
+  .btn-par {
+    padding: 11px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-cryto-sell,
+  .btn-cryto-buy {
+    padding: 11px 109px;
+  }
+
+  .learn-box .btn-learn,
+  .login-box .btn-login {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .btn-xrp {
+    padding: 7px;
+  }
+
+  .btn-io {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .btn-create {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .btn-ref {
+    padding: 8px 7px;
+    font-size: 14px;
+  }
+
+  .btn-block {
+    padding: 7px;
+    font-size: 14px;
+  }
+
+  .btn-enable {
+    padding: 7px;
+    font-size: 14px;
+  }
+
+  .btn-fa {
+    font-size: 13px;
+    padding: 16px 10px;
+  }
+
+  .btn-tw {
+    font-size: 14px;
+    padding: 16px 10px;
+  }
+
+  .btn-update {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-api {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-account {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-phone {
+    font-size: 14px;
+    padding: 9px 10px;
+  }
+
+  .btn-close {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-cancel {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-x {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-document {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-open {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-back {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-submit {
+    font-size: 14px;
+    padding: 7px;
+  }
+
+  .btn-par {
+    font-size: 14px;
+    padding: 7px;
+  }
+}
+
+@media (max-width: 616px) {
+  .btn-cryto-sell,
+  .btn-cryto-buy {
+    padding: 11px 59px;
+  }
+
+  .btn-ins {
+    padding: 7px;
+    font-size: 14px;
+  }
+
+  .btn-invest {
+    padding: 5px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,1013 @@
+@media (max-width: 768px) {
+  #mobile {
+    width: 100%;
+    overflow: hidden;
+
+    /******************************************   */
+
+    /*** 공통요소 및 주문 ************************/
+
+    /******************************************   */
+
+    /* ===========================================================================
+      b2c-m-chart 차트
+    ============================================================================ */
+    .marketPrice {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      padding: 10px 5px;
+      margin: 0;
+      background: #fff;
+      .col {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+      }
+      dl {
+        margin: 0;
+        dt {
+          padding-left: 8px;
+          margin-right: 5px;
+          font-size: 13px;
+        }
+        dd {
+          display: inline-block;
+        }
+        .marketSubSelect {
+          padding: 0 10px;
+        }
+      }
+      .studyButtonArea {
+        text-align: center;
+        .studyButton {
+          min-width: 200px;
+          color: #fff;
+          text-align: center;
+          cursor: pointer;
+          background: #999;
+          border: none;
+          border-radius: 2px;
+          transition: 0.16s;
+        }
+      }
+    }
+
+    /* 보조지표 */
+    .chartBtnWrap {
+      justify-content: flex-start;
+      width: 100%;
+    }
+
+    /* 차트 내역 */
+    .chart {
+      position: relative;
+      width: 100%;
+      height: calc(100vh - 266px);
+    }
+
+    /* 코인 이름 */
+    .coinName {
+      padding: 0;
+      .nameArea {
+        float: initial;
+        width: 100%;
+        height: 75px;
+        padding: 15px 16px;
+        .marketPriceArea {
+          width: 50%;
+          height: 100%;
+          h2 {
+            float: none;
+            font-size: 21px;
+            line-height: 26px;
+            color: #52b370;
+            letter-spacing: normal;
+          }
+          .percentage {
+            padding: 0 4px;
+            margin: 6px 0 0 10px;
+            font-size: 11px;
+            font-weight: 300;
+            line-height: 15px;
+            border-radius: 0;
+          }
+          .yesterdayPoint {
+            margin-top: 8px;
+            span {
+              font-size: 11px;
+              line-height: 15px;
+              img {
+                width: 12px;
+                vertical-align: unset;
+              }
+            }
+          }
+        }
+        .coinSearchArea {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          width: 50%;
+          margin-top: 2px;
+          // padding-left: 40px;
+          p {
+            align-self: flex-start;
+            margin-top: 3px;
+            img {
+              width: 16px;
+              vertical-align: text-top;
+            }
+          }
+          .hArea {
+            h3 {
+              display: block;
+              // float: initial;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: -0.64px;
+            }
+            span {
+              display: block;
+              margin-top: 2px;
+              margin-left: 0;
+              font-size: 12px;
+              // margin-left: 22px;
+              line-height: 17px;
+              letter-spacing: normal;
+            }
+          }
+          .searchCoin {
+            width: 36px;
+            height: 36px;
+            margin-top: 4px;
+            cursor: pointer;
+            background-color: #fff;
+            border: solid 1px #f2f2f8;
+            border-radius: 50px;
+            img {
+              width: 16px;
+              margin: 10px;
+            }
+          }
+        }
+      }
+    }
+
+    /* //코인 이름 */
+
+    /* 슬라이드 */
+    .mobileSlide {
+      height: 42px;
+      padding-top: 0;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      .coinArea {
+        .coinAreaSection {
+          a {
+            display: inline-block;
+            padding: 10px 25px;
+            line-height: 22px;
+            text-align: center;
+          }
+        }
+        .coinAreaSection:last-child {
+          // width: 102px !important;
+        }
+      }
+      a {
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 42px;
+        color: #999;
+        &:hover {
+          color: #0068c1;
+        }
+        &.active {
+          position: relative;
+          font-weight: bold;
+          color: #0068c1;
+          &::after {
+            position: absolute;
+            bottom: 5px;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            content: '';
+            background-color: #0068c1;
+            border-radius: 50%;
+            transform: translateX(-50%);
+          }
+        }
+      }
+    }
+
+    /* //슬라이드 */
+
+    /* 주문창 */
+    .orderArea {
+      width: 100%;
+      // height: calc(100vh - 170px);
+      height: auto;
+      padding-top: 0;
+      overflow: hidden;
+      background: #eee;
+
+      /* 왼쪽 테이블/차트 창 */
+      .quoteArea {
+        width: 40%;
+        height: 564px;
+        border-right: 1px solid #eee;
+        .quoteUpArea,
+        .quoteDownArea {
+          height: auto;
+          margin-top: 0;
+          .quoteDownGraph {
+            width: 100%;
+            height: auto;
+            border: 0;
+            li {
+              height: 27px;
+              .rightArea {
+                width: 60%;
+                height: 100%;
+                padding: 5px 0 0 30px;
+                background: none;
+                p {
+                  font-size: 12px;
+                  font-weight: normal;
+                  line-height: 17px;
+                }
+              }
+              .leftArea {
+                width: 40%;
+                height: 100%;
+                padding: 0 10px;
+                .box {
+                  top: 4px;
+                  width: 20px;
+                  height: 17px;
+                  background: none;
+                }
+                p {
+                  left: 10px;
+                  font-size: 11px;
+                  font-weight: normal;
+                  line-height: 27px;
+                  color: #222;
+                }
+              }
+            }
+          }
+        }
+      }
+      // .buyArea {
+      //   width: 60%;
+      //   height: 100%;
+      .buying {
+        width: 60%;
+        height: 564px;
+        margin: 0;
+        .heldAssetsArea {
+          height: initial;
+          padding: 16px 16px 0 16px !important;
+          background: none;
+          input {
+            text-align: left;
+            border: 1px solid #0068c1 !important;
+          }
+          .assest {
+            margin-top: 10px;
+            strong {
+              font-size: 14px;
+              font-style: normal;
+              font-weight: bold;
+              font-stretch: normal;
+              line-height: 1.36;
+              color: #222;
+              text-align: right;
+              letter-spacing: normal;
+            }
+            span {
+              margin-left: 5px;
+              font-size: 12px;
+              font-weight: 300;
+              line-height: 18px;
+              color: #222;
+            }
+          }
+        }
+        .priceArea {
+          padding: 0 16px 10px 16px;
+          .priceOption {
+            width: 59px;
+            height: 27px;
+          }
+          li:nth-of-type(1) {
+            margin-bottom: 0;
+          }
+          li:nth-of-type(2) {
+            margin-bottom: 5px;
+          }
+          li:nth-of-type(3) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5px;
+            border: 1px solid #eee;
+            border-radius: 2px;
+            p {
+              margin-left: 5px;
+            }
+            .selectBox {
+              width: 80%;
+            }
+          }
+          li:nth-of-type(4) {
+            ul:nth-of-type(1) {
+              display: flex;
+              justify-content: space-between;
+              height: 34px;
+              padding: 0 10px;
+              margin-bottom: 15px;
+              border: 1px solid #eee;
+              border-radius: 2px;
+              li:last-child {
+                width: 100% !important;
+              }
+              li {
+                input {
+                  width: 98%;
+                  padding-left: 10px !important;
+                  text-align: right;
+                  border: 0 !important;
+                }
+              }
+            }
+            ul:nth-of-type(2) {
+              display: flex;
+              justify-content: space-between;
+              height: 30px;
+              margin-right: -5px;
+              li {
+                display: flex;
+                flex: 1;
+                justify-content: center;
+                width: calc(25% - 5px);
+                height: 100%;
+                padding: 0;
+                margin-right: 5px;
+                border: 0;
+                button {
+                  width: 100%;
+                  height: 100%;
+                  font-size: 12px;
+                  line-height: 1;
+                  color: #999;
+                  border: 1px solid #eee;
+                  border-radius: 2px;
+                }
+              }
+              li:last-child {
+                button {
+                  padding-left: 8px !important;
+                }
+              }
+            }
+          }
+          li.line {
+            margin-bottom: 10px;
+          }
+          li:nth-of-type(6) {
+            margin-bottom: 0 !important;
+          }
+          li {
+            position: relative;
+            margin-bottom: 15px;
+            &.sortationInput {
+              input {
+                height: initial !important;
+                padding: 0 !important;
+                padding-right: 18px !important;
+                line-height: initial !important;
+                border: 0 !important;
+                &::placeholder {
+                  font-size: 11px !important;
+                  font-weight: 300 !important;
+                  color: #222 !important;
+                  text-align: left !important;
+                }
+              }
+              // .selectBox {
+              //   float: left;
+              //   width: 50px;
+              //   i {
+              //     width: 8px;
+              //     font-size: 0;
+              //     line-height: 18px;
+              //     background: url('@assets/img/b2c/activeBottomArrow_m.png')
+              //         no-repeat 50%,
+              //       50%;
+              //     background-size: 100%;
+              //     transform: rotate(0);
+              //   }
+              // }
+            }
+            &.orderPriceLi {
+              border: 1px solid #eee !important;
+            }
+          }
+          .textBox {
+            &.absoluteP {
+              position: absolute;
+              top: 10px;
+              left: 10px;
+              z-index: 1;
+            }
+            p {
+              font-size: 11px;
+              font-weight: 300;
+              line-height: 34px;
+              color: #666;
+            }
+          }
+          .selectBox {
+            width: auto;
+            p {
+              font-size: 12px;
+              font-weight: 300;
+              line-height: 34px;
+              letter-spacing: normal;
+              strong {
+                margin-right: 10px;
+                font-size: 14px;
+                font-weight: bold;
+              }
+            }
+          }
+          .buttonBox {
+            display: flex;
+            button {
+              flex: 1;
+              height: 40px;
+              font-size: 14px;
+              font-weight: normal;
+              line-height: 1;
+            }
+          }
+          // .selectNumber {
+          //   width: 100%;
+          //   ul {
+          //     li {
+          //       width: 23%;
+          //       height: 30px;
+          //       margin: 15px 2% 0 0;
+          //       color: #999;
+          //       background-color: #fff;
+          //       border-radius: 2px;
+          //       button {
+          //         box-sizing: border-box;
+          //         width: 100%;
+          //         padding: 0;
+          //         font-size: 12px;
+          //         font-weight: 300;
+          //         line-height: 28px;
+          //         color: #999;
+          //         border: solid 1px #eee;
+          //         &:active {
+          //           border: 1px solid #0068c1;
+          //         }
+          //       }
+          //       &:last-child {
+          //         margin-right: 0%;
+          //       }
+          //     }
+          //   }
+          // }
+          form {
+            margin-bottom: 26px;
+            button {
+              width: 48%;
+              padding: 10px 0;
+              font-family: Noto Sans KR;
+              font-size: 14px;
+              font-weight: normal;
+              line-height: 1;
+              color: #fff;
+              &:last-child {
+                margin-left: 4%;
+              }
+            }
+          }
+          .commission {
+            padding: 5px;
+            margin-bottom: 15px;
+            background: #f2f2f8;
+            .textBox {
+              display: inline-block;
+              float: initial;
+              p {
+                line-height: 22px !important;
+              }
+            }
+            .selectBox {
+              width: 50%;
+              p {
+                font-size: 11px !important;
+                font-weight: 300 !important;
+                line-height: 22px !important;
+                color: #999 !important;
+                strong {
+                  font-size: 11px !important;
+                  font-weight: normal !important;
+                  color: #999 !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* //주문창 */
+
+    /******************************************   */
+
+    /*** 호가 페이지 ****************************/
+
+    /******************************************   */
+    &.mobilequote {
+      height: calc(100vh - 50px);
+      section {
+        padding-top: 0;
+      }
+      .quote {
+        width: 100%;
+        height: initial;
+        .title {
+          display: none;
+        }
+        .quoteArea {
+          width: 100%;
+          height: calc(100vh - 170px);
+          padding: 0;
+          .quoteUpArea {
+            .quoteUpGraph {
+              width: 65%;
+              height: auto;
+              border: 0;
+              li {
+                height: 27px;
+                border: 0;
+                .leftArea {
+                  width: 40%;
+                  padding: 0 10px;
+                  p {
+                    right: 10px;
+                    font-size: 12px;
+                    line-height: 27px;
+                  }
+                  .box {
+                    top: 5px;
+                    width: 22px;
+                    height: 17px;
+                  }
+                }
+                .rightArea {
+                  width: 60%;
+                  padding: 0 10px;
+                  p {
+                    font-size: 11px;
+                    font-weight: 300;
+                    line-height: 27px;
+                    color: #52b370;
+                  }
+                }
+              }
+            }
+            .quoteIInfoTop {
+              width: 35%;
+              height: auto;
+              margin: 0;
+              .quoteInfoBox {
+                padding: 5px;
+                background-color: #f2f2f8;
+                border: 0;
+                li {
+                  margin-bottom: 5px;
+                  div {
+                    font-size: 10px;
+                    font-weight: 100;
+                    line-height: 13px;
+                    color: #666;
+                    p {
+                      font-size: 10px;
+                      font-weight: 100;
+                      line-height: 13px;
+                      color: #666;
+                      &.noSpace {
+                        font-size: 11px;
+                      }
+                    }
+                    strong {
+                      font-size: 11px;
+                      font-weight: normal;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .quoteDownArea {
+            height: auto;
+            .quoteInfoBottom {
+              width: 35%;
+              height: auto;
+              margin: 0;
+              background-color: #f2f2f8;
+              table {
+                margin-top: 0;
+                border: 0;
+                thead {
+                  tr {
+                    th {
+                      padding: 5px;
+                      font-weight: 300;
+                      color: #222;
+                      p {
+                        padding: 0;
+                        line-height: 15px;
+                      }
+                    }
+                    &:first-child {
+                      p {
+                        font-size: 10px;
+                        font-weight: 100;
+                        color: #222;
+                      }
+                    }
+                    &:last-child {
+                      th {
+                        font-size: 11px;
+                      }
+                      p {
+                        font-size: 11px;
+                        font-weight: normal;
+                        color: #222;
+                      }
+                    }
+                  }
+                }
+                tbody {
+                  tr {
+                    border: 0;
+                    td {
+                      padding: 5px;
+                      p {
+                        font-size: 11px;
+                        font-weight: normal;
+                        color: #222;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .quoteDownGraph {
+              width: 65%;
+              height: auto;
+              border: 0;
+              li {
+                height: 27px;
+                border: 0;
+                .rightArea {
+                  width: 60%;
+                  padding: 0 10px;
+                  p {
+                    font-size: 11px;
+                    font-weight: 300;
+                    line-height: 27px;
+                  }
+                }
+                .leftArea {
+                  width: 40%;
+                  height: 27px;
+                  padding: 0 10px;
+                  p {
+                    left: 10px;
+                    font-size: 12px;
+                    font-weight: normal;
+                    line-height: 27px;
+                    color: #222;
+                  }
+                  .box {
+                    top: 5px;
+                    width: 22px;
+                    height: 17px;
+                  }
+                }
+              }
+            }
+          }
+          .up,
+          .down {
+            height: auto;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .alertArea {
+      width: 100%;
+      .quoteUpGraphOpacity {
+        width: 100%;
+      }
+    }
+    .blueAlert {
+      right: initial;
+      left: 0;
+      z-index: 100;
+    }
+
+    /******************************************   */
+
+    /*** 차트 페이지 ****************************/
+
+    /******************************************   */
+    &.mobileChart {
+      .coinName {
+        padding-top: 0;
+        border-bottom: 1px solid #eee;
+        .totalArea {
+          width: 100% !important;
+          ul {
+            width: 50%;
+            padding: 15px;
+            li {
+              span {
+                display: inline-block;
+                font-size: 11px;
+                font-weight: 100;
+                line-height: 19px;
+                letter-spacing: -0.44px;
+              }
+              span:last-child {
+                font-weight: normal;
+                letter-spacing: normal;
+              }
+              &:nth-child(2) {
+                margin: 5px 0;
+              }
+            }
+            &.priceBox {
+              &::after {
+                top: 64%;
+                right: 0;
+                height: 50px;
+                transform: translateY(-50%);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /* 차트 내역 */
+    .chartArea {
+      position: relative;
+      width: 100%;
+      height: calc(100vh - 251px);
+      padding-top: 0;
+      background: #ffc0cb;
+      h5 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    /* //차트 */
+
+    /******************************************   */
+
+    /*** 시세 페이지 ****************************/
+
+    /******************************************   */
+    &.mobilePrice {
+      height: calc(100vh - 50px);
+      .conclusion {
+        width: 100%;
+        height: calc(100vh - 200px);
+        margin: 0;
+        .conclusionTable {
+          thead {
+            tr {
+              background-color: #f2f2f8;
+              th {
+                padding: 5px 0;
+                font-size: 12px;
+                font-weight: normal;
+                line-height: 18px;
+              }
+            }
+          }
+          tbody {
+            tr {
+              td {
+                padding: 5px 0;
+                font-size: 12px;
+                line-height: 18px;
+              }
+              &:nth-child(2n) {
+                background-color: #f2f2f8;
+              }
+            }
+          }
+        }
+        .tableScrollY {
+          height: 100%;
+        }
+      }
+    }
+
+    /******************************************   */
+
+    /*** 주문내역 ****************************/
+
+    /******************************************   */
+    &.mobileOrderDetail {
+      height: calc(100vh - 50px);
+      .orderDate {
+        width: 100%;
+        height: calc(100vh - 224px);
+        margin: 0;
+        .orderTable {
+          thead {
+            tr {
+              background-color: #f2f2f8;
+              th {
+                padding: 0;
+                font-size: 11px;
+                font-weight: normal;
+                line-height: 27px;
+                letter-spacing: -0.44px;
+                strong {
+                  font-size: 11px;
+                  font-weight: 500;
+                  letter-spacing: -0.44px;
+                }
+              }
+              th:nth-child(5)::after {
+                display: none;
+              }
+              th:nth-child(3),
+              th:nth-child(4),
+              th:nth-child(5) {
+                border-bottom: 1px solid #ddd;
+              }
+            }
+            tr:last-child {
+              th {
+                border: 0;
+              }
+            }
+          }
+          tbody {
+            tr {
+              td {
+                font-size: 12px;
+                line-height: 14px;
+              }
+            }
+          }
+        }
+        .tableScrollY {
+          height: 100%;
+        }
+      }
+    }
+
+    /* 팝업 */
+    .searchArrow {
+      // float: right;
+      padding: 0 !important;
+      margin-left: 10px;
+      border: 0 !important;
+      span {
+        margin-left: 0 !important;
+      }
+    }
+  }
+
+  /* 여기까지 공통 닫는 태그 */
+}
+
+@media (max-width: 370px) {
+  #mobile {
+    /* ===========================================================================
+    공통요소 및 주문
+  ============================================================================ */
+    // .mobileSlide {
+    //   height: 38px;
+    //   a {
+    //     line-height: 38px;
+    //   }
+    // }
+
+    /* 코인 이름 */
+    .coinName {
+      .totalArea {
+        ul {
+          padding: 8px !important;
+        }
+      }
+      .nameArea {
+        // height: 66px;
+        // padding: 8px 16px;
+        // span {
+        //   margin-left: 5px;
+        // }
+        .marketPriceArea {
+          width: 60%;
+          .percentage {
+            margin: 6px 0 0 5px;
+          }
+        }
+        .coinSearchArea {
+          width: 40%;
+          // padding-left: 24px;
+        }
+      }
+    }
+
+    /* ===========================================================================
+      b2c-m-order  주문 페이지
+    ============================================================================ */
+    .orderArea {
+      .buying {
+        .priceArea {
+          li {
+            button {
+              text-indent: -2px;
+            }
+            .textBox:first-of-type {
+              width: 50%;
+            }
+            .selectBox:nth-of-type(2) {
+              width: 50% !important;
+            }
+            .textBox {
+              width: 70%;
+            }
+            .selectBox {
+              width: 30% !important;
+            }
+          }
+          li:last-child {
+            button {
+              text-indent: -5px;
+            }
+          }
+        }
+      }
+
+      /* 왼쪽 테이블/차트 창 */
+      .quoteArea {
+        .rightArea {
+          padding-left: 20px !important;
+        }
+      }
+    }
+
+    /* ===========================================================================
+      b2c-m-quote 호가
+    ============================================================================ */
+    &.mobilequote {
+      .quote {
+        .quoteArea {
+          width: 100%;
+          height: calc(100vh - 156px);
+        }
+      }
+    }
+
+    /* ===========================================================================
+      b2c-m-price 시세
+    ============================================================================ */
+    &.mobilePrice {
+      .conclusion {
+        width: 100%;
+        height: calc(100vh - 185px);
+      }
+    }
+
+    /* ===========================================================================
+      b2c-m-order-detail  주문내역
+    ============================================================================ */
+  }
+}

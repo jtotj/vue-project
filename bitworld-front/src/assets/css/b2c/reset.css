@@ -1,0 +1,119 @@
+/* 헤더 */
+.el-menu {
+  background: initial !important;
+  text-align: left !important;
+}
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):focus,
+.el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+.el-menu--horizontal > .el-submenu .el-submenu__title:hover {
+  background-color: inherit !important;
+}
+.el-menu--horizontal > .el-menu-item {
+  position: relative !important;
+  padding: 0 !important;
+  margin-right: 30px !important;
+  color: #697278 !important;
+  height: 100% !important;
+}
+
+.el-menu.el-menu--horizontal {
+  border-bottom: none !important;
+}
+
+.el-menu--horizontal > .el-menu-item:hover {
+  background: initial !important;
+  color: #85acd1 !important;
+}
+
+.el-menu--horizontal > .el-menu-item.is-active {
+  border-bottom: 0 !important;
+}
+
+.el-menu--horizontal > .el-menu-item.is-active a {
+  color: #fff !important;
+}
+
+.el-menu--horizontal > .el-menu-item.is-active a:after {
+  color: #fff !important;
+  opacity: 1;
+}
+
+.el-input--suffix .el-input__inner {
+  background: initial;
+  border: none;
+  text-align: right;
+}
+
+header.changeColor .el-input--suffix .el-input__inner,
+header.changeColor .loginBox li a.loginButton,
+header.changeColor .el-select .el-input .el-select__caret {
+  color: #fff !important;
+}
+
+header.changeColor .el-input--suffix .el-input__inner::placeholder {
+  color: #fff !important;
+}
+
+/* 푸터 */
+
+.el-select .el-input .el-select__caret {
+  vertical-align: super;
+}
+
+.el-collapse-item__header.is-active {
+  border-bottom: 1px solid #eee !important;
+  margin-bottom: 16px;
+}
+
+.el-collapse-item__arrow {
+  font-size: 20px;
+}
+
+.el-collapse-item__header {
+  position: relative;
+}
+
+.el-collapse-item__content > ul {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.el-collapse-item__content > ul > li > ul > li > a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 21px;
+  letter-spacing: -0.56px;
+  text-align: left;
+  color: #999999;
+  margin-bottom: 14px;
+  transition: 0.2s;
+}
+
+.el-collapse-item__content > ul > li > ul > li > a:hover {
+  color: #0068c1;
+  text-decoration: underline;
+}
+
+.el-collapse-item__content {
+  padding: 0 !important;
+}
+
+.el-collapse-item__arrow {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.el-collapse-item__arrow.is-active {
+  -webkit-transform: rotate(-90deg) !important;
+  transform: rotate(-90deg) !important;
+}
+@media (max-width: 1080px) {
+  .el-menu--horizontal > .el-menu-item {
+    margin-right: 15px !important;
+  }
+}

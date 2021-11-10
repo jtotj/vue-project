@@ -1,0 +1,160 @@
+/* 언어 선택 */
+.kiosk .lang-wrap {
+  position: absolute;
+  right: 50px;
+  top: 25px;
+}
+
+.kiosk .main-lang-wrap {
+  left: 50px;
+  right: auto;
+}
+
+.kiosk .locale {
+  width: 100%;
+  height: 100%;
+}
+
+.kiosk .locale-wrap .el-button,
+.kiosk .locale-wrap .el-button:hover {
+  width: 0 !important;
+  height: 0 !important;
+  border: none !important;
+  background-color: transparent !important;
+  cursor: default;
+}
+
+.kiosk .lang-drawer-wrapper {
+  overflow: hidden !important;
+}
+
+.kiosk .lang-drawer-wrapper .el-drawer__header {
+  position: relative;
+  height: 150px;
+  padding: 0;
+}
+
+.kiosk .lang-drawer-wrapper .el-icon-close {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
+
+.kiosk .lang-drawer-wrapper .el-icon-close:before {
+  content: '' !important;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../../kiosk-img/combined-shape.svg) no-repeat 50% 50%;
+}
+
+.kiosk .lang-drawer-wrapper .el-drawer {
+  height: 1800px !important;
+  overflow: hidden;
+  border-radius: 50px 50px 0 0;
+  background-color: #eaf1f5 !important;
+}
+
+.kiosk .drop-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  padding: 50px 50px 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eaf1f5 !important;
+  border: none;
+  box-sizing: border-box;
+}
+
+.kiosk .drop-box li {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0;
+  width: 465px;
+  height: 250px;
+  text-align: center;
+  border-radius: 30px;
+  background-image: linear-gradient(242deg, #478ecc, #2b74b9 0%);
+}
+
+.kiosk .drop-box li .nation-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background-position: 0 0;
+  background-size: auto;
+}
+
+.kiosk .drop-box li .nation-tit {
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.46px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.kiosk .drop-box > li.active {
+  color: #fff;
+}
+
+.kiosk .drop-box > li:hover:after,
+.kiosk .drop-box > li:focus:after,
+.kiosk .drop-box > li:active:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.kiosk .ko {
+  background-image: url(../../kiosk-img/globe-kr.svg);
+}
+
+.kiosk .ja {
+  background-image: url(../../kiosk-img/globe-jp.svg);
+}
+
+.kiosk .ch {
+  background-image: url(../../kiosk-img/globe-cn.svg);
+}
+
+.kiosk .us {
+  background-image: url(../../kiosk-img/globe-us.svg);
+}
+
+.kiosk .TW {
+  background-image: url(../../kiosk-img/globe-tw.svg);
+}
+
+.kiosk .fr {
+  background-image: url(../../kiosk-img/globe-fr.svg);
+}
+
+.kiosk .de {
+  background-image: url(../../kiosk-img/globe-de.svg);
+}
+
+.kiosk .vi {
+  background-image: url(../../kiosk-img/globe-vn.svg);
+}
+
+.kiosk .es {
+  background-image: url(../../kiosk-img/globe-es.svg);
+}
+
+.kiosk .br {
+  background-image: url(../../kiosk-img/globe-pt.svg);
+}

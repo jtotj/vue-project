@@ -1,0 +1,53 @@
+ 
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/_css/fonts/NanumBarunGothicUltraLight.eot);
+  src: local('Nanum Barun Gothic UltraLight'),
+       local('NanumBarunGothicUltraLight'),
+       url(/_css/fonts/NanumBarunGothicUltraLight.eot?#iefix) format('embedded-opentype'),
+       url(/_css/fonts/NanumBarunGothicUltraLight.woff2) format('woff2'),
+       url(/_css/fonts/NanumBarunGothicUltraLight.woff) format('woff'),
+       url(/_css/fonts/NanumBarunGothicUltraLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/_css/fonts/NanumBarunGothicLight.eot);
+  src: local('Nanum Barun Gothic Light'),
+       local('NanumBarunGothicLight'),
+       url(/_css/fonts/NanumBarunGothicLight.eot?#iefix) format('embedded-opentype'),
+       url(/_css/fonts/NanumBarunGothicLight.woff2) format('woff2'),
+       url(/_css/fonts/NanumBarunGothicLight.woff) format('woff'),
+       url(/_css/fonts/NanumBarunGothicLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/_css/fonts/NanumBarunGothic.eot);
+  src: local('Nanum Barun Gothic'),
+       local('NanumBarunGothic'),
+       url(/_css/fonts/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+       url(/_css/fonts/NanumBarunGothic.woff2) format('woff2'),
+       url(/_css/fonts/NanumBarunGothic.woff) format('woff'),
+       url(/_css/fonts/NanumBarunGothic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 600;
+  src: url(/_css/fonts/NanumBarunGothicBold.eot);
+  src: local('Nanum Barun Gothic Bold'),
+       local('NanumBarunGothicBold'),
+       url(/_css/fonts/NanumBarunGothicBold.eot?#iefix) format('embedded-opentype'),
+       url(/_css/fonts/NanumBarunGothicBold.woff2) format('woff2'),
+       url(/_css/fonts/NanumBarunGothicBold.woff) format('woff'),
+       url(/_css/fonts/NanumBarunGothicBold.ttf) format('truetype');
+}
+

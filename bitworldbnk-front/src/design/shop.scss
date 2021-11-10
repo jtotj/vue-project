@@ -1,0 +1,83 @@
+.shop {
+  background-color: white;
+
+  .tableWrap {
+    border-top: 1px solid black;
+
+    .table {
+      tr {
+        border-bottom: 1px solid #e5e5e5;
+
+        th {
+          width: auto;
+          padding: 10px;
+        }
+
+        td {
+          padding: 20px;
+          text-align: center;
+          letter-spacing: 0;
+
+          a {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 8px;
+            margin-left: 10px;
+            border: 1px solid #e5e5e5;
+          }
+        }
+      }
+
+      ul {
+        li {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .table {
+    .merchantList {
+      border-bottom: 1px solid #e5e5e5;
+
+      .mainBody {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 10px;
+
+        .bodyTitle {
+          color: #999;
+        }
+
+        .bodyContent {
+          display: inline-block;
+          width: 100%;
+
+          .btnWrap {
+            a {
+              box-sizing: border-box;
+              display: inline-block;
+              width: 100%;
+              padding: 8px;
+              margin-bottom: 10px;
+              text-align: center;
+              border: 1px solid #e5e5e5;
+
+              &:last-child {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+
+        &:last-child {
+          box-sizing: border-box;
+          display: inline-block;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

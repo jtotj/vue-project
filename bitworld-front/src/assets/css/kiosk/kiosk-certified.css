@@ -1,0 +1,380 @@
+/* 인증 입력 input/ button*/
+.kiosk-certified .el-input input {
+  width: 100%;
+  height: 120px !important;
+  padding: 0 40px;
+  border-radius: 30px !important;
+  background-color: #ffffff;
+}
+
+.kiosk-certified .el-input input::placeholder {
+  font-size: 34px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: rgba(164, 164, 164, 0.6);
+}
+
+.kiosk-certified .el-button {
+  margin-top: 30px;
+  width: 100%;
+  height: 120px !important;
+  border-radius: 30px !important;
+  background-image: linear-gradient(to top, #478ecc, #2b74b9);
+}
+
+.kiosk-certified .el-button span {
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding-top: 28px;
+}
+
+/* 인증관리 메인 */
+.kiosk-certified-main ul li .el-button {
+  height: 90px !important;
+  border-radius: 25px !important;
+  background-image: none;
+  background-color: #ffffff;
+  margin-top: 0;
+}
+
+.kiosk-certified-main ul li .el-button > span {
+  font-size: 30px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3880c2;
+}
+
+.active .el-button {
+  visibility: hidden;
+}
+
+/* 이메일 인증 */
+.email-send .el-dialog {
+  width: 960px !important;
+  height: 960px;
+  padding: 100px;
+  margin-top: 27vh !important;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.email-send .el-dialog__header {
+  background-color: transparent;
+}
+
+.email-send .el-dialog__header .el-dialog__headerbtn {
+  top: 60px;
+  right: 60px;
+}
+
+.email-send .el-dialog__body {
+  text-align: center;
+}
+
+.email-send .el-dialog__body span {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+}
+
+.email-send .el-dialog__footer {
+  text-align: center;
+}
+
+.email-send .el-dialog__footer .el-button {
+  width: 600px;
+  height: 120px;
+}
+
+/* otp 인증 */
+.kiosk-certified .certified-code {
+  text-align: center;
+}
+
+.kiosk-certified .certified-code input {
+  width: 800px;
+}
+
+.kiosk-certified .certified-code input::placeholder {
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+/* 출금주소 은행 */
+.kiosk-certified-bank .el-input input,
+.kiosk-certified-coin .el-input input,
+.kiosk-certified-kyc .el-input input {
+  height: 90px !important;
+  border-radius: 25px !important;
+}
+
+.kiosk-certified-bank .el-input input::placeholder,
+.kiosk-certified-coin .el-input input::placeholder,
+.kiosk-certified-kyc .el-input input::placeholder {
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(41, 48, 77, 0.6);
+}
+
+/* 신청내역 리스트 */
+.certified-button .el-button {
+  width: auto;
+  height: 40px !important;
+  padding: 0;
+  border-radius: 10px !important;
+  background-color: #478ecc;
+  margin-top: 0;
+}
+
+.certified-button .el-button span {
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+/* KYC 탭메뉴 */
+.kiosk-certified-kyc .el-tabs {
+  widht: 100%;
+  margin-top: 80px;
+}
+
+.kiosk-certified-kyc .el-tabs__header {
+  margin: 0;
+  width: 100%;
+  border: none;
+}
+
+.kiosk-certified-kyc .el-tabs__header .el-tabs__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.kiosk-certified-kyc .el-tabs .el-tabs__nav .el-tabs__item {
+  border: none;
+  width: 48%;
+  height: 90px !important;
+  padding-top: 15px !important;
+  font-size: 38px !important;
+  margin: 0 !important;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #f5f5f5;
+}
+
+.kiosk-certified-kyc .el-tabs .el-tabs__nav .el-tabs__item.is-active {
+  font-weight: bold !important;
+  color: #ffffff !important;
+  background-image: linear-gradient(to top, #478ecc, #2b74b9);
+}
+
+.kiosk-certified-kyc .el-input {
+  margin: 20px 0 40px;
+}
+
+/* KYC 증명서류 */
+.kiosk-certified-kyc .el-tab-pane {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.kiosk .ps.kyc-scrollbar {
+  height: 1400px;
+}
+
+.kiosk .ps.c2c-scrollbar {
+  height: 1600px;
+}
+
+.kiosk .ps.c2c-scrollbar .el-switch {
+  height: 50px !important;
+  margin-bottom: 10px;
+}
+
+.kiosk .ps.c2c-scrollbar .el-switch .el-switch__core {
+  height: 50px;
+  width: 120px !important;
+  border-radius: 20px;
+}
+
+.kiosk .ps.c2c-scrollbar .el-switch .el-switch__core:after {
+  width: 40px;
+  height: 45px;
+}
+
+.kiosk .ps.c2c-scrollbar .el-switch.is-checked .el-switch__core::after {
+  transform: translate(-50%, 0);
+}
+
+.kiosk-kyc-form .el-checkbox {
+  font-size: 30px;
+}
+
+.kiosk-kyc-form .el-checkbox .el-checkbox__label {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+}
+
+.kiosk-kyc-form .el-radio {
+  width: auto;
+  padding: 0;
+  margin-right: 100px;
+}
+
+.kiosk-kyc-form .el-radio__input {
+  top: -7px;
+  width: 30px;
+  height: 30px;
+}
+
+.kiosk-kyc-form .el-checkbox__input .el-checkbox__inner {
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: solid 2px rgba(41, 48, 77, 0.6);
+}
+
+.kiosk-kyc-form .el-checkbox__input .el-checkbox__inner::after {
+  display: none;
+}
+
+.kiosk-kyc-form .el-radio__input .el-radio__inner {
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: solid 2px rgba(41, 48, 77, 0.6);
+}
+
+.kiosk-kyc-form .el-radio__input .el-radio__inner::after {
+  width: 20px;
+  height: 20px;
+  background: #0068c1;
+}
+
+.kiosk-kyc-form .el-radio__label {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+}
+
+.kiosk-kyc-form .el-radio.is-checked .el-radio__label {
+  color: #29304d;
+}
+
+.kiosk-kyc-form textarea {
+  border-radius: 25px !important;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.kiosk-certified-kyc .transfer {
+  margin-top: 120px;
+  padding: 0;
+}
+
+.user-photo .el-button {
+  height: 90px !important;
+  border-radius: 25px !important;
+}
+
+.user-photo .el-button span {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* kyc 신청 내역 */
+.kiosk-kyc-list dd > .el-button {
+  width: auto;
+  height: auto !important;
+  padding: 5px 20px;
+  margin-top: 0;
+  margin-left: 20px;
+  border-radius: 10px !important;
+}
+
+.kiosk-kyc-list dd > .el-button span {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+/* 보안등급 리스트 */
+.kiosk-level-list .el-button {
+  width: auto;
+  height: auto !important;
+  border-radius: 25px !important;
+  margin: 0;
+  padding: 22px 45px;
+}
+
+.kiosk-level-list .el-button > span {
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+/* 인증 성공,실패 */
+.kiosk-certified-alert .el-button {
+  padding: 25px 120px;
+  border-radius: 30px !important;
+  background-image: linear-gradient(to top, #478ecc, #2b74b9);
+}
+
+.kiosk-certified-alert .el-button span {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}

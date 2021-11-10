@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+// header
+.kioskHeader {
+  .header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 150px;
+
+    .container {
+      position: absolute;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      width: 1080px !important;
+      height: 100%;
+      padding: 0 50px;
+      margin: 0 auto;
+
+      .backBtn {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+
+      .mainLocaleWrap {
+        width: 0;
+      }
+
+      .hiddenRefresh {
+        position: absolute;
+        right: 200px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .logoutWrap {
+        position: absolute;
+        top: 40px;
+        right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .registerIcon {
+          font-size: 30px;
+        }
+
+        span {
+          margin-top: 5px;
+          font-size: 20px;
+        }
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 60px;
+        font-weight: 900;
+        color: #29304d;
+        text-align: center;
+        vertical-align: middle;
+
+        img {
+          padding-top: 45px;
+        }
+      }
+    }
+  }
+}

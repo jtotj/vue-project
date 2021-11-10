@@ -1,0 +1,243 @@
+.accountList {
+  box-sizing: border-box;
+  height: 700px;
+  background-color: white;
+
+  .account_search {
+    margin-bottom: 20px;
+  }
+
+  .perfectScrollbar {
+    max-height: 600px;
+  }
+}
+
+.accountList .mainDeal .tabs .el-collapse-item__header {
+  padding: 10px;
+}
+
+.accountList .mainDeal .tabs .el-collapse-item__content {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.accountList .mainDeal .tabs .linksWrap {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.accountList .mainDeal .tabs .linksWrap .accoContent {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.accountList .mainDeal .tabs .linksWrap .accoContent ul {
+  overflow: hidden;
+}
+
+.accountList .mainDeal .tabs .linksWrap .accoContent ul li {
+  box-sizing: border-box;
+  float: left;
+  width: 33.3%;
+  line-height: 20px;
+  text-align: center;
+  border-right: 1px solid #e5e5e5;
+}
+
+.accountList .mainDeal .tabs .linksWrap .accoContent ul li:last-child {
+  border-right: none;
+}
+
+.accountList .mainDeal .tabs .linksWrap .accoContent ul li a {
+  color: #333;
+}
+
+.accountList .mainDeal .tabs .linksWrap .accoContent ul li a:hover {
+  text-decoration: underline;
+}
+
+.accountList .mainDeal .tabs .favoriteLength {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  color: white;
+  text-align: center;
+  background-color: #0068c1;
+  border-radius: 40px;
+}
+
+.accountList .dealList .deal_act {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.accountList .dealList .favoriteAsset {
+  overflow: hidden;
+}
+
+.accountList .dealList .favoriteAsset .accountInfo {
+  float: left;
+}
+
+.accountList .dealList .favoriteAsset .accoutInfo .favorite {
+  float: left;
+}
+
+.accountList .dealList .favoriteAsset .accountNumberWrap .accountText {
+  padding-right: 5px;
+  color: #b9b9b9;
+}
+
+.accountList .dealList .favoriteAsset .money {
+  float: right;
+  padding: 0;
+}
+
+.accountList .dealList .favoriteAsset .money .bold {
+  float: right;
+  letter-spacing: 0;
+}
+
+.accountList .dealList .favorite_accounts,
+.accountList .dealList .accounts {
+  overflow: hidden;
+}
+
+.accountList .dealList .money {
+  padding: 15px 0;
+  overflow: hidden;
+}
+.accountList .dealList .accountText {
+  padding-right: 5px;
+  color: #b9b9b9;
+}
+
+.accountList .dealList .noDealList {
+  padding: 50px;
+}
+
+.accountList .dealList .noDealList .imgWrap {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.accountList .dealList .noDealList .imgWrap img {
+  width: 100%;
+}
+
+.accountList .dealList .textWrap {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.accountList .noSelectAsset {
+  padding: 50px;
+}
+
+.accountList .noSelectAsset .imgWrap {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.accountList .noSelectAsset .imgWrap img {
+  width: 100%;
+}
+
+.accountList .acco_content {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.accountList .acco_content ul li {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.accountList .acco_content ul li:hover {
+  text-decoration: underline;
+}
+
+.accountList .acco_content ul li a {
+  font-weight: normal;
+  color: #333;
+}
+
+.accountList .dealList .links_wrap {
+  margin-bottom: 10px;
+}
+
+.accountList .dealList .deposit_links,
+.accountList .dealList .withdraw_links {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49%;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.accountList .dealList .deposit_links .imgWrap,
+.accountList .dealList .withdraw_links .imgWrap {
+  display: inline-block;
+  width: 16px;
+  height: 18px;
+  margin-top: -15px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.accountList .dealList .deposit_links .imgWrap img,
+.accountList .dealList .withdraw_links .imgWrap img {
+  width: 100%;
+}
+
+.accountList .dealList .deposit_links:hover,
+.accountList .dealList .withdraw_links:hover {
+  color: white;
+  box-shadow: 5px 5px 5px #e5e5e5;
+  transition: 0.3s;
+}
+
+.accountList .dealList .deposit_links {
+  margin-right: 2%;
+}
+
+.accountList .dealList .favorite_text {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .accountList .dealList .favoriteAsset .accountInfo {
+    width: 100%;
+  }
+
+  .accountList .dealList .favoriteAsset .money {
+    width: 100%;
+    padding: 5px 0;
+    margin: 0;
+  }
+
+  .accountList .mainDeal .tabs .linksWrap .accoContent ul li {
+    width: 100%;
+    border: none;
+  }
+}

@@ -1,0 +1,46 @@
+.rightContent {
+  box-sizing: border-box;
+  float: right;
+  width: 75%;
+  background-color: white;
+}
+
+.subTitle {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.searchWrap {
+  padding-bottom: 20px;
+}
+
+.typeTitle {
+  padding-right: 5px;
+  color: #0068c1;
+  cursor: pointer;
+}
+
+.redColor {
+  cursor: pointer;
+}
+
+.waitingReply {
+  color: #ff5200;
+}
+
+.endInquiry {
+  color: #a7a7a7;
+  text-decoration: line-through;
+}
+
+.completedAnswer {
+  color: #4eb500;
+}
+
+@media (max-width: 768px) {
+  .rightContent {
+    width: 100%;
+  }
+}

@@ -1,0 +1,520 @@
+html.pay {
+  /* 설정 페이지 계정 */
+  .main-content.setting {
+    float: none;
+    height: 100%;
+    padding-top: 51px;
+    padding-bottom: 80px;
+    margin: auto;
+  }
+
+  .setting .nav {
+    background-image: radial-gradient(
+      circle farthest-side at center bottom,
+      #0068c1,
+      #049200 125%
+    );
+  }
+
+  .setting .nav ul {
+    max-width: 930px;
+    margin: 0 auto;
+    overflow: inherit;
+  }
+
+  .setting .nav li {
+    position: relative;
+    display: inline-block;
+    float: none;
+    padding: 0 1em;
+    font-size: 20px;
+    line-height: 3.3em;
+    color: #fff;
+    list-style-type: none;
+  }
+
+  .setting .nav li::after {
+    position: absolute;
+    bottom: -40px;
+    left: 57%;
+    z-index: 3;
+    width: 0;
+    height: 0.5em;
+    margin-left: -1.5em;
+    visibility: hidden;
+    content: '';
+    border-style: solid;
+    border-width: 1.1em;
+    border-top-color: #39a200;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    opacity: 0;
+  }
+
+  .setting .nav li.active::after {
+    bottom: -45px;
+    visibility: visible;
+    border-width: 1.1em;
+    opacity: 1;
+  }
+
+  .setting .nav li a {
+    font-size: 0.8125rem;
+    color: #fff;
+    letter-spacing: 0.025rem;
+    opacity: 0.85;
+  }
+
+  .setting .stage {
+    position: relative;
+    max-width: 1024px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .setting .section {
+    padding: 0;
+    padding-left: 0.8em;
+  }
+
+  .setting .vx_panel {
+    position: relative;
+    padding: 0.75rem 1.5rem;
+    margin: 1.6em 0 1.2em 0;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 0;
+  }
+
+  .setting .vx_panel:first-child {
+    margin-top: 0;
+  }
+
+  .setting .vx_panel h2 {
+    padding: 0;
+    margin-bottom: 0.75em;
+    font-size: 1.25em;
+    font-weight: 300;
+    line-height: 102%;
+  }
+
+  .setting .profile-avatar {
+    position: relative;
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin: 0 2em 0 0;
+    overflow: hidden;
+    vertical-align: top;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .setting .profile-photo-parent {
+    position: relative;
+    display: block;
+    width: 7em;
+    height: 7em;
+    overflow: hidden;
+    font-size: 16px;
+    border-radius: 50%;
+  }
+
+  .setting .profile-photo-icon {
+    position: absolute;
+    width: 7em;
+    height: 7em;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 0;
+    background-color: #4cbbe8;
+    background-size: cover;
+    border-radius: 50%;
+  }
+
+  .setting .profile-photo-icon::before {
+    display: block;
+    margin: 50px 0 0 -18px;
+    font-family: consumer;
+    font-size: 115px;
+    color: #0079ad;
+    content: '\e038';
+  }
+
+  .setting .profile-photo-link {
+    display: block;
+    width: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .setting .profile-detail-container {
+    width: 18.5em;
+    padding-bottom: 0.7em;
+    border-bottom: thin solid #9da3a6;
+  }
+
+  .setting .profile-detail-container::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+
+  .setting .vx_panel p {
+    margin: 0 auto;
+    line-height: 2;
+  }
+
+  .setting .profile-join {
+    float: left;
+    width: 75%;
+    color: #6c7378;
+  }
+
+  .setting ul.lined li {
+    height: 3.8em;
+    padding: 10px 0;
+    padding-top: 0;
+    line-height: 3.8em;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .setting ul.lined li:last-child {
+    padding-bottom: 0;
+    border: none;
+  }
+
+  .setting ul.lined li:first-child {
+    padding-top: 0;
+  }
+
+  .setting .options-row::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+
+  .setting .options-row > p {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    line-height: 3.5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .setting .options-row > p.type {
+    float: left;
+    width: 33.33%;
+  }
+
+  .setting .options-dropdown {
+    float: left;
+    width: 66.666%;
+    margin-top: 3px;
+  }
+
+  .setting .select-dropdown {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 44px;
+    margin: 0;
+    overflow: hidden;
+    font-family: consumer;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 0;
+    text-transform: none;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-color: #b7bcbf;
+    border-radius: 5px;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .setting .icon-arrow-down-small::before {
+    position: absolute;
+    top: 10px;
+    right: 9px;
+    font-size: 1rem;
+    line-height: 1.3125em;
+    content: '\e005';
+  }
+
+  .setting .select-dropdown select {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    width: 100%;
+    height: 44px;
+    padding: 7px 0 10px 10px;
+    padding-left: 0;
+    margin: 0;
+    font: 1em Arial;
+    line-height: 1.230769em;
+    color: #333;
+    background: none;
+    border: 0 none;
+    border-radius: 3px;
+    opacity: 0;
+    -webkit-appearance: none;
+    -moz-appearance: window;
+  }
+
+  .setting .select-dropdown .custom-select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 44px;
+    padding-right: 23px;
+    padding-left: 12px;
+    overflow: hidden;
+    line-height: 44px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .setting .panel-address {
+    padding-bottom: 1.3em;
+  }
+
+  .setting a.plus {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 2.5em;
+    font-weight: 200;
+    line-height: 0.5em;
+    color: #2c2e2f;
+  }
+
+  .setting .status {
+    color: #666;
+  }
+
+  .setting p.x-small {
+    padding-bottom: 0.5em;
+    letter-spacing: normal;
+  }
+
+  .setting p.email-warn {
+    font-size: 13px;
+  }
+
+  /* 보안 페이지 */
+  .setting .security-wrap {
+    position: relative;
+    max-width: 1024px;
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .setting .security-wrap .vx_panel {
+    padding: 0.75rem 1.5rem 0.8rem 3.5rem;
+  }
+
+  .setting .security-wrap .card-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .setting .security-wrap .card-row .content-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .setting .security-wrap .card-row .content-label {
+    padding-top: 1.5em;
+    font-size: 1.25em;
+    line-height: 102%;
+  }
+
+  .setting .security-wrap .card-row .content-message {
+    padding-top: 0.625em;
+    padding-bottom: 1.5em;
+    font-size: 0.9375em;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  .setting .security-wrap .card-row .btn-link {
+    padding-top: 0.625em;
+    padding-right: 1em;
+    text-align: center;
+  }
+
+  /* 결제 설정 */
+  .setting .panel-payment {
+    padding-bottom: 30px;
+    padding-left: 1.5em;
+    text-align: center;
+  }
+
+  .setting .payment-icon {
+    max-width: 5.6rem;
+    padding-top: 24px;
+  }
+
+  .setting .btn-payment-panel {
+    margin-top: 1em;
+  }
+
+  .setting .choice-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-bottom: 1px dotted #cbd2d6;
+  }
+
+  .setting .panel-detail {
+    max-width: 36.4rem;
+    margin: 0 auto;
+    line-height: 2;
+  }
+
+  .setting .choice-copy {
+    padding-bottom: 24px;
+    border-bottom: 1px dotted #cbd2d6;
+  }
+
+  .setting .preference {
+    display: flex;
+    align-items: flex-start;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #2c2e2f;
+  }
+
+  .setting .choice-icon {
+    max-width: 35px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .setting .meta-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  /* 알림 설정 */
+  .setting .panel-header {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: #2c2e2f;
+  }
+
+  .setting .email-list {
+    min-width: 30%;
+    margin: 2px 30px 0 0;
+  }
+
+  .setting .noti-icon {
+    width: 60px;
+  }
+
+  .setting .contact {
+    position: relative;
+    padding-left: 72px;
+    margin-top: -20px;
+  }
+
+  .setting .noti-icon::before {
+    display: block;
+    float: left;
+    margin-top: -2px;
+    font-size: 50px;
+    color: #b7bcbf;
+    content: '\e506';
+  }
+
+  .setting .notification .section {
+    padding: 1.25em 2em;
+    margin: 1.25em 0;
+    background: #fff;
+  }
+
+  .setting .notification .category {
+    margin-top: 10px;
+    vertical-align: top;
+  }
+
+  .setting .let-me {
+    padding: 0.8em 0 0.2em;
+    color: #666;
+    border-bottom: none;
+  }
+
+  .setting .noti-row {
+    padding: 15px 0;
+  }
+
+  .setting .noti-row:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+
+  .setting .noti-row .email {
+    position: relative;
+  }
+
+  .setting .noti-row .email-input {
+    float: left;
+    opacity: 0;
+  }
+
+  .setting .icon {
+    font-family: consumer;
+  }
+
+  .setting .icon.icon-email-solid::before {
+    display: block;
+    float: left;
+    width: 29px;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #0666b3;
+  }
+
+  @media (min-width: 768px) {
+    .setting .profile-detail-column {
+      padding-left: 2em;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .main-content.setting {
+      padding: 0;
+    }
+
+    .setting .nav li {
+      line-height: 2.85;
+    }
+
+    .setting .nav li.active::after {
+      visibility: hidden;
+    }
+
+    .setting .nav li.active a {
+      padding-bottom: 15px;
+      border-bottom: 4px solid white;
+    }
+  }
+}

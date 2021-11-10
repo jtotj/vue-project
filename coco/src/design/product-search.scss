@@ -1,0 +1,382 @@
+@charset "utf-8";
+
+.productFind {
+  padding: 0 20px;
+  margin-top: 15px;
+  background-color: #f4f7ff;
+
+  .productSelect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0 20px;
+
+    .selectBtn {
+      padding: 10px;
+      margin: 0 4px;
+      font-size: 15px;
+      line-height: 1;
+    }
+
+    .selectBtn.active {
+      color: #fff;
+      background-color: #0068c1;
+      border-radius: 6px;
+    }
+  }
+
+  .productSearch {
+    text-align: center;
+
+    .btnWhite {
+      padding: 15px 20px;
+      margin: 20px 0;
+      font-size: 15px;
+      color: #0068c1;
+      background-color: #fff;
+      border-radius: 4px;
+    }
+  }
+
+  .productCondition {
+    ul {
+      padding: 20px 0;
+      border-top: 1px solid #e9e9e9;
+      border-bottom: 1px solid #e9e9e9;
+
+      li {
+        display: flex;
+        align-items: flex-start;
+        h5 {
+          margin-right: 60px;
+          margin-bottom: 20px;
+          font-weight: normal;
+        }
+        label {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .FindBtnWrap {
+      padding: 20px 0;
+
+      p {
+        font-size: 12px;
+        line-height: 1.5;
+        color: #0068c1;
+      }
+      .btnArea {
+        margin-top: 20px;
+        text-align: center;
+
+        .btnBlue {
+          width: 120px;
+          height: 45px;
+          margin-right: 14px;
+          color: #fff;
+          background-color: #0068c1;
+          border-radius: 4px;
+        }
+        .btnWhite {
+          width: 120px;
+          height: 45px;
+          font-size: 15px;
+          color: #0068c1;
+          background-color: #fff;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+.productResultNote {
+  padding: 40px 0;
+  font-size: 20px;
+
+  p {
+    text-align: center;
+  }
+  .blue {
+    color: #0068c1;
+  }
+}
+
+.bankingArea {
+  .contButtonWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .btnLeftWrap {
+      margin-bottom: 15px;
+
+      .btnRounded {
+        padding: 7px 15px;
+        margin-right: 8px;
+        font-size: 12px;
+        background-color: #f2f3f8;
+        border-radius: 20px;
+      }
+      .btnRounded.active {
+        color: #fff;
+        background-color: #0068c1;
+      }
+    }
+
+    .btnRightWrap {
+      margin-bottom: 15px;
+
+      .gray {
+        font-style: normal;
+        color: #7e7e7e;
+      }
+      .btnLine {
+        padding: 7px 15px;
+        margin-left: 10px;
+        font-size: 12px;
+        border: 1px solid #999;
+        border-radius: 2px;
+      }
+    }
+  }
+  .resultWrap {
+    .perfectScrollbar {
+      height: 582px;
+    }
+
+    .pageDesc {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #f2f3f8;
+
+      .blue {
+        font-style: normal;
+        color: #0068c1;
+      }
+    }
+
+    .pageHead {
+      display: flex;
+      justify-content: flex-start;
+      padding: 10px 34px;
+      background-color: #f2f3f8;
+      border-top: 1px solid #000;
+
+      span {
+        &:nth-child(1) {
+          width: 253px;
+        }
+        &:nth-child(2) {
+          margin-right: 5%;
+        }
+        &:nth-child(3) {
+          margin-right: 4%;
+        }
+        &:nth-child(4) {
+          margin-right: 4.5%;
+        }
+      }
+    }
+
+    .productList {
+      li {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        border-bottom: 1px solid #e9e9e9;
+
+        .row {
+          &:first-child {
+            display: flex;
+            justify-content: flex-start;
+            width: 36.5%;
+          }
+          &:last-child {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: flex-end;
+            width: 63.5%;
+
+            .rate {
+              margin-right: 5%;
+            }
+            .preTaxAmount {
+              margin-right: 4%;
+            }
+            .preRate {
+              margin-right: 4.5%;
+            }
+          }
+        }
+        .productNoti {
+          margin-bottom: 17px;
+
+          .depositType {
+            padding: 3px 10px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1;
+            color: #fff;
+            background-color: #0068c1;
+          }
+
+          .labelGreen {
+            padding: 3px 10px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1;
+            color: #2dcc70;
+          }
+        }
+
+        .productTitle {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 1;
+        }
+        .productText {
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 1.5;
+        }
+        .btnBlueRounded {
+          padding: 8px 32px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 1;
+          color: #fff;
+          background-color: #0068c1;
+          border-radius: 15px;
+        }
+      }
+    }
+
+    .productListAll {
+      li {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        border-bottom: 1px solid #e9e9e9;
+
+        .row {
+          &:first-child {
+            display: flex;
+            justify-content: flex-start;
+            width: 420px;
+          }
+          &:last-child {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            .totalRateText {
+              margin-bottom: 21px;
+            }
+            .totalRate {
+              font-size: 20px;
+              font-weight: bold;
+              line-height: 1;
+              color: #0068c1;
+            }
+            .preTax {
+              margin-bottom: 19px;
+              font-size: 8px;
+              font-weight: 500;
+              line-height: 1;
+              color: #7e7e7e;
+            }
+          }
+        }
+        .productNoti {
+          margin-bottom: 17px;
+
+          .depositType {
+            padding: 3px 10px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1;
+            color: #fff;
+            background-color: #0068c1;
+          }
+
+          .labelGreen {
+            padding: 3px 10px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 1;
+            color: #2dcc70;
+          }
+        }
+
+        .productTitle {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 1;
+        }
+        .productText {
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 1.5;
+        }
+        .btnBlueRounded {
+          padding: 8px 32px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 1;
+          color: #fff;
+          background-color: #0068c1;
+          border-radius: 15px;
+
+          &.dependOnLocale {
+            width: 91px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .bankingArea {
+    .contButtonWrap {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .bankingArea .resultWrap .pageHead {
+    display: none;
+  }
+  .bankingArea {
+    .resultWrap {
+      .resultWrap {
+        .resultCondition {
+          .productList > li > div {
+            &:first-child {
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  .bankingArea .resultWrap .resultCondition .productList > li > div:last-child {
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+  }
+  .bankingArea
+    .resultWrap
+    .resultCondition
+    .productList
+    > li
+    > div:last-child
+    .btnBlueRounded {
+    display: none;
+  }
+}

@@ -1,0 +1,1145 @@
+/* B2C PC */
+
+.b2c {
+  padding: 10px 0 80px;
+  background: #e9ecf1;
+}
+
+em {
+  vertical-align: initial !important;
+}
+
+.perfectScrollbar {
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+/* 헤더 reset.css에 있습니다. */
+
+/* 코인 슬라이드 / 코인명/심볼 검색 */
+
+.coinListSection {
+  width: 100%;
+  height: 80px;
+  padding-top: 45px;
+  padding-bottom: 0;
+  background: #e9ecf1;
+  .container {
+    height: 100%;
+    padding-top: 10px;
+  }
+  .coinArea {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    .coinAreaSection {
+      position: relative;
+      display: initial;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+      &.active {
+        border-bottom: 2px solid #0068bc;
+      }
+      &:hover {
+        box-shadow: inset 0 0 5px 0 #eee;
+      }
+      &::after {
+        position: absolute;
+        top: 15px;
+        right: 0;
+        width: 1px;
+        height: 30px;
+        content: '';
+        background-color: #eee;
+      }
+      strong {
+        font-size: 15px;
+        font-weight: bold;
+        color: #222;
+        img {
+          margin-top: 2px;
+        }
+      }
+      p {
+        margin-top: 6px;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 16px;
+        color: #52b370;
+      }
+    }
+  }
+  .searchArea {
+    float: left;
+    width: 340px;
+    height: 100%;
+    .inputBox {
+      position: relative;
+      float: left;
+      width: 92%;
+      padding-top: 20px;
+      input {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 6px 16px;
+        background: #fff;
+        border: none;
+        border-bottom: 1px solid #eee;
+      }
+      img {
+        position: absolute;
+        top: 26px;
+        right: 16px;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.slick-slide {
+  img {
+    display: inline-block;
+    margin-bottom: 2px;
+  }
+  .slideStar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+}
+
+/* 코인 이름 */
+
+.b2c .coinName {
+  float: left;
+  width: 930px;
+  height: 140px;
+  padding: 20px 30px;
+  margin: 0 10px 10px 0;
+  background: #fff;
+}
+
+.coinName {
+  .nameArea {
+    float: left;
+    width: 342px;
+    p {
+      margin: 2px 5px 0 0;
+    }
+    h3 {
+      float: left;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 500;
+      font-stretch: normal;
+      line-height: 30px;
+      color: #222;
+      text-align: left;
+      letter-spacing: -0.84px;
+    }
+    span {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 30px;
+      color: #222;
+      vertical-align: middle;
+    }
+    h2 {
+      float: left;
+      padding: 0 !important;
+      font-size: 27px;
+      font-style: normal;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: 1.36;
+      text-align: left;
+      letter-spacing: -1.44px;
+    }
+    .percentage {
+      display: inline-block;
+      padding: 4px 6px;
+      margin: 4px 0 10px 26px;
+      font-size: 14px;
+      line-height: 21px;
+      color: #fff;
+      border-radius: 2px;
+    }
+    .yesterdayPoint {
+      span {
+        display: inline-block;
+        font-size: 12px;
+        &:first-child {
+          margin-left: 0;
+          font-weight: 300;
+          color: #999;
+        }
+      }
+      img {
+        width: initial;
+      }
+    }
+  }
+  .totalArea {
+    float: left;
+    width: 528px;
+    height: 100%;
+    ul {
+      box-sizing: border-box;
+      padding: 20px 0 0;
+      li {
+        line-height: 18px;
+        span {
+          &:first-child {
+            font-size: 12px;
+            font-weight: 300;
+            color: #999;
+          }
+          &:last-child {
+            float: right;
+            font-size: 12px;
+            color: #222;
+          }
+        }
+        &:nth-child(2) {
+          margin: 10px 0;
+        }
+      }
+      &:last-child {
+        padding-left: 40px;
+      }
+    }
+    .priceBox {
+      position: relative;
+      box-sizing: border-box;
+      float: left;
+      width: 50%;
+      height: 100%;
+      &::after {
+        position: absolute;
+        top: 20px;
+        right: -20px;
+        width: 1px;
+        height: 80px;
+        content: '';
+        background: rgba(153, 153, 153, 0.1);
+      }
+    }
+    .tradeBox {
+      float: left;
+      width: 50%;
+      height: 100%;
+    }
+  }
+}
+
+/* 차트 */
+.marketPrice {
+  float: left;
+  width: 930px;
+  height: 60px;
+  padding: 10px 25px;
+  margin: 0 10px 10px 0;
+  background: #fff;
+  dl {
+    float: left;
+    width: auto;
+    margin-right: 15px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    dt {
+      position: relative;
+      display: inline-block;
+      padding-left: 8px;
+      margin-right: 10px;
+      color: #678e2f;
+    }
+    dd {
+      display: inline-block;
+    }
+    .marketSubSelect {
+      padding: 10px 15px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      background: #999;
+      border: none;
+      border-radius: 2px;
+      transition: 0.16s;
+    }
+  }
+  .studyButtonArea {
+    text-align: center;
+    .studyButton {
+      min-width: 200px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      background: #999;
+      border: none;
+      border-radius: 2px;
+      transition: 0.16s;
+    }
+  }
+}
+.marketPriceBold {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+  margin: 0;
+}
+.chart {
+  float: left;
+  width: 930px;
+  height: 650px;
+  margin: 0 10px 10px 0;
+  background: #fff;
+}
+
+/* 코인명/심볼 검색 */
+
+.favoriteCoin {
+  float: right;
+  width: 340px;
+  height: calc(100% - 25px);
+  background: #fff;
+  .searchArea {
+    width: 340px;
+    .inputBox {
+      position: relative;
+      width: 88%;
+      padding: 20px 0 0 20px;
+      input {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 6px 40px 6px 15px;
+        background: #fff;
+        border: none;
+        border-bottom: 1px solid #eee;
+        &::placeholder {
+          font-size: 14px !important;
+          font-weight: 300 !important;
+          color: #999 !important;
+        }
+      }
+      img {
+        position: absolute;
+        top: 28px;
+        right: 12px;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+  .favoriteCoinBody {
+    width: 100%;
+    height: 750px;
+    padding: 0;
+    overflow: hidden;
+    .perfectScrollbar {
+      height: 600px;
+    }
+    table {
+      thead {
+        tr {
+          padding: 8px 0;
+          border-bottom: 1px solid #e1e1e1;
+          th {
+            padding: 8px 0;
+            font-size: 12px;
+            font-weight: normal;
+            line-height: 1.5;
+            color: #999;
+            text-align: right;
+            cursor: pointer;
+            img {
+              margin: -2px 0 0 5px;
+              cursor: pointer;
+            }
+            .upDownButton {
+              display: inline-block;
+              width: 6px;
+              margin-left: 1px;
+              div {
+                display: block;
+                width: 6px;
+                height: 4px;
+                cursor: pointer;
+                background-size: cover !important;
+                &:first-child {
+                  margin-bottom: 2px;
+                  background: url('@src/assets/img/b2c/icon_up_arrow.svg')
+                    no-repeat;
+                }
+                &:last-child {
+                  background: url('@src/assets/img/b2c/icon_down_arrow.svg')
+                    no-repeat;
+                }
+              }
+              &.activeUp {
+                .upBtn {
+                  background: url('@src/assets/img/b2c/icon_up_arrow_black.svg')
+                    no-repeat;
+                }
+              }
+              &.activeDown {
+                .downBtn {
+                  background: url('@src/assets/img/b2c/icon_down_arrow_black.svg')
+                    no-repeat;
+                }
+              }
+            }
+            &:first-child {
+              padding-left: 14px;
+            }
+            &:last-child {
+              padding-right: 9px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .favoriteCoinBodyLonger {
+    height: 783px;
+  }
+
+  .perfectScrollbar {
+    table {
+      tbody {
+        tr {
+          &:hover {
+            background-color: #f6fbff;
+          }
+          td {
+            padding: 8px 0;
+            text-align: right;
+            border-bottom: 1px solid #e1e1e1;
+
+            &:first-child {
+              padding-left: 10px;
+            }
+            &:last-child {
+              padding-right: 5px;
+            }
+            .coinName {
+              width: 100%;
+              margin: 0;
+
+              span {
+                vertical-align: initial;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .coinName {
+    float: left;
+    width: 80%;
+    height: auto;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #222;
+    cursor: pointer;
+    background: initial;
+    span {
+      font-size: 12px;
+      font-weight: normal;
+      color: #999;
+      vertical-align: text-top;
+      &.initialVertical {
+        margin-left: 7px;
+        vertical-align: initial;
+      }
+    }
+    .coinimg {
+      float: left;
+      margin-top: -3px;
+      margin-right: 5px;
+    }
+    h4 {
+      display: inline-block;
+      padding: 0;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 1;
+      color: #222;
+      vertical-align: super;
+    }
+    .coinImg {
+      float: left;
+      margin-top: -3px;
+      margin-right: 5px;
+    }
+  }
+  .starIcon {
+    float: left;
+    img {
+      width: 15px;
+      cursor: pointer;
+    }
+  }
+  .coinPrice {
+    width: 100%;
+    strong {
+      float: left;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 34px;
+    }
+    span {
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 34px;
+      color: #222;
+    }
+    em {
+      font-size: 11px;
+      font-weight: 300;
+      color: #999;
+    }
+  }
+  .coinPercentage p {
+    margin-top: 3px;
+    font-size: 11px;
+    font-weight: 300;
+    color: #999;
+    span {
+      margin-right: 10px;
+      font-size: 14px;
+      font-weight: normal;
+    }
+    em {
+      margin: 0 4px;
+      font-size: 14px;
+      font-weight: normal;
+      color: #222;
+    }
+  }
+}
+
+/* 아래부터 그래프입니다. */
+
+/* 보조지표 */
+.chartBtnWrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 0;
+  background: #fff;
+  span {
+    margin: 0 5px;
+
+    label {
+      position: relative;
+      display: inline-block;
+      height: 20px;
+      padding-bottom: 0;
+      padding-left: 20px;
+      margin-right: 0;
+      overflow: hidden;
+      font-size: 13px;
+      line-height: 20px;
+      color: #666;
+      text-align: left;
+      vertical-align: middle;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+
+      > input[type='radio'] + span::before {
+        position: absolute;
+        top: 3px;
+        left: 0;
+        width: 14px;
+        height: 14px;
+        content: '';
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 50%;
+      }
+      > input[type='radio']:checked + span::before {
+        display: inline-block;
+        font-family: xeicon !important;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+        font-variant: normal;
+        line-height: 1.4;
+        color: #fff;
+        text-align: center;
+        text-transform: none;
+        content: '\E928';
+        background: #2d3d51;
+        speak: none;
+      }
+    }
+  }
+}
+
+/* 호가 */
+
+.quote {
+  float: left;
+  width: 635px;
+  height: 1420px;
+  background-color: #fff;
+  h2 {
+    padding: 0 !important;
+  }
+  .title h2 {
+    box-sizing: border-box;
+    height: 68px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 68px;
+    color: #222;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+
+  .quoteUpAreaWrap {
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 100%;
+  }
+
+  .quoteArea {
+    box-sizing: initial;
+    box-sizing: border-box;
+    width: 635px;
+    height: 1345px;
+    padding: 8px 0 0 8px;
+    overflow: hidden;
+  }
+  .quoteArea .perfectScrollbar {
+    height: 50%;
+  }
+  .quoteArea .perfectScrollbar:first-child {
+    border-bottom: 1px solid #eee;
+  }
+  .quoteUpArea {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+  .quoteDownArea {
+    position: relative;
+    width: 100%;
+    height: 676px;
+    margin-top: 8px;
+  }
+
+  .quoteUpGraphWrap {
+    display: flex;
+    align-items: flex-end;
+    width: 413px;
+    border: 1px solid #eee;
+  }
+
+  .quoteUpArea .quoteUpGraph {
+    li {
+      position: relative;
+      display: flex;
+      width: 100%;
+      height: 44px;
+      border-bottom: 1px solid #eee;
+      &:first-child {
+        border-top: 1px solid #eee;
+      }
+    }
+    .leftArea {
+      position: relative;
+      float: left;
+      width: 203px;
+      height: 100%;
+      padding: 0 20px;
+      .box {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        width: 35px;
+        height: 30px;
+        background: #dcf0e2;
+      }
+      p {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 45px;
+        color: #222;
+      }
+    }
+    .rightArea {
+      float: left;
+      width: 210px;
+      height: 100%;
+      padding: 0 20px;
+      background: #dcf0e2;
+      p {
+        display: inline-block;
+        font-size: 16px;
+        line-height: 45px;
+      }
+    }
+  }
+  .quoteIInfoTop {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 196px;
+    margin-left: 8px;
+    .quoteInfoBox {
+      padding: 15px;
+      margin-bottom: 8px;
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 2px;
+      li {
+        margin-bottom: 14px;
+      }
+      .floatL {
+        font-size: 12px;
+        font-weight: 100;
+        color: #999;
+      }
+      li:last-child {
+        margin-bottom: 0;
+      }
+      .floatR {
+        font-size: 12px;
+        font-weight: 100;
+        color: #999;
+      }
+      .floatL strong {
+        margin-right: 4px;
+        font-size: 12px;
+        font-weight: normal;
+        color: #222;
+      }
+      li p {
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 18px;
+      }
+      .textR p {
+        font-weight: normal;
+      }
+    }
+  }
+  .quoteUpGraph li:hover .alertArea {
+    display: block;
+  }
+  .alertArea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 414px;
+    height: 495px;
+    border-top: 2px solid #398bd0;
+    transition: 0.2s;
+    .quoteUpGraphOpacity {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 414px;
+      height: 495px;
+      background-color: #e8f4fe;
+      opacity: 0.3;
+    }
+    .blueAlert {
+      position: absolute;
+      top: 0;
+      top: -42px;
+      right: 0;
+      right: -168px;
+      width: 180px;
+      height: 84px;
+      background: url('@assets/img/b2c/blueAlert.png');
+      li {
+        width: initial;
+        height: initial;
+        padding: 8px 8px 8px 25px;
+        border: none;
+        p {
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 1;
+          color: #fff;
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
+  .quoteInfoBottom {
+    float: left;
+    width: 196px;
+    height: 676px;
+    margin: 0 8px 0 0;
+    table {
+      border: 1px solid #eee;
+      thead tr {
+        &:first-child th p {
+          padding: 9px 12px;
+          font-size: 12px;
+          font-weight: normal;
+          color: #222;
+        }
+        &:last-child th {
+          padding: 9px 0;
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 18px;
+          color: #595959;
+          text-align: center;
+          border-top: 1px solid #eee;
+          border-bottom: 1px solid #eee;
+          &:first-child {
+            position: relative;
+            &::after {
+              position: absolute;
+              top: 8px;
+              right: 0;
+              display: block;
+              width: 1px;
+              height: 20px;
+              content: '';
+              background: #eee;
+            }
+          }
+        }
+      }
+      tbody tr {
+        border-bottom: 1px solid #eee;
+        td {
+          padding: 5px 12px;
+          p {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 18px;
+            color: #595959;
+            letter-spacing: normal;
+          }
+        }
+      }
+    }
+  }
+  .quoteDownGraph {
+    box-sizing: border-box;
+    float: left;
+    width: 415px;
+    height: 676px;
+    border: 1px solid #eee;
+    li {
+      height: 44px;
+      border-bottom: 1px solid #eee;
+    }
+    .leftArea {
+      position: relative;
+      float: left;
+      width: 203px;
+      height: 45px;
+      padding: 0 20px;
+      .box {
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: 35px;
+        height: 30px;
+        background: #f6d5d5;
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 45px;
+        color: #222;
+      }
+    }
+    .rightArea {
+      float: left;
+      width: 210px;
+      height: 100%;
+      padding: 0 20px;
+      background: #f6d5d5;
+
+      p {
+        display: inline-block;
+        font-size: 16px;
+        line-height: 45px;
+      }
+    }
+  }
+}
+
+/* 구매 */
+form.buying {
+  height: initial !important;
+}
+.buying {
+  float: right;
+  width: 635px;
+  height: 772px;
+  margin: 0 0 10px 0;
+  background: #fff;
+  .heldAssetsArea {
+    width: 100%;
+    padding: 24px 15px;
+    background: url('@assets/img/b2c/boxShadow.png') no-repeat 50%, 50%;
+    background-size: 108%;
+    .assest {
+      margin-top: 15px;
+      color: #222;
+      text-align: right;
+      strong {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      span {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: normal;
+      }
+    }
+  }
+  .priceArea {
+    padding: 20px 15px;
+    li {
+      margin-bottom: 26px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &.orderAllPrice {
+        margin-bottom: 23px;
+      }
+    }
+    .textBox {
+      float: left;
+      p {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 40px;
+        color: #999;
+      }
+    }
+    .selectBox {
+      float: right;
+      width: 465px;
+      p {
+        font-size: 14px;
+        line-height: 40px;
+        color: #222;
+        text-align: right;
+        strong {
+          margin-right: 16px;
+          font-size: 16px;
+          font-weight: bold;
+        }
+      }
+      .max_order {
+        margin-top: 10px;
+        text-align: right;
+        span {
+          &:first-child {
+            font-size: 12px;
+            font-weight: 300;
+            color: #999;
+          }
+          &:last-child {
+            margin-left: 6px;
+            font-size: 14px;
+            color: #222;
+          }
+        }
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+          margin-bottom: 0;
+          font-size: 11px;
+          font-weight: normal;
+          color: #999;
+          letter-spacing: normal;
+        }
+      }
+    }
+    li.line {
+      width: 100%;
+      height: 1px;
+      background: #eee;
+    }
+    .totalPrice {
+      .textBox p,
+      .selectBox p {
+        line-height: 20px;
+      }
+    }
+    .commission {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      background: rgba(229, 231, 243, 0.5);
+      border-radius: 2px;
+      .textBox {
+        width: 50%;
+      }
+      .selectBox {
+        width: 50%;
+        p {
+          font-size: 12px;
+          line-height: 20px;
+        }
+      }
+      .textBox p {
+        font-size: 12px;
+        line-height: 20px;
+      }
+      .selectBox p strong {
+        margin-right: 6px;
+        font-size: 12px;
+        font-weight: normal;
+      }
+    }
+    .buttonBox button {
+      float: left;
+      width: 40%;
+      padding: 8px 0;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      border-radius: 2px;
+      transition: 0.16s;
+      &:hover {
+        text-decoration: underline;
+        box-shadow: 0 3px 5px 0 rgba(153, 153, 153, 0.5);
+      }
+      &:last-child {
+        width: calc(60% - 10px);
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+/* 주문 */
+
+.orderDate {
+  float: left;
+  width: 100%;
+  height: 705px;
+  margin: 10px 0 0 0;
+  background-color: #fff;
+
+  /* table */
+
+  .orderTable {
+    thead {
+      border-bottom: 1px solid #eee;
+      tr th {
+        padding: 20px 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1;
+        color: #222;
+        text-align: center;
+      }
+    }
+    tbody tr:nth-child(2n-1) td:nth-child(5) {
+      position: relative;
+      &::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 330px;
+        height: 1px;
+        content: '';
+        background: #eee;
+      }
+    }
+    .tableScrollY {
+      height: 636px;
+    }
+  }
+
+  .orderTable tbody tr td {
+    padding: 7px 0;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #222;
+    text-align: center;
+    letter-spacing: normal;
+  }
+
+  .orderTable tbody tr td strong {
+    letter-spacing: normal;
+  }
+}
+
+/* 체결 */
+
+.conclusion {
+  float: left;
+  width: 635px;
+  height: 638px;
+  margin: 0 0 0 10px;
+  background-color: #fff;
+}
+
+.conclusionTable {
+  text-align: center;
+  thead tr {
+    border-bottom: 1px solid #eee;
+    th {
+      padding: 22px 0;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      color: #222;
+      text-align: center;
+    }
+  }
+  tbody tr td {
+    padding: 8px 0;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #222;
+    letter-spacing: 0;
+  }
+}
+
+.conclusion .tableScrollY {
+  height: 568px;
+  overflow: hidden;
+}
+.orderDate .tableScrollY {
+  height: 648px;
+  overflow: hidden;
+}

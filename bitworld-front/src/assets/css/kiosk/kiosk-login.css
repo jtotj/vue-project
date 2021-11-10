@@ -1,0 +1,69 @@
+/* 메인 홈에서 로그인 버튼 */
+.kiosk-home .main-use-store .el-button {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  padding: 0;
+}
+
+/* 인증코드 입력 버튼 */
+.kiosk-login .el-button {
+  width: 800px;
+  height: 120px;
+  margin-top: 100px;
+  padding-left: 30px;
+  border-radius: 30px !important;
+  border: none !important;
+}
+
+.kiosk-login .el-button span {
+  display: block;
+  width: 100%;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(164, 164, 164, 0.6);
+  text-align: left;
+}
+
+.kiosk .el-dialog__wrapper {
+  overflow: hidden;
+}
+
+/* 드로워 */
+.kiosk .el-drawer {
+  height: 1800px !important;
+  overflow: hidden;
+  border-radius: 50px 50px 0 0;
+  background-color: #eaf1f5 !important;
+}
+
+.kiosk .el-icon-close:before {
+  content: '' !important;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../../kiosk-img/combined-shape.svg) no-repeat 50% 50%;
+}
+
+.kiosk .el-drawer__header {
+  padding: 60px 60px 0;
+  margin-bottom: 0;
+}
+
+.kiosk .el-drawer__body h1 {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+}
+
+.kiosk .el-drawer__body > p {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(102, 120, 190, 0.5);
+}

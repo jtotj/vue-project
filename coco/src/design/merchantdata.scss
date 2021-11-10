@@ -1,0 +1,498 @@
+.no-data {
+  padding: 50px;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+}
+
+.reportHome {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+}
+
+.reportHome::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.reportHome .content {
+  display: block;
+  height: auto;
+}
+
+.reportHome .el-menu-item {
+  line-height: 35px;
+}
+
+.reportHome .box::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.reportHome-container {
+  display: block;
+}
+
+.reportHome-box {
+  table-layout: fixed;
+}
+
+.menu-wrap {
+  display: table-cell !important;
+  width: 200px;
+  height: 100%;
+  overflow: auto;
+  border-right: 1px solid #e5e5e5;
+}
+
+.el-menu-item-group {
+  background-color: #f9f9f9 !important;
+  border: none !important;
+}
+
+.el-menu-item-group__title {
+  display: none;
+}
+
+// 인사이트
+.insite {
+  box-sizing: border-box;
+  display: table-cell;
+  width: calc(50% - 20px);
+  padding: 20px;
+}
+
+.insite .select-bar {
+  width: 100%;
+}
+
+.insite .select-bar .el-select {
+  float: right;
+}
+
+.el-tabs--border-card {
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 16px;
+  color: #0068c1;
+}
+
+.sales-data {
+  box-sizing: border-box;
+  width: 48%;
+  height: 500px;
+  padding: 20px;
+}
+
+.graph {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.graph p {
+  padding: 100px;
+  text-align: center;
+}
+
+.round-rectangle {
+  padding: 0 30px;
+  margin-right: 10px;
+  color: #666;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.previous-year {
+  padding: 20px 0;
+}
+
+.block {
+  margin-top: 10px;
+}
+
+.el-input--suffix .el-input__inner,
+.el-select-dropdown__item,
+.el-range-editor .el-range-input {
+  font-size: 12px !important;
+}
+
+.el-select-dropdown__item {
+  padding: 0 !important;
+}
+
+.el-select-dropdown__item span {
+  padding-left: 10px;
+}
+
+.el-select-dropdown__list {
+  padding: 10px !important;
+}
+
+.el-checkbox {
+  float: none;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.el-checkbox:last-of-type {
+  float: left;
+  padding: 0;
+  margin-right: 10px !important;
+}
+
+.el-collapse {
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.el-collapse .bg-grey .el-checkbox {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.el-collapse-item__wrap {
+  background-color: #f9f9f9 !important;
+}
+
+.btn-medium {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #0068c1;
+  border: none;
+  border-radius: 4px;
+}
+
+.progress-wrap {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.el-progress-circle {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.customer-percent ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.customer-percent ul li:last-child {
+  border-bottom: none;
+}
+
+/* 명세서 */
+.specification {
+  padding: 20px;
+}
+
+.card-box {
+  float: left;
+  width: 240px;
+  height: 240px;
+  padding: 20px;
+  margin-right: 20px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+}
+
+/* 명세서 월별 */
+.specification-monthly {
+  display: table-cell;
+  width: 100%;
+  padding: 20px;
+}
+
+.pagination-wrap {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* 명세서 맞춤 */
+.specification-fit {
+  padding: 20px;
+}
+
+.el-select {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+.refresh {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+/* 활동내역 다운로드 */
+.activity-history-download {
+  display: table-cell;
+  width: 100%;
+  padding: 20px;
+}
+
+.activity-history-download .el-select {
+  float: left;
+  margin-right: 10px;
+}
+
+.activity-history-download .explanation {
+  padding-top: 10px;
+}
+
+.el-dialog--center {
+  width: 50% !important;
+}
+
+/* 거래 검색 */
+.deal-search {
+  display: table-cell;
+  padding: 20px;
+}
+
+.deal-search .select-bar {
+  display: inline-block;
+  width: 100%;
+}
+
+.deal-search .el-select {
+  width: 32.4%;
+}
+
+.deal-search .el-select:last-child {
+  margin-right: 0;
+}
+
+.deal-search .advanced-options .el-input {
+  width: 32%;
+  margin-right: 10px;
+}
+
+.deal-search .advanced-options .el-input:last-child {
+  margin-right: 0;
+}
+
+.deal-search .advanced-options .hyphen {
+  margin-right: 10px;
+}
+
+.deal-search .el-button--primary {
+  width: 150px;
+}
+
+.deal-search .btn-wrap {
+  padding: 20px 0;
+}
+
+/* 재무 활동 요약 */
+.financial-activity-summary {
+  padding: 20px;
+}
+
+/* 재무 요약 */
+.financial-activity {
+  padding: 20px;
+}
+
+/* 월간 판매 */
+.monthly-sale {
+  padding: 20px;
+}
+
+/* 분쟁 및 지불거절 */
+.dispute-refusal {
+  padding: 20px;
+}
+
+.dispute-refusal .help {
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid #0068c1;
+  border-radius: 5px;
+}
+
+/* 거래 */
+.deal {
+  padding: 20px;
+}
+
+/* 정산 */
+.calculate {
+  padding: 20px;
+}
+
+/* 거래 세부정보 */
+.transaction-details {
+  padding: 20px;
+}
+
+/* 거래 찾기 */
+.deal-find {
+  padding: 20px;
+}
+
+/* 도움말 및 서류 */
+.help-papers {
+  padding: 20px;
+}
+
+.help-papers ul li:nth-child(odd) {
+  padding: 30px 0 10px 0;
+  font-weight: bold;
+  color: #666;
+}
+
+.help-papers ul li:nth-child(even) {
+  color: #666;
+}
+
+.help-papers ul li p {
+  padding-bottom: 5px;
+}
+
+.reportHome .insite .customer {
+  width: 50%;
+  height: 500px;
+}
+
+@media (max-width: 1280px) {
+  .reportHome,
+  .activity-history-download {
+    display: block;
+  }
+
+  .pc {
+    display: none !important;
+  }
+
+  .mobile {
+    display: block !important;
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 1020px) {
+  .foreground-container .contents {
+    padding: 6rem 2rem 15rem;
+  }
+
+  .reportHome,
+  .insite {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .el-select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .el-select-dropdown {
+    width: auto;
+    margin: 0 auto !important;
+  }
+
+  .menu-wrap {
+    width: 100%;
+  }
+
+  .customer,
+  .sales-data {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .el-range-editor.el-input__inner {
+    width: 100% !important;
+  }
+
+  .card-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .el-button {
+    width: 100%;
+  }
+
+  .specification-monthly {
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .reportHome .el-button {
+    float: none;
+    width: 100% !important;
+    padding: 12px 20px !important;
+    background-color: #0068c1 !important;
+    border: 1px solid #0068c1 !important;
+  }
+
+  .el-menu--horizontal > .el-menu-item {
+    height: 40px !important;
+    padding: 0 10px;
+    line-height: 40px !important;
+    color: #909399 !important;
+  }
+
+  .el-menu--horizontal > .el-menu-item.is-active {
+    color: #909399 !important;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 2px solid #0068c1 !important;
+  }
+
+  .el-menu-demo.el-menu--horizontal > .el-submenu .el-submenu__title {
+    height: 40px !important;
+    padding: 0 10px;
+    line-height: 40px !important;
+    color: #909399 !important;
+  }
+
+  .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover {
+    color: #909399 !important;
+  }
+
+  .reportHome .insite .customer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .el-select-dropdown {
+    width: 75%;
+    margin: 0 auto !important;
+  }
+
+  .el-date-editor--daterange.el-input__inner {
+    width: 100% !important;
+  }
+}

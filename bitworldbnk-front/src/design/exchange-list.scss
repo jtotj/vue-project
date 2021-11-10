@@ -1,0 +1,37 @@
+.tabs {
+  .perfectScrollbar {
+    max-height: 670px;
+  }
+}
+
+.searchButtonWrap {
+  position: relative;
+  top: -10px;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.transitionSilde {
+  .balanceForm {
+    margin-bottom: 10px;
+  }
+
+  .balancePickerDate {
+    margin-bottom: 10px;
+  }
+
+  .balancePickerSort {
+    flex-direction: column;
+    .balanceRadioBtn {
+      width: 100%;
+      label {
+        width: 20%;
+        span {
+          width: 100%;
+          padding: 10px 0 !important;
+        }
+      }
+    }
+  }
+}

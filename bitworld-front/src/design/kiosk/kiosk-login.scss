@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+// KioskLogin
+
+.KioskLogin {
+  text-align: center;
+
+  .kioskLoginDepth1 {
+    h2 {
+      margin-top: 130px;
+      font-size: 56px;
+      font-weight: 900;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+    }
+
+    .qrCode {
+      margin: 175px 0;
+    }
+
+    p {
+      font-size: 40px;
+      font-weight: 500;
+      line-height: normal;
+      color: rgba(41, 48, 77, 0.5);
+      letter-spacing: normal;
+    }
+  }
+
+  .kioskLoginDepth2 {
+    p {
+      font-size: 52px;
+      font-weight: 500;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+
+      &:first-of-type {
+        margin-top: 90px;
+      }
+    }
+
+    .loginCode {
+      margin: 195px 0 100px 0;
+
+      .codeCircle {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        margin-right: 48px;
+        background-color: #c9c9c9;
+        border-radius: 100%;
+
+        &:last-of-type {
+          margin: 0;
+        }
+
+        &.active {
+          background-color: #0068c1;
+        }
+      }
+    }
+
+    .kioskLoginNum {
+      display: flex;
+      justify-content: center;
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 900px;
+        height: 1000px;
+
+        li {
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 33.33%;
+          height: 25%;
+          font-size: 100px;
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: normal;
+          line-height: normal;
+          color: #000;
+          letter-spacing: normal;
+
+          &:active {
+            color: #0068c1;
+          }
+        }
+
+        .reenter {
+          font-size: 40px;
+          font-weight: bold;
+          line-height: normal;
+          color: #000;
+          letter-spacing: normal;
+        }
+      }
+    }
+  }
+
+  .kioskLoginDepth3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1400px;
+
+    > div {
+      width: 400px;
+      height: 400px;
+      background: url(../../assets/kiosk-img/icon-kiosk-login.svg) no-repeat 0 0;
+      animation: LogInRotate 3s linear infinite;
+    }
+
+    > p {
+      margin-top: 100px;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 900;
+      font-stretch: normal;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+    }
+  }
+
+  .kioskLoginDepth4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .loginSuccess {
+      display: block;
+      width: 400px;
+      height: 400px;
+      margin: 400px 0 100px;
+      background: #0068c1 url(@assets/kiosk-img/icon-success.svg) no-repeat 50%
+        50%;
+      border-radius: 50%;
+    }
+
+    p {
+      margin-top: 40px;
+      font-size: 60px;
+      font-weight: 900;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+    }
+  }
+}
+
+@keyframes LogInRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

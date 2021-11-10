@@ -1,0 +1,247 @@
+/* NHN (developers@xpressengine.com) */
+
+/* Anchor Button */
+a.button,
+a.button span {
+  position: relative;
+  display: inline-block;
+  text-decoration: none !important;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background: url(@assets/images/buttonWhite.gif) no-repeat;
+}
+a.button {
+  padding: 0;
+  overflow: visible;
+  background-position: left top;
+}
+a.button span {
+  left: 2px;
+  padding: 6px 10px 5px 8px;
+  font: 12px/12px Sans-serif;
+  color: #000;
+  *vertical-align: top;
+  background-position: right top;
+}
+
+/* Large Size */
+a.button.large {
+  background-position: left -30px;
+}
+a.button.large span {
+  padding: 7px 10px 6px 8px;
+  font: 16px/16px Sans-serif;
+  background-position: right -30px;
+}
+
+/* xLarge Size */
+a.button.xLarge {
+  background-position: left -65px;
+}
+a.button.xLarge span {
+  padding: 8px 10px 7px 8px;
+  font: 20px/20px Sans-serif;
+  background-position: right -65px;
+}
+
+/* Small Size */
+a.button.small {
+  background-position: left -107px;
+}
+a.button.small span {
+  padding: 4px 6px 3px 4px;
+  font: 11px/11px Sans-serif;
+  background-position: right -107px;
+}
+
+/* Control Button + Submit Button */
+span.button,
+span.button button,
+span.button input {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  font: 12px Sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+  background: url(@assets/images/buttonWhite.gif) no-repeat;
+  border: 0;
+}
+span.button {
+  padding: 0;
+  background-position: left top;
+}
+span.button button,
+span.button input {
+  left: 2px;
+  height: 23px;
+  padding: 0 10px 0 8px;
+  *overflow: visible;
+  line-height: 24px;
+  *vertical-align: top;
+  cursor: pointer;
+  background-position: right top;
+}
+
+/* Large Size */
+span.button.large {
+  background-position: left -30px;
+}
+span.button.large button,
+span.button.large input {
+  height: 30px;
+  padding: 0 10px 0 8px;
+  font: 16px/30px Sans-serif;
+  background-position: right -30px;
+}
+
+/* xLarge Size */
+span.button.xLarge {
+  background-position: left -65px;
+}
+span.button.xLarge button,
+span.button.xLarge input {
+  height: 35px;
+  padding: 0 10px 0 8px;
+  font: 20px/36px Sans-serif;
+  background-position: right -65px;
+}
+
+/* Small Size */
+span.button.small {
+  background-position: left -107px;
+}
+span.button.small button,
+span.button.small input {
+  height: 18px;
+  padding: 0 6px 0 4px;
+  font: 11px/18px Sans-serif;
+  background-position: right -107px;
+}
+
+/* Strong Button */
+a.button.strong *,
+span.button.strong * {
+  font-weight: bold !important;
+}
+
+/* Icon Add */
+a.button .icon {
+  position: relative;
+  vertical-align: middle;
+  border: 0;
+}
+span.button .icon {
+  position: relative;
+  left: 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Color Preset */
+a.button.green,
+a.button.green span,
+span.button.green,
+span.button.green button,
+span.button.green input {
+  color: #fff;
+  background-image: url(@assets/images/buttonGreen.gif);
+}
+a.button.black,
+a.button.black span,
+span.button.black,
+span.button.black button,
+span.button.black input {
+  color: #fff;
+  background-image: url(@assets/images/buttonBlack.gif);
+}
+a.button.red,
+a.button.red span,
+span.button.red,
+span.button.red button,
+span.button.red input {
+  color: #fff;
+  background-image: url(@assets/images/buttonRed.gif);
+}
+a.button.blue,
+a.button.blue span,
+span.button.blue,
+span.button.blue button,
+span.button.blue input {
+  color: #fff;
+  background-image: url(@assets/images/buttonBlue.gif);
+}
+
+/* Offset Debug */
+a.button,
+span.button {
+  margin-right: 2px;
+}
+
+/* Button Set */
+.buttonSet {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+  vertical-align: middle;
+  background-color: transparent;
+  background-image: url(@assets/images/buttonSet.gif);
+  background-repeat: no-repeat;
+  border: 0;
+}
+.buttonSet span {
+  z-index: -1;
+  font-size: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.buttonSet.buttonUp {
+  background-position: 0 0;
+}
+.buttonSet.buttonDown {
+  background-position: 0 -16px;
+}
+.buttonSet.buttonLeft {
+  background-position: 0 -32px;
+}
+.buttonSet.buttonRight {
+  background-position: 0 -48px;
+}
+.buttonSet.buttonInfo {
+  background-position: 0 -64px;
+}
+.buttonSet.buttonCopy {
+  background-position: 0 -80px;
+}
+.buttonSet.buttonSetting {
+  background-position: 0 -96px;
+}
+.buttonSet.buttonActive {
+  background-position: 0 -112px;
+}
+.buttonSet.buttonDisable {
+  background-position: 0 -128px;
+}
+.buttonSet.buttonDelete {
+  background-position: 0 -144px;
+}
+.buttonSet.buttonHomepage {
+  background-position: 0 -160px;
+}
+.buttonSet.buttonBlog {
+  background-position: 0 -176px;
+}
+.buttonSet.buttonCalendar {
+  background-position: 0 -192px;
+}
+.buttonSet.buttonLayoutEditor {
+  background-position: 0 -208px;
+}
+.buttonSet.buttonAddWidget {
+  background-position: 0 -224px;
+}
+.buttonSet.buttonAddContent {
+  background-position: 0 -240px;
+}

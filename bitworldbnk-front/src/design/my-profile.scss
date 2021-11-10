@@ -1,0 +1,142 @@
+.myProfile {
+  .profileListWrap {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+
+    .profileList {
+      box-sizing: border-box;
+      padding: 20px 0;
+      overflow: hidden;
+      border-bottom: 1px solid #e5e5e5;
+
+      .listLeft {
+        float: left;
+      }
+
+      .listRight {
+        float: right;
+
+        strong {
+          letter-spacing: 0;
+        }
+
+        .inviterLink {
+          @media screen and (max-width: 400px) {
+            display: block;
+            word-break: break-all;
+          }
+        }
+      }
+
+      .btnWrap {
+        float: right;
+        padding-left: 20px;
+
+        .accountBlock {
+          float: right;
+        }
+      }
+    }
+  }
+
+  .ml5 {
+    @media screen and (max-width: 480px) {
+      margin-left: 5px;
+    }
+  }
+
+  .btnGreyWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    a {
+      @media screen and (max-width: 480px) {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .btnBlueWrap {
+    @media screen and (max-width: 480px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    button {
+      @media screen and (max-width: 480px) {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .modifyList {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+
+    button {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .btnsWrap {
+      @media screen and (max-width: 400px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+    }
+
+    .btnWrap {
+      float: left;
+
+      button {
+        padding-right: 20px;
+        border: none;
+      }
+    }
+
+    .accountBlock {
+      float: right;
+    }
+  }
+}
+
+.formWrap {
+  margin-top: 20px;
+
+  .subTitle {
+    padding-bottom: 10px;
+  }
+
+  input {
+    margin-bottom: 10px;
+  }
+}
+
+.btnWrap {
+  button {
+    width: 49%;
+  }
+
+  .cancelBtn {
+    margin-right: 2%;
+    color: #222;
+    background-color: #eee;
+  }
+
+  .modifyBtn {
+    color: white;
+    background-color: #0068c1;
+  }
+}
+
+@media (max-width: 768px) {
+  .profileList {
+    width: 100% !important;
+  }
+}

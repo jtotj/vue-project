@@ -1,0 +1,59 @@
+.form {
+  p {
+    padding-bottom: 10px;
+  }
+
+  .formGroup {
+    padding-bottom: 10px;
+  }
+}
+
+.nonMemberLogin {
+  margin-top: 20px;
+}
+
+.completed {
+  text-align: center;
+
+  .textWrap {
+    .imgWrap {
+      width: 70px;
+      padding: 10px 0;
+      margin: 0 auto;
+    }
+
+    .completedText {
+      padding-bottom: 20px;
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .ticketIdWrap {
+      padding: 20px;
+      border: 1px solid black;
+      border-radius: 5px;
+
+      p {
+        padding-bottom: 10px;
+      }
+
+      .ticketId {
+        padding: 10px;
+        background-color: #f9f9f9;
+      }
+    }
+  }
+  .goContactHistory {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    background-color: #0068c1;
+    border: none;
+    border-radius: 5px;
+  }
+}

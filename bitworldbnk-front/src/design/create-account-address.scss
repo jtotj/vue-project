@@ -1,0 +1,276 @@
+.tradesWrap {
+  .tradesBox {
+    width: 100%;
+    overflow: hidden;
+
+    .tradesHead {
+      display: inline-block;
+      padding: 10px 0;
+      color: #333;
+    }
+
+    .tradesLeft {
+      box-sizing: border-box;
+      float: left;
+      width: 32%;
+    }
+
+    .tradesRight {
+      box-sizing: border-box;
+      float: right;
+      width: 65%;
+      margin-top: 46px;
+
+      .newAccountWrap {
+        .cautionTextWrap {
+          padding: 20px;
+          margin: 20px 0;
+          background: #f4f4f4;
+
+          .cautionTitle {
+            margin-bottom: 10px;
+          }
+        }
+
+        .securityTextWrap {
+          padding: 10px 5px;
+          margin: 10px 0 20px;
+          color: #0068c1;
+        }
+      }
+
+      .consentAcounntWrap {
+        .consentTextWrap {
+          height: 55%;
+          text-align: initial;
+
+          .textWrap {
+            padding-top: 30px;
+
+            p {
+              padding: 10px;
+            }
+          }
+        }
+
+        .consentBtnWrap {
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+.sectionWrap {
+  box-sizing: border-box;
+  padding: 40px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+
+  .textWrap {
+    padding-bottom: 10px;
+    text-align: initial;
+  }
+
+  .lookUpWrap {
+    height: 80%;
+
+    .lookUpTextWrap {
+      height: 80%;
+      word-break: break-all;
+    }
+
+    .lookUpAddress {
+      padding: 10px;
+      margin: 10px 0 20px;
+      background-color: #f4f4f4;
+      border: 1px solid #e5e5e5;
+    }
+  }
+  .accountBtnWrap,
+  .consentBtnWrap {
+    margin-top: 20px;
+    text-align: center;
+
+    button {
+      margin: 0 5px;
+      color: #fff;
+
+      &.leftBtn {
+        background: #999;
+      }
+
+      &.rightBtn {
+        background: #95b5d1;
+
+        &.active {
+          background: #0068c1;
+        }
+      }
+    }
+  }
+
+  .consentCheckBox {
+    margin-top: 120px;
+    color: #333;
+
+    span:first-child {
+      float: right;
+      margin: 2px 5px 0;
+    }
+  }
+}
+
+// 계좌생성 모달창
+.elRow {
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+
+  .tableHead {
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    padding: 15px;
+    color: #999;
+    background-color: #f9f9f9;
+  }
+
+  .tableBody {
+    box-sizing: border-box;
+    float: right;
+    width: 70%;
+    padding: 15px;
+  }
+}
+
+.inputRow {
+  height: 74px;
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+
+  .tableHead {
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    height: 74px;
+    padding: 28px 15px;
+    color: #999;
+    background-color: #f9f9f9;
+  }
+
+  .tableBody {
+    box-sizing: border-box;
+    float: right;
+    width: 70%;
+    padding: 15px;
+  }
+}
+
+.btnWrap {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+
+  .createBtn,
+  .modifyBtn {
+    float: right;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #0068c1;
+    border: none;
+  }
+}
+
+@media (max-width: 870px) {
+  .sectionWrap {
+    .accountBtnWrap {
+      button {
+        height: 50px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .tradesWrap .tradesBox {
+    .tradesHead {
+      padding: 0 0 15px;
+      font-size: 16px;
+      color: #999;
+    }
+
+    .tradesLeft {
+      float: none;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .tradesRight {
+      float: none;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+
+  .tradesRight {
+    .consentAcounntWrap {
+      text-align: left !important;
+
+      .consentCheckBox {
+        padding: 10px 0;
+
+        span {
+          float: left;
+          padding: 0;
+
+          &:first-child {
+            float: right;
+          }
+        }
+      }
+
+      p {
+        padding: 0 !important;
+      }
+
+      .consentBtnWrap {
+        padding-top: 10px !important;
+      }
+    }
+
+    .sectionWrap {
+      height: 100%;
+      padding-bottom: 20px;
+
+      .accountBtnWrap {
+        button {
+          height: 50px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .inputRow {
+    .tableHead {
+      width: 40%;
+    }
+
+    .tableBody {
+      width: 60%;
+    }
+  }
+
+  .elRow {
+    .tableBody {
+      width: 60%;
+    }
+
+    .tableHead {
+      width: 40%;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.fees {
+  .banner {
+    padding: 80px;
+    color: white;
+    text-align: center;
+    background-color: #053258;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 1.5em;
+    }
+
+    p {
+      color: #ccc;
+    }
+  }
+
+  .notice {
+    padding-bottom: 40px;
+
+    h2,
+    p {
+      text-align: center;
+    }
+  }
+
+  .feeInfo {
+    padding: 40px;
+    background-color: white;
+
+    .feeTable {
+      tr {
+        border-bottom: 1px solid #e5e5e5;
+
+        td {
+          padding: 20px;
+          text-align: center;
+        }
+      }
+    }
+
+    .learnMoreBtn {
+      display: inline-block;
+      width: 100%;
+      padding-top: 30px;
+      margin: 0 auto;
+      text-align: center;
+
+      .btn {
+        padding: 10px 20px;
+        color: white;
+        background-color: #0068c1;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .feeTable {
+    tr {
+      td {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 100%;
+      }
+    }
+  }
+}

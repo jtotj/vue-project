@@ -1,0 +1,583 @@
+.page-invest .main {
+  margin-top: 45px;
+}
+
+.altcoin {
+  padding: 31px 37px;
+  background: url(../img/sub-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.altcoin .alt-wrap {
+  width: 66.666%;
+  margin: 0 auto;
+}
+
+.altcoin .alt-top {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.altcoin .text-1 {
+  line-height: 45px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.altcoin .text-2 {
+  line-height: 27px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.altcoin .alt-bot,
+.altcoin .alt-bot .alt-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.altcoin .alt-bot .alt-item i {
+  margin-right: 15px;
+  line-height: 54px;
+}
+
+.altcoin .alt-bot .alt-item img {
+  width: 48px;
+}
+
+.altcoin .alt-bot .alt-item .item-1 {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.altcoin .alt-bot .alt-item .item-2 {
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.altcoin .alt-bot .alt-item .alt-img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  background-color: #7d7188;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px;
+}
+
+.altcoin .alt-bot .alt-item .ins {
+  background-image: url('../img/ins.png');
+}
+
+.altcoin .alt-bot .alt-item .sec {
+  background-image: url('../img/sec.png');
+}
+
+.altcoin .alt-bot .alt-item .sup {
+  background-image: url('../img/sup.png');
+}
+
+/* altcoin coin list */
+.altcoin-list {
+  margin: 50px;
+  background: #f8f8f8;
+}
+
+.altcoin-list .altcoin-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  background: #f8f8f8;
+  color: #333;
+}
+
+.altcoin-list .altcoin-body {
+  background: #fff;
+}
+
+.altcoin-list .top-text {
+  width: 71%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.altcoin-list .top-text .altcoin-tit {
+  font-size: 24px;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.altcoin-list .top-text .altcoin-des {
+  font-size: 16px;
+}
+
+.altcoin-list .top-serch {
+  position: relative;
+  width: 25%;
+}
+
+.altcoin-list .top-serch .serch-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/serch.png);
+  background-size: 17px 17px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 7px;
+  left: 9px;
+  opacity: 0.7;
+}
+
+.altcoin-list .top-serch .el-input__inner {
+  width: 90%;
+  height: 33px;
+  padding: 9px 0 9px 33px;
+  color: #373737;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.altcoin-list .top-serch .el-input__icon {
+  line-height: 37px;
+}
+
+.altcoin-list ul {
+  display: flex;
+  cursor: pointer;
+}
+
+.altcoin-list ul li {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.altcoin-list ul li:nth-child(1) {
+  width: 15%;
+  white-space: nowrap;
+}
+
+.altcoin-list ul li:nth-child(2) {
+  width: 16%;
+  text-align: right;
+}
+
+.altcoin-list ul li:nth-child(3) {
+  width: 15%;
+  text-align: right;
+}
+
+.altcoin-list ul li:nth-child(4) {
+  width: 20%;
+  text-align: right;
+}
+
+.altcoin-list ul li:nth-child(5) {
+  width: 20%;
+  text-align: center;
+}
+
+.altcoin-list ul li:nth-child(6) {
+  width: 14%;
+  text-align: center;
+}
+
+.altcoin-list .bot-head li {
+  padding: 15px 18px;
+  font-size: 12px;
+  color: #373737;
+  font-weight: 700;
+}
+
+.coin-body li {
+  line-height: 60px;
+  padding: 0 18px;
+  color: #111;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.coin-body .bot-1 {
+  padding-left: 50px;
+}
+
+/* invest create */
+.card-inner {
+  width: 65%;
+  margin: 50px auto;
+  border-radius: 0.6rem;
+}
+
+.card-inner .card-tit {
+  padding: 5px 30px;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+.card-inner .card-body {
+  margin: 30px;
+}
+
+.card-body .row {
+  padding: 9px;
+}
+
+.card-body .copiable-div {
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-body .copiable-div .text-truncate {
+  padding: 0.8rem 1.2rem 0.8rem 0;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 1px 8px;
+  border-radius: 12px;
+  background-color: #ebecf0;
+  color: #49474a;
+}
+
+.badge-success {
+  color: #fff;
+  background-color: #299d82;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.card-inner .card-top {
+  padding: 30px;
+  background-color: rgb(38, 52, 60);
+  position: relative;
+}
+
+.card-inner .card-top .select-label {
+  margin-bottom: 10px;
+}
+
+.card-inner .card-top select {
+  height: 64px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  outline: 0;
+  background: #fff;
+  box-sizing: border-box;
+  padding-left: 20px;
+  border-radius: 6px;
+  color: #4d4d4d;
+}
+
+.card-inner .card-top .select-arrow {
+  background-color: rgb(19, 191, 153);
+  color: #fff;
+  position: absolute;
+  top: 58px;
+  right: 30px;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 36px;
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+/* mid */
+.card-inner .card-mid {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.card-inner .card-mid .mid-box {
+  width: 48%;
+}
+
+.card-inner .card-mid input {
+  width: 100%;
+  border-radius: 4px;
+  height: 50px;
+  line-height: 50px;
+  box-shadow: none;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0 16px;
+  border: none;
+  background: rgb(38, 52, 60);
+  color: #fff;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.card-inner .card-mid .usdt-input {
+  cursor: not-allowed;
+  background-color: rgb(38, 52, 60);
+  opacity: 1;
+}
+
+.card-inner .card-mid .available-balance {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* bot */
+.card-inner .card-bot {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+/*investment detail */
+.page-investment-detail .card-wrap {
+  width: 66%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.page-investment-detail .card-wrap .card {
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+}
+
+.page-investment-detail .card-wrap .card-center {
+  margin: 30px 0;
+}
+
+.page-investment-detail .card-wrap .card-title {
+  padding: 5px 30px;
+  border-bottom: 1px solid #e8e8e8;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.page-investment-detail .card-wrap .card-body {
+  margin: 0 30px;
+}
+
+.page-investment-detail .card-wrap .card-body .card-row {
+  line-height: 40px;
+  border-top: 1px solid #ddd;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.page-investment-detail .card-wrap .card-body .card-row .badge {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 1px 8px;
+  border-radius: 12px;
+  line-height: 1;
+  background-color: #ebecf0;
+  color: #49474a;
+}
+
+.page-investment-detail .card-wrap .card-body .card-row .badge-primary {
+  color: #fff;
+  background-color: #9b59b6;
+}
+
+@media (min-width: 1200px) {
+  .altcoin {
+    padding: 37px 45px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .altcoin {
+    padding: 37px 45px;
+  }
+
+  .altcoin .alt-bot .alt-item .alt-img {
+    margin-right: 10px;
+  }
+
+  .altcoin .alt-item .item-text {
+    width: 70%;
+  }
+
+  .card-inner {
+    width: 66.666%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .altcoin {
+    padding: 37px 45px;
+  }
+
+  .altcoin .alt-wrap {
+    width: 100%;
+  }
+
+  .altcoin .alt-bot .alt-item .alt-img {
+    margin-right: 10px;
+  }
+
+  .altcoin .alt-item .item-text {
+    width: 70%;
+  }
+
+  .altcoin-list .top-text {
+    display: block;
+  }
+
+  .altcoin-list .top-text .altcoin-tit {
+    margin-bottom: 10px;
+  }
+
+  .altcoin-body ul .bot-2,
+  .altcoin-body ul .bot-4,
+  .altcoin-body ul .bot-5 {
+    display: none;
+  }
+
+  .altcoin-list .altcoin-body ul .bot-1 {
+    width: 50%;
+  }
+
+  .altcoin-list .altcoin-body ul .bot-3 {
+    width: 25%;
+  }
+
+  .altcoin-list .altcoin-body ul .bot-6 {
+    width: 25%;
+  }
+
+  .card-wrap.container {
+    width: 770px;
+  }
+
+  .card-inner {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .altcoin {
+    padding: 31px 0;
+  }
+
+  .altcoin .alt-wrap {
+    width: 100%;
+  }
+
+  .altcoin .alt-bot {
+    display: block;
+  }
+
+  .altcoin .alt-bot .alt-item {
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .page-invest .altcoin-list {
+    margin: 0;
+  }
+
+  .altcoin-list .altcoin-top {
+    display: block;
+  }
+
+  .altcoin-list .top-serch {
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .altcoin-list .top-serch .serch-icon {
+    left: 28px;
+  }
+
+  .altcoin-list .top-serch .serch-input {
+    width: 100%;
+  }
+
+  .altcoin-list .top-text {
+    display: block;
+  }
+
+  .altcoin-list .top-text .altcoin-tit {
+    margin-bottom: 10px;
+  }
+
+  .altcoin-list .bot-head li {
+    height: 49px;
+  }
+
+  .altcoin-body ul .bot-2,
+  .altcoin-body ul .bot-4,
+  .altcoin-body ul .bot-5 {
+    display: none;
+  }
+
+  .altcoin-list .altcoin-body ul .bot-1 {
+    width: 50%;
+  }
+
+  .altcoin-list .altcoin-body ul .bot-3 {
+    width: 25%;
+    white-space: nowrap;
+  }
+
+  .altcoin-list .altcoin-body ul .bot-6 {
+    width: 25%;
+  }
+
+  .card-inner {
+    width: 100%;
+  }
+
+  .card-inner .card-mid {
+    display: block;
+  }
+
+  .card-inner .card-mid .mid-box {
+    width: 100%;
+  }
+
+  .card-inner .card-mid .mid-box:nth-child(1) {
+    margin-bottom: 40px;
+  }
+
+  .card-inner .card-mid {
+    padding: 30px 10px;
+  }
+}

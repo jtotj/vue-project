@@ -1,0 +1,775 @@
+/* 배너 */
+
+.banner {
+  width: 100%;
+  height: 450px;
+  background: url('@assets/img/b2c/banner_b2c.png') no-repeat 50% 50%;
+  background-size: cover;
+  .textBox {
+    margin-top: 120px;
+    .first {
+      font-size: 30px;
+      color: #ccc;
+      letter-spacing: -1.2px;
+    }
+    .second {
+      margin: 30px 0 40px;
+      font-size: 50px;
+      line-height: 50px;
+      color: #fff;
+      letter-spacing: -2px;
+    }
+    .buttonArea li {
+      float: left;
+      button {
+        padding: 12px 66px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        cursor: pointer;
+        background: initial;
+        border: 1px solid #fff;
+        transition: 0.2s;
+      }
+      &:first-child button {
+        color: #222;
+        background: #fff;
+      }
+      button:hover {
+        box-shadow: 0 5px 10px 0 #697278;
+      }
+      &:last-child {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+/* 거래소 */
+
+.exchange {
+  width: 100%;
+  img {
+    width: auto;
+  }
+  .tabSearchArea {
+    position: relative;
+    .tabArea {
+      float: left;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .searchArea {
+      float: right;
+      .inputBox {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        input {
+          position: relative;
+          box-sizing: border-box;
+          width: 300px;
+          padding: 10px 16px;
+          background: #fff;
+          border: 1px solid #eee;
+          &::placeholder {
+            font-size: 14px;
+            color: #999;
+          }
+        }
+        img {
+          position: absolute;
+          top: 12px;
+          right: 16px;
+          width: 18px;
+          height: 18px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  table {
+    thead {
+      tr {
+        height: 43px;
+        line-height: 43px;
+        th {
+          font-size: 12px;
+          font-weight: normal;
+          color: #999;
+          border-top: 1px solid #222;
+          border-bottom: 1px solid #222;
+          &:first-child {
+            padding-left: 52px;
+          }
+          &:last-child {
+            padding-right: 20px;
+          }
+          .arrowArea {
+            display: inline-block;
+            .arrowBox {
+              &:last-child {
+                margin-top: 4px;
+                margin-bottom: -3px;
+              }
+              img {
+                display: block;
+              }
+            }
+          }
+          img {
+            margin: 0 0 0 8px;
+            cursor: pointer;
+          }
+          &.amount {
+            position: relative;
+            .popup {
+              position: absolute;
+              right: -15px;
+              bottom: -55px;
+              height: 100%;
+              padding: 0 10px;
+              background: #666;
+              opacity: 0;
+              transition: 0.2s;
+            }
+            &:hover .popup {
+              opacity: 0.8;
+            }
+          }
+          .popup {
+            span {
+              font-size: 12px;
+              font-weight: 300;
+              color: #fff;
+            }
+            .triangle {
+              position: absolute;
+              top: -14px;
+              left: 50%;
+              width: 0;
+              height: 0;
+              border-top: 14px solid none;
+              border-right: 12px solid transparent;
+              border-bottom: 14px solid #666;
+              border-left: 12px solid transparent;
+              transform: translateX(-50%);
+            }
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        padding: 0 20px;
+        border-bottom: 1px solid #eee;
+        td {
+          height: 52px;
+          line-height: 52px;
+          text-align: center;
+          &:first-child {
+            padding-left: 20px;
+          }
+          &:last-child {
+            padding-right: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #222;
+          }
+          span {
+            font-size: 12px;
+            line-height: 52px;
+            color: #222;
+            &:nth-child(2) {
+              margin: 0 10px 0 20px;
+            }
+          }
+          > img {
+            cursor: pointer;
+          }
+          em {
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 52px;
+            color: #999;
+          }
+          .coinName {
+            display: inline-block;
+            margin-left: 20px;
+            span {
+              margin: 0 10px 0 5px;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      td.voidMarketArea {
+        position: relative;
+        width: 200px;
+        height: 240px;
+        .noneMarket {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 100%;
+          transform: translate(-50%, -50%);
+          p {
+            margin-top: 10px;
+            font-size: 12px;
+            font-weight: normal;
+            line-height: 18px;
+            color: #999;
+          }
+        }
+      }
+    }
+  }
+  .exchangeEnter {
+    margin-top: 40px;
+    a {
+      display: inline-block;
+      padding: 8px 30px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #0068c1;
+      border: 1px solid #0068c1;
+      border-radius: 20px;
+      transition: 0.2s;
+      i {
+        display: inline-block;
+        margin: 0 0 3px 10px;
+        font-size: 12px;
+        vertical-align: middle;
+      }
+    }
+    a:hover {
+      color: #fff;
+      background-color: #0068c1;
+      border: solid 1px #0068c1;
+      box-shadow: 0 3px 6px 0 rgba(0, 104, 193, 0.4);
+    }
+  }
+}
+
+/* advantage 거래소 소개 seciton2 */
+
+.advantage {
+  width: 100%;
+  .advantageImgArea {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 780px;
+    background: url('@assets/img/b2c/advantageImg.png') no-repeat 50%, 50%;
+    background-size: cover;
+    .advantageImgText {
+      position: absolute;
+      right: 160px;
+      bottom: 40px;
+      width: 570px;
+      p {
+        position: relative;
+        float: right;
+        margin-bottom: 10px;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 36px;
+        color: #f4f4f4;
+        text-align: right;
+        &::before {
+          position: absolute;
+          top: 16px;
+          left: -90px;
+          width: 80px;
+          height: 2px;
+          content: '';
+          background: #fff;
+        }
+      }
+      strong {
+        float: left;
+        float: right;
+        font-family: Roboto;
+        font-size: 110px;
+        font-weight: bold;
+        line-height: 120px;
+        color: #fff;
+      }
+    }
+  }
+  .advantageTextArea {
+    float: left;
+    width: 50%;
+    padding: 40px 40px 0 40px;
+    ul {
+      padding: 35px;
+      li {
+        padding: 30px 0;
+        &:first-child {
+          padding-top: 0;
+        }
+        img {
+          float: left;
+          width: auto;
+          margin-right: 30px;
+        }
+        .textArea {
+          float: left;
+          width: 75%;
+          strong {
+            margin-bottom: 5px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #222;
+          }
+          p {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 21px;
+            color: #999;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* 모바일 앱 */
+
+.mobileApp {
+  box-sizing: border-box;
+  width: 100%;
+  height: 553px;
+  overflow: hidden;
+  background: #3a4961;
+  .imgArea {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 553px;
+    .gaussian {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 553px;
+      height: 553px;
+      background-color: #fff;
+      -webkit-filter: blur(30px);
+      filter: blur(30px);
+      border: solid 1px #707070;
+      border-radius: 50%;
+      opacity: 0.5;
+      transform: translateX(-50%);
+    }
+    .mobilePhone {
+      position: absolute;
+      bottom: 80px;
+      left: 36px;
+      width: 562px;
+      height: 473px;
+    }
+  }
+  .textArea {
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-top: 64px;
+    h4 {
+      font-size: 30px;
+      font-weight: normal;
+      color: #fff;
+      strong {
+        margin-bottom: 10px;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 74px;
+        color: #fff;
+        letter-spacing: -2px;
+      }
+    }
+    p {
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 27px;
+      color: #ccc;
+    }
+    .buttonArea {
+      margin-top: 40px;
+      li {
+        display: inline-block;
+        padding: 10px 0;
+        &:last-child {
+          margin-left: 20px;
+        }
+        a {
+          width: 183px;
+          height: 44px;
+          padding: 10px 30px;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          color: #000;
+          background: #fff;
+          border: solid 1px #eee;
+          border-radius: 20px;
+          transition: 0.2s;
+          &:hover {
+            color: #0068c1;
+            box-shadow: 0 0 10px 0 #14233b;
+            .OnImg {
+              display: inline-block;
+            }
+            .OffImg {
+              display: none;
+            }
+          }
+          img {
+            float: left;
+            width: 22px;
+            height: 24px;
+            margin-right: 10px;
+          }
+          .OnImg {
+            display: none;
+          }
+        }
+        &:last-child a img {
+          vertical-align: -6px;
+        }
+      }
+    }
+  }
+}
+
+/* 거래 */
+
+.trade {
+  position: relative;
+  height: 289px;
+  padding-top: 0;
+  background-color: #091e3e;
+  .textArea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    h3 {
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 40px;
+      color: #fff;
+    }
+    .buttonArea {
+      margin-top: 20px;
+      text-align: center;
+      li {
+        display: inline-block;
+        width: 220px;
+        height: 50px;
+        border-radius: 2px;
+        &:first-child {
+          margin-right: 20px;
+          button {
+            margin-right: 20px;
+            color: #fff;
+            background-color: #0068c1;
+          }
+        }
+        button {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          font-size: 16px;
+          font-weight: 500;
+          color: #0068c1;
+          text-align: center;
+          background-color: #fff;
+          transition: 0.2s;
+        }
+        &:hover a {
+          box-shadow: 0 3px 6px 0 rgba(0, 104, 193, 0.4);
+        }
+      }
+    }
+  }
+}
+
+/* 시장잔액 이동 */
+.balanceMain {
+  height: 100vh;
+  .transferBox {
+    width: 538px;
+    height: auto;
+    margin: 120px auto 0;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 1690px) {
+  .advantage {
+    .advantageImgArea {
+      .advantageImgText {
+        right: 70px;
+        width: 450px;
+        p {
+          font-size: 22px;
+        }
+        strong {
+          font-size: 95px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1450px) {
+  .advantage {
+    .advantageImgArea {
+      .advantageImgText {
+        right: 30px;
+        p {
+          font-size: 20px;
+        }
+        strong {
+          font-size: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1330px) {
+  .mobileApp {
+    .imgArea {
+      .mobilePhone {
+        left: -30px;
+      }
+    }
+  }
+  table {
+    tbody {
+      tr {
+        td {
+          .coinName {
+            span {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .advantage {
+    .advantageTextArea {
+      padding: 25px 25px 0;
+      ul {
+        padding: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .banner {
+    .textBox {
+      padding-left: 30px;
+    }
+  }
+
+  .advantage {
+    .advantageTextArea {
+      width: 100%;
+    }
+    .advantageImgArea {
+      width: 100%;
+    }
+  }
+  .mobileApp {
+    div {
+      padding: 0 20px;
+    }
+    .textArea {
+      h4 {
+        font-size: 20px;
+        strong {
+          font-size: 50px;
+          line-height: 50px;
+        }
+      }
+      p {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1015px) {
+  .mobileApp {
+    .textArea {
+      h4 {
+        font-size: 15px;
+        strong {
+          font-size: 35px;
+          line-height: 35px;
+        }
+      }
+      p {
+        font-size: 12px;
+        line-height: 20px;
+      }
+      .buttonArea {
+        li {
+          display: block;
+          &:last-child {
+            margin-top: 10px;
+            margin-left: 0;
+            a {
+              padding: 10px 37px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .trade {
+    text-align: center;
+    .textArea {
+      width: 100%;
+      h3 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    .textBox {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      padding-left: 0;
+      margin-top: 0;
+      transform: translate(-50%, -50%);
+      .first {
+        font-size: 18px;
+      }
+      .second {
+        font-size: 30px;
+        line-height: 30px;
+      }
+      .buttonArea li {
+        &:last-child {
+          margin-top: 20px;
+          margin-left: 0;
+        }
+        button {
+          width: 227px;
+        }
+      }
+    }
+  }
+  .buttonArea {
+    li {
+      width: auto !important;
+      &:first-child {
+        margin-right: 0;
+      }
+      button {
+        padding: 5px;
+      }
+    }
+  }
+  .mobileButton {
+    li {
+      width: 40% !important;
+    }
+  }
+  .advantage {
+    .advantageImgArea {
+      height: 100vh;
+      .advantageImgText {
+        right: 5px;
+        width: 314px;
+        padding: 0 30px;
+        p {
+          font-size: 12px;
+          line-height: 25px;
+          text-align: left;
+          &::before {
+            position: absolute;
+            top: 34px;
+            left: 33px;
+            width: 45px;
+          }
+        }
+        strong {
+          font-size: 30px;
+          line-height: 55px;
+        }
+      }
+    }
+  }
+  .mobileApp {
+    position: relative;
+    height: 100vh;
+    .imgArea {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 100%;
+      transform: translateX(-50%);
+      .gaussian {
+        width: 100%;
+        height: 80%;
+      }
+      .mobilePhone {
+        bottom: -96px;
+        left: 50%;
+        transform: translateX(-50%) scale(0.65);
+      }
+    }
+    .textArea {
+      position: absolute;
+      top: 80px;
+      left: 50%;
+      z-index: 888;
+      float: none;
+      width: 100%;
+      margin-top: 0;
+      text-align: center !important;
+      transform: translateX(-50%);
+      h4 {
+        strong {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .trade {
+    text-align: center;
+    .textArea {
+      width: 100%;
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .balanceMain {
+    .transferBox {
+      width: 300px;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+}

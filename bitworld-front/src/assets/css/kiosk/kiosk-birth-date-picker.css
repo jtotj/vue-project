@@ -1,0 +1,203 @@
+*[class^='birthday-picker'] {
+  box-sizing: border-box;
+}
+.birthday-picker {
+  z-index: 9999;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  width: 460px;
+  height: 90px;
+  border-radius: 25px;
+  padding: 0;
+  background-color: transparent;
+  vertical-align: middle;
+}
+.birthday-picker.disabled {
+  pointer-events: none;
+}
+.birthday-picker.disabled .birthday-picker_dropdown {
+  background-color: #e9ecef;
+}
+.birthday-picker .disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+.birthday-picker table {
+  width: 100%;
+}
+.birthday-picker td {
+  text-align: center;
+}
+.birthday-picker td a {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 0.2s;
+  font-weight: 500;
+  font-size: 40px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.birthday-picker .locale_font_size td a {
+  font-size: 27px;
+}
+
+.birthday-picker td a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.birthday-picker td a.bdp-today {
+  border-color: rgba(0, 0, 0, 0);
+}
+.birthday-picker td a.bdp-active {
+  background-color: rgba(0, 104, 193, 1);
+  color: #fff;
+}
+.birthday-picker td a.bdp-active:hover {
+  background-color: rgba(0, 104, 193, 1);
+}
+.birthday-picker input {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0 0 0 30px;
+  border-radius: 25px;
+  border: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: normal;
+  color: rgba(27, 43, 83, 0.6);
+}
+
+.birthday-picker input::placeholder {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 30px;
+  color: #c0c4cc;
+}
+
+.birthday-picker_dropdown-body {
+  display: flex;
+  flex-direction: row;
+}
+.birthday-picker_days-months {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.birthday-picker_days,
+.birthday-picker_months,
+.birthday-picker_years {
+  padding: 30px 30px;
+}
+.birthday-picker_days {
+  flex-grow: 2;
+}
+.birthday-picker_months {
+  flex-grow: 1;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.birthday-picker_dropdown {
+  overflow: hidden;
+  display: block;
+  width: 960px;
+  padding: 0;
+  text-align: left;
+  font-size: 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+}
+.birthday-picker_dropdown.attach-top {
+  bottom: 100%;
+}
+.birthday-picker_dropdown.attach-bottom {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.birthday-picker_dropdown.attach-left {
+  left: 60px;
+}
+.birthday-picker_dropdown.attach-right {
+  right: 0;
+}
+.birthday-picker_dropdown-header {
+  background-color: rgba(0, 104, 193, 1);
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.birthday-picker_high .birthday-picker_dropdown-body {
+  flex-direction: column-reverse;
+  background-color: #fff;
+}
+.birthday-picker_high .birthday-picker_months {
+  border: none;
+  border-top: 5px dotted rgba(0, 104, 193, 0.2);
+  border-bottom: 5px dotted rgba(0, 104, 193, 0.2);
+  background-color: #fff;
+}
+.birthday-picker_high .birthday-picker_years {
+}
+.birthday-picker_carriage {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 10px;
+  height: calc(100% - 2 * 5px);
+  pointer-events: none;
+  text-align: left;
+  transition: transform 0.3s;
+}
+.birthday-picker_carriage:after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 2px);
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: #000;
+}
+.birthday-picker_carriage.bp-opened {
+  transform: rotate(180deg);
+}
+.birthday-picker_inline input,
+.birthday-picker_inline .birthday-picker_carriage {
+  display: none;
+}
+.birthday-picker_inline .birthday-picker_dropdown {
+  position: relative;
+  z-index: inherit;
+  box-shadow: none;
+  border: none;
+}
+.dropdown-trans-enter,
+.dropdown-trans-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+.dropdown-trans-enter-to,
+.dropdown-trans-leave {
+  opacity: 1;
+  transform: translateY(0);
+}
+.dropdown-trans-enter-active,
+.dropdown-trans-leave-active {
+  transition: opacity 100ms ease-out, transform 100ms ease-out;
+}

@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+/* NHN (developers@xpressengine.com) */
+
+/* Pagination Reset */
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 0 auto;
+  clear: both;
+}
+
+.pagination * {
+  padding: 0;
+  margin: 0;
+}
+
+.pagination img {
+  border: 0;
+}
+
+.pagination a,
+.pagination button,
+.pagination strong {
+  display: block;
+  float: left;
+  min-width: 30px;
+  margin: 0;
+  font-family: inter Bold;
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 30px;
+  color: #999;
+  text-align: center;
+  letter-spacing: 0 !important;
+  cursor: pointer;
+}
+
+.pagination strong {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #0068c1 !important;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.pagination button.prev,
+.pagination button.prevEnd,
+.pagination button.next,
+.pagination button.nextEnd {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  font-family: inter Light, Arial;
+  line-height: 30px;
+  color: white;
+  color: #fff;
+  letter-spacing: 0 !important;
+  cursor: pointer;
+  background: #0068c1;
+}
+
+.pagination button.prev:hover,
+.pagination button.prevEnd:hover,
+.pagination button.next:hover,
+.pagination button.nextEnd:hover {
+  background: #0081f1 !important;
+}
+
+.pagination button.prev::before,
+.pagination button.prevEnd::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  text-indent: 0;
+  content: '\2039';
+}
+
+.pagination button.next::before,
+.pagination button.nextEnd::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  text-indent: 0;
+  content: '\203A';
+}
+
+/* Pagination A1 */
+
+/* .pagination.a1 a,
+.pagination.a1 strong {
+  margin: 0 -4px;
+  padding: 1px 10px 1px 8px;
+  border: none;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ddd;
+  font-weight: bold;
+  font-size: 12px;
+  background: #fff;
+}
+*/
+.pagination.a1 button.prev {
+  padding-left: 10px;
+  background: #fff url(@assets/images/arrowPrevA1.gif) no-repeat left center;
+}
+
+.pagination.a1 button.next {
+  padding-right: 10px;
+  background: #fff url(@assets/images/arrowNextA1.gif) no-repeat right center;
+}
+
+/*
+.pagination.a1 button.nextEnd {
+  padding-right: 15px;
+  background: #fff url(@assets/images/arrowNextEndA1.gif) no-repeat right center;
+}
+*/
+
+/* Pagination A2 */
+.pagination.a2 a,
+.pagination.a2 strong {
+  padding: 0 10px 0 8px;
+  margin: 0 -4px;
+  font-size: 11px;
+  font-weight: bold;
+  background: #fff;
+  border: none;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ddd;
+}
+
+.pagination.a2 button.prev {
+  padding-left: 10px;
+  background: #fff url(@assets/images/arrowPrevA1.gif) no-repeat left center;
+}
+
+.pagination.a2 button.prevEnd {
+  padding-left: 15px;
+  background: #fff url(@assets/images/arrowPrevEndA1.gif) no-repeat left center;
+}
+
+.pagination.a2 button.next {
+  padding-right: 10px;
+  background: #fff url(@assets/images/arrowNextA1.gif) no-repeat right center;
+}
+
+.pagination.a2 button.nextEnd {
+  padding-right: 15px;
+  background: #fff url(@assets/images/arrowNextEndA1.gif) no-repeat right center;
+}
+
+/* Pagination B1 */
+.pagination.b1 a,
+.pagination.b1 strong {
+  padding: 2px 8px;
+  margin: 0 -2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.pagination.b1 button.prev,
+.pagination.b1 button.prevEnd {
+  padding-left: 16px;
+  background: url(@assets/images/arrowPrevB1.gif) no-repeat left center;
+}
+
+.pagination.b1 button.next,
+.pagination.b1 button.nextEnd {
+  padding-right: 16px;
+  background: url(@assets/images/arrowNextB1.gif) no-repeat right center;
+}
+
+/* Pagination B2 */
+.pagination.b2 a,
+.pagination.b2 strong {
+  padding: 2px 6px;
+  margin: 0 -2px;
+  font-size: 11px;
+}
+
+.pagination.b2 button.prev,
+.pagination.b2 button.prevEnd {
+  padding-left: 12px;
+  background: url(@assets/images/arrowPrevB1.gif) no-repeat left center;
+}
+
+.pagination.b2 button.next,
+.pagination.b2 button.nextEnd {
+  padding-right: 12px;
+  background: url(@assets/images/arrowNextB1.gif) no-repeat right center;
+}
+
+/* Pagination C1 */
+.pagination.c1 a,
+.pagination.c1 strong {
+  padding: 2px 4px;
+  margin: 0 -2px;
+  font-size: 12px;
+}
+
+.pagination.c1 button.prev,
+.pagination.c1 button.prevEnd,
+.pagination.c1 button.next,
+.pagination.c1 button.nextEnd {
+  display: inline-block;
+  width: 13px;
+  height: 14px;
+  padding: 3px 4px;
+  margin: 0;
+}
+
+.pagination.c1 button.prev,
+.pagination.c1 button.prevEnd {
+  background: url(@assets/images/arrowPrevC1.gif) no-repeat center;
+}
+
+.pagination.c1 button.next,
+.pagination.c1 button.nextEnd {
+  background: url(@assets/images/arrowNextC1.gif) no-repeat center;
+}
+
+.pagination.c1 button.prev span,
+.pagination.c1 button.prevEnd span,
+.pagination.c1 button.next span,
+.pagination.c1 button.nextEnd span {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* Pagination C2 */
+.pagination.c2 a,
+.pagination.c2 strong {
+  padding: 2px 4px;
+  margin: 0 -2px;
+  font-size: 11px;
+}
+
+.pagination.c2 button.prev,
+.pagination.c2 button.prevEnd,
+.pagination.c2 button.next,
+.pagination.c2 button.nextEnd {
+  display: inline-block;
+  width: 13px;
+  height: 14px;
+  padding: 3px 4px;
+  margin: 0;
+}
+
+.pagination.c2 button.prev,
+.pagination.c2 button.prevEnd {
+  background: url(@assets/images/arrowPrevC1.gif) no-repeat center;
+}
+
+.pagination.c2 button.next,
+.pagination.c2 button.nextEnd {
+  background: url(@assets/images/arrowNextC1.gif) no-repeat center;
+}
+
+.pagination.c2 button.prev span,
+.pagination.c2 button.prevEnd span,
+.pagination.c2 button.next span,
+.pagination.c2 button.nextEnd span {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}

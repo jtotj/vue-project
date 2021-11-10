@@ -1,0 +1,739 @@
+@import 'variable';
+@import 'languagebugfix';
+
+.slider-visual {
+  height: 370px;
+}
+
+#quick-service {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1320px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 0;
+  .title {
+    font-size: 20px;
+  }
+  .swiper-container {
+    padding: 0 10px;
+  }
+  .swiper-slide {
+    max-width: 20%;
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 20px 0;
+      line-height: 1.3;
+      text-align: center;
+      border: 0;
+      border-radius: 5px;
+      &:hover {
+        background: #bd3cca;
+
+        .svg-wrap {
+          svg * {
+            fill: #bd3cca;
+            stroke: white;
+          }
+        }
+        span {
+          color: white;
+        }
+      }
+      .svg-wrap {
+        display: block;
+        height: 55px;
+      }
+      span {
+        font-weight: bold;
+        color: #000;
+        word-break: keep-all;
+      }
+    }
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+    color: #808080;
+    &::after {
+      font-size: 20px;
+    }
+  }
+  .swiper-button-next {
+    right: -5px;
+  }
+  .swiper-button-prev {
+    left: 5px;
+  }
+}
+
+#quick-info {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1320px;
+  padding: 50px 10px;
+  margin: 0 auto;
+  .swiper-slide {
+    width: 315px;
+    height: 154px;
+    overflow: hidden;
+    border-radius: 10px;
+    a {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+      letter-spacing: 0;
+      p {
+        font-size: 25px;
+        font-weight: bold;
+        color: #fff;
+        word-break: keep-all;
+      }
+      span {
+        display: block;
+        font-size: 20px;
+        word-break: keep-all;
+      }
+    }
+    &:nth-child(1),
+    &:nth-child(2) {
+      p {
+        line-height: 1.3;
+        text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000,
+          1px 1px 1px #000;
+      }
+      span {
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+    &:nth-child(1) {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+        letter-spacing: 0;
+        p {
+          font-size: 22px;
+        }
+      }
+    }
+    &:nth-child(2) {
+      a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+
+        p {
+          font-size: 28px;
+          line-height: 1.2;
+        }
+        span {
+          text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000,
+            1px 1px 1px #000;
+        }
+      }
+    }
+    &:nth-child(3) {
+      background-position: left center;
+      a {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 20px 15px;
+        p {
+          font-size: 20px;
+          color: #000;
+        }
+        span {
+          width: 50%;
+          margin-top: 5px;
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 1.2;
+          text-align: center;
+          background: linear-gradient(to right, #cbbacc, #2580b3);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+    &:nth-child(4) {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        p {
+          font-size: 40px;
+          font-weight: bold;
+          line-height: 1.1;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+
+  @for $i from 1 through 4 {
+    .swiper-slide:nth-child(#{$i}) {
+      background: url(~@assets/images/quick-menu#{$i}.png) no-repeat center;
+      background-size: cover;
+    }
+  }
+}
+
+#ccf-intro {
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1320px;
+    padding: 10px 0;
+    margin: 0 auto;
+    background: url('~@assets/images/currency_bg.jpg') no-repeat left center;
+    p {
+      margin-left: 25px;
+      font-size: 20px;
+      color: #ffc529;
+      word-break: break-all;
+    }
+    .btn-wrap {
+      margin-left: 30px;
+      a.btn-white {
+        color: #fff;
+        background: transparent;
+        border: 1px solid #fff;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  background: #201154;
+}
+
+#why-pick-bank {
+  padding: 0;
+  margin-top: 20px;
+  .container {
+    width: 100%;
+    max-width: 1320px;
+    padding: 20px 60px 50px;
+    margin: 0 auto;
+    .main-title {
+      line-height: 1.5;
+      text-align: left;
+      h2 {
+        padding-bottom: 10px;
+        font-size: 23px;
+        line-height: 1.2;
+        color: #250f87;
+      }
+      p {
+        font-size: 16px;
+        color: #5e5e5e;
+      }
+    }
+    .box-wrap {
+      margin-top: 30px;
+      .box-list {
+        height: 270px;
+        padding: 15px 15px 25px;
+        .img-wrap {
+          width: 50px;
+          padding-bottom: 15px;
+        }
+        h3 {
+          font-size: 18px;
+          color: #020c95;
+        }
+        p {
+          font-size: 14px;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+
+.btn-white {
+  padding: 5px 20px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: white;
+  background: transparent;
+  border: 1px solid #fff;
+  .img-wrap {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  span {
+    cursor: pointer;
+  }
+}
+
+#notice {
+  padding: 0;
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1320px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+
+  .notice-area,
+  .customer-service {
+    float: none;
+  }
+  .notice-area {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    .notice-list {
+      box-sizing: border-box;
+      width: 100%;
+      text-align: center;
+      ul {
+        li {
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 0;
+          .num {
+            width: 60px;
+            text-align: center;
+          }
+          .text {
+            display: block;
+            width: calc(100% - 160px);
+            overflow: hidden;
+            text-align: left;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+          .date {
+            width: 100px;
+            text-align: center;
+          }
+          .num,
+          .text,
+          .date {
+            color: #727272;
+          }
+        }
+        &.t-head {
+          li {
+            .text {
+              justify-content: flex-start;
+              text-indent: 20px;
+            }
+          }
+        }
+        p {
+          color: #727277;
+        }
+      }
+      .btn {
+        margin-top: 15px;
+        color: #727272;
+        background: transparent;
+        span {
+          cursor: pointer;
+        }
+        .img-wrap {
+          display: inline-block;
+          margin-right: 10px;
+          margin-left: 20px;
+          color: #727272;
+          transform: translateY(2px);
+        }
+      }
+    }
+  }
+  .customer-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid #30489c;
+    .main-title {
+      width: 260px;
+      padding: 5px 0;
+      font-size: 22px;
+      color: #696969;
+      text-align: center;
+      h2 {
+        padding: 0;
+      }
+    }
+    .counsel-area {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      width: calc(100% - 260px);
+      padding: 0 60px;
+      margin: 0;
+      font-size: 17px;
+      border: 0;
+      .emp {
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+#trade {
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 1320px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    h2 {
+      font-size: 25px;
+      color: black;
+    }
+    p {
+      font-size: 20px;
+      color: black;
+    }
+    .trade-info {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      .img-box {
+        flex-basis: 55%;
+        img {
+          width: 100%;
+        }
+      }
+      .text-box {
+        flex-basis: 45%;
+        padding-left: 15px;
+        font-size: 15px;
+        color: #000;
+      }
+    }
+  }
+}
+
+#trade-start {
+  margin-top: 20px;
+  background: #fafafa;
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 1320px;
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+    .title {
+      margin-bottom: 40px;
+      font-size: 40px;
+    }
+    .btn {
+      min-width: 180px;
+      span {
+        color: black;
+        cursor: pointer;
+      }
+      &.register {
+        background: #f6d558;
+        &:hover,
+        &:active {
+          background: darken(#f6d558, 10);
+        }
+      }
+      &.trade {
+        margin-left: 20px;
+        background: #eaecef;
+        &:hover,
+        &:active {
+          background: darken(#eaecef, 10);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  #ccf-intro {
+    .container {
+      flex-direction: column;
+      p {
+        margin: 15px 0;
+      }
+      .btn-wrap {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .slider-visual {
+    height: 250px;
+  }
+  #quick-service {
+    padding: 10px;
+    margin-top: 10px;
+    .title {
+      font-size: 15px;
+    }
+    .swiper-slide {
+      max-width: 33%;
+      a {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 12px;
+        .svg-wrap {
+          height: 50px;
+          svg {
+            height: 90%;
+          }
+        }
+      }
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      top: 40%;
+      display: block;
+    }
+  }
+  #ccf-intro {
+    background-color: black;
+    .container {
+      background: url(~@assets/images/currency_bg_mo.jpg) no-repeat center top;
+      p {
+        margin: 15px 0;
+        font-size: 13px;
+        text-align: center;
+      }
+      .btn-wrap {
+        margin: 0;
+      }
+    }
+  }
+
+  #why-pick-bank {
+    .container {
+      padding: 10px 30px;
+      .main-title {
+        text-align: center;
+        h2 {
+          font-size: 18px;
+          line-height: 1.5;
+        }
+        p {
+          font-size: 16px;
+          line-height: 1.4;
+        }
+      }
+      .box-wrap {
+        margin-top: 20px;
+        .box-list {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          float: none;
+          height: auto;
+          padding: 15px;
+          .left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 30%;
+            h3 {
+              padding-bottom: 0;
+              font-size: 13px;
+            }
+          }
+          p {
+            width: 70%;
+            line-height: 1.4;
+            text-align: left;
+          }
+          .img-wrap {
+            width: 40px;
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  #notice {
+    .notice-area {
+      margin-bottom: 0;
+      .notice-list {
+        width: 100%;
+        text-align: center;
+        .text {
+          display: none;
+        }
+        ul {
+          li {
+            padding: 5px 0;
+            font-size: 13px;
+            .num {
+              width: 30px;
+            }
+            .text {
+              width: calc(100% - 70px);
+            }
+          }
+        }
+        p {
+          font-size: 13px;
+        }
+        .btn {
+          font-size: 13px;
+          cursor: pointer;
+          .img-wrap {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+    .customer-service {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      border-bottom: 1px solid #30489c;
+      .main-title {
+        width: 150px;
+        padding: 5px 0;
+        color: #696969;
+        text-align: center;
+        h2 {
+          padding: 0;
+          font-size: 18px;
+        }
+      }
+      .counsel-area {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 70%;
+        padding: 0;
+        font-size: 12px;
+        line-height: 1.4;
+        .emp {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #quick-info {
+    padding: 20px 15px;
+    .swiper-slide {
+      width: 200px !important;
+      height: 110px;
+      a {
+        p {
+          font-size: 18px;
+        }
+        span {
+          font-size: 13px;
+        }
+      }
+      &:nth-child(1),
+      &:nth-child(2) {
+        span {
+          font-size: 13px;
+          color: #fff;
+        }
+      }
+      &:nth-child(1) {
+        a {
+          p {
+            padding: 0 15px;
+            font-size: 18px;
+            text-align: center;
+          }
+        }
+      }
+      &:nth-child(2) {
+        a {
+          padding-left: 15px;
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+      &:nth-child(3) {
+        a {
+          padding: 5px 0 10px 8px;
+          p {
+            font-size: 15px;
+          }
+          span {
+            margin-top: 0;
+            font-size: 15px;
+          }
+        }
+      }
+      &:nth-child(4) {
+        a {
+          p {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  #trade {
+    .container {
+      padding: 20px 15px;
+      h2 {
+        font-size: 18px;
+      }
+      .info-text {
+        font-size: 15px;
+      }
+      .trade-info {
+        flex-direction: column;
+        margin-top: 20px;
+        .img-box {
+          flex-basis: 55%;
+          margin-bottom: 15px;
+        }
+        .text-box {
+          padding-left: 0;
+          font-size: 12px;
+          line-height: 1.4;
+        }
+      }
+    }
+  }
+
+  #trade-start {
+    margin-top: 0;
+    .container {
+      padding: 30px 15px;
+      text-align: center;
+      .title {
+        margin-bottom: 20px;
+        font-size: 30px;
+      }
+      .btn {
+        min-width: calc(50% - 10px);
+      }
+    }
+  }
+}

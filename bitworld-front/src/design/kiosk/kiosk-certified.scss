@@ -1,0 +1,753 @@
+@charset "utf-8";
+.noListWrap {
+  box-sizing: border-box;
+  padding: 30px 50px;
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 25px;
+}
+.required {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 1.5;
+  color: #e74d3d;
+  letter-spacing: -0.4px;
+}
+.kioskCertified {
+  height: 100%;
+
+  .container {
+    height: 100%;
+    padding: 0 60px;
+
+    h2 {
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 900;
+      font-stretch: normal;
+      line-height: normal;
+      color: #29304d;
+      text-align: center;
+      letter-spacing: normal;
+    }
+
+    p {
+      margin-top: 80px;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      color: #000;
+      letter-spacing: -0.4px;
+    }
+
+    strong {
+      font-size: 45px;
+      font-style: normal;
+      font-weight: bold;
+      font-stretch: normal;
+      line-height: 1.5;
+      color: #000;
+      letter-spacing: -0.4px;
+    }
+
+    h3 {
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      font-stretch: normal;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+    }
+
+    .kioskCertifiedMain {
+      padding-top: 90px;
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        li {
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 465px;
+          height: 465px;
+          padding: 50px 40px;
+          margin-bottom: 30px;
+          background-image: linear-gradient(to top, #478ecc, #2b74b9);
+          border-radius: 30px;
+
+          h3 {
+            margin-top: 35px;
+            font-size: 50px;
+            font-weight: 900;
+            line-height: 1.12;
+            color: #fff;
+            letter-spacing: normal;
+          }
+
+          strong {
+            font-size: 30px;
+            font-style: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            line-height: normal;
+            color: #2dcc70;
+            letter-spacing: normal;
+          }
+
+          .kioskCertifiedCheck {
+            display: flex;
+            visibility: hidden;
+
+            span {
+              margin-left: 10px;
+              font-size: 32px;
+              font-style: normal;
+              font-weight: bold;
+              font-stretch: normal;
+              line-height: normal;
+              color: #fff;
+              letter-spacing: normal;
+            }
+          }
+        }
+
+        li.active {
+          .kioskCertifiedCheck {
+            visibility: visible;
+          }
+        }
+      }
+    }
+
+    .kioskCertifiedEmail {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      padding: 100px 0;
+
+      p {
+        margin: 280px 0 60px;
+      }
+    }
+
+    .kioskCertifiedSelf {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      padding: 100px 0 98px;
+    }
+
+    .kioskCertifiedOtp {
+      height: 100%;
+      .certifiedOtpDepth4 {
+        > div {
+          > p {
+            padding-bottom: 20px;
+          }
+        }
+      }
+      > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        padding: 100px 0 98px;
+
+        .qrCodeWrapper {
+          text-align: center;
+          .qrCode {
+            width: 400px;
+          }
+        }
+
+        > div {
+          display: flex;
+          flex-direction: column;
+
+          > p {
+            padding-bottom: 177px;
+          }
+          .authIcon {
+            text-align: center;
+          }
+        }
+        .loginCode {
+          margin: 80px 0;
+          text-align: center;
+
+          .codeCircle {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin-right: 48px;
+            background-color: #c9c9c9;
+            border-radius: 100%;
+
+            &:last-of-type {
+              margin: 0;
+            }
+
+            &.active {
+              background-color: #0068c1;
+            }
+          }
+        }
+        .kioskLoginNum {
+          display: flex;
+          justify-content: center;
+
+          ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 900px;
+            height: 1000px;
+
+            li {
+              box-sizing: border-box;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              width: 33.33%;
+              height: 25%;
+              font-size: 100px;
+              font-style: normal;
+              font-weight: 500;
+              font-stretch: normal;
+              line-height: normal;
+              color: #000;
+              letter-spacing: normal;
+
+              &:active {
+                color: #0068c1;
+              }
+            }
+
+            .reenter {
+              font-size: 40px;
+              font-weight: bold;
+              line-height: normal;
+              color: #000;
+              letter-spacing: normal;
+            }
+          }
+        }
+      }
+    }
+
+    .kioskCertifiedBank,
+    .kioskCertifiedCoin {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      padding: 100px 0 98px;
+
+      > div {
+        > div {
+          margin-bottom: 70px;
+
+          h3 {
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+
+    .kioskCertifiedList {
+      .certifiedList {
+        padding: 100px 0 90px;
+
+        > dl {
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 100%;
+          height: 320px;
+          padding: 30px;
+          margin-bottom: 10px;
+          background-color: #fff;
+          border-radius: 30px;
+
+          > dt {
+            width: 40%;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: normal;
+            color: rgba(27, 43, 83, 0.6);
+            letter-spacing: normal;
+          }
+
+          > dd {
+            width: 60%;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: normal;
+            color: #29304d;
+            text-align: right;
+            letter-spacing: normal;
+          }
+
+          .certifiedInfo {
+            display: flex;
+            flex-direction: column;
+          }
+
+          .certifiedButton {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            > span {
+              margin-right: 10px;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: normal;
+              color: #29304d;
+              letter-spacing: -0.4px;
+            }
+          }
+        }
+      }
+
+      .pageNavigation {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+          display: flex;
+          justify-content: center;
+          width: 96px;
+          height: 106px;
+          background-image: linear-gradient(to bottom, #5fcbf2, #1bacec);
+          border-radius: 8px;
+        }
+
+        .page {
+          display: flex;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: space-between;
+          width: 74%;
+
+          li {
+            span {
+              font-size: 50px;
+              font-weight: 900;
+              line-height: normal;
+              color: #29304d;
+              text-align: center;
+              letter-spacing: normal;
+              opacity: 0.7;
+            }
+
+            &:active {
+              span {
+                color: #0068c1;
+              }
+            }
+          }
+        }
+      }
+
+      .accountCheck {
+        height: 1264px;
+        padding: 0 30px;
+        margin-top: 100px;
+        overflow-y: scroll;
+        background: #fff;
+        border-radius: 30px;
+
+        h2 {
+          padding: 70px 0;
+          font-size: 50px;
+          font-weight: bold;
+          line-height: normal;
+          color: #29304d;
+          text-align: center;
+          letter-spacing: normal;
+          border-color: rgba(41, 48, 77, 0.2);
+          border-width: 900px;
+          border-bottom: 1px solid;
+        }
+
+        dl {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 100%;
+          border-color: rgba(41, 48, 77, 0.2);
+          border-bottom: 1px solid;
+
+          dt {
+            box-sizing: border-box;
+            width: 35%;
+            padding: 28px 0;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: normal;
+            color: rgba(41, 48, 77, 0.5);
+            letter-spacing: -2px;
+          }
+
+          dd {
+            width: 65%;
+            padding: 28px 0;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: normal;
+            color: #29304d;
+            text-align: right;
+            letter-spacing: normal;
+          }
+        }
+      }
+    }
+
+    .kioskCertifiedKyc {
+      h2 {
+        padding: 0;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: normal;
+        color: #29304d;
+        text-align: left;
+        letter-spacing: normal;
+
+        strong {
+          color: #e74d3d;
+        }
+      }
+
+      .kioskKyc {
+        padding-top: 70px;
+        .formFIle {
+          font-size: 30px;
+          border-radius: 25px;
+        }
+
+        .kioskProofDocuments {
+          > div {
+            padding: 40px 0 60px;
+          }
+        }
+
+        .document_select {
+          height: 0;
+          visibility: hidden;
+        }
+
+        .document_select.active {
+          height: auto;
+          visibility: visible;
+        }
+      }
+
+      .kioskAddress {
+        height: 1140px;
+      }
+    }
+
+    .kioskKycList {
+      padding-top: 100px;
+
+      dl {
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 300px;
+        padding: 30px;
+        margin-bottom: 30px;
+        background-color: #fff;
+        border-radius: 30px;
+
+        dt {
+          width: 40%;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: normal;
+          line-height: normal;
+          color: rgba(27, 43, 83, 0.6);
+          text-align: left;
+          letter-spacing: normal;
+        }
+
+        dd {
+          width: 60%;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: normal;
+          line-height: normal;
+          color: #29304d;
+          text-align: right;
+          letter-spacing: normal;
+        }
+
+        .kycListDate {
+          width: 100%;
+        }
+
+        .kycState {
+          font-size: 40px;
+          color: #000;
+        }
+      }
+
+      .pageNavigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+
+        div {
+          display: flex;
+          justify-content: center;
+          width: 96px;
+          height: 106px;
+          background-image: linear-gradient(to bottom, #5fcbf2, #1bacec);
+          border-radius: 8px;
+        }
+
+        .page {
+          display: flex;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: space-between;
+          width: 74%;
+
+          li {
+            span {
+              font-size: 50px;
+              font-weight: 900;
+              line-height: normal;
+              color: #29304d;
+              text-align: center;
+              letter-spacing: normal;
+              opacity: 0.7;
+            }
+
+            &:active {
+              span {
+                color: #0068c1;
+              }
+            }
+          }
+        }
+      }
+
+      .accountCheck {
+        height: 1264px;
+        padding: 0 30px;
+        overflow-y: scroll;
+        background: #fff;
+        border-radius: 30px;
+
+        h2 {
+          padding: 70px 0;
+          font-size: 50px;
+          font-weight: bold;
+          line-height: normal;
+          color: #29304d;
+          text-align: center;
+          letter-spacing: normal;
+          border-color: rgba(41, 48, 77, 0.2);
+          border-width: 900px;
+          border-bottom: 1px solid;
+        }
+
+        dl {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 100%;
+          height: auto;
+          padding: 0;
+          border-color: rgba(41, 48, 77, 0.2);
+          border-bottom: 1px solid;
+          border-radius: 0;
+
+          dt {
+            box-sizing: border-box;
+            width: 35%;
+            padding: 28px 0;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: normal;
+            color: rgba(41, 48, 77, 0.5);
+            letter-spacing: -2px;
+          }
+
+          dd {
+            width: 65%;
+            padding: 28px 0;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: normal;
+            color: #29304d;
+            text-align: right;
+            letter-spacing: normal;
+          }
+        }
+      }
+    }
+
+    .kioskSecurityLevel {
+      .conditionWrap {
+        display: inline-block;
+        margin-left: 20px;
+      }
+      > div {
+        background: #fff;
+        border-radius: 30px;
+      }
+
+      .kioskSecurityTit {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 206px;
+        padding: 0 50px;
+        margin: 105px 0 70px;
+
+        p {
+          margin: 0;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 500;
+          font-stretch: normal;
+          line-height: normal;
+          color: #768098;
+          letter-spacing: normal;
+        }
+
+        strong {
+          font-size: 38px;
+          font-style: normal;
+          font-weight: bold;
+          font-stretch: normal;
+          line-height: normal;
+          color: #0068c1;
+          letter-spacing: normal;
+        }
+      }
+
+      .kioskLevelList {
+        display: flex;
+        width: 100%;
+        margin-bottom: 10px;
+
+        > div {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          height: 230px;
+          padding: 0 40px;
+
+          > div {
+            display: flex;
+            width: 100%;
+
+            .KioskSecurityRestrictionBtn {
+              display: flex;
+              justify-content: flex-end;
+              width: 23%;
+
+              span {
+                margin-right: 5px;
+                color: #29304d;
+              }
+            }
+
+            > div {
+              display: flex;
+              align-items: center;
+              width: 77%;
+              margin-left: 30px;
+
+              .conditionWrap {
+                text-align: justify;
+                word-break: break-all;
+
+                .conditionTypeWrap {
+                  display: contents;
+                  width: fit-content;
+
+                  span {
+                    color: #29304d;
+                  }
+                }
+
+                .conditionTypeWrapNone {
+                  color: #29304d;
+                }
+              }
+
+              p {
+                margin: 0;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 500;
+                font-stretch: normal;
+                line-height: normal;
+                color: #29304d;
+                letter-spacing: normal;
+              }
+
+              span {
+                font-size: 30px;
+                font-style: normal;
+                font-weight: bold;
+                font-stretch: normal;
+                line-height: normal;
+                color: #0068c1;
+                letter-spacing: normal;
+                border: 1px solid ridge;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .kioskCertifiedAlert {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 319px 0;
+
+      h2 {
+        margin: 100px 0 160px;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        font-stretch: normal;
+        line-height: normal;
+        color: #29304d;
+        letter-spacing: normal;
+      }
+    }
+  }
+}

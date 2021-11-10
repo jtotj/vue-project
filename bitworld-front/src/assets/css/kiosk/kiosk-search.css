@@ -1,0 +1,168 @@
+/* 자산/계좌 선택 버튼 */
+.kiosk-search .el-button.kiosk-select-asset {
+  height: 120px;
+  padding: 0 50px;
+  border-radius: 30px;
+  background: #ffffff;
+  text-align: left;
+}
+
+.kiosk-search .kiosk-select-asset.active > span > span > img {
+  visibility: hidden;
+}
+
+.kiosk-search .kiosk-select-asset > span {
+  display: block;
+  width: 100%;
+}
+
+.kiosk-search .kiosk-select-asset > span > span {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(27, 43, 83, 0.6);
+}
+
+/* 검색 유형 선택 후 탭메뉴*/
+.assets-search .el-tabs {
+  widht: 100%;
+  margin-top: 80px;
+}
+
+.assets-search .el-tabs__header {
+  margin: 0;
+  width: 100%;
+  border: none;
+}
+
+.assets-search .el-tabs__header .el-tabs__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.assets-search .el-tabs .el-tabs__nav .el-tabs__item {
+  border: none;
+  width: 48%;
+  height: 90px !important;
+  padding-top: 15px !important;
+  font-size: 38px !important;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #f5f5f5;
+}
+
+.assets-search .el-tabs .el-tabs__nav .el-tabs__item.is-active {
+  font-weight: bold;
+  color: #ffffff !important;
+  background-image: linear-gradient(to top, #478ecc, #2b74b9);
+}
+
+.assets-search .el-input {
+  margin: 30px 0;
+}
+
+/* 상세 검색 버튼 */
+.kiosk-search .assets-search .el-input {
+  height: auto;
+}
+
+.kiosk-search .assets-search .el-input > input {
+  height: 100px !important;
+}
+
+.kiosk-search .assets-search .el-input .el-input__inner {
+  padding-left: 128px;
+}
+
+.kiosk .el-tab-pane .el-input__prefix {
+  top: 25px;
+  left: 50px;
+  width: auto;
+  height: auto;
+}
+
+.kiosk .el-tab-pane .el-input .el-icon-search:before {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(../../kiosk-img/icon-search.svg) no-repeat 50% 50%;
+  transform: rotateZ(-180deg);
+}
+
+/* 검색 - 자산 목록 */
+.kiosk .ps {
+  height: 900px;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+/* 자산 선택 후 조회 리스트 */
+
+/* 자산 조회 옵션 */
+.history-option .el-button {
+  background: none;
+  padding: 0;
+  margin-left: 15px;
+}
+
+/* 예금조회 */
+.detail-title .el-button {
+}
+
+.detail-content .el-button,
+.detail-title .el-button {
+  padding: 0;
+  border: none !important;
+  background: none;
+}
+
+.detail-title .el-button span {
+  display: block;
+  width: 42px;
+  height: 25px;
+  line-height: 1;
+  font-size: 0;
+}
+
+.detail-title .el-button span img,
+.detail-content .el-button span img {
+  display: inline-block;
+  width: 42px;
+  height: 25px;
+}
+
+.detail-content .el-button span img {
+  transform: rotate(180deg);
+}
+
+.detail-content .kiosk-select-box .el-button {
+  width: auto;
+  height: auto !important;
+  border-radius: 10px !important;
+  background-color: #478ecc !important;
+  margin: 0;
+  margin: 30px 0;
+  padding: 10px 20px;
+}
+
+.detail-content .kiosk-select-box .el-button > span {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.kiosk-search .check .el-button {
+  height: 114px;
+}

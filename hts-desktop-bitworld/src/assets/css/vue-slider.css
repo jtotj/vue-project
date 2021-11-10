@@ -1,0 +1,4 @@
+.vue-slider-component .vue-slider-process { background-color: #2D3D51 !important}
+.vue-slider-component .vue-slider-tooltip { border: 1px solid #2D3D51 !important; background-color: #2D3D51 !important; }
+.vue-slider-component.vue-slider-horizontal .vue-slider-piecewise-label { transform: translate(-50%, 0px);}
+.vue-slider-component .vue-slider {border-radius: 0px;}

@@ -1,0 +1,104 @@
+.balance-main .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -0.96px;
+  color: #222222;
+  line-height: 100px;
+}
+
+.b2c-balance .el-tabs__header.is-top {
+  border-bottom: 0;
+}
+
+.b2c-balance .el-tabs--card > .el-tabs__header .el-tabs__nav {
+  width: 100%;
+}
+.b2c-balance .el-tabs__item.is-top {
+  width: 50%;
+}
+.b2c-balance .select-account-wrap {
+  width: 100%;
+  padding: 10px 16px;
+  background: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  box-sizing: border-box;
+}
+.b2c-balance .select-account-wrap p:first-child {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: -0.56px;
+  color: #999999;
+}
+.b2c-balance .select-account-wrap p:last-child {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #222222;
+}
+.b2c-balance .el-tab-pane {
+  padding: 50px;
+  border: 1px solid #eee;
+}
+
+.b2c-balance .el-tab-pane h3 {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 13px;
+}
+
+.b2c-balance .el-tab-pane p {
+  text-align: center;
+}
+
+.b2c-balance .el-tab-pane p img {
+  margin: 30px 0;
+}
+
+.b2c-balance .el-tab-pane button {
+  width: 100%;
+  height: 50px;
+  background-color: #0068c1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.b2c-balance .el-input.el-input--suffix {
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  margin: 10px 0;
+}
+
+.b2c-balance .el-select .el-input--suffix .el-input__inner {
+  text-align: left;
+}
+
+.b2c-balance .el-tabs .el-tabs__item {
+  height: 50px !important;
+  line-height: 50px;
+  margin: 0 !important;
+  text-align: center;
+}
+
+.b2c-balance > .el-tabs--card > .el-tabs__header .el-tabs__item,
+.b2c-balance > .el-tabs--card > .el-tabs__header .el-tabs__nav,
+.b2c-balance > .el-tabs--card > .el-tabs__header {
+  border: 0;
+}
+
+.b2c-balance .el-tabs__item.is-top {
+  background-color: #eee;
+}
+
+.b2c-balance .el-tabs__item.is-top.is-active {
+  background-color: #fff;
+  border-bottom: 2px solid #0068c1;
+}
+
+@media (max-width: 768px) {
+  .b2c-balance .el-tab-pane {
+    padding: 50px 20px;
+  }
+}

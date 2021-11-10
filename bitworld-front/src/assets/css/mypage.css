@@ -1,0 +1,1314 @@
+.profile {
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+
+  padding-bottom: 20px;
+}
+
+.brief {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+}
+
+.brief .tit {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+}
+
+.brief .tit span {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.b2c-b2c-myprofile .foreground-container .contents .profile {
+  padding-bottom: 0;
+}
+
+.brief h2 {
+  width: 100%;
+  background: #2f2f2f;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  font-weight: 400;
+  box-sizing: border-box;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.brief .profile-list .list-left {
+  color: #999;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 35%;
+  text-align: center;
+}
+
+.brief .profile-list .fixed-height {
+  height: 84px;
+  padding: 30px 20px;
+}
+
+.brief .profile-list .list-right {
+  color: #333;
+  font-weight: normal;
+  float: right;
+  padding: 20px;
+  width: 65%;
+  box-sizing: border-box;
+  letter-spacing: 0;
+}
+
+.brief .profile-list .list-right .btn-wrap {
+  float: left;
+  margin-right: 10px;
+}
+
+.brief .profile-list .list-right .btn-wrap .btn {
+  margin-right: 10px;
+}
+
+.brief .profile-list .list-right .btn-wrap .btn:last-child {
+  margin: 0;
+}
+
+.brief .profile-list .list-right .color-common {
+  margin-left: 10px;
+}
+
+.trust-box {
+  text-align: center;
+}
+
+.btn-box {
+  padding: 20px 0;
+}
+
+.page-myprofile .form-wrap .input-label,
+.b2c-b2c-myprofile .form-wrap .input-label {
+  display: block;
+  padding-bottom: 4px;
+  font-size: 12px;
+  color: #666;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  white-space: nowrap;
+}
+
+.page-myprofile .btn-block,
+.b2c-b2c-myprofile .btn-block {
+  padding: 10px;
+  margin: 0;
+  background: none;
+  color: #ccc;
+}
+
+.page-myprofile .btn-block:hover,
+.b2c-b2c-myprofile .btn-block:hover {
+  text-decoration: underline;
+}
+
+.page-myprofile .ads-wrap,
+.b2c-b2c-myprofile .ads-wrap {
+  background: #333743;
+  padding: 20px;
+  display: none;
+}
+
+.essential {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  background: url(../img/ico_star.png) no-repeat center 4px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #eee;
+  background-color: #fff;
+  -webkit-transition: border-color ease-in-out 0.225s;
+  transition: border-color ease-in-out 0.225s;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  outline: rgba(0, 0, 0, 0);
+  border-color: #0068c1;
+}
+
+.essen-text {
+  max-width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  overflow: hidden;
+  left: 10px;
+  bottom: 0;
+  position: absolute;
+  top: auto;
+  height: 40px;
+  color: #666;
+  line-height: 40px;
+  pointer-events: none;
+}
+
+.page-myprofile .isFocus .input-label,
+.page-myprofile .hasValue .input-label,
+.b2c-b2c-myprofile .isFocus .input-label,
+.b2c-b2c-myprofile .hasValue .input-label {
+  opacity: 1;
+}
+
+.page-myprofile .isFocus .essen-text,
+.page-myprofile .hasValue .essen-text,
+.b2c-b2c-myprofile .isFocus .essen-text,
+.b2c-b2c-myprofile .hasValue .essen-text {
+  display: none;
+}
+
+.page-myprofile .el-dialog__wrapper .form-wrap,
+.b2c-b2c-myprofile .el-dialog__wrapper .form-wrap {
+  width: 70%;
+  margin: auto;
+}
+
+.page-myprofile .email-modify-btn,
+.b2c-b2c-myprofile .email-modify-btn {
+  margin-left: 20px;
+}
+
+.orders-wrap {
+  overflow: hidden;
+}
+
+.orders-wrap .orders-tit a {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.orders-wrap .orders-tit a:hover {
+  text-decoration: underline;
+}
+
+.orders-wrap .orders-cont {
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.orders-wrap .orders-cont .orders-text {
+  padding: 20px;
+  display: block;
+}
+
+.account-wrap {
+  margin: 20px 0;
+}
+
+/* 모달 */
+
+.page-settings .el-dialog {
+  width: auto !important;
+}
+
+.modal-block-account {
+  position: relative;
+  z-index: 101;
+}
+
+.modal-hide {
+  display: none;
+}
+
+.modal-bg {
+  opacity: 0.5;
+  position: fixed;
+  overflow: hidden;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+}
+
+.block-account {
+  margin: auto;
+  border-radius: 4px;
+  top: 10%;
+  left: 25%;
+  width: 100%;
+  background: #fff;
+  overflow-y: auto;
+  z-index: 20;
+  -webkit-transition: top 0.3s, box-shadow 0.3s;
+  -moz-transition: top 0.3s, box-shadow 0.3s;
+  transition: top 0.3s, box-shadow 0.3s;
+}
+
+.modal-hide .block-account {
+  top: -100%;
+}
+
+.block-account .modal-body {
+  padding: 15px;
+  border: none;
+  min-height: 16.42857px;
+}
+
+.block-account .modal-head {
+  background-color: #333;
+  font-size: 13px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.block-account .modal-body .body-inner .modal-label {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #2f2f2f;
+  font-weight: 400;
+}
+
+.modal-body .input-phone {
+  height: 24px;
+  padding: 0 150px 0 0;
+  border: none;
+  border-bottom: 1px solid #c5d2e0;
+  transition: border 0.1s;
+  font-size: inherit;
+}
+
+.block-account .modal-body .body-inner .modal-input {
+  width: 100%;
+  height: 46px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  padding: 8px 24px;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.nation-img {
+  width: 46px;
+  height: 29px;
+  background-size: 30px 22px;
+  background-repeat: no-repeat;
+  background-position: 0px 2px;
+}
+
+.block-account .modal-footer {
+  text-align: right;
+  border-bottom: 0px solid #ddd;
+}
+
+.center-box {
+  display: flex;
+  justify-content: center;
+}
+
+.center-box {
+  margin: 20px 0 15px 0;
+}
+
+.alert-success {
+  border-color: transparent;
+  border-left: 3px solid #299d82;
+  background-color: #f4faf9;
+  margin-bottom: 20px;
+}
+
+.verify-phone-form .form-group {
+  margin-bottom: 20px;
+}
+
+.update-wrap,
+.update-password,
+.update-email,
+.pay-bank-myprofile .update-password {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.update-wrap .tit,
+.update-password .tit,
+.update-email .tit {
+  color: #666;
+  font-size: 18px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.update-wrap .tit span,
+.update-password .tit span,
+.update-email .tit span {
+  display: inline-block;
+  font-weight: normal;
+  color: #333;
+}
+
+.page-myprofile .formWrap,
+.pay-bank-myprofile .formWrap,
+.b2c-b2c-myprofile .formWrap {
+  position: relative;
+}
+
+.page-myprofile .formWrap input,
+.b2c-b2c-myprofile .formWrap input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.page-myprofile .textLabel,
+.pay-bank-myprofile .textLabel,
+.b2c-b2c-myprofile .textLabel {
+  display: block;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #666;
+  white-space: nowrap;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  display: none;
+}
+
+.page-myprofile .isFocus .textLabel,
+.page-myprofile .hasValue .textLabel,
+.b2c-b2c-myprofile .isFocus .textLabel,
+.b2c-b2c-myprofile .hasValue .textLabel {
+  opacity: 1;
+}
+
+.page-myprofile .essential {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  background: url(../img/ico_star.png) no-repeat center 4px;
+}
+
+.page-myprofile .formControl:focus {
+  border-color: #0068c1;
+  outline: rgba(0, 0, 0, 0);
+}
+
+.page-myprofile .essenText,
+.pay-bank-myprofile .essenText {
+  position: absolute;
+  top: auto;
+  bottom: 5px;
+  left: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  overflow: hidden;
+  color: #666;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.page-myprofile .isFocus .essenText,
+.page-myprofile .hasValue .essenText {
+  display: none;
+}
+
+.page-myprofile .inputForm {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 30%;
+  padding-top: 10px;
+}
+
+.page-myprofile .inputRegister {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 3px;
+  transition: box-shadow 0.1s ease, -webkit-box-shadow 0.1s ease;
+}
+
+.page-myprofile .btnWrap {
+  padding: 10px 0;
+}
+
+.input-update {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  font-size: 16px;
+  transition: box-shadow 0.1s ease, -webkit-box-shadow 0.1s ease;
+}
+
+.page-myprofile .confirm-btn,
+.pay-bank-myprofile .confirm-btn,
+.b2c-b2c-myprofile .confirm-btn {
+  width: 100%;
+  padding: 15px;
+  color: #fff !important;
+  cursor: pointer;
+  background: #0068c1 !important;
+  border: none !important;
+  transition: transform 0.4s ease-out;
+}
+
+.page-myprofile .modal-header .el-dialog__header {
+  background: #0068c1;
+  padding: 15px;
+}
+
+.page-myprofile .btn-normal {
+  border: none;
+  font-size: 14px;
+  font-weight: normal;
+  border: 1px solid #eee;
+}
+
+.page-myprofile .profile-list .pwd-modify-btn,
+.page-myprofile .profile-list .email-modify-btn {
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.page-myprofile .profile-list .trust-box button:hover {
+  text-decoration: underline;
+}
+
+.page-myprofile .profile-list .badge {
+  padding: 10px 0;
+  width: 30%;
+}
+
+.page-myprofile .profile-list,
+.b2c-b2c-myprofile .profile-list {
+  overflow: hidden;
+}
+
+.page-myprofile .profile-list .trust-box,
+.b2c-b2c-myprofile .profile-list .trust-box {
+  float: left;
+}
+
+.page-myprofile .profile-list .account-block,
+.b2c-b2c-myprofile .profile-list .account-block {
+  float: right;
+}
+
+.page-myprofile .brief .container {
+  padding: 0;
+}
+
+.page-myprofile .el-button.is-round,
+.pay-bank-myprofile .el-button.is-round,
+.b2c-b2c-myprofile .el-button.is-round {
+  padding: 15px 0;
+  width: 49%;
+}
+
+.page-myprofile .confirm-btn {
+  margin-left: 2% !important;
+}
+
+.page-myprofile .profile-list,
+.b2c-b2c-myprofile .profile-list {
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.page-myprofile .profile-list:first-child,
+.b2c-b2c-myprofile .profile-list:first-child {
+  border-top: 1px solid black;
+}
+
+.page-myprofile .profile-list:last-child,
+.b2c-b2c-myprofile .profile-list:last-child {
+  border: none;
+  padding-top: 10px;
+}
+
+.email-btn {
+  margin-left: 10px;
+}
+
+.page-myprofile .profile-list .list-right .badge-right {
+  margin-left: 10px;
+}
+
+.page-myprofile .submit {
+  background: #152b42;
+  border: none;
+}
+
+.page-my.badge-right .page-myprofile .cancel {
+  background: #ccc;
+  background: #eee;
+  color: #666;
+}
+
+.page-myprofile .el-dialog__wrapper .form-wrap {
+  width: 100%;
+}
+
+.page-myprofile .el-dialog__wrapper .form-wrap .form-control {
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+.page-myprofile .modal-header .el-dialog__title {
+  color: #fff;
+  font-size: 16px;
+}
+
+.page-myprofile .el-dialog__headerbtn {
+  font-size: 20px;
+  top: 16px;
+}
+
+.page-myprofile .el-dialog__wrapper .modal-footer {
+  margin-top: 20px;
+}
+
+.confirm-btn:hover {
+  background: #63bc90;
+}
+
+.update-email .confirm-btn,
+.update-password .confirm-btn {
+  width: calc(50% - 10px);
+}
+
+.page-register .el-button.is-disabled,
+.el-button.is-disabled:focus,
+.el-button.is-disabled:hover {
+  background: linear-gradient(75deg, #b64466, #b96a81) !important;
+}
+
+.page-login-me,
+.page-register {
+  background: #eee;
+}
+
+.page-register .brief {
+  width: 100%;
+}
+
+.page-register .profile-list .text-label {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  -webkit-transition: border-color ease-in-out 0.225s;
+  transition: border-color ease-in-out 0.225s;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.isFocus .login-me_textLabel_3POJS,
+.isFocus .register_textLabel_3c4Tn,
+.hasValue .login-me_textLabel_3POJS,
+.hasValue .register_textLabel_3c4Tn {
+  opacity: 1;
+}
+
+.isFocus .login-me_essenText_3IvMs,
+.isFocus .register_essenText_3ytJO,
+.isFocusSample .register_essenText2_LPxoM,
+.hasValue .login-me_essenText_3IvMs,
+.hasValue .register_essenText_3ytJO,
+.hasValueSample .register_essenText2_LPxoM {
+  display: none;
+}
+
+.page-login-me .el-input__inner,
+.page-register .el-input__inner,
+.page-myprofile .el-input__inner {
+  padding: 10px;
+  font-size: 12px !important;
+  border-color: #eee !important;
+  border-radius: 6px;
+}
+
+/* KYC 인증 */
+
+.verify-wrap:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.verify-wrap .kyc-type-list-wrap {
+  float: left;
+  background-color: white;
+  width: 20%;
+  display: inline-block;
+}
+
+.verify-wrap .kyc-type-list-wrap .kyc-type-list {
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.verify-wrap .kyc-type-list-wrap .kyc-type-list a {
+  color: #ccc;
+}
+
+.verify-wrap .kyc-type-list-wrap .kyc-type-list a.router-link-exact-active {
+  color: #0068c1;
+  font-weight: bold;
+  border-bottom: 1px solid #0068c1;
+}
+
+.verify-wrap .verify {
+  width: 75%;
+  float: right;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.page-kyc .el-input__inner {
+  margin: 5px 0;
+}
+
+.page-kyc .verify .explanation {
+  display: block;
+  margin-top: 10px;
+}
+
+.page-kyc .identity {
+  padding: 20px;
+  background-color: white;
+}
+
+.page-kyc .identity .upload-box {
+  text-align: center;
+}
+
+.page-kyc .identity .payment-section p {
+  font-size: 12px;
+  color: #666;
+}
+
+/* 메일 인증페이지 */
+
+.page-mail-verification .verify {
+  width: 100%;
+}
+
+.page-mail-verification .verify .identity,
+.b2c-b2c-mail-verification .verify .identity {
+  background: #fff;
+  padding: 20px;
+}
+
+.page-mail-verification .email-address,
+.b2c-b2c-mail-verification .email-address {
+  overflow: hidden;
+}
+
+.page-mail-verification .email-address .input-wrap,
+.b2c-b2c-mail-verification .email-address .input-wrap {
+  background-color: #f9f9f9;
+  padding: 10px;
+  letter-spacing: 0;
+  color: #999;
+  border: 1px solid #eee;
+  width: 83%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.page-mail-verification .email-address .tocken-btn-wrap {
+  display: inline-block;
+  width: auto;
+  margin-left%: 2%;
+  background-color: #0068c1;
+  text-align: center;
+  width: 15%;
+  float: right;
+}
+
+.b2c-b2c-mail-verification .email-address .tocken-btn-wrap {
+  display: inline-block;
+  width: auto;
+  margin-left%: 2%;
+  text-align: center;
+  width: 15%;
+  float: right;
+}
+
+.page-mail-verification .required-img {
+  margin-top: 3px;
+}
+
+.page-mail-verification .explanation {
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.page-mail-verification .email-auth {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* 보안등급 페이지 */
+
+.security-wrap {
+  width: 100%;
+  display: inline-block;
+}
+
+.security-wrap .security-box {
+  border-top: 1px solid black;
+  width: 100%;
+  background-color: white;
+  display: block;
+  box-sizing: border-box;
+}
+
+.security-wrap .security-box thead,
+.security-wrap .security-box tbody {
+  width: 100%;
+  display: block;
+}
+
+.security-wrap .security-box tr {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  display: block;
+}
+
+.security-wrap .security-box tr th {
+  background-color: #f9f9f9;
+}
+
+.security-wrap .security-box tr th,
+.security-wrap .security-box tr td {
+  display: inline-block;
+  padding: 20px;
+  width: 33.3%;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #666;
+  line-height: 22px;
+}
+
+.security-wrap .security-box tr td .check img {
+  margin-right: 5px;
+}
+
+.security-wrap .security-box td .condition-content.no {
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.security-wrap .security-box td .condition-content .auth-btn {
+  border: 1px solid #0068c1;
+  color: #0068c1;
+  padding: 10px;
+  font-size: 14px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.security-wrap .security-box td .__or {
+  text-align: center;
+  color: #333;
+  padding: 5px 0;
+}
+
+.security-wrap .security-box .check img {
+  width: auto;
+}
+
+.mobile-card-wrap .mobile-table .__or {
+  font-size: 14px;
+}
+
+.mobile-card-wrap .mobile-table .check {
+  float: right;
+}
+
+.mobile-card-wrap .mobile-table .check .img-wrap {
+  width: 16px;
+  float: left;
+  padding-right: 5px;
+}
+
+.mobile-card-wrap .mobile-table .check span {
+  float: right;
+}
+
+.mobile-card-wrap .mobile-table {
+  margin-bottom: 20px;
+}
+
+.mobile-card-wrap .el-card {
+  margin-bottom: 20px;
+}
+
+.mobile-card-wrap .mobile-table .check img {
+  margin-right: 5px;
+}
+
+.mobile-card-wrap .mobile-table .condition-content {
+  background-color: #f1f8ff;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.mobile-card-wrap .mobile-table .condition-content .auth-btn {
+  border: 1px solid #0068c1;
+  color: #0068c1;
+  padding: 7px;
+  font-size: 12px;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: white;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* otp 페이지 */
+
+.cnt ul li {
+  background-color: white;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+}
+
+.cnt .down-arrow {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.cnt .qrcode {
+  padding: 20px 0;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.cnt .qrcode img {
+  width: 100%;
+}
+
+.cnt .table_box {
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cnt .table_box .nickname_chg {
+  border: 1px solid #eee;
+  padding: 10px;
+  float: left;
+  margin-right: 10px;
+  font-size: 14px !important;
+  color: #333;
+  width: 100px;
+  box-sizing: border-box;
+}
+
+.cnt .table_box .nickname_chg.secret {
+  background-color: #0067c1;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100% !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.cnt .table_box .chg_btn {
+  background: #0068c1;
+  padding: 10px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.cnt .table_box .otp-explanation {
+  line-height: 22px;
+  color: #0066c1;
+  width: 100%;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.cnt .table_box .table_text {
+  padding-bottom: 10px;
+}
+
+/* 출금주소 인증 페이지 */
+
+.page-kyc-withdraw-address .verify-wrap .verify,
+.b2c-b2c-kyc-withdraw-address .verify-wrap .verify,
+.b2c-b2c-mail-verification .verify {
+  width: 100%;
+}
+
+.b2c-b2c-kyc-withdraw-address
+  .verify
+  .el-select
+  .el-input--suffix
+  .el-input__inner {
+  border: 1px solid #eee !important;
+}
+
+.page-kyc-withdraw-address .verify-wrap .verify .btn {
+  margin: 0;
+}
+
+.page-kyc-withdraw-address .verify-wrap .verify .info-content {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .alert-success {
+    padding: 14px;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .profile-item .connect-right a span {
+    padding-left: 42px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .settings-5 .black-item {
+    width: 100%;
+  }
+
+  .block-account {
+    left: 22%;
+  }
+
+  .profile-item .connect-right a span {
+    padding-left: 42px;
+  }
+
+  .page-kyc-list .main {
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  .brief {
+    width: 100%;
+    float: none;
+  }
+
+  .container {
+    width: 100% !important;
+    padding: 0 5%;
+  }
+
+  .profile {
+    display: block;
+  }
+
+  .feedback {
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  .on-box .on-left {
+    width: 33.3333%;
+  }
+
+  .settings-5 .black-item {
+    width: 100%;
+  }
+
+  .settings-6 .last-item {
+    width: 100%;
+  }
+
+  .block-account {
+    left: 15%;
+  }
+
+  .profile-item .connect-right a span {
+    padding-left: 42px;
+  }
+
+  .authe-wrap .authe-left {
+    text-align: left;
+    padding: 0;
+  }
+
+  .update-wrap,
+  .update-password,
+  .update-email {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+    max-width: 100%;
+    float: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile {
+    display: block;
+  }
+
+  .brief .profile-list .fixed-height {
+    height: auto;
+  }
+
+  .page-myprofile .profile-list .trust-box {
+    float: none;
+  }
+
+  .page-myprofile .profile-list .account-block {
+    text-align: center;
+    float: none;
+  }
+
+  .verify-wrap .kyc-type-list-wrap {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .verify-wrap .verify {
+    width: 100%;
+    float: none;
+  }
+
+  .update-password,
+  .update-email {
+    float: none;
+  }
+
+  .brief {
+    width: 100%;
+    float: none;
+  }
+
+  .page-myprofile .profile-list {
+    padding: 20px 0 !important;
+  }
+
+  .brief .profile-list .list-left {
+    width: 100%;
+    float: none;
+    background-color: transparent;
+    padding: 0;
+    text-align: left;
+  }
+
+  .brief .profile-list .list-right {
+    float: none;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .brief .profile-list .list-right .btn-wrap {
+    float: none;
+    margin: 10px 0 0 0;
+  }
+
+  .feedback {
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  .block-account {
+    width: 90%;
+    left: 5%;
+  }
+
+  .main {
+    margin-top: 0;
+  }
+
+  .on-box .on-left {
+    width: 70%;
+    text-align: left;
+  }
+
+  .profile-item {
+    display: block;
+    height: auto;
+  }
+
+  .profile-item .item-left {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .profile-item .item-right {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .item-top {
+    margin: 15px 0;
+  }
+
+  .on-box .on-right {
+    padding-left: 0;
+  }
+
+  .item-mid .item-left {
+    margin-bottom: 10px;
+  }
+
+  .profile-item .item-right .add-phone-box {
+    margin-top: 3px;
+  }
+
+  .item-bot .item-left {
+    height: 40px;
+  }
+
+  .item-bot .item-right {
+    height: 40px;
+  }
+
+  .profile-item .connect-right {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .profile-item .connect-right a span {
+    padding-left: 42px;
+  }
+
+  .authe-wrap .authe-list {
+    display: block;
+  }
+
+  .authe-wrap .authe-left {
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .authe-wrap .authe-right {
+    width: 100%;
+    padding: 0;
+    text-align: left;
+  }
+
+  .authe-wrap .authe-right .authe-3 {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .identity .i-box {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .update-wrap,
+  .update-password,
+  .update-email {
+    width: 100%;
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .page-kyc .form-group {
+    margin-bottom: 20px;
+  }
+
+  .prog-indicator {
+    width: 90%;
+  }
+
+  .page-mail-verification .email-address .tocken-btn-wrap {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .page-mail-verification .email-address .input-wrap {
+    width: 100%;
+  }
+
+  .page-kyc-withdraw-address .verify-wrap .verify .btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .b2c-b2c-myprofile .profile-list {
+    padding: 10px;
+  }
+  .brief .profile-list .list-right .btn-wrap .btn {
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-settings .el-dialog {
+    width: 600px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .page-myprofile .trust-box .btn {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}

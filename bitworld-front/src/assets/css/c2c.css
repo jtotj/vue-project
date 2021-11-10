@@ -1,0 +1,992 @@
+/* header */
+#nav .el-menu {
+  text-align: left !important;
+  background: initial !important;
+}
+
+#nav .el-menu.elMenuDemo {
+  border-bottom: none !important;
+}
+
+#nav .elMenuDemo > .menuItem {
+  position: relative !important;
+  height: 100% !important;
+  padding: 0 !important;
+  margin-right: 20px !important;
+  color: #85acd1 !important;
+}
+
+#nav .el-input--suffix .el-input__inner {
+  background: initial;
+  height: initial !important;
+}
+
+#nav .el-input .el-input__suffix {
+  height: 76px !important;
+}
+
+#nav .elMenuDemo > .menuItem:hover {
+  color: #85acd1 !important;
+  background: none;
+}
+
+#nav .elMenuDemo > .menuItem.is-active {
+  border-bottom: 0 !important;
+}
+
+#nav.changeColor .loginBox li a.loginButton {
+  color: #0068c1 !important;
+}
+
+#nav.changeColor .el-input--suffix .el-input__inner::placeholder {
+  color: #0068c1 !important;
+}
+
+.el-button--primary.is-plain,
+.elMenuDemo > .menuItem a:hover {
+  color: inherit !important;
+}
+
+.elMenuDemo.el-menu--horizontal .menuItem.el-submenu .el-submenu__title {
+  border: none;
+}
+
+.welletMenu div {
+  padding: 0;
+}
+
+.welletMenu:hover div {
+  background: none !important;
+}
+
+.welletMenu .navTitle {
+  font-size: 18px;
+  line-height: 80px;
+  color: #85acd1;
+}
+
+#nav .welletMenu.is-opened .navTitle {
+  color: #fff !important;
+}
+
+#nav.TopNav_changeColor_18TPO .welletMenu.is-opened .navTitle {
+  color: #0068c1 !important;
+}
+
+.welletMenu i {
+  color: #85acd1;
+}
+
+.welletMenu i::before {
+  color: #85acd1;
+}
+
+#nav .welletMenu.is-opened i::before {
+  color: #fff !important;
+}
+
+#nav.TopNav_changeColor_18TPO .welletMenu.is-opened i::before {
+  color: #0068c1 !important;
+}
+
+.walletMenuWapper {
+  background: #fff;
+}
+
+.walletMenuItem:not(.is-disabled):hover {
+  background: #fff !important;
+  opacity: 1;
+  color: #0068c1 !important;
+}
+
+.walletMenuItem a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 36px;
+}
+
+.TopNav img {
+  width: 100%;
+}
+
+/* 판매내역*/
+
+.assetMenu {
+  margin-right: 32px;
+  transition: 0.2s;
+  font-size: 18px !important;
+  color: #999999 !important;
+  font-weight: normal;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.assetMenu em {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.assetMenu:hover {
+  color: #0068c1 !important;
+}
+
+.assetMenu span em.active {
+  color: #0068c1 !important;
+  text-decoration: underline;
+}
+
+.dialogWrapper .el-dialog {
+  height: 585px;
+  max-height: 585px;
+  width: 900px !important;
+}
+
+.dialogWrapper .el-dialog__header {
+  background-color: initial !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
+  border-bottom: 1px solid #eee;
+}
+
+.dialogWrapper .el-dialog__body {
+  padding-top: 0 !important;
+}
+
+.dialogWrapper .el-dialog .el-dialog__header .el-dialog__title {
+  color: #303133 !important;
+}
+
+.dialogWrapper .el-dialog__header .el-dialog__headerbtn .el-dialog__close {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  color: #999 !important;
+}
+
+.newHome .coin_link.el-dropdown-link {
+  cursor: pointer;
+  color: #409eff;
+}
+
+.newHome .el-select-dropdown__list {
+  width: 280px;
+  transition: 0.2s;
+}
+
+.newHome .el-select-dropdown__item {
+  width: 50%;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.newHome .el-select .el-input__inner {
+  width: 112px;
+  font-family: 'Open Sans', sans-serif !important;
+  height: initial !important;
+  line-height: initial !important;
+  color: initial !important;
+  background-color: initial !important;
+  border: initial !important;
+}
+
+.newHome .el-input--suffix .el-input__inner {
+  text-align: right;
+  border: 0;
+  color: #fff !important;
+}
+
+.newHome .el-select-dropdown {
+  left: 53% !important;
+  top: 56px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.newHome .el-icon-arrow-down {
+  font-size: 12px;
+}
+
+.newHome .el-icon--right {
+  transform: rotate(-90deg) !important;
+}
+
+.newHome .sales .propertyBox .more span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.newHome .el-button--danger {
+  color: #fff;
+  background-color: #d32f2f !important;
+  border-color: #d32f2f !important;
+}
+
+.newHome .el-pagination button:hover {
+  color: #0068c1 !important;
+}
+
+/* //판매내역*/
+
+/* 주요기능 */
+
+/*************/
+
+/* //주요기능 */
+
+/* 푸터
+
+.el-collapse-item__wrap {
+  margin-top: 16px;
+}
+
+.el-select .el-input .el-select__caret {
+  vertical-align: super;
+}
+
+.el-collapse-item__arrow {
+  font-size: 20px;
+}
+
+.el-collapse-item__content > ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.el-collapse-item__content > ul > li {
+  float: left;
+  width: 12%;
+}
+
+.el-collapse-item__content > ul > li:nth-child(2),
+.el-collapse-item__content > ul > li:nth-child(3),
+.el-collapse-item__content > ul > li:nth-child(4),
+.el-collapse-item__content > ul > li:nth-child(7) {
+  width: 11.5%;
+}
+
+.el-collapse-item__content > ul > li:nth-child(5) {
+}
+
+.el-collapse-item__content > ul > li > ul > li > a {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  line-height: 21px;
+  color: #999;
+  text-align: left;
+  letter-spacing: -0.56px;
+  transition: 0.2s;
+}
+
+.el-collapse-item__content > ul > li > ul > li > a:hover {
+  color: #0068c1;
+  text-decoration: underline;
+}
+
+.el-collapse-item__content {
+  padding: 0 !important;
+}
+
+.el-collapse-item__arrow {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.el-collapse-item__arrow.is-active {
+  -webkit-transform: rotate(-90deg) !important;
+  transform: rotate(-90deg) !important;
+} */
+
+/* 푸터 */
+
+/* .el-collapse-item__header.is-active {
+  border-bottom: 1px solid #eee !important;
+}
+
+footer .el-collapse-item__header {
+  padding: 0 !important;
+  height: 64px;
+  line-height: 64px;
+} */
+
+/* 다국어 설정 */
+
+#nav .lang-wrap {
+  position: relative;
+}
+
+#nav .lang-wrap .lang {
+  height: 80px;
+}
+
+#nav .gnb-svg {
+  top: 30px;
+  right: -10px;
+}
+
+#nav .gnb-svg path {
+  fill: #85acd1 !important;
+}
+
+#nav .lang .title-img {
+  height: 80px;
+  background-position-y: 30px;
+}
+
+#nav .lang span {
+  color: #85acd1 !important;
+  vertical-align: top;
+}
+
+#nav .drop-box {
+  width: 280px;
+  height: 192px !important;
+  max-height: 274px;
+  right: 0;
+  top: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #e4e7ed;
+  border-radius: 4px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+#nav .drop-box li {
+  width: 50%;
+  padding: 5px 5px 5px 0;
+  box-sizing: border-box;
+}
+
+header .TopNav_loginBox_1_gVD li .lang-wrap {
+  padding: 0 16px !important;
+}
+
+/* a.TopNav.active {
+    color: #fff !important;
+} */
+
+#nav .drop-box .nation-img {
+  width: 60px;
+  text-align: left;
+}
+
+header .drop-box .nation-tit {
+  line-height: 24px;
+}
+
+header .drop-box .nation-img {
+  background-size: 25px 15px !important;
+  height: 24px;
+  background-position: 16px 4px;
+}
+
+/*페이지 네비게이션*/
+
+.page-navigation_pagination_3ltUo button.page-navigation_prev_flOwr,
+.page-navigation_pagination_3ltUo button.page-navigation_prevEnd_3bex7,
+.page-navigation_pagination_3ltUo button.page-navigation_next_YcH6r,
+.page-navigation_pagination_3ltUo button.page-navigation_nextEnd_3pgSw {
+  background: initial !important;
+  color: #999 !important;
+}
+
+.container
+  .page-navigation_pagination_3ltUo
+  button.page-navigation_prev_flOwr:hover,
+.container
+  .page-navigation_pagination_3ltUo
+  button.page-navigation_prevEnd_3bex7:hover,
+.page-navigation_pagination_3ltUo button.page-navigation_next_YcH6r:hover,
+.page-navigation_pagination_3ltUo button.page-navigation_nextEnd_3pgSw:hover {
+  background: none !important;
+}
+
+.page-navigation_pagination_3ltUo a,
+.page-navigation_pagination_3ltUo strong {
+  font-size: 16px !important;
+  color: #999 !important;
+  font-weight: normal !important;
+}
+
+.page-navigation_pagination_3ltUo a:hover,
+.page-navigation_pagination_3ltUo strong:hover {
+  color: #0068bc !important;
+  background: initial !important;
+}
+
+.page-navigation_pagination_3ltUo strong {
+  text-decoration: underline;
+}
+
+/* 반응형 */
+
+@media (max-width: 1080px) {
+  #nav .elMenuDemo > .menuItem {
+    margin-right: 22px !important;
+  }
+
+  .elMenuDemo > .menuItem {
+    margin-right: 14px !important;
+  }
+
+  .el-dropdown-menu {
+    width: calc(100% - 80px) !important;
+  }
+
+  /*판매내역*/
+  .dialogWrapper .el-dialog {
+    width: calc(100% - 80px) !important;
+    margin: 0 auto 50px;
+  }
+
+  .dialogWrapper .el-dialog__body tr td {
+    width: 23% !important;
+    height: 44px;
+    margin: 0 10px 10px 0 !important;
+    border: 1px solid #eee;
+    border-radius: 2px;
+  }
+
+  .newHome .el-dropdown-menu .el-dropdown-menu__item button span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 853px) {
+  .newHome .el-input--suffix .el-input__inner {
+    text-align: left;
+    border: 0;
+  }
+
+  .newHome .el-dropdown-menu__item {
+    width: 31%;
+  }
+
+  .newHome .el-dropdown-menu__item:nth-child(2n) {
+    margin: 0 1%;
+  }
+
+  .mobileDrawer .el-drawer .loginBox > li:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 80px;
+    z-index: 400;
+  }
+
+  .mobileDrawer .el-drawer .loginBox > li:nth-child(3) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 400;
+  }
+
+  .mobileDrawer .el-drawer .loginBox > li:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 400;
+  }
+
+  footer .el-submenu .menuItem a {
+    color: #333;
+  }
+}
+
+@media (max-width: 800px) {
+  .newHome .el-select .el-input__inner {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* 헤더 모바일 */
+  .drop-box[data-v-41112d26] {
+    left: 0;
+    width: 160px;
+    border: 1px solid #eee;
+  }
+  .drop-box[data-v-41112d26] li {
+    margin-right: 0;
+  }
+
+  .drop-box[data-v-41112d26] li:nth-child(1) {
+    width: initial;
+  }
+
+  .drop-box[data-v-41112d26] li:nth-child(2) {
+    position: initial;
+  }
+
+  .mobileDrawer .el-drawer .loginBox {
+    line-height: 60px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-top: 10px;
+  }
+
+  .mobileDrawer .el-drawer .loginBox li a.loginButton {
+    margin-left: 14px;
+  }
+
+  .mobileDrawer .el-drawer {
+    width: 60% !important;
+  }
+
+  .mobileDrawer .el-drawer .el-drawer__header {
+    padding: 0 !important;
+  }
+
+  .mobileDrawer .el-drawer__header {
+    background: none;
+    position: initial !important;
+    z-index: 100 !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    height: auto;
+    display: initial !important;
+  }
+
+  .mobileDrawer .el-drawer__close-btn {
+    font-size: 30px !important;
+    font-weight: bold;
+    margin: 8px 0 0 14px;
+    color: #0068c1 !important;
+    padding: 0 !important;
+  }
+  .mobileDrawer section.el-drawer__body {
+    padding: 0;
+  }
+
+  .mobileDrawer .el-button--primary {
+    color: #fff;
+    background-color: initial !important;
+    border: none !important;
+    font-size: 30px !important;
+  }
+  .mobileDrawer .el-drawer__body .el-input .el-input__inner {
+    border: none !important;
+  }
+
+  .mobileDrawer .el-drawer__body .el-menu .menuItem {
+    height: 56px !important;
+    line-height: 56px !important;
+  }
+
+  .mobileDrawer .el-button {
+    padding: 22px 20px !important;
+  }
+  .mobileDrawer .el-drawer .loginBox {
+    line-height: 60px;
+    border-bottom: 1px solid #f5f5f5;
+    margin-top: 10px;
+  }
+
+  .mobileDrawer .el-drawer .loginBox span {
+    vertical-align: middle !important;
+  }
+
+  .mobileDrawer .el-drawer .loginBox li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+  }
+
+  .mobileDrawer .el-drawer .loginBox li a:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .mobileDrawer .el-drawer .loginBox li a.logout {
+    background: #0068c1 !important;
+    color: #fff;
+  }
+
+  .mobileDrawer .selectLocale {
+    position: relative;
+    width: 100%;
+    float: left;
+  }
+
+  .mobileDrawer .selectLocale .drop-box {
+    top: 60px;
+    width: 90%;
+  }
+  .mobileDrawer .el-drawer .loginBox li a {
+    color: #0068c1;
+    font-weight: 600;
+  }
+
+  .mobileDrawer .el-drawer .loginBox li a img {
+    vertical-align: middle;
+    margin-left: 6px;
+  }
+
+  .mobileDrawer .el-drawer .loginBox li a.loginButton {
+    border: 1px solid #0068c1;
+    border-radius: 16px;
+    padding: 4px 20px;
+    background: #fff;
+  }
+  .mobileDrawer .el-drawer__container .lang-wrap {
+    width: 100%;
+  }
+
+  .mobileDrawer .el-drawer__container .lang-wrap .lang span[data-v-41112d26] {
+    color: #0068c1 !important;
+    font-weight: 600;
+  }
+
+  .mobileDrawer .el-drawer__container .lang-wrap .lang .title-img {
+    background-position-y: 1px;
+  }
+
+  .mobileDrawer .el-drawer__container .lang-wrap .gnb-svg {
+    top: 20px;
+  }
+
+  .mobileDrawer .el-drawer__body .el-menu .menuItem {
+    border-bottom: 1px solid #f5f5f5 !important;
+    margin: 0 !important;
+    padding: 0 20px !important;
+  }
+  .mobileDrawer .el-submenu .el-menu-item {
+    background: #f9f9f9;
+  }
+
+  .walletMenuItem a:hover {
+    color: #0068c1 !important;
+  }
+
+  /* newHome */
+  .newHome .el-select-dropdown {
+    min-width: initial !important;
+    left: initial !important;
+    right: 26px !important;
+    margin: 0 !important;
+  }
+
+  .newHome .el-select-dropdown__item {
+    width: 100%;
+  }
+
+  .newHome .el-select-dropdown__item .valueText {
+    float: right;
+  }
+
+  .newHome .el-select-dropdown,
+  .newHome .el-scrollbar__wrap,
+  .newHome .el-scrollbar__wrap,
+  .newHome .el-select-dropdown__list {
+    max-width: 200px;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .el-row .el-col-4 {
+    width: 100% !important;
+  }
+
+  #nav .el-button {
+    padding: 16px 0 !important;
+    background: none;
+    border: none !important;
+    color: #fff;
+    font-size: 30px !important;
+  }
+
+  .b2cHeader #nav .el-button {
+    font-size: initial !important;
+  }
+
+  #nav .el-button:hover {
+    background: none !important;
+  }
+
+  .menuItem.is-active {
+    color: #0068c1 !important;
+  }
+
+  .el-input--suffix .el-input__inner .mobile.changeColor .el-button--primary {
+    color: #0068c1 !important;
+  }
+
+  .mobile.mobile.changeColor .el-button--primary {
+    color: #0068c1 !important;
+  }
+
+  .el-input--suffix .el-input__inner {
+    color: #0068c1 !important;
+  }
+
+  .menuItem {
+    font-size: 16px !important;
+  }
+
+  .newHome .el-select {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .newHome .el-select-dropdown {
+    top: 114px !important;
+  }
+
+  .newHome .el-input__suffix,
+  .newHome .el-select .el-input__inner::placeholder {
+    color: #0068c1 !important;
+  }
+
+  .newHome .el-input--suffix .el-input__inner {
+    background: initial;
+    font-weight: 600;
+    padding: 0 !important;
+    width: 100%;
+  }
+
+  .el-col-12 {
+    width: 100% !important;
+  }
+
+  .TopNav_navi_171Gy.TopNav_changeColor_3Au6U .el-button {
+    color: #0068bc !important;
+  }
+
+  .walletMenu span {
+    font-size: 14px;
+    color: #303133;
+  }
+
+  .walletMenu span:hover {
+    color: #303133;
+  }
+
+  .walletMenu i {
+    color: #303133 !important;
+  }
+
+  .walletMenu i::before {
+    color: #303133;
+  }
+
+  /*판매내역*/
+  .assetMenu {
+    margin-right: 20px !important;
+  }
+
+  .sales .requestBox .requestContents {
+    width: 100%;
+  }
+
+  .ps__rail-x,
+  .ps__thumb-x {
+    height: 3px !important;
+  }
+
+  .dialogWrapper .el-dialog__body tr td {
+    width: 31% !important;
+    height: 44px;
+    margin: 0 10px 10px 0 !important;
+    border: 1px solid #eee;
+    border-radius: 2px;
+  }
+
+  /* 서브메뉴 */
+  .el-menu {
+    border-right: 0 !important;
+  }
+
+  .menuItem {
+    padding: 0 0 0 20px !important;
+    border-bottom: 1px solid #f5f5f5;
+  }
+
+  .menuItem span {
+    vertical-align: initial;
+  }
+
+  footer .menuItem {
+    line-height: 21px !important;
+    padding: 0 0 0 20px !important;
+    height: 56px;
+  }
+
+  footer .nonepadding {
+    padding: 0px !important;
+  }
+
+  .el-submenu__title {
+    font-size: 16px !important;
+    line-height: 52px !important;
+  }
+
+  footer .el-submenu .menuItem {
+    font-size: 14px !important;
+    transition: 0.2s;
+    background: none !important;
+  }
+
+  .el-footer .menuItem a {
+    display: block;
+    font-weight: 300;
+    line-height: 21px;
+    color: #333 !important;
+    transition: 0.2s;
+  }
+
+  .el-col-8 {
+    width: 100% !important;
+  }
+
+  footer {
+    padding-top: 0 !important;
+  }
+
+  footer .menuItem-group {
+    border-bottom: none !important;
+  }
+
+  footer .el-submenu .menuItem:hover a {
+    color: #0068c1 !important;
+    text-decoration: underline;
+    transition: 0.2s;
+  }
+
+  .menuItem-group__title {
+    display: none;
+  }
+
+  footer .menuItem-group > ul {
+    padding-left: 20px;
+  }
+
+  footer .menuItem {
+    border-bottom: 0 !important;
+    font-weight: 300;
+    height: 56px !important;
+    line-height: 56px !important;
+  }
+
+  footer .tac {
+    border-top: 0 !important;
+  }
+
+  .el-collapse-item__header {
+    position: relative;
+  }
+
+  .el-collapse-item__arrow.is-active {
+    position: absolute;
+    right: 80px !important;
+  }
+
+  footer .el-submenu__title i {
+    color: #0068c1 !important;
+    font-size: 18px;
+  }
+
+  .el-submenu__title a {
+    font-size: inherit !important;
+    color: #000 !important;
+  }
+
+  footer .menuItem a.title {
+    font-size: 16px;
+  }
+
+  footer .menuItem a {
+    color: #000;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 660px) {
+  .mobileDrawer .el-drawer {
+    width: 70% !important;
+  }
+
+  .dialogWrapper .el-dialog__body tr td {
+    width: 47% !important;
+    height: 44px;
+    margin: 0 10px 10px 0 !important;
+    border: 1px solid #eee;
+    border-radius: 2px;
+  }
+}
+
+@media (max-width: 600px) {
+  .newHome .el-dropdown-menu__item {
+    width: 48%;
+    margin: 0 1% 1% 0 !important;
+  }
+
+  .newHome .el-dropdown-menu {
+    max-height: 460px;
+  }
+}
+
+@media (max-width: 580px) {
+  .mobileDrawer .el-drawer .loginBox li {
+    /* margin-right: 8px; */
+    line-height: 50px;
+  }
+
+  .mobileDrawer .el-drawer .loginBox li a {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  .mobileDrawer .el-drawer .loginBox .login {
+    right: 90px;
+  }
+
+  .dialogWrapper .el-dialog__body tr td {
+    width: 100% !important;
+    height: 44px;
+    margin: 0 10px 10px 10px !important;
+    border: 1px solid #eee;
+    border-radius: 2px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mobileDrawer .el-drawer .loginBox li a.loginButton {
+    border: 1px solid #0068c1;
+    border-radius: 16px;
+    padding: 4px 16px;
+    background: #fff;
+  }
+}
+
+@media (max-width: 480px) {
+  /* 판매 내역 popup header */
+  .dialogWrapper .el-dialog__header {
+    height: 100px;
+  }
+}
+
+@media (max-width: 448px) {
+  .newHome .el-select-dropdown {
+    top: 98px !important;
+  }
+
+  .newHome .el-input--suffix .el-input__inner {
+    padding-right: 38px !important;
+  }
+
+  .el-pager li {
+    min-width: 28px !important;
+  }
+}
+
+/* @media (max-width: 375px) {
+  .mobileDrawer .el-drawer .loginBox li {
+    margin-right: 8px;
+  }
+} */

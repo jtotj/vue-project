@@ -1,0 +1,61 @@
+.btnWrap {
+  padding-top: 20px;
+  overflow: hidden;
+  text-align: right;
+}
+
+.imgWrap {
+  float: left;
+  width: 15px;
+  padding: 2px 0;
+  margin-right: 5px;
+}
+
+.depositWithdrawLinks {
+  float: left;
+}
+
+.depositLink {
+  padding: 8px 15px;
+  margin-right: 10px;
+  color: white;
+  background-color: #e01f00;
+}
+
+.withdrawLink {
+  padding: 8px 15px;
+  margin-right: 10px;
+  color: white;
+  background-color: #0068c1;
+}
+
+.modifyLinkWrap {
+  float: right;
+}
+
+.modifyLink {
+  padding: 10px 20px;
+  margin: 0;
+  background-color: white;
+  border: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+  .depositLink,
+  .withdrawLink {
+    width: 48%;
+    margin-right: 4%;
+  }
+
+  .withdrawLink {
+    margin: 0;
+  }
+
+  .modifyLinkWrap {
+    padding-top: 10px;
+  }
+
+  .modifyLink {
+    width: 100%;
+  }
+}

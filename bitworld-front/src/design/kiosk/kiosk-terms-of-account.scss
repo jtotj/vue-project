@@ -1,0 +1,179 @@
+// Account application component
+.termsOfAccount {
+  // common
+  .bold {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    color: #222;
+  }
+
+  .text {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  .btnsWrap {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateX(-50%);
+  }
+
+  .container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1080px !important;
+    padding: 0 60px;
+    margin: 0 auto;
+    margin-top: 110px;
+  }
+  .assetContainer {
+    width: 100%;
+    padding: 0 60px;
+    margin: 0 auto;
+  }
+
+  // openTerms, checkTerms
+  .terms {
+    .termsTitle {
+      padding: 0 0 30px;
+      font-size: 32px;
+      font-weight: 900;
+      line-height: normal;
+      color: #29304d;
+    }
+  }
+
+  // openTerms
+  .openTerms {
+    .noticeBox {
+      padding: 25px 30px;
+      margin-top: 60px;
+      background-color: #fff;
+    }
+
+    .termsNotice {
+      margin-top: 60px;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: normal;
+      color: #0068c1;
+    }
+  }
+
+  // checkTerms
+  .checkTerms {
+    .termsTitle {
+      padding-bottom: 90px;
+    }
+
+    h4.bold {
+      padding-bottom: 109px;
+    }
+
+    .text {
+      padding-bottom: 40px;
+
+      strong {
+        font-size: 28px;
+        font-weight: 700;
+      }
+    }
+
+    .checkBox {
+      position: absolute;
+      bottom: 365px;
+      left: 0;
+      padding: 0 60px;
+
+      &::after {
+        display: block;
+        clear: both;
+        content: '';
+      }
+
+      input[type='checkbox'] {
+        display: none;
+      }
+
+      input[type='checkbox'] + label {
+        display: block;
+        float: left;
+        width: 40px;
+        height: 40px;
+        background: url('@assets/kiosk-img/icon-check-grey.svg') no-repeat
+          center center/40px 40px;
+        border-radius: 3px;
+      }
+
+      input[type='checkbox']:checked + label {
+        background: url('@assets/kiosk-img/icon-check-small.svg') no-repeat
+          center center/40px 40px;
+      }
+
+      .checkText {
+        position: absolute;
+        top: 0;
+        left: 55px;
+        display: block;
+        width: 600px;
+        padding: 0 60px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #29304d;
+      }
+    }
+  }
+
+  // InputAccount
+  .inputAssetInfo {
+    .inputTitle {
+      padding-bottom: 20px;
+      font-size: 40px;
+      font-weight: 900;
+      color: #29304d;
+    }
+  }
+
+  // createComplete
+  .createComplete {
+    text-align: center;
+
+    .imgWrap {
+      display: block;
+      width: 100%;
+      padding-top: 340px;
+      text-align: center;
+
+      img {
+        width: 400px;
+        height: 400px;
+      }
+    }
+
+    .completeTitle {
+      display: block;
+      width: 100%;
+      padding: 100px 0 160px;
+      font-size: 60px;
+      font-weight: 900;
+      line-height: normal;
+      color: #29304d;
+    }
+
+    .btnsWrap {
+      position: inherit;
+      margin: 0 auto;
+      transform: translateX(0);
+    }
+  }
+}

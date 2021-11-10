@@ -1,0 +1,674 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', 'Noto Sans KR', sans-serif;
+}
+
+*:focus {
+  outline: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+.navi,
+hgroup,
+menu,
+nav,
+.section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+a {
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+em {
+  font-style: initial;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+div,
+button {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.hide {
+  height: 1px;
+  opacity: 0;
+}
+
+.pc {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+.sideRgba {
+  display: none;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  &::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+}
+
+.clear::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+strong {
+  color: #222;
+}
+
+.section {
+  padding: 80px 0;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+.sales .pc {
+  display: block;
+}
+
+.sales .mobile {
+  display: none;
+}
+
+.floatL {
+  float: left;
+}
+
+.floatR {
+  float: right;
+}
+
+.textL {
+  text-align: left;
+}
+
+.textC {
+  text-align: center;
+}
+
+.textR {
+  text-align: right;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width50 {
+  width: 50%;
+}
+
+/* 영어, 숫자 자간 0 */
+
+.noSpace {
+  font-family: OpenSans;
+  letter-spacing: 0;
+}
+
+/* color */
+
+.green {
+  color: #52b370 !important;
+}
+
+.Footer-Area_danger_YPfj_ {
+  font-weight: normal !important;
+  color: #d32f2f !important;
+}
+
+.red {
+  font-weight: normal !important;
+  color: #d32f2f !important;
+}
+
+/* 헤더 */
+
+.navi {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+
+  /* transition: 100ms; */
+  width: 100%;
+  height: auto;
+  background: #0068c1;
+  .logo {
+    float: left;
+    padding: 22px 0;
+    .logoWhite {
+      display: block;
+    }
+    .logoBlue {
+      display: none;
+    }
+  }
+  .loginBox li a.loginButton.login {
+    margin-left: 15px;
+    color: #0068c1 !important;
+    background: #fff;
+  }
+  &.changeColor {
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    .logoBlue {
+      display: block;
+    }
+    .navHide,
+    .logoWhite {
+      display: none;
+    }
+    .nav li:first-child a.active {
+      color: #85acd1;
+    }
+    .loginBox li a.loginButton {
+      color: #0068c1;
+      border: 1px solid #0068c1 !important;
+      transition: 0.2s;
+      &:hover {
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      }
+      &.login {
+        margin-left: 15px;
+        color: #fff !important;
+        background: #0068c1;
+      }
+    }
+  }
+}
+
+.longLocalText {
+  height: 120px;
+  .nav {
+    li {
+      a {
+        display: block;
+        font-size: 16px !important;
+        line-height: 80px;
+        color: #85acd1 !important;
+        letter-spacing: -1px;
+        transition: 0.3s;
+      }
+      div {
+        .navTitle {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .loginBox {
+    position: relative;
+    .locale {
+      position: absolute;
+      top: 50px;
+      right: 0;
+    }
+  }
+  .c2cLoginBox {
+    .locale {
+      position: initial;
+    }
+  }
+}
+
+.navi .nav li a {
+  display: block;
+  font-size: 18px;
+  line-height: 80px;
+  color: #85acd1 !important;
+  letter-spacing: -1px;
+  transition: 0.3s;
+}
+
+.navi .nav > li {
+  &:hover a {
+    color: #fff !important;
+    &::after {
+      position: absolute !important;
+      bottom: 14px;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 1.6px;
+      font-weight: bold;
+      color: #fff !important;
+      content: '';
+      background: #fff;
+      opacity: 0;
+      transition: 0.2s ease-in-out;
+    }
+  }
+  &:active a::after {
+    color: #fff;
+    opacity: 1;
+  }
+  &:first-child a.active {
+    &::after {
+      color: #fff !important;
+      opacity: 1;
+    }
+
+    color: #fff;
+  }
+}
+
+.navi .nav {
+  float: left;
+  li {
+    a.active {
+      position: relative;
+      color: #fff !important;
+      &::after {
+        position: absolute;
+        bottom: 23px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        content: '';
+        background: #fff;
+      }
+    }
+    span.active {
+      padding-bottom: 3px;
+      color: #fff !important;
+      border-bottom: 2px solid #fff;
+    }
+  }
+}
+
+.navi.changeColor .nav li {
+  a {
+    color: #85acd1 !important;
+    &::after {
+      background: #0068c1 !important;
+    }
+    &.active {
+      position: relative;
+      color: #0068c1 !important;
+      &::after {
+        position: absolute;
+        bottom: 23px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        content: '';
+        background: #0068c1;
+      }
+    }
+  }
+  span {
+    &.active {
+      padding-bottom: 3px;
+      color: #0068c1 !important;
+      border-bottom: 2px solid #0068c1;
+    }
+  }
+}
+
+.navi .loginBox {
+  float: right;
+  line-height: 80px;
+  li {
+    float: left;
+  }
+}
+
+.navi .loginBox li a {
+  color: #fff;
+  img {
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+  &.loginButton {
+    padding: 6px 15px;
+    margin-left: 30px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+    &:hover {
+      box-shadow: 0 3px 3px rgba(255, 255, 255, 0.22);
+    }
+  }
+}
+
+.valueText {
+  position: relative;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px;
+  color: #000;
+  transition: 0.2s;
+  &:hover::after {
+    position: absolute !important;
+    bottom: -3px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background: #000;
+  }
+}
+
+.labelImg {
+  width: initial;
+  margin-right: 4px;
+  line-height: 22px;
+  vertical-align: middle;
+}
+
+/* 푸터 */
+
+footer {
+  padding-top: 0;
+  background: #fff;
+
+  /* footer 상단 */
+  .coinUseArea {
+    width: 100%;
+    padding: 35px 0;
+    background: url('@assets/img/waveBackground.png') no-repeat 50%, 50%;
+    background-size: cover;
+    strong {
+      margin-bottom: 0;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 36px;
+      color: #fff;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px;
+      color: #bbebf9;
+    }
+    .tipArea {
+      margin-top: 8px;
+      .tip {
+        display: inline-block;
+        width: 36px;
+        height: 18px;
+        margin-right: 8px;
+        line-height: 1;
+        text-align: center;
+        background: #fff;
+        border-radius: 50px;
+        span {
+          display: inline-block;
+          margin: 4px 0 3px;
+          font-size: 12px;
+          font-weight: normal;
+          color: #8bb0d2;
+        }
+      }
+      > span {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        font-stretch: normal;
+        line-height: 1.75;
+        color: #e8f4fe;
+        text-align: left;
+        letter-spacing: -0.48px;
+      }
+    }
+  }
+  .textBox {
+    position: relative;
+    padding: 26px 0;
+    p {
+      width: 80%;
+      font-size: 12px;
+      font-weight: normal;
+      line-height: 20px;
+      color: #999;
+      letter-spacing: 0;
+    }
+    .footerLogo {
+      position: absolute;
+      top: 26px;
+      right: 26px;
+      cursor: pointer;
+    }
+  }
+  .copy {
+    border-top: 1px solid #e5e5e5;
+    p {
+      padding: 3px 0 3px;
+      font-size: 12px;
+      font-weight: 300;
+      color: #999;
+      text-align: center;
+      letter-spacing: 0;
+    }
+  }
+  strong {
+    display: block;
+    margin-top: 0 !important;
+    margin-bottom: 14px !important;
+    line-height: 21px;
+    text-decoration: none;
+  }
+}
+
+.danger {
+  color: #d32f2f;
+}
+
+/* 업버튼 */
+
+.upButton {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 500;
+  width: 64px;
+  cursor: pointer;
+}
+
+/* 반응형 */
+
+@media (max-width: 1178px) {
+  .longLocalText {
+    .nav {
+      li {
+        a {
+          font-size: 14px !important;
+        }
+        div {
+          .navTitle {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .loginBox {
+      li {
+        a {
+          &.loginButton {
+            padding: 3px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .sales .pc {
+    display: none;
+  }
+  .sales .mobile {
+    display: block;
+  }
+
+  footer {
+    width: 100%;
+    margin-top: 0;
+    background: #fff;
+    .coinUseArea {
+      text-align: center;
+    }
+    .footerMenu > li > a {
+      font-size: 14px;
+    }
+
+    .textBox {
+      p {
+        width: 100%;
+      }
+      .footerLogo {
+        position: initial;
+        margin: 20px 0;
+        text-align: center;
+        img {
+          width: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 855px) {
+  .longLocalText {
+    .nav {
+      li {
+        a {
+          font-size: 12px !important;
+        }
+        div {
+          .navTitle {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 787px) {
+  .longLocalText {
+    .loginBox {
+      position: relative;
+      top: -30px;
+      height: 50px;
+      .locale {
+        position: initial;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .side_rgba {
+    display: block;
+  }
+  .section {
+    padding: 60px 0;
+  }
+  .menuButton {
+    float: right;
+    font-size: 30px;
+    color: #fff;
+  }
+  footer {
+    .coinUseArea {
+      padding: 50px 0;
+      strong {
+        font-size: 20px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+    strong {
+      display: block;
+      font-weight: 500;
+      line-height: 50px;
+      text-decoration: none;
+      cursor: default;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    .coinUseArea {
+      strong {
+        font-size: 15px;
+      }
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+}

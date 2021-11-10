@@ -1,0 +1,23 @@
+.certification-process ul li {
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.qrcode {
+  width: 250px;
+  margin: 20px auto;
+}
+
+.down-arrow {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.table-box {
+  margin-bottom: 20px;
+}
+
+.table-box .otp-explanation {
+  padding: 10px 0;
+}

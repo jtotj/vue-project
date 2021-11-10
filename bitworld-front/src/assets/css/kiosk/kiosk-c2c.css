@@ -1,0 +1,51 @@
+.kiosk-c2c .el-tabs {
+  widht: 100%;
+  margin-top: 80px;
+}
+
+.kiosk-c2c .el-tabs__header {
+  margin: 0;
+  width: 100%;
+  margin-bottom: 10px !important;
+  border: none;
+}
+
+.kiosk-c2c .el-tabs__header .el-tabs__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.kiosk-c2c .el-tabs .el-tabs__nav .el-tabs__item {
+  border: none;
+  width: 48%;
+  height: 90px !important;
+  padding-top: 15px !important;
+  font-size: 38px !important;
+  margin: 0 !important;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #f5f5f5;
+}
+
+.kiosk-c2c .el-tabs .el-tabs__nav .el-tabs__item.is-active {
+  font-weight: bold !important;
+  color: #ffffff !important;
+  background-image: linear-gradient(to top, #478ecc, #2b74b9);
+}
+
+.kiosk-c2c .el-input {
+  margin: 20px 0 40px;
+}
+
+/* KYC 증명서류 */
+.kiosk-c2c .el-tab-pane {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}

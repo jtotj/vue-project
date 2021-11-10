@@ -1,0 +1,22 @@
+.account-transfer .account-box .account-info {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.account-transfer .account-box .account-info .account-title {
+  float: left;
+}
+
+.account-transfer .account-box .account-info .amount {
+  float: right;
+  cursor: auto;
+}
+
+.account-transfer .account-balance {
+  background-color: rgb(243 247 255);
+  padding: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}

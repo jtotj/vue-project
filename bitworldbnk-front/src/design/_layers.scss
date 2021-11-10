@@ -1,0 +1,18 @@
+$layer-negative-z-index: -1;
+$layer-page-z-index: 1;
+$layer-dropdown-z-index: 2;
+$layer-modal-z-index: 3;
+$layer-popover-z-index: 4;
+$layer-tooltip-z-index: 5;
+
+#app {
+  > #container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  #footer {
+    margin-top: auto !important;
+  }
+}

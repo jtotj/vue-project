@@ -1,0 +1,312 @@
+.affiliageLog {
+  overflow: hidden;
+
+  .selectBox {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #0d3467;
+
+    .title {
+      padding-bottom: 10px;
+      color: #ccc;
+      letter-spacing: 0;
+    }
+
+    .assetWrap {
+      box-sizing: border-box;
+      float: left;
+      width: 49%;
+
+      .buyAssetWrap {
+        height: 150px;
+        overflow: auto;
+
+        .asset {
+          float: left;
+          margin-right: 20px;
+          cursor: pointer;
+
+          &.active {
+            color: #afdaff;
+          }
+        }
+      }
+    }
+
+    .allowance {
+      box-sizing: border-box;
+      float: left;
+      width: 49%;
+
+      .userWrap {
+        ul {
+          .user {
+            float: left;
+            margin-right: 20px;
+            cursor: pointer;
+
+            &.active {
+              color: #afdaff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .tableWrap {
+    table {
+      display: table;
+      text-align: center;
+      table-layout: fixed;
+      background-color: white;
+      border-top: 1px solid black;
+
+      tr {
+        display: table-row;
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5;
+
+        th,
+        td {
+          display: inline-block;
+          display: table-cell;
+          padding: 10px;
+          vertical-align: middle;
+
+          &.division {
+            border-bottom: 1px solid #e5e5e5;
+          }
+        }
+      }
+
+      thead {
+        display: table-header-group;
+        border-bottom: 1px solid black;
+      }
+
+      tbody {
+        display: table-row-group;
+        border-bottom: 1px solid #e5e5e5;
+      }
+    }
+  }
+}
+
+.affiliageBalance {
+  .tableWrap {
+    table {
+      display: table;
+      text-align: center;
+      table-layout: fixed;
+      background-color: white;
+      border-top: 1px solid black;
+
+      tr {
+        display: table-row;
+        width: 100%;
+
+        th,
+        td {
+          display: inline-block;
+          display: table-cell;
+          padding: 10px;
+          vertical-align: middle;
+        }
+      }
+
+      thead {
+        display: table-header-group;
+        border-bottom: 1px solid #e5e5e5;
+      }
+
+      tbody {
+        display: table-row-group;
+        border-bottom: 1px solid #e5e5e5;
+
+        .row {
+          display: contents;
+          border-bottom: 1px solid #e5e5e5;
+        }
+      }
+    }
+  }
+
+  .settlementProcessBtn {
+    padding: 2px 10px;
+    font-size: 12px;
+    color: #0068c1;
+    border: 1px solid #0068c1;
+  }
+}
+
+.adjustModal {
+  .adjustInfo {
+    .row {
+      box-sizing: border-box;
+      display: inline-block;
+      width: 100%;
+      padding: 20px;
+      border-bottom: 1px solid #e5e5e5;
+
+      .adjustTitle {
+        display: inline-block;
+        padding-bottom: 10px;
+        color: #999;
+      }
+    }
+
+    .btnWrap {
+      padding: 20px 0;
+      text-align: center;
+    }
+  }
+}
+
+.affiliageAdjust {
+  .selectBox {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #0d3467;
+
+    .title {
+      padding-bottom: 10px;
+      font-size: 12px;
+      color: #ccc;
+      letter-spacing: 0;
+    }
+
+    .assetWrap {
+      box-sizing: border-box;
+      height: 150px;
+      overflow: auto;
+
+      .buyAssetWrap {
+        ul {
+          overflow: hidden;
+
+          .asset {
+            float: left;
+            margin-right: 20px;
+            cursor: pointer;
+
+            &.active {
+              color: #afdaff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .tableWrap {
+    table {
+      display: table;
+      text-align: center;
+      table-layout: fixed;
+      background-color: white;
+      border-top: 1px solid black;
+
+      tr {
+        display: table-row;
+        width: 100%;
+
+        th,
+        td {
+          display: inline-block;
+          display: table-cell;
+          padding: 10px;
+          vertical-align: middle;
+        }
+      }
+
+      thead {
+        display: table-header-group;
+        border-bottom: 1px solid #e5e5e5;
+      }
+
+      tbody {
+        display: table-row-group;
+        border-bottom: 1px solid #e5e5e5;
+
+        .row {
+          display: contents;
+          border-bottom: 1px solid #e5e5e5;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .affiliageLog {
+    .tableWrap {
+      overflow: auto;
+
+      table {
+        overflow: scroll;
+
+        th,
+        td {
+          width: 100px;
+        }
+      }
+    }
+  }
+
+  .affiliageBalance {
+    .tableWrap {
+      overflow: auto;
+
+      table {
+        overflow: scroll;
+
+        th,
+        td {
+          width: 100px;
+        }
+      }
+    }
+  }
+
+  .affiliageAdjust {
+    .tableWrap {
+      overflow: auto;
+
+      table {
+        overflow: scroll;
+
+        th,
+        td {
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .affiliageLog {
+    overflow: hidden;
+
+    .selectBox {
+      .assetWrap {
+        border-bottom: 1px solid #2a4e7b;
+      }
+
+      .assetWrap,
+      .allowance {
+        width: 100%;
+        padding: 20px 0;
+      }
+    }
+  }
+}

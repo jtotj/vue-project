@@ -1,0 +1,466 @@
+@charset "utf-8";
+
+.kioskSearch {
+  .container {
+    width: 100%;
+    padding: 100px 60px;
+    .selectedAssetWrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .selectedAssetsTit {
+        &::after {
+          display: block;
+          clear: both;
+          content: '';
+        }
+
+        img {
+          display: block;
+          float: left;
+          width: 80px;
+          margin: 20px 20px 0 0;
+        }
+
+        > div {
+          display: inline-block;
+          float: left;
+          height: 100%;
+          padding: 20px 0;
+
+          > strong {
+            display: block;
+            font-size: 50px;
+            font-weight: bold;
+            line-height: 1;
+            color: #29304d;
+            letter-spacing: normal;
+          }
+
+          > span {
+            display: block;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: normal;
+            color: #29304d;
+            letter-spacing: normal;
+          }
+
+          .acoountName {
+            font-size: 40px;
+          }
+        }
+
+        > span {
+          float: right;
+          padding: 45px 0;
+          font-size: 40px;
+          font-weight: bold;
+          line-height: normal;
+          color: #000;
+          letter-spacing: normal;
+        }
+      }
+      .selectedCancel {
+        display: flex;
+        strong {
+          display: block;
+          margin-right: 30px;
+          font-size: 50px;
+          font-weight: bold;
+          line-height: 1;
+          color: #29304d;
+          letter-spacing: normal;
+        }
+        img {
+          vertical-align: initial;
+        }
+      }
+    }
+
+    h2 {
+      padding: 0;
+      font-size: 40px;
+      font-weight: 900;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+    }
+
+    > div {
+      &:nth-of-type(2) {
+        margin-top: 100px;
+      }
+    }
+
+    .check {
+      margin-top: 840px;
+    }
+
+    .assetsSearch {
+      .perfectScrollbar {
+        height: 900px;
+        background: #fff;
+
+        .searchList {
+          background: #fff;
+          border-radius: 30px;
+
+          > div {
+            display: flex;
+            width: 100%;
+            height: 150px;
+            padding: 0 50px;
+            border-bottom: 1px solid #dee1ef;
+
+            > div {
+              display: flex;
+
+              .noStar {
+                display: none;
+              }
+            }
+
+            .assetsTit {
+              display: block !important;
+              width: 100%;
+
+              img {
+                display: block;
+                float: left;
+                margin: 15px 30px 0;
+              }
+
+              > div {
+                display: inline-block;
+                float: left;
+                height: 100%;
+                padding: 36px 0;
+
+                > strong {
+                  display: block;
+                  font-size: 50px;
+                  font-weight: bold;
+                  line-height: 1;
+                  color: #29304d;
+                  letter-spacing: normal;
+                }
+
+                > span {
+                  display: block;
+                  font-size: 26px;
+                  font-weight: 500;
+                  line-height: normal;
+                  color: #29304d;
+                  letter-spacing: normal;
+                }
+
+                .acoountName {
+                  font-size: 40px;
+                }
+              }
+
+              > span {
+                float: right;
+                padding: 45px 0;
+                font-size: 40px;
+                font-weight: bold;
+                line-height: normal;
+                color: #000;
+                letter-spacing: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .kioskSearchDetail {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 1500px;
+
+      .kioskSearchHeader {
+        padding: 30px 50px;
+        background-color: #fff;
+        border-radius: 30px;
+
+        .detailTitle {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          p {
+            font-size: 30px;
+            font-weight: 500;
+            line-height: normal;
+            color: #29304d;
+            letter-spacing: normal;
+          }
+
+          div {
+            display: flex;
+
+            > strong {
+              margin-right: 10px;
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 500;
+              font-stretch: normal;
+              line-height: normal;
+              color: #0068c1;
+              letter-spacing: normal;
+            }
+
+            > span {
+              margin-right: 30px;
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 500;
+              font-stretch: normal;
+              line-height: normal;
+              color: #29304d;
+              letter-spacing: normal;
+            }
+          }
+        }
+        .detailContent {
+          display: block;
+          display: flex;
+          flex-wrap: wrap;
+
+          dt {
+            width: 50%;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 500;
+            font-stretch: normal;
+            line-height: normal;
+            color: #29304d;
+            letter-spacing: normal;
+          }
+
+          dd {
+            width: 50%;
+            text-align: right;
+
+            > strong {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 500;
+              font-stretch: normal;
+              line-height: normal;
+              color: #0068c1;
+              letter-spacing: normal;
+            }
+
+            > span {
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 500;
+              font-stretch: normal;
+              line-height: normal;
+              color: #29304d;
+              letter-spacing: normal;
+            }
+          }
+
+          .userAccount {
+            padding: 30px 0;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: bold;
+            font-stretch: normal;
+            line-height: normal;
+            color: #29304d;
+            letter-spacing: normal;
+          }
+        }
+      }
+
+      .kioskSearchList {
+        padding: 50px 0 0;
+
+        .kioskSearchBar {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+
+          > div {
+            > span {
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 500;
+              font-stretch: normal;
+              line-height: normal;
+              color: #29304d;
+              letter-spacing: normal;
+
+              &::after {
+                display: inline-block;
+                content: '/';
+              }
+
+              &:last-child::after {
+                content: '';
+              }
+            }
+          }
+        }
+
+        .kioskSearchContent {
+          margin-top: 30px;
+          .noListWrap {
+            box-sizing: border-box;
+            padding: 30px 50px;
+            margin-bottom: 10px;
+            font-size: 50px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 25px;
+          }
+
+          > dl {
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            height: 300px;
+            padding: 30px 50px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            border-radius: 25px;
+
+            dt {
+              width: 50%;
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 500;
+              font-stretch: normal;
+              line-height: normal;
+              color: #29304d;
+              letter-spacing: normal;
+            }
+
+            dd {
+              width: 50%;
+              font-size: 25px;
+              font-style: normal;
+              font-weight: 500;
+              font-stretch: normal;
+              line-height: normal;
+              color: #29304d;
+              text-align: right;
+              letter-spacing: normal;
+
+              span {
+                padding-right: 10px;
+                color: #0068c1;
+              }
+            }
+
+            .kioskContentTxt {
+              width: 100%;
+              font-size: 30px;
+              font-style: normal;
+              font-weight: bold;
+              font-stretch: normal;
+              line-height: normal;
+              color: #29304d;
+              text-align: left;
+              letter-spacing: normal;
+            }
+
+            .minus {
+              color: #e74d3d;
+            }
+
+            .plus {
+              color: #2dcc70;
+            }
+          }
+        }
+      }
+
+      .pageNavigation {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+
+        div {
+          display: flex;
+          justify-content: center;
+          width: 96px;
+          height: 106px;
+          background-image: linear-gradient(to bottom, #5fcbf2, #1bacec);
+          border-radius: 8px;
+        }
+
+        .page {
+          display: flex;
+          flex-wrap: wrap;
+          align-content: center;
+          justify-content: space-between;
+          width: 74%;
+
+          li {
+            span {
+              font-size: 50px;
+              font-weight: 900;
+              line-height: normal;
+              color: #29304d;
+              text-align: center;
+              letter-spacing: normal;
+              opacity: 0.7;
+            }
+
+            &:active {
+              span {
+                color: #0068c1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .innerContainer {
+    padding: 100px 0 0;
+  }
+}
+.searchOption {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 100px 60px;
+
+    h3 {
+      margin: 100px 0 30px;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      font-stretch: normal;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+
+      &:first-child {
+        margin: 0 0 30px;
+      }
+    }
+
+    div {
+      div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

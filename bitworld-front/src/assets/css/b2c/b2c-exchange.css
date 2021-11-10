@@ -1,0 +1,161 @@
+/* 코인 슬라이드 / 코인명/심볼 검색 */
+/* .pc-exchange .searchArrow {
+  float: right;
+  margin: 14px 0 0 8px;
+  color: #000;
+  border: 0 !important;
+} */
+.pc-exchange .el-button--text.searchArrow:hover {
+  color: none !important;
+}
+
+.pc-exchange
+  .coin-list-section
+  .swiper-container-horizontal
+  > .swiper-pagination-bullets {
+  display: none;
+}
+
+.pc-exchange .swiper-container .swiper-button-next {
+  right: 10px;
+  background: #fff;
+  width: 9px;
+}
+
+.pc-exchange .swiper-container .swiper-button-prev {
+  left: 0px;
+}
+
+.pc-exchange .swiper-container .swiper-button-next img,
+.pc-exchange .swiper-container .swiper-button-prev img {
+  width: initial;
+}
+
+.pc-exchange .swiper-container .swiper-button-next:after {
+  display: none;
+}
+
+.pc-exchange .swiper-container .swiper-button-prev:after {
+  display: none;
+}
+
+/* 탭 */
+.pc-exchange .el-tabs .el-tabs__nav {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+.pc-exchange .el-tabs .el-tabs__nav .el-tabs__item {
+  text-align: center;
+  height: 50px !important;
+  line-height: 50px;
+  margin: 0 !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  background-color: #fff;
+}
+
+.pc-exchange .order-tabs.el-tabs .el-tabs__nav .el-tabs__item {
+  width: 50%;
+}
+
+.pc-exchange .el-tabs .el-tabs__nav .el-tabs__item.up {
+  color: #fff !important;
+}
+
+.pc-exchange .el-select-dropdown {
+  padding: 0 !important;
+  margin-top: 0 !important;
+  border: 1px solid #0068c1;
+}
+
+.pc-exchange .el-select-dropdown__list {
+  padding: 0 !important;
+}
+
+.pc-exchange .el-select-dropdown .el-select-dropdown__item {
+  font-size: 14px !important;
+  font-weight: normal !important;
+  color: #222222 !important;
+}
+
+.pc-exchange .el-select-dropdown .el-select-dropdown__item:first-child {
+  color: #222 !important;
+}
+
+.b2c-exchange_favoriteCoin_2z1qn .el-tabs__item.is-top.is-active {
+  width: 100%;
+}
+
+/* 구매 */
+.pc-exchange .buying .el-input .el-input__inner {
+  height: 40px !important;
+  line-height: 40px !important;
+  border-radius: 2px !important;
+  color: #999999 !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  text-align: right;
+}
+
+.pc-exchange .buying .el-select {
+  width: 100%;
+}
+
+.pc-exchange .buying .el-input .el-input__suffix {
+  height: initial !important;
+}
+
+.pc-exchange .buying .el-select .el-input--suffix .el-input__inner,
+.market-price-select .el-input--suffix .el-input__inner {
+  width: 100%;
+  padding: 10px 0 10px 16px;
+  color: #999999 !important;
+  font-size: 14px !important;
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 2px !important;
+  font-weight: 300 !important;
+  text-align: left;
+}
+
+.market-price-select .el-input--suffix .el-input__inner {
+  height: 40px !important;
+}
+
+.study-checkbox .el-checkbox {
+  display: block;
+}
+
+.pc-exchange .order-price {
+  width: 100%;
+  color: #999999;
+  font-size: 14px;
+  border-radius: 2px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.pc-exchange .order-price::placeholder {
+  color: #999 !important;
+}
+
+.pc-exchange .buying .el-select .el-input .el-select__caret {
+  color: #999 !important;
+  font-weight: bold;
+}
+
+.pc-exchange .buying .priceArea .selectBox .el-input-number {
+  width: 100% !important;
+}
+
+.pc-exchange .buying .priceArea .el-select .el-input .el-select__caret {
+  color: #0068bc !important;
+}
+
+.pc-exchange .buying .priceArea .selectBox.inputBox .el-input__inner {
+  text-align: right !important;
+}
+
+.pc-exchange .buying .el-slider__button-wrapper {
+  z-index: 80 !important;
+}

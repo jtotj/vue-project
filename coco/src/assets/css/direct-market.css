@@ -1,0 +1,40 @@
+.direct-list {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.direct-list .left-info {
+  float: left;
+}
+
+.direct-list .right-info {
+  float: right;
+}
+
+.direct-list .right-info .act-wrap {
+  float: right;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .direct-list .left-info {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .direct-list .right-info {
+    overflow: hidden;
+    width: 100%;
+  }
+  .direct-list .right-info .amount-wrap {
+    float: left;
+    padding: 8px 0;
+  }
+
+  .direct-list .right-info .act-wrap {
+    float: right;
+  }
+}

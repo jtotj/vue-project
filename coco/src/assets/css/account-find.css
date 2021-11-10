@@ -1,0 +1,29 @@
+.account-find .container {
+  width: 500px;
+  box-sizing: border-box;
+  padding: 100px 0;
+  border-radius: 5px;
+}
+.account-find .go-back {
+  overflow: hidden;
+}
+
+.account-find .arrow-wrap {
+  width: 20px;
+  float: left;
+  padding: 6px 10px 6px 0;
+}
+
+.account-find .btn-common-big {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .account-find {
+    padding: 50px 16px;
+  }
+  .account-find .container {
+    width: 100%;
+    padding: 0 !important;
+  }
+}

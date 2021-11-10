@@ -1,0 +1,169 @@
+.ccf-intro .foreground-container {
+  background: #efeff0;
+}
+
+.section {
+  overflow: hidden;
+}
+
+#how-use-ccf .step {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#how-use-ccf .step .badge-blue {
+  float: left;
+}
+
+#how-use-ccf .step .step-name {
+  padding: 10px 0;
+}
+
+.round-box-wrap {
+  overflow: hidden;
+  margin: 50px auto;
+  width: fit-content;
+  font-size: 12px;
+}
+
+.round-box-wrap .round-box {
+  float: left;
+}
+
+.round-box-wrap .round-box p {
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+.round-box-wrap .round-box .round {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.round-box-wrap .round-box .round .img-wrap {
+  width: 40px;
+  margin: 0 auto;
+}
+
+.arrow {
+  float: left;
+  padding: 60px;
+  text-align: center;
+}
+
+#how-use-ccf #step1 .arrow {
+  padding: 80px 40px 40px;
+}
+
+#how-use-ccf #step2 .arrow {
+  padding: 0 10px 20px;
+}
+
+#how-use-ccf #step3 .arrow {
+  padding: 40px;
+}
+
+#how-use-ccf .step .arrow p {
+  width: 100px;
+  text-align: center;
+}
+
+.arrow .img-wrap {
+  width: 42px;
+  height: 42px;
+  margin: 0 auto;
+}
+
+#how-use-ccf .use-ccf h3 {
+  border-bottom: 1px solid black;
+  margin: 20px;
+}
+
+#how-use-ccf .use-ccf .use {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#how-use-ccf .use-ccf .use h4 {
+  font-weight: bold;
+  letter-spacing: 0;
+  color: #0026ac;
+}
+
+.transaction {
+  float: left;
+  width: 49%;
+  box-sizing: border-box;
+  margin-right: 2%;
+}
+
+.transaction .arrow {
+  padding: 0 60px;
+}
+
+#internal-transaction {
+  margin-right: 0;
+}
+
+@media (max-width: 1280px) {
+  .transaction {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #how-use-ccf .use-ccf .use {
+    width: 100%;
+  }
+
+  #how-use-ccf .step .step-name {
+    width: 100%;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .round-box-wrap .round-box .round {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .round-box-wrap .round-box .round .img-wrap {
+    width: 30px;
+    padding-top: 10px;
+  }
+
+  #how-use-ccf .step .badge-blue {
+    float: none;
+  }
+
+  #how-use-ccf .step:last-child {
+    margin: 0;
+  }
+
+  #how-use-ccf #step1 .arrow {
+    padding: 70px 30px 10px;
+  }
+
+  #how-use-ccf #step2 .arrow {
+    padding: 10px 0;
+  }
+
+  #how-use-ccf #step3 .arrow {
+    padding: 35px 30px;
+  }
+
+  #wallet-account-different .transaction .arrow {
+    padding: 0 20px;
+  }
+}

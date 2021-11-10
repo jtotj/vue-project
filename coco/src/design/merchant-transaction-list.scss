@@ -1,0 +1,29 @@
+.transactionWrap {
+  border-top: 1px solid black;
+
+  .listWrap {
+    padding: 20px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #e5e5e5;
+
+    .listBody {
+      padding: 10px;
+
+      .mainBody {
+        margin-bottom: 10px;
+
+        .bodyTitle {
+          display: inline-block;
+          width: 30%;
+          font-size: 14px;
+        }
+
+        .bodyContent {
+          display: inline-block;
+          width: 60%;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

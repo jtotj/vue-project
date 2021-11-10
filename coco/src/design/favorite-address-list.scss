@@ -1,0 +1,245 @@
+.tradesWrap {
+  .tradesBox {
+    width: 100%;
+    overflow: hidden;
+    .tradesHead {
+      display: inline-block;
+      padding: 10px 0;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      color: #333;
+    }
+    .tradesLeft {
+      box-sizing: border-box;
+      float: left;
+      width: 32%;
+    }
+    .tradesRight {
+      box-sizing: border-box;
+      float: right;
+      width: 65%;
+    }
+  }
+}
+.sectionWrap {
+  height: 550px;
+  background: #fff;
+  .accountList {
+    height: 100%;
+    padding: 20px;
+    background-color: white;
+    .account_search {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.titleInfo {
+  padding: 5px 0;
+  color: #999;
+  text-align: center;
+  background: #f7faff;
+  border-radius: 15px;
+}
+.groupInfoText {
+  padding-top: 20px;
+  color: #999;
+  p {
+    font-size: 13px;
+  }
+}
+.GroupTitle {
+  border-bottom: 1px solid #eee;
+  &.active {
+    background-color: #fff;
+    border-bottom: 1px solid #0068c1;
+  }
+  p {
+    padding: 10px;
+    font-size: 18px;
+    &.titleName {
+      font-weight: 600;
+    }
+  }
+}
+.addressInfoWrap {
+  position: relative;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  p {
+    padding: 0 20px;
+    font-size: 16px;
+  }
+  .addressInfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px 0 20px;
+    letter-spacing: 0;
+    li {
+      &:last-child {
+        transform: translateY(-50%);
+      }
+      span {
+        padding-right: 10px;
+        color: #999;
+        letter-spacing: -0.7px;
+      }
+    }
+  }
+}
+
+/* 그룹 목록 modal */
+.createGroupWrap {
+  width: 100%;
+  input {
+    float: right;
+    width: 75%;
+  }
+  button {
+    width: 23%;
+    font-weight: bold;
+    color: #0068c1;
+    border: 1px solid #0068c1;
+  }
+}
+.groupTitleWrap {
+  height: 50px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid #eee;
+  .groupTitle {
+    float: left;
+    font-size: 18px;
+    line-height: 42px;
+  }
+  .groupTitleBtn {
+    float: right;
+  }
+}
+.groupListWrap {
+  border-bottom: 1px solid #eee;
+  &.active {
+    background: #f7faff;
+    border-bottom: 1px solid #0068c1;
+  }
+  .dragIcon {
+    float: left;
+    padding: 12px 0 0 15px;
+    font-size: 16px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 15px;
+    li {
+      &.groupName {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+/* account modal */
+.accountModalWrap {
+  .inputText {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  button {
+    margin-top: 10px;
+    &.registerBtn {
+      color: #fff;
+      background: #0068c1;
+    }
+  }
+}
+
+.noDealList {
+  height: 80%;
+  padding: 50px;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  background-color: white;
+  .imgWrap {
+    width: 40px;
+    margin: 0 auto;
+    img {
+      width: 100%;
+    }
+  }
+  .textWrap {
+    margin-top: 10px;
+    color: #999;
+  }
+}
+
+@media (max-width: 768px) {
+  .tradesWrap .tradesBox {
+    .tradesHead {
+      padding: 0 0 15px;
+      font-size: 16px;
+      color: #999;
+    }
+    .tradesLeft {
+      margin-bottom: 10px;
+    }
+    .tradesRight,
+    .tradesLeft {
+      float: none;
+      width: 100%;
+    }
+  }
+  .addressInfoWrap {
+    p {
+      padding: 0 20px;
+      font-size: 15px;
+    }
+    .addressInfo {
+      display: block;
+      padding: 0 30px 0 20px;
+      li {
+        font-size: 14px;
+        &:first-child {
+          position: absolute;
+          top: 15%;
+          left: 85px;
+        }
+        &:last-child {
+          font-size: 13px;
+          transform: translateY(0);
+        }
+        span {
+          padding-right: 10px;
+          font-size: 14px;
+          color: #999;
+        }
+      }
+    }
+  }
+  .noDealList {
+    height: 72%;
+    .imgWrap {
+      width: 40px;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+    }
+    .textWrap {
+      margin-top: 10px;
+      color: #999;
+    }
+  }
+}

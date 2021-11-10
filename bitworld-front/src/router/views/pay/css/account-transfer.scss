@@ -1,0 +1,59 @@
+.accountTransferWrap {
+  padding: 20px;
+  background-color: #fff;
+
+  .transferInfoCheck {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .formGroup {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+
+    .textLabel {
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+
+    .btnWrap {
+      margin-top: 10px;
+    }
+  }
+}
+
+.transferFail {
+  padding: 40px;
+
+  .notice {
+    .imgWrap {
+      width: 30px;
+      margin: 0 auto;
+    }
+
+    h3 {
+      text-align: center;
+    }
+  }
+
+  .btnWrap {
+    padding-top: 20px;
+    text-align: center;
+
+    .goBack {
+      width: 100px;
+      padding: 10px;
+      color: white;
+      background-color: #0068c1;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .btnWrap {
+    button {
+      width: 100%;
+      margin: 0 0 10px 0 !important;
+    }
+  }
+}

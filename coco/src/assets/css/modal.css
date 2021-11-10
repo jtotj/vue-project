@@ -1,0 +1,193 @@
+/* 팝업 엘리먼트 ui */
+.notice-modal .el-dialog {
+  overflow: initial;
+}
+
+.notice-modal .el-dialog .container,
+.notice-modal .el-dialog__body,
+.notice-modal .el-dialog__header {
+  padding: 0 !important;
+}
+
+.notice-modal .el-dialog__wrapper div.el-dialog {
+  width: 400px !important;
+  cursor: pointer;
+}
+
+.notice-modal .el-dialog__wrapper.bg-white div.el-dialog {
+  min-height: 600px;
+}
+
+.el-dialog__body .notice-wrap {
+  padding-bottom: 0;
+}
+
+/* 팝업 엘리먼트 ui footer*/
+.notice-modal .el-dialog__footer {
+  width: 100%;
+  padding: 0 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.notice-modal .dialog-footer {
+  width: 100%;
+  border-top: 1px solid #ffffff;
+}
+
+.notice-modal .dialog-footer:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+/* 팝업 엘리먼트 UI footer-black */
+.notice-modal .dialog-footer.footer-black {
+  position: relative;
+  top: 10px;
+  border-top: none;
+}
+
+.notice-modal .dialog-footer.footer-black .el-checkbox__inner {
+  border-color: #333;
+}
+
+.notice-modal .dialog-footer.footer-black .el-checkbox__label {
+  color: #333;
+}
+
+.notice-modal .dialog-footer.footer-black .notice-close {
+  color: #333;
+}
+
+.notice-modal .footer-black .el-checkbox__inner:hover {
+  border-color: #333;
+}
+.notice-modal .footer-black .el-checkbox__inner::after {
+  border-color: #333;
+}
+
+.notice-modal
+  .footer-black
+  .el-checkbox__input.is-checked
+  + .el-checkbox__label {
+  color: #333 !important;
+}
+
+.notice-modal .footer-black .el-checkbox__input.is-focus .el-checkbox__inner {
+  color: #333;
+  border-color: #333;
+}
+
+.notice-modal .footer-black .el-checkbox__input.is-checked .el-checkbox__inner,
+.notice-modal
+  .footer-black
+  .el-checkbox__input.is-indeterminate
+  .el-checkbox__inner {
+  border-color: #333 !important;
+}
+
+.notice-modal .footer-black .el-checkbox__label {
+  color: #333;
+}
+
+/* 팝업 엘리먼트 ui button css*/
+.notice-modal .el-checkbox__inner {
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.notice-modal .el-checkbox__inner:hover {
+  border-color: #ffffff;
+}
+
+.notice-modal .el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #ffffff !important;
+}
+
+.notice-modal .el-checkbox__input.is-focus .el-checkbox__inner {
+  color: #ffffff;
+  border-color: rgb(255, 255, 255);
+}
+
+.notice-modal .el-checkbox__input.is-checked .el-checkbox__inner,
+.notice-modal .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  background: none !important;
+  border-color: #ffffff !important;
+}
+
+.notice-modal .el-checkbox__label {
+  color: #ffffff;
+}
+
+.notice-modal .el-checkbox__label {
+  padding-left: 8px;
+  font-family: NotoSansCJKKR;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+}
+
+/* 체크박스  크기 */
+.notice-modal .el-checkbox__inner::after {
+  height: 5px;
+  top: 2px;
+}
+
+/* 팝업 닫기 버튼 */
+
+.notice-modal .notice-time {
+  color: #fff;
+  font-family: NotoSansCJKKR;
+  font-size: 15px;
+  text-align: center;
+}
+
+.notice-modal .notice-close {
+  color: #ffffff;
+  cursor: pointer;
+  font-family: NotoSansCJKKR;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  float: right;
+  padding: 11px 0;
+}
+
+.notice-modal .notice-check {
+  float: left;
+  text-align: left;
+  line-height: 1 !important;
+  padding: 9px 0;
+}
+
+.notice-modal .bg-white .el-dialog__footer {
+  background: #000;
+}
+
+.notice-modal .bg-white .el-dialog__footer .dialog-footer {
+  border: 0;
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .notice-modal .el-dialog__wrapper div.el-dialog {
+    width: 90% !important;
+  }
+
+  .notice-modal .el-dialog__wrapper.bg-white div.el-dialog {
+    min-height: 550px;
+  }
+}
+
+@media (max-width: 360px) {
+  .notice-modal .el-dialog__wrapper.bg-white div.el-dialog {
+    min-height: 500px;
+  }
+}

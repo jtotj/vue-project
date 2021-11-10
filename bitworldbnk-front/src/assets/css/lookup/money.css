@@ -1,0 +1,36 @@
+.money .account-balance {
+  background-color: rgb(243 247 255);
+  padding: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.money .asset-list {
+  float: left;
+  width: 40%;
+  margin-right: 4%;
+}
+
+.exchange {
+  float: right;
+}
+.favorite: {
+  float: right;
+}
+.money .account-list {
+  float: right;
+  width: 56%;
+}
+
+@media (max-width: 768px) {
+  .money .asset-list {
+    margin-bottom: 40px;
+  }
+  .money .asset-list,
+  .money .account-list {
+    width: 100%;
+  }
+}

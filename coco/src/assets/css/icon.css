@@ -1,0 +1,557 @@
+.ETH {
+  background-image: url(../img/ETH.png);
+}
+
+.BTC {
+  background-image: url(../img/BTC.svg);
+}
+
+.EOS {
+  background-image: url(../img/EOS.png);
+}
+
+.XRP {
+  background-image: url(../img/XRP.svg);
+}
+
+.USDT {
+  background-image: url(../img/USDT.png);
+}
+
+/* .KRW {
+  background-image: url(../img/KRW.svg);
+} */
+
+.CCF {
+  background-image: url(../img/CCF.svg);
+}
+
+.LTC {
+  background-image: url(../img/LTC.svg);
+}
+
+.ABBC {
+  background-image: url('../img/icon/ABBC.svg');
+}
+
+.ATOM {
+  background-image: url('../img/icon/ATOM.svg');
+}
+
+.BAL {
+  background-image: url('../img/icon/BAL.svg');
+}
+
+.BAND {
+  background-image: url('../img/icon/BAND.svg');
+}
+
+.BTG {
+  background-image: url('../img/icon/BTG.svg');
+}
+
+.BTT {
+  background-image: url('../img/icon/BTT.svg');
+}
+
+.CEL {
+  background-image: url('../img/icon/CEL.svg');
+}
+
+.COMP {
+  background-image: url('../img/icon/COMP.svg');
+}
+
+.CVT {
+  background-image: url('../img/icon/CVT.svg');
+}
+
+.DAI {
+  background-image: url('../img/icon/DAI.svg');
+}
+
+.DGB {
+  background-image: url('../img/icon/DGB.svg');
+}
+
+.DOGE {
+  background-image: url('../img/icon/DOGE.svg');
+}
+
+.ENJ {
+  background-image: url('../img/icon/ENJ.svg');
+}
+
+.EWT {
+  background-image: url('../img/icon/EWT.svg');
+}
+
+.GNT {
+  background-image: url('../img/icon/GNT.svg');
+}
+
+.HBAR {
+  background-image: url('../img/icon/HBAR.svg');
+}
+
+.HUSD {
+  background-image: url('../img/icon/HUSD.svg');
+}
+
+.LEND {
+  background-image: url('../img/icon/LEND.svg');
+}
+
+.MANA {
+  background-image: url('../img/icon/MANA.svg');
+}
+
+.MKR {
+  background-image: url('../img/icon/MKR.svg');
+}
+
+.MONA {
+  background-image: url('../img/icon/MONA.svg');
+}
+
+.QTUM {
+  background-image: url('../img/icon/QTUM.svg');
+}
+
+.REN {
+  background-image: url('../img/icon/REN.svg');
+}
+
+.REP {
+  background-image: url('../img/icon/REP.svg');
+}
+
+.SC {
+  background-image: url('../img/icon/SC.svg');
+}
+
+.SNT {
+  background-image: url('../img/icon/SNT.svg');
+}
+
+.SOL {
+  background-image: url('../img/icon/SOL.svg');
+}
+
+.STX {
+  background-image: url('../img/icon/STX.svg');
+}
+
+.SXP {
+  background-image: url('../img/icon/SXP.svg');
+}
+
+.TUSD {
+  background-image: url('../img/icon/TUSD.svg');
+}
+
+.USDC {
+  background-image: url('../img/icon/USDC.svg');
+}
+
+.WBTC {
+  background-image: url('../img/icon/WBTC.svg');
+}
+
+.XMR {
+  background-image: url('../img/icon/XMR.svg');
+}
+
+.YFI {
+  background-image: url('../img/icon/YFI.svg');
+}
+
+.ZB {
+  background-image: url('../img/icon/ZB.svg');
+}
+
+.ZEC {
+  background-image: url('../img/icon/ZEC.svg');
+}
+
+.ZRX {
+  background-image: url('../img/icon/ZRX.svg');
+}
+
+.ADA {
+  background-image: url('../img/icon/ADA.svg');
+}
+
+.ALGO {
+  background-image: url('../img/icon/ALGO.svg');
+}
+
+.AMPL {
+  background-image: url('../img/icon/AMPL.svg');
+}
+
+.ANT {
+  background-image: url('../img/icon/ANT.svg');
+}
+
+.BAT {
+  background-image: url('../img/icon/BAT.svg');
+}
+
+.BCD {
+  background-image: url('../img/icon/BCD.svg');
+}
+
+.BCH {
+  background-image: url('../img/icon/BCH.svg');
+}
+
+.BNB {
+  background-image: url('../img/icon/BNB.svg');
+}
+
+.BTM {
+  background-image: url('../img/icon/BTM.svg');
+}
+
+.BUSD {
+  background-image: url('../img/icon/BUSD.svg');
+}
+
+.CELO {
+  background-image: url('../img/icon/CELO.svg');
+}
+
+.CKB {
+  background-image: url('../img/icon/CKB.svg');
+}
+
+.DASH {
+  background-image: url('../img/icon/DASH.svg');
+}
+
+.DCR {
+  background-image: url('../img/icon/DCR.svg');
+}
+
+.DOT {
+  background-image: url('../img/icon/DOT.svg');
+}
+
+.ENJ {
+  background-image: url('../img/icon/ENJ.svg');
+}
+
+.EOS {
+  background-image: url('../img/icon/EOS.svg');
+}
+
+.ETC {
+  background-image: url('../img/icon/ETC.svg');
+}
+
+.FTT {
+  background-image: url('../img/icon/FTT.svg');
+}
+
+.HEDG {
+  background-image: url('../img/icon/HEDG.svg');
+}
+
+.HT {
+  background-image: url('../img/icon/HT.svg');
+}
+
+.ICX {
+  background-image: url('../img/icon/ICX.svg');
+}
+
+.IOST {
+  background-image: url('../img/icon/IOST.svg');
+}
+
+.KNC {
+  background-image: url('../img/icon/KNC.svg');
+}
+
+.KSM {
+  background-image: url('../img/icon/KSM.svg');
+}
+
+.LEO {
+  background-image: url('../img/icon/LEO.svg');
+}
+
+.LINK {
+  background-image: url('../img/icon/LINK.svg');
+}
+
+.LRC {
+  background-image: url('../img/icon/LRC.svg');
+}
+
+.LSK {
+  background-image: url('../img/icon/LSK.svg');
+}
+
+.MIOTA {
+  background-image: url('../img/icon/MIOTA.svg');
+}
+
+.NEO {
+  background-image: url('../img/icon/NEO.svg');
+}
+
+.NMR {
+  background-image: url('../img/icon/NMR.svg');
+}
+
+.OCEAN {
+  background-image: url('../img/icon/OCEAN.svg');
+}
+
+.OKB {
+  background-image: url('../img/icon/OKB.svg');
+}
+
+.ONT {
+  background-image: url('../img/icon/ONT.svg');
+}
+
+.OXT {
+  background-image: url('../img/icon/OXT.svg');
+}
+
+.PAX {
+  background-image: url('../img/icon/PAX.svg');
+}
+
+.PMA {
+  background-image: url('../img/icon/PMA.svg');
+}
+
+.QNT {
+  background-image: url('../img/icon/QNT.svg');
+}
+
+.RVN {
+  background-image: url('../img/icon/RVN.svg');
+}
+
+.STORJ {
+  background-image: url('../img/icon/STORJ.svg');
+}
+
+.THETA {
+  background-image: url('../img/icon/THETA.svg');
+}
+
+.TRX {
+  background-image: url('../img/icon/TRX.svg');
+}
+
+.UNI {
+  background-image: url('../img/icon/UNI.svg');
+}
+
+.VET {
+  background-image: url('../img/icon/VET.svg');
+}
+
+.WAVES {
+  background-image: url('../img/icon/WAVES.svg');
+}
+
+.XEM {
+  background-image: url('../img/icon/XEM.svg');
+}
+
+.XLM {
+  background-image: url('../img/icon/XLM.svg');
+}
+
+.XRP {
+  background-image: url('../img/icon/XRP.svg');
+}
+
+.XTZ {
+  background-image: url('../img/icon/XTZ.svg');
+}
+
+.ZIL {
+  background-image: url('../img/icon/ZIL.svg');
+}
+
+.GIX {
+  background-image: url('../img/icon/GIX.svg');
+}
+
+.BTP {
+  background-image: url('../img/icon/BTP.svg');
+}
+
+.AVM {
+  background-image: url('../img/icon/AVM.png');
+}
+
+.GuoBao {
+  background-image: url('../img/icon/GuoBao.png');
+}
+
+/* .EZW {
+  background-image: url('../img/icon/EZW.png');
+} */
+
+.EZW_TRC20 {
+  background-image: url('../img/icon/EZW.png');
+}
+
+.SNC_TRC20 {
+  background-image: url('../img/icon/SNC.svg');
+}
+
+.SSC {
+  background-image: url('../img/icon/SSC.png');
+}
+
+.AIS {
+  background-image: url('../img/icon/AIS.png');
+}
+
+/* lang-icon */
+.ko {
+  background-image: url(../img/ko-KR.svg);
+}
+
+.ja {
+  background-image: url(../img/ja-JP.svg);
+}
+
+.cn {
+  background-image: url(../img/zh-CN.svg);
+}
+
+.tw {
+  background-image: url(../img/zh-TW.svg);
+}
+
+.en {
+  background-image: url(../img/en-US.svg);
+}
+
+.fr {
+  background-image: url(../img/fr-FR.svg);
+}
+
+.de {
+  background-image: url(../img/de-DE.svg);
+}
+
+.vi {
+  background-image: url(../img/vi-VN.svg);
+}
+
+.es {
+  background-image: url(../img/es-ES.svg);
+}
+
+.pt {
+  background-image: url(../img/pt-PT.svg);
+}
+
+/* pay-lang-icon */
+.nav-wrap .ko {
+  background-image: url(../img/pay-img/ko-KR.svg);
+}
+
+.nav-wrap .ja {
+  background-image: url(../img/pay-img/ja-JP.svg);
+}
+
+.nav-wrap .cn {
+  background-image: url(../img/pay-img/zh-CN.svg);
+}
+
+.nav-wrap .tw {
+  background-image: url(../img/pay-img/zh-TW.svg);
+}
+
+.nav-wrap .en {
+  background-image: url(../img/pay-img/en-US.svg);
+}
+
+.nav-wrap .fr {
+  background-image: url(../img/pay-img/fr-FR.svg);
+}
+
+.nav-wrap .de {
+  background-image: url(../img/pay-img/de-DE.svg);
+}
+
+.nav-wrap .vi {
+  background-image: url(../img/pay-img/vi-VN.svg);
+}
+
+.nav-wrap .es {
+  background-image: url(../img/pay-img/es-ES.svg);
+}
+
+.nav-wrap .pt {
+  background-image: url(../img/pay-img/pt-PT.svg);
+}
+
+/* pay-mobile */
+.pay-m .ko {
+  background-image: url(../img/pay-img/ko-KR.svg);
+}
+
+.pay-m .ja {
+  background-image: url(../img/pay-img/ja-JP.svg);
+}
+
+.pay-m .cn {
+  background-image: url(../img/pay-img/zh-CN.svg);
+}
+
+.pay-m .tw {
+  background-image: url(../img/pay-img/zh-TW.svg);
+}
+
+.pay-m .en {
+  background-image: url(../img/pay-img/en-US.svg);
+}
+
+.pay-m .fr {
+  background-image: url(../img/pay-img/fr-FR.svg);
+}
+
+.pay-m .de {
+  background-image: url(../img/pay-img/de-DE.svg);
+}
+
+.pay-m .vi {
+  background-image: url(../img/pay-img/vi-VN.svg);
+}
+
+.pay-m .es {
+  background-image: url(../img/pay-img/es-ES.svg);
+}
+
+.pay-m .pt {
+  background-image: url(../img/pay-img/pt-PT.svg);
+}
+
+.favorite {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 2px;
+  cursor: pointer;
+  background-image: url(../img/star.png);
+  background-size: 100%;
+}
+
+.favorite.active {
+  background-image: url(../img/star-active.png);
+}

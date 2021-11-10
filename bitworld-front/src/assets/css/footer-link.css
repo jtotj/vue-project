@@ -1,0 +1,504 @@
+/*  about gnb */
+
+.about-nav li {
+  white-space: nowrap;
+}
+
+.about-wrap {
+  margin-top: 50px;
+}
+
+/* cs공통 */
+.about-wrap .container .about-inner {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.about-wrap .about-tit {
+  position: relative;
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 900;
+}
+
+.about-wrap .cont-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0px 0;
+}
+
+.about-wrap .logo-box {
+  width: 25%;
+  text-align: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.about-wrap .logo-box img {
+  width: 100%;
+}
+
+.about-wrap .text-box {
+  width: 75%;
+  text-align: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.about-wrap .text-box p {
+  margin: 0 0 15px 0;
+  text-align: left;
+  line-height: 24px;
+  word-spacing: 1.5px;
+  text-align: justify;
+}
+
+.about-wrap .text-box p a:hover {
+  text-decoration: underline;
+}
+
+.about-wrap .text-box .text-1 {
+  font-size: 12px;
+  margin: 20px 0;
+}
+
+.about-wrap .text-box .text-2 {
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-bottom: 30px;
+}
+
+.about-wrap .text-box .text-3 {
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding-left: 40px;
+}
+
+.about-wrap .text-box .text-4 {
+  margin-bottom: 20px;
+}
+
+.utube-box {
+  text-align: center;
+}
+
+/* 기사글 */
+.news-box {
+  margin: 70px 0 50px 0;
+}
+
+.news-box .news-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-box .news-item {
+  width: 50%;
+  padding: 0 16px;
+}
+
+.news-box .news-item .date {
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.news-box .news-item .tit {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 2px;
+}
+
+.news-box .news-item .tit:hover {
+  text-decoration: underline;
+}
+
+.news-box .news-item .cont {
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  margin: 5px 0 50px 0;
+}
+
+/* as listed on */
+.tit-box {
+  position: relative;
+  text-align: center;
+}
+
+.tit-box span {
+  position: relative;
+  top: -30px;
+  background: #fff;
+  padding: 0 40px;
+  color: rgb(19, 191, 153);
+}
+
+.listed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.listed div {
+  width: 50%;
+}
+
+.listed-img-1 {
+  width: 496px;
+}
+
+/* media */
+.media {
+  margin: 50px 0;
+}
+
+.media .media-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.media .media-box .inquiries {
+  width: 50%;
+}
+
+.media .media-box .assets {
+  width: 50%;
+}
+
+.media h4 {
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.media .inquiries {
+  margin-bottom: 50px;
+}
+
+.media .tit {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.media .top {
+  margin-bottom: 25px;
+}
+
+.media .top p a {
+  color: rgb(19, 191, 153);
+}
+
+.media p {
+  line-height: 30px;
+}
+
+.media .mailto {
+  color: rgb(19, 191, 153);
+  font-weight: 700;
+}
+
+.media b {
+  margin: 0 5px;
+}
+
+.media a:hover {
+  text-decoration: underline;
+}
+
+/* partner 페이지*/
+.partner-wrap {
+  margin-top: 50px;
+}
+
+.partner-wrap .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner-wrap .par-left {
+  width: 40%;
+  padding: 0 16px;
+}
+
+.partner-wrap .par-left img {
+  width: 408px;
+}
+
+.partner-wrap .par-right {
+  width: 60%;
+  padding: 0 16px;
+}
+
+.partner-wrap .par-right h3 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+
+.partner-wrap .par-right .par-box {
+  line-height: 24px;
+  padding: 19px;
+  margin-bottom: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.msg-box {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.msg-box .msg-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.msg-box .msg-left {
+  width: 25%;
+  padding: 0 16px;
+  text-align: right;
+}
+
+.msg-box .msg-right {
+  width: 75%;
+  padding: 0 16px;
+}
+
+.msg-box .msg-right input {
+  width: 100%;
+  height: 46px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  padding: 12px 18px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.msg-box .msg-right select {
+  width: 100%;
+  height: 46px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  padding: 12px 18px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-image: url(../img/tri.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: 97% center;
+  cursor: pointer;
+}
+
+.msg-box .msg-right textarea {
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  border-radius: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  padding: 12px 18px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.msg-box .msg-right select:focus,
+.msg-box .msg-right input:focus {
+  box-shadow: 0 1px 20px #ddd;
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .listed-img-1 {
+    width: 448px;
+  }
+
+  .partner-wrap .par-left img {
+    width: 368px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* cs공통 */
+  .about-wrap .container .about-inner {
+    width: 100%;
+  }
+
+  .about-wrap .about-tit {
+    white-space: nowrap;
+  }
+
+  .about-wrap .logo-box {
+    width: 33.333%;
+  }
+
+  .about-wrap .text-box {
+    width: 66.666%;
+  }
+
+  .about-wrap .logo-box img {
+    width: 181px;
+  }
+
+  .news-box .news-row {
+    display: block;
+  }
+
+  .news-box .news-item {
+    width: 100%;
+  }
+
+  .listed-img-1 {
+    width: 228px;
+  }
+
+  .media .media-box .assets {
+    padding: 0 16px;
+  }
+
+  .media p {
+    line-height: 22px;
+  }
+
+  .partner-wrap {
+    margin: 0;
+  }
+
+  .partner-wrap .container {
+    display: block;
+  }
+
+  .partner-wrap .par-left img {
+    width: 608px;
+  }
+
+  .partner-wrap .par-left,
+  .partner-wrap .par-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main {
+    margin: 0;
+  }
+
+  /* cs공통 */
+  .big-tit-wrap {
+    margin: 0;
+  }
+
+  .about-wrap .container .about-inner {
+    width: 100%;
+  }
+
+  iframe {
+    width: 60%;
+  }
+
+  .about-wrap .logo-box {
+    display: none;
+  }
+
+  .about-wrap .text-box {
+    width: 100%;
+  }
+
+  .about-wrap .logo-box img {
+    width: 128px;
+  }
+
+  .about-wrap .text-box p {
+    word-spacing: 0px;
+  }
+
+  .news-box .news-row {
+    display: block;
+  }
+
+  .news-box .news-item {
+    width: 100%;
+  }
+
+  .listed-img-1 {
+    width: 333px;
+  }
+
+  .media p {
+    line-height: 22px;
+  }
+
+  .media .media-box {
+    display: block;
+  }
+
+  .media .media-box .assets,
+  .media .media-box .inquiries {
+    width: 100%;
+  }
+
+  .partner-wrap {
+    margin: 0;
+  }
+
+  .partner-wrap .container {
+    display: block;
+  }
+
+  .partner-wrap .par-left img {
+    width: 608px;
+  }
+
+  .partner-wrap .par-left,
+  .partner-wrap .par-right {
+    width: 100%;
+    padding: 0;
+  }
+
+  .msg-box .msg-item {
+    display: block;
+  }
+
+  .msg-box .msg-left {
+    text-align: left;
+  }
+
+  .msg-box .msg-right,
+  .msg-box .msg-left {
+    width: 100%;
+    padding: 0;
+  }
+
+  .msg-box .center-box {
+    text-align: left;
+  }
+}
+
+@media (max-width: 500px) {
+  .listed-img-1 {
+    width: 209px;
+  }
+
+  .listed-img-2 {
+    width: 209px;
+  }
+
+  .partner-wrap .par-left img {
+    width: 451px;
+  }
+}

@@ -1,0 +1,50 @@
+.orderDate {
+  width: 100%;
+  margin: 10px 0 0 0;
+  background-color: #fff;
+
+  /* table */
+
+  .orderTable {
+    thead {
+      border-bottom: 1px solid #eee;
+      tr th {
+        padding: 20px 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1;
+        color: #222;
+        text-align: center;
+      }
+    }
+    tbody tr:nth-child(2n-1) td:nth-child(5) {
+      position: relative;
+      &::after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 330px;
+        height: 1px;
+        content: '';
+        background: #eee;
+      }
+    }
+    .tableScrollY {
+      height: 636px;
+    }
+  }
+
+  .orderTable tbody tr td {
+    padding: 7px 0;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #222;
+    text-align: center;
+    letter-spacing: normal;
+  }
+
+  .orderTable tbody tr td strong {
+    letter-spacing: normal;
+  }
+}

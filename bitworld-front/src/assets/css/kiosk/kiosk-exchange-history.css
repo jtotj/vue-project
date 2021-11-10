@@ -1,0 +1,466 @@
+/* 환전내역 상세 버튼 */
+.kiosk-exchange-history .detail-history .el-button,
+.kiosk-exchange-history .history-search .private-application-btn .el-button {
+  padding: 5px 20px;
+  border-radius: 10px !important;
+  background-color: #478ecc;
+}
+
+.kiosk-exchange-history .detail-history .el-button span {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.kiosk-exchange-history .private-application-btn .el-button span {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.kiosk-exchange-history .history-search .el-button {
+  padding: 0;
+  background: none;
+}
+
+.history-search .history-option .el-button {
+  margin-left: 10px;
+}
+
+.history-option .el-button img {
+  width: 50px;
+  height: 50px;
+}
+
+/* .detailActive .el-drawer {
+  width: 980px;
+  height: 1850px !important;
+  margin: 0 auto;
+} */
+
+/* 상세검색 드로워 */
+/* .detailActive .history-detail {
+  width: 100%;
+  height: 1820px !important;
+} */
+
+.history-detail .container {
+  padding: 100px 60px;
+}
+
+/* 상세 검색탭 */
+.history-detail .assets-search > .el-input {
+  margin: 0;
+}
+
+.history-detail .assets-search > .el-input > input {
+  height: 100px !important;
+  padding-left: 110px;
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #768098;
+}
+
+.history-detail .assets-search > .el-input .el-input__prefix {
+  top: 25px;
+  left: 30px;
+  width: auto;
+  height: auto;
+}
+
+.history-detail .assets-search .el-input .el-icon-search:before {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(../../kiosk-img/icon-search.svg) no-repeat 50% 50%;
+  transform: rotateZ(-180deg);
+}
+
+/* 자산 즐겨찾기 탭*/
+.history-detail .assets-search .el-tabs {
+  widht: 100%;
+  margin-top: 70px;
+}
+
+.history-detail .assets-search .el-tabs__header {
+  margin: 0;
+  width: 100%;
+  border: none;
+}
+
+.history-detail .assets-search .el-tabs__header .el-tabs__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+
+.history-detail .assets-search .el-tabs .el-tabs__nav .el-tabs__item {
+  border: none;
+  width: 48%;
+  height: 90px;
+  padding-top: 15px;
+  font-size: 38px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #f5f5f5;
+}
+
+.history-detail .assets-search .el-tabs .el-tabs__nav .el-tabs__item.is-active {
+  font-weight: bold;
+  color: #ffffff !important;
+  background-image: linear-gradient(to top, #478ecc, #2b74b9);
+}
+
+/* 조회 옵션 드로워*/
+.kiosk .detailActive .history-opation {
+  width: 100%;
+  height: 1820px !important;
+}
+
+.search-option .el-button,
+.search-option .el-radio-button {
+  height: 90px;
+  border-radius: 25px !important;
+  background-color: #f5f5f5;
+}
+
+.search-option .el-button span,
+.search-option .el-radio-button span {
+  font-size: 38px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+}
+
+.search-option .el-radio-button span {
+  background: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  line-height: 2;
+}
+
+.search-option .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.search-option .el-button.is-active,
+.search-option .el-radio-button.is-active {
+  background-image: linear-gradient(to top, #478ecc, #2b74b9);
+}
+
+.search-option .el-button.is-active span,
+.search-option .el-radio-button.is-active span {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.search-date .el-radio-group,
+.search-sort .el-radio-group {
+  width: 100%;
+}
+
+.search-date .el-button,
+.search-date .el-radio-button {
+  width: 168px;
+}
+
+/* 캘린더 */
+.search-calendar .calendar-to {
+  margin-top: 40px;
+  width: 16px;
+  height: 4px;
+  background-color: #000000;
+}
+
+.search-calendar .el-date-editor {
+  width: 460px;
+  height: 90px;
+  background: none;
+}
+
+.search-calendar .el-input__inner {
+  background: none;
+  height: 90px !important;
+  border-radius: 25px !important;
+  padding: 0 30px;
+}
+
+.search-calendar .el-date-editor input {
+  padding: 0 30px 0 90px;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+}
+
+.search-calendar .el-input__prefix {
+  left: 30px;
+}
+
+.search-calendar .el-icon-date::before {
+  content: '';
+  display: block;
+  margin-top: 24px;
+  width: 36.2px;
+  height: 40px;
+  background: url(../../kiosk-img/icon-calendar.svg) no-repeat 50% 50%;
+}
+
+.search-calendar .el-icon-circle-close::before {
+  content: '';
+}
+
+/* 캘린더 팝업 */
+.kiosk .el-date-picker {
+  left: 60px !important;
+  width: 960px;
+  height: 1060px;
+  padding: 45px 46px;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.kiosk .el-picker-panel__body-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.kiosk .el-date-picker .el-date-picker__header-label {
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+}
+
+.kiosk .el-date-picker .el-date-picker__header--bordered {
+  border-bottom: none;
+}
+
+.kiosk .el-date-picker .el-picker-panel__icon-btn {
+  font-size: 30px;
+  font-weight: bold;
+  color: #29304d;
+}
+
+.kiosk .el-icon-arrow-left:before,
+.kiosk .el-icon-arrow-right:before {
+  content: '';
+  display: block;
+  width: 18.2px;
+  height: 28px;
+  background: url(../../kiosk-img/icon-next-small.svg) no-repeat 50% 50%;
+}
+
+.kiosk .el-icon-arrow-left:before {
+  transform: rotateZ(-180deg);
+}
+
+.kiosk .el-icon-d-arrow-left:before,
+.kiosk .el-icon-d-arrow-right:before {
+  content: '';
+}
+
+.kiosk .el-picker-panel__body {
+  width: 100%;
+  height: 100%;
+}
+
+.kiosk .el-date-picker span {
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.kiosk .el-picker-panel__content {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.kiosk .el-picker-panel__content .el-date-table tbody {
+  width: 100%;
+}
+
+.kiosk .el-picker-panel__content .el-date-table tbody tr th {
+  height: 124px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  border-bottom: none;
+}
+
+.kiosk .el-picker-panel__content .el-date-table tbody tr.el-date-table__row {
+  height: 124px;
+  width: 100%;
+}
+
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  .prev-month
+  span,
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  .next-month
+  span {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  div {
+  height: 124px;
+}
+
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  div
+  span {
+  width: 100px;
+  height: 100px;
+  padding-top: 28px;
+  box-sizing: border-box;
+}
+
+.kiosk .el-picker-panel__content .el-date-table tbody tr th:first-child,
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  > td:first-child
+  div
+  span {
+  color: #eb5757;
+}
+
+.kiosk .el-picker-panel__content .el-date-table tbody tr th:last-child,
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  > td:last-child
+  div
+  span {
+  color: #2d9cdb;
+}
+
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  > td.current
+  div
+  span {
+  color: #fff;
+}
+
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  .prev-month:first-child,
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  .prev-month:last-child,
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  .next-month:first-child,
+.kiosk
+  .el-picker-panel__content
+  .el-date-table
+  tbody
+  tr.el-date-table__row
+  .next-month:last-child {
+  opacity: 0.3;
+}
+
+/* 년도 */
+.kiosk .el-year-table,
+.kiosk .el-month-table {
+  height: 800px;
+  margin: 40px 0 0;
+}
+
+.kiosk .el-year-table td,
+.kiosk .el-month-table td {
+  border: 1px solid red;
+}
+
+.kiosk .el-year-table td a.cell,
+.kiosk .el-month-table td a.cell {
+  width: auto;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  border-bottom: none;
+}
+
+/* 검색 구분 */
+.search-division .el-button,
+.search-division .el-radio-button {
+  width: 300px;
+}
+
+.search-division .el-radio-group {
+  width: 100%;
+}
+
+.search-sort .el-radio-button {
+  width: 465px;
+}
+
+.search-option .transfer .el-button span {
+  color: #fff;
+}

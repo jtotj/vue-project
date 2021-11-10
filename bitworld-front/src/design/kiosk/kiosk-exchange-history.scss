@@ -1,0 +1,333 @@
+@charset "utf-8";
+
+.kioskExchangeHistory {
+  .noListWrap {
+    box-sizing: border-box;
+    padding: 30px 50px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+  }
+  .container {
+    padding: 0 60px;
+
+    .historySearch {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 110px;
+
+      > div {
+        display: flex;
+
+        > div {
+          &:first-child {
+            padding-top: 5px;
+          }
+
+          > span {
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            font-stretch: normal;
+            line-height: normal;
+            color: #29304d;
+            letter-spacing: normal;
+
+            &::after {
+              display: inline-block;
+              content: '/';
+            }
+
+            &:last-child::after {
+              content: '';
+            }
+          }
+        }
+      }
+    }
+
+    .historyList {
+      display: flex;
+      flex-direction: column;
+      height: 1230px;
+      margin-top: 33px;
+
+      > dl {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        height: 300px;
+        padding: 30px;
+        margin-bottom: 10px;
+        background: #fff;
+        border-radius: 25px;
+
+        > dt {
+          width: 30%;
+          font-size: 25px;
+          font-weight: 500;
+          line-height: normal;
+          color: rgba(27, 43, 83, 0.6);
+          letter-spacing: normal;
+        }
+
+        > dd {
+          width: 70%;
+          font-size: 25px;
+          font-weight: 500;
+          line-height: normal;
+          color: #29304d;
+          text-align: right;
+          letter-spacing: normal;
+        }
+
+        .certifiedInfo {
+          span {
+            font-size: 25px;
+            font-weight: normal;
+            line-height: normal;
+            color: rgba(41, 48, 77, 0.6);
+            letter-spacing: normal;
+          }
+
+          strong {
+            font-size: 30px;
+            font-weight: bold;
+            line-height: normal;
+            color: #29304d;
+            letter-spacing: normal;
+          }
+        }
+      }
+
+      .historySell {
+        .exchangeTit {
+          display: flex;
+
+          span {
+            color: #e74d3d;
+          }
+        }
+      }
+    }
+
+    .pageNavigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 80px;
+
+      div {
+        display: flex;
+        justify-content: center;
+        width: 96px;
+        height: 106px;
+        background-image: linear-gradient(to bottom, #5fcbf2, #1bacec);
+        border-radius: 8px;
+      }
+
+      .page {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        width: 74%;
+
+        li {
+          span {
+            font-size: 50px;
+            font-weight: 900;
+            line-height: normal;
+            color: #29304d;
+            text-align: center;
+            letter-spacing: normal;
+            opacity: 0.7;
+          }
+
+          &:active {
+            span {
+              color: #0068c1;
+            }
+          }
+        }
+      }
+    }
+
+    .accountCheck {
+      height: 1264px;
+      padding: 0 30px;
+      margin-top: 100px;
+      overflow-y: scroll;
+      background: #fff;
+      border-radius: 30px;
+
+      h2 {
+        padding: 70px 0;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: normal;
+        color: #29304d;
+        text-align: center;
+        letter-spacing: normal;
+        border-color: rgba(41, 48, 77, 0.2);
+        border-width: 900px;
+        border-bottom: 1px solid;
+      }
+
+      dl {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        border-color: rgba(41, 48, 77, 0.2);
+        border-bottom: 1px solid;
+
+        dt {
+          box-sizing: border-box;
+          width: 35%;
+          padding: 28px 0;
+          font-size: 30px;
+          font-weight: 500;
+          line-height: normal;
+          color: rgba(41, 48, 77, 0.5);
+          letter-spacing: -2px;
+        }
+
+        dd {
+          width: 65%;
+          padding: 28px 0;
+          font-size: 30px;
+          font-weight: 500;
+          line-height: normal;
+          color: #29304d;
+          text-align: right;
+          letter-spacing: normal;
+        }
+      }
+    }
+  }
+}
+
+.historyDetail {
+  .assetsSearch {
+    .perfectScrollbar {
+      height: 1170px;
+      margin-top: 30px;
+      overflow: hidden;
+      background: #fff;
+
+      .searchList {
+        background: #fff;
+        border-radius: 30px;
+
+        > div {
+          display: flex;
+          width: 100%;
+          height: 150px;
+          padding: 0 50px;
+          border-bottom: 1px solid #dee1ef;
+
+          > div {
+            display: flex;
+
+            .noStar {
+              display: none;
+            }
+          }
+
+          .assetsTit {
+            display: block !important;
+            width: 100%;
+
+            img {
+              display: block;
+              float: left;
+              margin: 15px 30px 0;
+            }
+
+            > div {
+              display: inline-block;
+              float: left;
+              height: 100%;
+              padding: 36px 0;
+
+              > strong {
+                display: block;
+                font-size: 50px;
+                font-weight: bold;
+                line-height: 1;
+                color: #29304d;
+                letter-spacing: normal;
+              }
+
+              > span {
+                display: block;
+                font-size: 26px;
+                font-weight: 500;
+                line-height: normal;
+                color: #29304d;
+                letter-spacing: normal;
+              }
+
+              .acoountName {
+                font-size: 40px;
+              }
+            }
+
+            > span {
+              float: right;
+              padding: 45px 0;
+              font-size: 40px;
+              font-weight: bold;
+              line-height: normal;
+              color: #000;
+              letter-spacing: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.searchOption {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 100px 60px;
+
+    h3 {
+      margin: 100px 0 30px;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      font-stretch: normal;
+      line-height: normal;
+      color: #29304d;
+      letter-spacing: normal;
+
+      &:first-child {
+        margin: 0 0 30px;
+      }
+    }
+
+    div {
+      div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

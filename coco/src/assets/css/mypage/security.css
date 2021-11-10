@@ -1,0 +1,141 @@
+.security-guide {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.security-complete.img,
+.security-incomplete.img {
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.security-complete.img {
+  background-image: url('../../img/security-complete.svg');
+}
+
+.security-incomplete.img {
+  background-image: url('../../img/security-incomplete.svg');
+}
+
+.security-guide p {
+  margin: 0 15px 0 5px;
+}
+
+.check .img-wrap {
+  width: 20px;
+  float: left;
+  padding-right: 5px;
+}
+
+.check span {
+  color: #0068c1;
+}
+
+.security {
+  overflow: hidden;
+}
+
+.security .limit {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.security .limit .ps {
+  max-height: 200px;
+}
+
+.security .security-box thead {
+  background-color: aliceblue;
+}
+
+.security .security-box tbody td {
+  width: 33%;
+}
+
+.security .condition-wrap {
+  overflow: hidden;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.security .condition-wrap span {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.security .condition-wrap .condition-content {
+  overflow: hidden;
+}
+
+.security .condition-wrap .condition-content .btn-small-black {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.security .condition-wrap .condition-content .btn-small-black.btn-color.verify {
+  background-color: #0068c1;
+}
+
+.security .condition-wrap .condition-content .btn-small-black span {
+  padding: 0;
+}
+
+.security
+  .condition-wrap
+  .condition-content
+  .btn-small-black
+  .condition-fulfill-img {
+  width: 10px;
+}
+
+.security .el-icon-circle-check {
+  font-size: 13px;
+}
+
+.security .card-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px 0px;
+}
+
+.security .box-card {
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5 !important;
+  padding: 20px;
+  /* float: left; */
+  width: 49%;
+  /* height: 420px; */
+  margin-right: 2%;
+  border-radius: 5px !important;
+  box-sizing: border-box;
+}
+
+.security .box-card:nth-child(2n) {
+  margin-right: 0;
+}
+
+.security .box-card .btn-white {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.security .box-card .check {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .security .box-card {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 330px) and (max-width: 480px) {
+  .security-guide.spacing p {
+    width: 85%;
+  }
+}

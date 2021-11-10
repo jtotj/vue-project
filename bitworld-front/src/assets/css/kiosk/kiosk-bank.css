@@ -1,0 +1,215 @@
+/* 은행/매장 사용 버튼 */
+.kiosk-bank-alone .el-button,
+.kiosk-bank .el-button,
+.kiosk-store .el-button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border-radius: 30px;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.logout-modal .el-dialog {
+  width: 960px !important;
+  height: 960px;
+  padding-bottom: 100px;
+  margin-top: 27vh !important;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.logout-modal .el-dialog__header {
+  background-color: transparent;
+}
+
+.logout-modal .el-dialog__header .el-dialog__headerbtn {
+  top: 60px;
+  right: 60px;
+}
+
+.logout-modal .el-dialog__body {
+  text-align: center;
+}
+
+.logout-modal .el-dialog__body span {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+}
+
+.logout-modal .el-dialog__footer {
+  text-align: center;
+}
+
+.logout-modal .el-dialog__footer .el-button {
+  width: 405px;
+  height: 120px;
+}
+
+.logout-modal .el-dialog__footer .el-button.logout-success-btn {
+  width: 840px;
+}
+
+.logout-modal .el-dialog__footer .el-button.cancel-btn {
+  background: #f5f5f5;
+  margin-right: 30px;
+}
+
+.logout-modal .el-dialog__footer .el-button.cancel-btn span {
+  color: #29304d;
+  font-weight: 500;
+}
+
+.kiosk .el-dialog__wrapper {
+  overflow: hidden;
+}
+
+/* 드로워 */
+.kiosk .el-drawer {
+  height: 1820px !important;
+  overflow: hidden;
+  border-radius: 50px 50px 0 0;
+  background-color: #eaf1f5 !important;
+}
+
+.kiosk .el-icon-close:before {
+  content: '' !important;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../../kiosk-img/combined-shape.svg) no-repeat 50% 50%;
+}
+
+.kiosk .el-drawer__header {
+  padding: 60px 60px 0;
+  margin-bottom: 0;
+}
+
+.kiosk .el-drawer__header span {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #29304d;
+}
+
+/* 사용방법 스와이퍼 */
+.kiosk-bank .use-swiper {
+  width: 100%;
+  max-width: 1080px;
+  margin: 150px auto 0;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+.kiosk-bank-alone .use-swiper {
+  width: 100%;
+  max-width: 1080px;
+  margin: 20px auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kiosk-bank .swiper-container,
+.kiosk-bank-alone .swiper-container {
+  width: 100%;
+  /* position: initial; */
+}
+
+.kiosk-bank .swiper-wrapper {
+  top: -5px;
+}
+
+.kiosk-bank .swiper-slide {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-self: center;
+  width: 245px;
+  height: 245px;
+  border-radius: 30px;
+  background-image: linear-gradient(225deg, #478ecc, #2b74b9 0%);
+  cursor: pointer;
+}
+
+.kiosk-bank-alone .swiper-slide {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-self: center;
+  width: 175px;
+  height: 150px;
+  border-radius: 30px;
+  margin-right: 20px !important;
+  background-image: linear-gradient(225deg, #478ecc, #2b74b9 0%);
+  cursor: pointer;
+}
+
+.kiosk-bank .swiper-slide h4 {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.kiosk-bank-alone .swiper-slide h4 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.kiosk-bank .banner1 img,
+.kiosk-bank-alone .banner1 img {
+  width: 120px;
+}
+
+.kiosk-bank .swiper-button {
+  top: auto;
+  bottom: 0px;
+  width: 50px;
+  height: 260px;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom, #5fcbf2, #1bacec);
+}
+
+.kiosk-bank-alone .swiper-button {
+  top: auto;
+  bottom: 0px;
+  width: 50px;
+  height: 150px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom, #5fcbf2, #1bacec);
+}
+
+.kiosk-bank .swiper-button-next,
+.kiosk-bank-alone .swiper-button-next {
+  right: 0px;
+  left: auto;
+}
+
+.kiosk-bank .swiper-button-next:after,
+.kiosk-bank .swiper-button-prev:after,
+.kiosk-bank-alone .swiper-button-next:after,
+.kiosk-bank-alone .swiper-button-prev:after {
+  display: none;
+}
+
+.kiosk-bank .swiper-button-prev,
+.kiosk-bank-alone .swiper-button-prev {
+  left: 0px;
+  right: auto;
+}

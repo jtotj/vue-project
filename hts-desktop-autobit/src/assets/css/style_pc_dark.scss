@@ -1,0 +1,381 @@
+$dark-red : rgb(246, 70, 93);
+$dark-gray : rgb(234, 236, 239);
+$dark-gray2 : #848e9c;
+$dark-green : rgb(14, 203, 129);
+$dark-default : rgb(183, 189, 198);
+$dark-title : rgb(132, 142, 156);
+$dark-yellow : rgb(240, 185, 11);
+$dark-green-bg : rgba(14, 203, 129, .1);
+$dark-green-bg2 : rgba(14, 203, 129, .25);
+$dark-red-bg : rgba(246, 70, 93, .1);
+$dark-red-bg2 : rgba(246, 70, 93, .25);
+$dark-black-bg:rgb(22, 26, 30);
+$dark-border-color:rgb(37, 41, 48);
+$dark-ci-color:rgb(198, 187, 242);
+$dark-point-bg:#2a2d35;
+$dark-point-bg2:#474d57;
+$dark-point-border:#2b313a;
+$dark-icon:#848e9c;
+$dark-yellow-border:#6a4403;
+
+@mixin bs {
+    box-shadow:2px 2px 4px rgba(222,225,231,0.1);
+}
+
+.gird_sc{
+    background: $dark-black-bg;
+}
+.coin_list>section{
+    background: lighten($dark-black-bg,5);
+    @include bs;
+    .search
+    {
+        color:white;
+        caret-color: var(--dark-yellow);
+        background-color:var(--dark-point-bg);
+        >i{
+            color:white;
+        }
+    }
+    .list{
+        border-top-color: var(--dark-point-border);
+        table {
+            color:$dark-gray;
+            tr{
+                .flash_up{
+                    animation: background-flash-up2 .25s linear;
+                }
+                .flash_down{
+                    animation: background-flash-down2 .25s linear;
+                }
+            }
+            th{
+                >i.change{color:$dark-icon}
+                &[data-sort=ASC]>i.sort:before,
+                &[data-sort=DESC]>i.sort::before,
+                &>i.sort::before{color:$dark-icon}
+            }
+            td{
+                border-bottom-color:$dark-border-color;
+                &.title{
+                    >b{color:white;}
+                }
+            }   
+        }
+        div.thead{
+            &.fixed{
+                background: var(--dark-point-bg);
+                border-color: var(--dark-point-border);
+            }
+        }
+        div.tbody{
+            table{
+                tr{
+                    &.on{
+                        border-left-color: var(--dark-red);
+                        background: var(--dark-point-bg);
+                    }
+                    &:hover{
+                        background: var(--dark-point-bg);
+                    }
+                }
+            }
+        }
+    } 
+}
+
+
+.gird_sc{
+    .inner{
+        h3{border-bottom-color:$dark-border-color;}
+        dl{
+            &.amount{
+                background: lighten($dark-black-bg, 5);
+                border-bottom-color:$dark-border-color;
+                dt{
+                    color:$dark-yellow;
+                }
+                dd{
+                    color:$dark-gray;
+                }
+            }
+        }
+        .definition{
+            background: lighten($dark-black-bg, 10);
+            >dl{
+                &:first-child{border-right-color:$dark-border-color;}
+                dt{
+                    color:$dark-gray2;
+                }
+                dd{
+                    color:$dark-gray;
+                }
+            }
+        }
+    }
+    .wallet{
+        >.inner{
+            background: lighten($dark-black-bg, 5);
+            .total{
+                border-bottom-color:lighten($dark-border-color, 5);
+                dt{
+                    color:white;
+                }
+                dd{
+                    color:$dark-red;
+                    span{color:$dark-gray;}
+                }
+            }
+            .srch_box{
+                >.srch{background: white;}
+            }
+        }
+        table{
+            td{
+                color:$dark-gray2;
+                border:1px solid $dark-border-color;
+                background: transparent;
+                p{color: $dark-gray;}
+                .unit{
+                    color:white;
+                }
+            }
+            tr{
+                &:hover{
+                    td{background: var(--dark-point-bg);}
+                }
+            }
+        }
+    }
+    .io_panel{
+        .inner{
+            background:lighten($dark-black-bg, 5);
+            .tab_cnt{
+                *{color:$dark-gray2;}
+                dl{
+                    border-bottom: 1px solid $dark-border-color !important;
+                    dt{
+                        color:$dark-gray2 !important;
+                    }
+                }
+            }
+            
+            .tab_btn{
+                border-bottom: 1px solid $dark-border-color ;
+                >a{
+                    color:$dark-gray;
+                    &.on{
+                        color:$dark-green;
+                        border-bottom-color: $dark-green;
+                    }
+                }
+            }
+            .io_list>.list>.tb_body table thead th{border-top-color:$dark-border-color;}
+            .io_list>.list>.tb_body table td{border-top-color:$dark-border-color;}
+            
+        }
+        .warning,.warning2{
+            background:lighten($dark-black-bg, 5) !important;
+        }
+    }
+}
+
+.page-balances{
+    .left_panel{
+        width:100%;
+        .wallet{
+
+        }
+        .io_panel{
+
+        }
+    }
+    .io_title{
+        vertical-align: middle;
+        color:white;
+        border-bottom-color: $dark-border-color;
+    }
+    .io_box{
+        background: lighten($dark-black-bg, 5);
+    }
+    .type_sel{
+        color:$dark-gray;
+    }
+    .io-item{
+        border-top-color: $dark-border-color;
+        li{
+            color:$dark-gray;
+        }
+    }
+} 
+.invest_menu
+{
+    ul{
+        li{
+            background: lighten($dark-black-bg,10);
+            a{
+                color:$dark-gray;
+                border-color: $dark-border-color;
+                &.router-link-exact-active,
+                &.router-link-exact-active:last-child
+                {
+                    color: $dark-green;    
+                    border-color: $dark-green;
+                }
+            }
+        }
+    }
+}
+
+.left_panel{
+    .invest{
+        background: lighten($dark-black-bg,5);
+        table td{
+            background: lighten($dark-black-bg,3);
+            color:$dark-gray;
+        }
+    }
+    .coment{
+        background: lighten($dark-black-bg,5);
+        color:$dark-gray2;
+    }
+    .profile{
+        background: lighten($dark-black-bg,5);
+        >.summary>div{
+            background: lighten($dark-black-bg,7);
+            dl{
+                dt{
+                    color:$dark-gray;
+               }
+               dd{
+                   b{color:white;}
+               }
+               &+dl{
+                    border-top-color:rgba(white,.1);
+                }
+            }
+        }
+    }
+} 
+.none_list{
+    color:$dark-gray2;
+}
+
+.history{
+    .thead{
+        thead tr{border-bottom-color:rgba(white, .3) !important;}
+    } 
+} 
+
+.balances{
+    background: lighten($dark-black-bg, 0);
+    .search{
+        background: white;
+    }
+    .total{
+        background: lighten($dark-black-bg, 5);
+        *{color:$dark-gray;}
+    }
+}
+.fund_menu{
+    background: lighten($dark-black-bg, 5);
+    ul>li>a{color:$dark-gray;}
+}
+
+
+
+.sub_layout{
+    background:$dark-black-bg;
+    >.wrapper{
+        .cnt:not(.not-dark){
+            background: lighten($dark-black-bg, 5);
+            h3{color:$dark-gray;}
+            .txt_pre{color:$dark-gray;}
+            .policy_tb{
+                th{color:#333}
+            }
+            .table_box>table{
+                th{color:$dark-gray;}
+                tbody tr:nth-child(even){
+                    background: lighten($dark-black-bg, 7);
+                    color: $dark-gray;
+                    td,th{border-bottom: 1px solid rgba(white, .3);
+                        *{color: $dark-gray;}
+                    }
+                    a{color: $dark-gray;}
+                }
+                tbody tr:nth-child(odd){
+                    background: lighten($dark-black-bg, 3);
+                    td,th{border-bottom: 1px solid rgba(white, .3);
+                       *{ color: $dark-gray;}
+                    }
+                    color: $dark-gray;
+                    a{color: $dark-gray;}
+                }
+            } 
+        }
+        >nav{
+            @include bs;
+            background: lighten($dark-black-bg,5);
+            >ul>li{
+                border-bottom-color: rgba(white, .2);
+                a{
+                    color:$dark-gray
+                }
+            }
+        }
+    }
+    .contact_form .counting{color:$dark-gray2;}
+    .faq_list{
+        >li{border-bottom-color: rgba(white, .2);
+            color:$dark-gray;
+            .question:after{
+                color:$dark-gray;
+            }
+            .answer{
+                *{color:$dark-gray;}
+            }
+        }
+    }
+}
+
+main{
+    .price{
+        background: $dark-black-bg;
+        .main_price{
+            .price-item{
+                background:lighten($dark-point-bg,5);
+                box-shadow:  2px 4px 5px rgba(255, 255, 255, .1);
+                *{color:$dark-gray2;}
+                em{
+                    color:$dark-yellow;
+                    span{
+                        &.down{color:$dark-green;}
+                        &.up{color:$dark-red;}
+                    }
+                }
+                strong{
+                    color:$dark-gray;
+                }
+            }
+            
+        }
+    }
+    >.visual>div.main_visual01>div.main_visual_text{
+        color:$dark-yellow;
+    }
+    .info_area{
+        background: $dark-black-bg;
+        >ul li{
+          >h4{color:$dark-yellow}
+          p{color:$dark-gray2;}
+        }
+        
+    }
+    .top{border-bottom-color:rgba(white,.3) ;}
+    
+}
+
+.page-invest .left_panel, .page-order .left_panel{
+    width:100%;
+}
